@@ -17,31 +17,6 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Python Basics Python 基础</title>
-    <link href="https://www.pipbest.com/2021/10/18/1.1.1-python-basics-python-ji-chu/"/>
-    <id>https://www.pipbest.com/2021/10/18/1.1.1-python-basics-python-ji-chu/</id>
-    <published>2021-10-18T07:42:02.000Z</published>
-    <updated>2021-10-18T08:53:56.569Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;1-1-1-Python-Basics-Python-基础&quot;&gt;&lt;a href=&quot;#1-1-1-Python-Basics-Python-基础&quot; class=&quot;headerlink&quot; title=&quot;1.1.1: Python Basics Python</summary>
-        
-      
-    
-    
-    
-    <category term="Python数据分析（中英对照）" scheme="https://www.pipbest.com/categories/Python%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%EF%BC%88%E4%B8%AD%E8%8B%B1%E5%AF%B9%E7%85%A7%EF%BC%89/"/>
-    
-    
-    <category term="Python,数据分析" scheme="https://www.pipbest.com/tags/Python-%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Objects 对象</title>
     <link href="https://www.pipbest.com/2021/10/18/1.1.2-objects-dui-xiang/"/>
     <id>https://www.pipbest.com/2021/10/18/1.1.2-objects-dui-xiang/</id>
@@ -54,31 +29,6 @@
         
         
     <summary type="html">&lt;h1 id=&quot;1-1-2-Objects-对象&quot;&gt;&lt;a href=&quot;#1-1-2-Objects-对象&quot; class=&quot;headerlink&quot; title=&quot;1.1.2: Objects 对象&quot;&gt;&lt;/a&gt;1.1.2: Objects</summary>
-        
-      
-    
-    
-    
-    <category term="Python数据分析（中英对照）" scheme="https://www.pipbest.com/categories/Python%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%EF%BC%88%E4%B8%AD%E8%8B%B1%E5%AF%B9%E7%85%A7%EF%BC%89/"/>
-    
-    
-    <category term="Python,数据分析" scheme="https://www.pipbest.com/tags/Python-%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Random Choice 随机选择</title>
-    <link href="https://www.pipbest.com/2021/10/18/1.1.5-random-choice-sui-ji-xuan-ze/"/>
-    <id>https://www.pipbest.com/2021/10/18/1.1.5-random-choice-sui-ji-xuan-ze/</id>
-    <published>2021-10-18T07:42:02.000Z</published>
-    <updated>2021-10-18T08:53:56.569Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;1-1-5-Random-Choice-随机选择&quot;&gt;&lt;a href=&quot;#1-1-5-Random-Choice-随机选择&quot; class=&quot;headerlink&quot; title=&quot;1.1.5: Random Choice 随机选择&quot;&gt;&lt;/a&gt;1.1.5:</summary>
         
       
     
@@ -142,9 +92,9 @@
   </entry>
   
   <entry>
-    <title>Expressions and Booleans 表达式和布尔值</title>
-    <link href="https://www.pipbest.com/2021/10/18/1.1.6-expressions-and-booleans/"/>
-    <id>https://www.pipbest.com/2021/10/18/1.1.6-expressions-and-booleans/</id>
+    <title>Python Basics Python 基础</title>
+    <link href="https://www.pipbest.com/2021/10/18/1.1.1-python-basics-python-ji-chu/"/>
+    <id>https://www.pipbest.com/2021/10/18/1.1.1-python-basics-python-ji-chu/</id>
     <published>2021-10-18T07:42:02.000Z</published>
     <updated>2021-10-18T08:53:56.569Z</updated>
     
@@ -153,7 +103,32 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;1-1-6-Expressions-and-Booleans-表达式和布尔值&quot;&gt;&lt;a href=&quot;#1-1-6-Expressions-and-Booleans-表达式和布尔值&quot; class=&quot;headerlink&quot; title=&quot;1.1.6:</summary>
+    <summary type="html">&lt;h1 id=&quot;1-1-1-Python-Basics-Python-基础&quot;&gt;&lt;a href=&quot;#1-1-1-Python-Basics-Python-基础&quot; class=&quot;headerlink&quot; title=&quot;1.1.1: Python Basics Python</summary>
+        
+      
+    
+    
+    
+    <category term="Python数据分析（中英对照）" scheme="https://www.pipbest.com/categories/Python%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%EF%BC%88%E4%B8%AD%E8%8B%B1%E5%AF%B9%E7%85%A7%EF%BC%89/"/>
+    
+    
+    <category term="Python,数据分析" scheme="https://www.pipbest.com/tags/Python-%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Random Choice 随机选择</title>
+    <link href="https://www.pipbest.com/2021/10/18/1.1.5-random-choice-sui-ji-xuan-ze/"/>
+    <id>https://www.pipbest.com/2021/10/18/1.1.5-random-choice-sui-ji-xuan-ze/</id>
+    <published>2021-10-18T07:42:02.000Z</published>
+    <updated>2021-10-18T08:53:56.569Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;1-1-5-Random-Choice-随机选择&quot;&gt;&lt;a href=&quot;#1-1-5-Random-Choice-随机选择&quot; class=&quot;headerlink&quot; title=&quot;1.1.5: Random Choice 随机选择&quot;&gt;&lt;/a&gt;1.1.5:</summary>
         
       
     
@@ -192,9 +167,9 @@
   </entry>
   
   <entry>
-    <title>Tuples 元组</title>
-    <link href="https://www.pipbest.com/2021/10/18/1.2.3-tuples-yuan-zu/"/>
-    <id>https://www.pipbest.com/2021/10/18/1.2.3-tuples-yuan-zu/</id>
+    <title>Expressions and Booleans 表达式和布尔值</title>
+    <link href="https://www.pipbest.com/2021/10/18/1.1.6-expressions-and-booleans/"/>
+    <id>https://www.pipbest.com/2021/10/18/1.1.6-expressions-and-booleans/</id>
     <published>2021-10-18T07:42:02.000Z</published>
     <updated>2021-10-18T08:53:56.569Z</updated>
     
@@ -203,32 +178,7 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;1-2-3-Tuples-元组&quot;&gt;&lt;a href=&quot;#1-2-3-Tuples-元组&quot; class=&quot;headerlink&quot; title=&quot;1.2.3: Tuples 元组&quot;&gt;&lt;/a&gt;1.2.3: Tuples</summary>
-        
-      
-    
-    
-    
-    <category term="Python数据分析（中英对照）" scheme="https://www.pipbest.com/categories/Python%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%EF%BC%88%E4%B8%AD%E8%8B%B1%E5%AF%B9%E7%85%A7%EF%BC%89/"/>
-    
-    
-    <category term="Python,数据分析" scheme="https://www.pipbest.com/tags/Python-%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>1Strings 字符串</title>
-    <link href="https://www.pipbest.com/2021/10/18/1.2.5-strings-zi-fu-chuan/"/>
-    <id>https://www.pipbest.com/2021/10/18/1.2.5-strings-zi-fu-chuan/</id>
-    <published>2021-10-18T07:42:02.000Z</published>
-    <updated>2021-10-18T08:53:56.569Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;1-2-5-Strings-字符串&quot;&gt;&lt;a href=&quot;#1-2-5-Strings-字符串&quot; class=&quot;headerlink&quot; title=&quot;1.2.5: Strings 字符串&quot;&gt;&lt;/a&gt;1.2.5: Strings</summary>
+    <summary type="html">&lt;h1 id=&quot;1-1-6-Expressions-and-Booleans-表达式和布尔值&quot;&gt;&lt;a href=&quot;#1-1-6-Expressions-and-Booleans-表达式和布尔值&quot; class=&quot;headerlink&quot; title=&quot;1.1.6:</summary>
         
       
     
@@ -254,6 +204,31 @@
         
         
     <summary type="html">&lt;h1 id=&quot;1-2-2-Lists-列表&quot;&gt;&lt;a href=&quot;#1-2-2-Lists-列表&quot; class=&quot;headerlink&quot; title=&quot;1.2.2: Lists 列表&quot;&gt;&lt;/a&gt;1.2.2: Lists</summary>
+        
+      
+    
+    
+    
+    <category term="Python数据分析（中英对照）" scheme="https://www.pipbest.com/categories/Python%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%EF%BC%88%E4%B8%AD%E8%8B%B1%E5%AF%B9%E7%85%A7%EF%BC%89/"/>
+    
+    
+    <category term="Python,数据分析" scheme="https://www.pipbest.com/tags/Python-%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>1Strings 字符串</title>
+    <link href="https://www.pipbest.com/2021/10/18/1.2.5-strings-zi-fu-chuan/"/>
+    <id>https://www.pipbest.com/2021/10/18/1.2.5-strings-zi-fu-chuan/</id>
+    <published>2021-10-18T07:42:02.000Z</published>
+    <updated>2021-10-18T08:53:56.569Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;1-2-5-Strings-字符串&quot;&gt;&lt;a href=&quot;#1-2-5-Strings-字符串&quot; class=&quot;headerlink&quot; title=&quot;1.2.5: Strings 字符串&quot;&gt;&lt;/a&gt;1.2.5: Strings</summary>
         
       
     
@@ -304,6 +279,31 @@
         
         
     <summary type="html">&lt;h1 id=&quot;1-2-6-Sets-集合&quot;&gt;&lt;a href=&quot;#1-2-6-Sets-集合&quot; class=&quot;headerlink&quot; title=&quot;1.2.6: Sets 集合&quot;&gt;&lt;/a&gt;1.2.6: Sets 集合&lt;/h1&gt;&lt;p&gt;集合是不同散列对象的无序集合。&lt;br&gt;Sets</summary>
+        
+      
+    
+    
+    
+    <category term="Python数据分析（中英对照）" scheme="https://www.pipbest.com/categories/Python%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%EF%BC%88%E4%B8%AD%E8%8B%B1%E5%AF%B9%E7%85%A7%EF%BC%89/"/>
+    
+    
+    <category term="Python,数据分析" scheme="https://www.pipbest.com/tags/Python-%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Tuples 元组</title>
+    <link href="https://www.pipbest.com/2021/10/18/1.2.3-tuples-yuan-zu/"/>
+    <id>https://www.pipbest.com/2021/10/18/1.2.3-tuples-yuan-zu/</id>
+    <published>2021-10-18T07:42:02.000Z</published>
+    <updated>2021-10-18T08:53:56.569Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;1-2-3-Tuples-元组&quot;&gt;&lt;a href=&quot;#1-2-3-Tuples-元组&quot; class=&quot;headerlink&quot; title=&quot;1.2.3: Tuples 元组&quot;&gt;&lt;/a&gt;1.2.3: Tuples</summary>
         
       
     
