@@ -16,13 +16,6 @@
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/2021/10/20/handbook/nginx/nginx-introduction/</loc>
-    
-    <lastmod>2021-10-20</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://www.pipbest.com/2021/10/20/handbook/nginx/nginx-ops/</loc>
     
     <lastmod>2021-10-20</lastmod>
@@ -30,7 +23,7 @@
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/2021/10/20/handbook/nginx/nginx-configuration/</loc>
+    <loc>https://www.pipbest.com/2021/10/20/handbook/nginx/nginx-introduction/</loc>
     
     <lastmod>2021-10-20</lastmod>
     
@@ -38,6 +31,13 @@
   
   <url>
     <loc>https://www.pipbest.com/2021/10/20/handbook/nginx/nginx-faq/</loc>
+    
+    <lastmod>2021-10-20</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/2021/10/20/handbook/nginx/nginx-configuration/</loc>
     
     <lastmod>2021-10-20</lastmod>
     
@@ -86,13 +86,6 @@
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.1.4-numbers-and-basic-calculations-shu-zi-he-ji-ben-ji-suan/</loc>
-    
-    <lastmod>2021-10-18</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.1.5-random-choice-sui-ji-xuan-ze/</loc>
     
     <lastmod>2021-10-18</lastmod>
@@ -107,6 +100,13 @@
   </url>
   
   <url>
+    <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.1.4-numbers-and-basic-calculations-shu-zi-he-ji-ben-ji-suan/</loc>
+    
+    <lastmod>2021-10-18</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.2.1-sequences-xu-lie/</loc>
     
     <lastmod>2021-10-18</lastmod>
@@ -114,14 +114,14 @@
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.2.2-lists-lie-biao/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.2.3-tuples-yuan-zu/</loc>
     
     <lastmod>2021-10-18</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.2.3-tuples-yuan-zu/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.2.2-lists-lie-biao/</loc>
     
     <lastmod>2021-10-18</lastmod>
     
