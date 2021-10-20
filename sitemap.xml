@@ -2,28 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/nginx/nginx-quickstart/</loc>
-    
-    <lastmod>2021-10-20</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/nginx/nginx-ops/</loc>
-    
-    <lastmod>2021-10-20</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/nginx/nginx-introduction/</loc>
-    
-    <lastmod>2021-10-20</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/nginx/nginx-faq/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/awesome/mac-ping-guo-mian-fei-zi-yuan-da-quan/</loc>
     
     <lastmod>2021-10-20</lastmod>
     
@@ -37,7 +16,35 @@
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/awesome/mac-ping-guo-mian-fei-zi-yuan-da-quan/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/nginx/nginx-introduction/</loc>
+    
+    <lastmod>2021-10-20</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/nginx/nginx-quickstart/</loc>
+    
+    <lastmod>2021-10-20</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/nginx/nginx-faq/</loc>
+    
+    <lastmod>2021-10-20</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/nginx/nginx-ops/</loc>
+    
+    <lastmod>2021-10-20</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.2.3-tuples-yuan-zu/</loc>
     
     <lastmod>2021-10-20</lastmod>
     
@@ -46,91 +53,84 @@
   <url>
     <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.2.5-strings-zi-fu-chuan/</loc>
     
-    <lastmod>2021-10-18</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.2.4-ranges-fan-wei/</loc>
-    
-    <lastmod>2021-10-18</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.2.6-sets-ji-he/</loc>
-    
-    <lastmod>2021-10-18</lastmod>
+    <lastmod>2021-10-20</lastmod>
     
   </url>
   
   <url>
     <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.1.5-random-choice-sui-ji-xuan-ze/</loc>
     
-    <lastmod>2021-10-18</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.1.2-objects-dui-xiang/</loc>
-    
-    <lastmod>2021-10-18</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.2.1-sequences-xu-lie/</loc>
-    
-    <lastmod>2021-10-18</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.1.3-modules-and-methods-mo-kuai-he-fang-fa/</loc>
-    
-    <lastmod>2021-10-18</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.1.6-expressions-and-booleans/</loc>
-    
-    <lastmod>2021-10-18</lastmod>
+    <lastmod>2021-10-20</lastmod>
     
   </url>
   
   <url>
     <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.1.1-python-basics-python-ji-chu/</loc>
     
-    <lastmod>2021-10-18</lastmod>
+    <lastmod>2021-10-20</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.1.2-objects-dui-xiang/</loc>
+    
+    <lastmod>2021-10-20</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.1.3-modules-and-methods-mo-kuai-he-fang-fa/</loc>
+    
+    <lastmod>2021-10-20</lastmod>
     
   </url>
   
   <url>
     <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.1.4-numbers-and-basic-calculations-shu-zi-he-ji-ben-ji-suan/</loc>
     
-    <lastmod>2021-10-18</lastmod>
+    <lastmod>2021-10-20</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.2.1-sequences-xu-lie/</loc>
+    
+    <lastmod>2021-10-20</lastmod>
     
   </url>
   
   <url>
     <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.2.2-lists-lie-biao/</loc>
     
-    <lastmod>2021-10-18</lastmod>
+    <lastmod>2021-10-20</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.2.3-tuples-yuan-zu/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.1.6-expressions-and-booleans/</loc>
     
-    <lastmod>2021-10-18</lastmod>
+    <lastmod>2021-10-20</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.2.4-ranges-fan-wei/</loc>
+    
+    <lastmod>2021-10-20</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.2.6-sets-ji-he/</loc>
+    
+    <lastmod>2021-10-20</lastmod>
     
   </url>
   
   <url>
     <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.2.7-dictionaries-zi-dian/</loc>
     
-    <lastmod>2021-10-18</lastmod>
+    <lastmod>2021-10-20</lastmod>
     
   </url>
   
@@ -221,27 +221,104 @@
 
   
   <url>
-    <loc>https://www.pipbest.com/tags/%E8%BD%AF%E4%BB%B6-macOS-%E5%BC%80%E6%BA%90-%E5%85%8D%E8%B4%B9/</loc>
+    <loc>https://www.pipbest.com/tags/Nginx/</loc>
     <lastmod>2021-10-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/tags/Python-%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/</loc>
+    <loc>https://www.pipbest.com/tags/macOS/</loc>
     <lastmod>2021-10-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/tags/Nginx-macOS-http-daemon-pid-web-sever-proxy/</loc>
+    <loc>https://www.pipbest.com/tags/http/</loc>
+    <lastmod>2021-10-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/tags/daemon/</loc>
+    <lastmod>2021-10-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/tags/pid/</loc>
+    <lastmod>2021-10-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/tags/web/</loc>
+    <lastmod>2021-10-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/tags/sever/</loc>
+    <lastmod>2021-10-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/tags/proxy/</loc>
+    <lastmod>2021-10-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/tags/%E8%BD%AF%E4%BB%B6/</loc>
+    <lastmod>2021-10-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/tags/%E5%BC%80%E6%BA%90/</loc>
+    <lastmod>2021-10-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/tags/%E5%85%8D%E8%B4%B9/</loc>
+    <lastmod>2021-10-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/tags/Python/</loc>
+    <lastmod>2021-10-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/</loc>
     <lastmod>2021-10-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
 
+  
+  <url>
+    <loc>https://www.pipbest.com/categories/Nginx/</loc>
+    <lastmod>2021-10-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
   
   <url>
     <loc>https://www.pipbest.com/categories/%E5%90%88%E9%9B%86%E5%88%86%E4%BA%AB/</loc>
@@ -252,13 +329,6 @@
   
   <url>
     <loc>https://www.pipbest.com/categories/Python%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%EF%BC%88%E4%B8%AD%E8%8B%B1%E5%AF%B9%E7%85%A7%EF%BC%89/</loc>
-    <lastmod>2021-10-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/categories/Nginx/</loc>
     <lastmod>2021-10-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
