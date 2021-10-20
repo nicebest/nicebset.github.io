@@ -1,0 +1,2186 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+    <!-- jamin  modify 2021.08.15-->
+
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="Mac软件 一次购买 永久授权 土地大亨 买块土地 建造家园 医美药妆 开启逆龄 永葆青春 智能控制 一键开启 智慧生活 萌宠乐园 我的宝贝 快乐成长 低碳交易 绿色出行 健康生活">
+    <meta name="baidu-site-verification" content="fmlEuI34ir" />
+    <meta name="google-site-verification" content="KeoTn_OFy4ndJwXNmm2gMeQfPhd7alqE9vQDwI32KCY" />
+    <meta name="description" content="Nginx 入门
+本文是一个 Nginx 入门教程，目的在于帮助新手快速入门 Nginx。
+
+一、Nginx 简介什么是 Nginx?
+Nginx (engine x) 是一款轻量级的 Web 服务器 、反向代理服务器及电子邮件（IMAP/">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>金点帝国</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.bootcss.com/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.bootcss.com/aos/3.0.0-beta.6/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.bootcss.com/lightgallery/1.6.12/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+    
+    <style type="text/css">
+        
+            
+            code[class*="language-"],
+            pre[class*="language-"] {
+                white-space: pre !important;
+            }
+
+        
+    </style>
+
+    <script src="https://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+    
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?46e79e71af0709a5b9106bf20cecc493";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+
+    
+    
+        <script>
+            (function(){
+                var bp = document.createElement('script');
+                var curProtocol = window.location.protocol.split(':')[0];
+                if (curProtocol === 'https') {
+                    bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+                }
+                else {
+                    bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+                }
+                var s = document.getElementsByTagName("script")[0];
+                s.parentNode.insertBefore(bp, s);
+            })();
+        </script>
+    
+
+<meta name="generator" content="Hexo 5.4.0">
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="金点帝国" type="application/atom+xml">
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css">
+<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
+
+    <body>
+
+        <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="/medias/logo.png" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">金点帝国</span>
+                </a>
+            </div>
+            
+
+
+<!-- <a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fa fa-navicon"></i></a>
+<ul class="right">
+    
+    <li class="hide-on-med-and-down">
+        <a href="/" class="waves-effect waves-light">
+            
+            <i class="fa fa-home"></i>
+            
+            <span>首页</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/tags" class="waves-effect waves-light">
+            
+            <i class="fa fa-tags"></i>
+            
+            <span>标签</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/categories" class="waves-effect waves-light">
+            
+            <i class="fa fa-bookmark"></i>
+            
+            <span>分类</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/archives" class="waves-effect waves-light">
+            
+            <i class="fa fa-archive"></i>
+            
+            <span>归档</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/AV" class="waves-effect waves-light">
+            
+            <i class="fa fa-music"></i>
+            
+            <span>视听</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/galleries" class="waves-effect waves-light">
+            
+            <i class="fa fa-photo"></i>
+            
+            <span>相册</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/about" class="waves-effect waves-light">
+            
+            <i class="fa fa-user-circle-o"></i>
+            
+            <span></span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/contact" class="waves-effect waves-light">
+            
+            <i class="fa fa-envelope"></i>
+            
+            <span>留言板</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/friends" class="waves-effect waves-light">
+            
+            <i class="fa fa-address-book"></i>
+            
+            <span>友情链接</span>
+        </a>
+    </li>
+    
+    <li>
+        <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+            <i id="searchIcon" class="fa fa-search" title="搜索"></i>
+        </a>
+    </li>
+</ul> -->
+
+<!-- 支持二级菜单特性 jamin pipbest modify 2021.09.17  -->
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fa fa-navicon"></i></a>
+<ul class="right nav-menu">
+    
+      <li class="hide-on-med-and-down nav-item" >
+
+        
+            <a href="/" class="waves-effect waves-light">
+              
+                <i class="fa fa-home"></i>
+              
+              <span>首页</span>
+            </a>
+
+            
+      </li>
+    
+      <li class="hide-on-med-and-down nav-item" >
+
+        
+            <a href="/tags" class="waves-effect waves-light">
+              
+                <i class="fa fa-tags"></i>
+              
+              <span>标签</span>
+            </a>
+
+            
+      </li>
+    
+      <li class="hide-on-med-and-down nav-item" >
+
+        
+            <a href="/categories" class="waves-effect waves-light">
+              
+                <i class="fa fa-bookmark"></i>
+              
+              <span>分类</span>
+            </a>
+
+            
+      </li>
+    
+      <li class="hide-on-med-and-down nav-item" >
+
+        
+            <a href="/archives" class="waves-effect waves-light">
+              
+                <i class="fa fa-archive"></i>
+              
+              <span>归档</span>
+            </a>
+
+            
+      </li>
+    
+      <li class="hide-on-med-and-down nav-item" >
+
+        
+            <a href="/AV" class="waves-effect waves-light">
+              
+                <i class="fa fa-music"></i>
+              
+              <span>视听</span>
+            </a>
+
+            
+      </li>
+    
+      <li class="hide-on-med-and-down nav-item" >
+
+        
+            <a href="/galleries" class="waves-effect waves-light">
+              
+                <i class="fa fa-photo"></i>
+              
+              <span>相册</span>
+            </a>
+
+            
+      </li>
+    
+      <li class="hide-on-med-and-down nav-item" >
+
+        
+            <a href="/about" class="waves-effect waves-light">
+              
+                <i class="fa fa-user-circle-o"></i>
+              
+              <span></span>
+            </a>
+
+            
+      </li>
+    
+      <li class="hide-on-med-and-down nav-item" >
+
+        
+            <a href="/contact" class="waves-effect waves-light">
+              
+                <i class="fa fa-envelope"></i>
+              
+              <span>留言板</span>
+            </a>
+
+            
+      </li>
+    
+      <li class="hide-on-med-and-down nav-item" >
+
+        
+            <a href="/friends" class="waves-effect waves-light">
+              
+                <i class="fa fa-address-book"></i>
+              
+              <span>友情链接</span>
+            </a>
+
+            
+      </li>
+    
+
+    <li>
+        <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+            <i id="searchIcon" class="fa fa-search" title="搜索"></i>
+        </a>
+    </li>
+
+</ul>
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/logo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">金点帝国</div>
+        <div class="logo-desc">
+            
+            分享 | 智能 | 感动
+            
+        </div>
+    </div>
+
+    
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li>
+            <a href="/" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-home"></i>
+                
+                首页
+            </a>
+        </li>
+        
+        <li>
+            <a href="/tags" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-tags"></i>
+                
+                标签
+            </a>
+        </li>
+        
+        <li>
+            <a href="/categories" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-bookmark"></i>
+                
+                分类
+            </a>
+        </li>
+        
+        <li>
+            <a href="/archives" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-archive"></i>
+                
+                归档
+            </a>
+        </li>
+        
+        <li>
+            <a href="/AV" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-music"></i>
+                
+                视听
+            </a>
+        </li>
+        
+        <li>
+            <a href="/galleries" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-photo"></i>
+                
+                相册
+            </a>
+        </li>
+        
+        <li>
+            <a href="/about" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-user-circle-o"></i>
+                
+                关于我
+            </a>
+        </li>
+        
+        <li>
+            <a href="/contact" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-envelope"></i>
+                
+                留言板
+            </a>
+        </li>
+        
+        <li>
+            <a href="/friends" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-address-book"></i>
+                
+                友情链接
+            </a>
+        </li>
+        
+        
+    </ul>
+
+   
+   
+<!-- 支持二级菜单特性 jamin pipbest modify 2021.09.17  -->
+<!-- <ul class="menu-list mobile-menu-list">
+    
+        <li class="m-nav-item">
+                
+                    <a href="/" class="waves-effect waves-light">
+                        
+                        <i class="fa fa-fw fa-home"></i>
+                        
+                        首页
+                    </a>
+              
+            </li>
+        
+        <li class="m-nav-item">
+                
+                    <a href="/tags" class="waves-effect waves-light">
+                        
+                        <i class="fa fa-fw fa-tags"></i>
+                        
+                        标签
+                    </a>
+              
+            </li>
+        
+        <li class="m-nav-item">
+                
+                    <a href="/categories" class="waves-effect waves-light">
+                        
+                        <i class="fa fa-fw fa-bookmark"></i>
+                        
+                        分类
+                    </a>
+              
+            </li>
+        
+        <li class="m-nav-item">
+                
+                    <a href="/archives" class="waves-effect waves-light">
+                        
+                        <i class="fa fa-fw fa-archive"></i>
+                        
+                        归档
+                    </a>
+              
+            </li>
+        
+        <li class="m-nav-item">
+                
+                    <a href="/AV" class="waves-effect waves-light">
+                        
+                        <i class="fa fa-fw fa-music"></i>
+                        
+                        视听
+                    </a>
+              
+            </li>
+        
+        <li class="m-nav-item">
+                
+                    <a href="/galleries" class="waves-effect waves-light">
+                        
+                        <i class="fa fa-fw fa-photo"></i>
+                        
+                        相册
+                    </a>
+              
+            </li>
+        
+        <li class="m-nav-item">
+                
+                    <a href="/about" class="waves-effect waves-light">
+                        
+                        <i class="fa fa-fw fa-user-circle-o"></i>
+                        
+                        关于我
+                    </a>
+              
+            </li>
+        
+        <li class="m-nav-item">
+                
+                    <a href="/contact" class="waves-effect waves-light">
+                        
+                        <i class="fa fa-fw fa-envelope"></i>
+                        
+                        留言板
+                    </a>
+              
+            </li>
+        
+        <li class="m-nav-item">
+                
+                    <a href="/friends" class="waves-effect waves-light">
+                        
+                        <i class="fa fa-fw fa-address-book"></i>
+                        
+                        友情链接
+                    </a>
+              
+            </li>
+        
+
+        
+    </ul> -->
+
+</div>
+
+        </div>
+
+        
+    </nav>
+
+</header>
+
+        
+<script src="/libs/cryptojs/crypto-js.min.js"></script>
+<script>
+    (function() {
+        let pwd = '';
+        if (pwd && pwd.length > 0) {
+            if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
+                alert('密码错误，将返回主页！');
+                location.href = '/';
+            }
+        }
+    })();
+</script>
+
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/0.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <div class="description center-align post-title">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<main class="post-container content">
+
+    
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+<style>
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+    .toc-widget {
+        padding-left: 20px;
+    }
+
+    .toc-widget .toc-title {
+        margin: 35px 0 15px 0;
+        padding-left: 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #toc-content .is-active-link::before {
+        background-color: #42b983;
+    }
+
+    #floating-toc-btn {
+        position: fixed;
+        right: 20px;
+        bottom: 76px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        z-index: 998;
+    }
+
+    #floating-toc-btn .btn-floating {
+        width: 48px;
+        height: 48px;
+    }
+
+    #floating-toc-btn .btn-floating i {
+        line-height: 48px;
+        font-size: 1.4rem;
+    }
+</style>
+<div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- jamin  modify 2021.08.15-->
+<!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                          <div class="article-tag">
+                            <span class="chip bg-color">无标签</span>
+                          </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                </div>
+            </div>
+            
+            <div class="post-info">
+                <div class="post-date info-break-policy">
+                    <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2021-10-20
+                </div>
+
+                <div class="post-author info-break-policy">
+                    <i class="fa fa-user-o fa-fw"></i>作者:&nbsp;&nbsp;
+                    
+                        jamin
+                    
+                </div>
+
+                
+                    
+                    <div class="info-break-policy">
+                        <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
+                        3.6k
+                    </div>
+                    
+
+                    
+                    <div class="info-break-policy">
+                        <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                        15 分
+                    </div>
+                    
+                
+                
+                
+                        <span id="busuanzi_container_site_pv" style='display:none'></span>
+                        <i class="fa fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
+                        <span id="busuanzi_value_page_pv" ></span>
+    
+                
+
+            </div>
+        </div>
+        <hr class="clearfix">
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <h1 id="Nginx-入门"><a href="#Nginx-入门" class="headerlink" title="Nginx 入门"></a>Nginx 入门</h1><blockquote>
+<p>本文是一个 Nginx 入门教程，目的在于帮助新手快速入门 Nginx。</p>
+</blockquote>
+<h2 id="一、Nginx-简介"><a href="#一、Nginx-简介" class="headerlink" title="一、Nginx 简介"></a>一、Nginx 简介</h2><p><strong>什么是 Nginx?</strong></p>
+<p><strong>Nginx (engine x)</strong> 是一款轻量级的 Web 服务器 、反向代理服务器及电子邮件（IMAP/POP3）代理服务器。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/pipbest/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://gitee.com/pipbest/images/raw/master/cs/web/nginx/nginx.jpg" alt="img"></p>
+<p><strong>什么是反向代理？</strong></p>
+<p>反向代理（Reverse Proxy）方式是指以代理服务器来接受 internet 上的连接请求，然后将请求转发给内部网络上的服务器，并将从服务器上得到的结果返回给 internet 上请求连接的客户端，此时代理服务器对外就表现为一个反向代理服务器。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/pipbest/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://gitee.com/pipbest/images/raw/master/cs/web/nginx/reverse-proxy.png" alt="img"></p>
+<h2 id="二、Nginx-入门"><a href="#二、Nginx-入门" class="headerlink" title="二、Nginx 入门"></a>二、Nginx 入门</h2><blockquote>
+<p>详细安装方法请参考：<a href="docs/nginx-install.md">Nginx 运维</a></p>
+</blockquote>
+<p>nginx 的使用比较简单，就是几条命令。</p>
+<p>常用到的命令如下：</p>
+<pre class="line-numbers language-batch"><code class="language-batch"><span class="token command"><span class="token keyword">nginx</span> <span class="token parameter attr-name">-s</span> stop       快速关闭Nginx，可能不保存相关信息，并迅速终止web服务。</span>
+<span class="token command"><span class="token keyword">nginx</span> <span class="token parameter attr-name">-s</span> quit       平稳关闭Nginx，保存相关信息，有安排的结束web服务。</span>
+<span class="token command"><span class="token keyword">nginx</span> <span class="token parameter attr-name">-s</span> reload     因改变了Nginx相关配置，需要重新加载配置而重载。</span>
+<span class="token command"><span class="token keyword">nginx</span> <span class="token parameter attr-name">-s</span> reopen     重新打开日志文件。</span>
+<span class="token command"><span class="token keyword">nginx</span> <span class="token parameter attr-name">-c</span> filename   为 Nginx 指定一个配置文件，来代替缺省的。</span>
+<span class="token command"><span class="token keyword">nginx</span> <span class="token parameter attr-name">-t</span>            不运行，仅仅测试配置文件。nginx 将检查配置文件的语法的正确性，并尝试打开配置文件中所引用到的文件。</span>
+<span class="token command"><span class="token keyword">nginx</span> <span class="token parameter attr-name">-v</span>            显示 nginx 的版本。</span>
+<span class="token command"><span class="token keyword">nginx</span> <span class="token parameter attr-name">-V</span>            显示 nginx 的版本，编译器版本和配置参数。</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>如果不想每次都敲命令，可以在 nginx 安装目录下新添一个启动批处理文件<strong>startup.bat</strong>，双击即可运行。内容如下：</p>
+<pre class="line-numbers language-batch"><code class="language-batch"><span class="token operator">@</span><span class="token command"><span class="token keyword">echo</span> off</span>
+<span class="token comment" spellcheck="true">rem 如果启动前已经启动nginx并记录下pid文件，会kill指定进程</span>
+<span class="token command"><span class="token keyword">nginx</span>.exe <span class="token parameter attr-name">-s</span> stop</span>
+
+<span class="token comment" spellcheck="true">rem 测试配置文件语法正确性</span>
+<span class="token command"><span class="token keyword">nginx</span>.exe <span class="token parameter attr-name">-t</span> <span class="token parameter attr-name">-c</span> conf/nginx.conf</span>
+
+<span class="token comment" spellcheck="true">rem 显示版本信息</span>
+<span class="token command"><span class="token keyword">nginx</span>.exe <span class="token parameter attr-name">-v</span></span>
+
+<span class="token comment" spellcheck="true">rem 按照指定配置去启动nginx</span>
+<span class="token command"><span class="token keyword">nginx</span>.exe <span class="token parameter attr-name">-c</span> conf/nginx.conf</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>如果是运行在 Linux 下，写一个 shell 脚本，大同小异。</p>
+<h2 id="三、Nginx-实战"><a href="#三、Nginx-实战" class="headerlink" title="三、Nginx 实战"></a>三、Nginx 实战</h2><p>我始终认为，各种开发工具的配置还是结合实战来讲述，会让人更易理解。</p>
+<h3 id="Http-反向代理"><a href="#Http-反向代理" class="headerlink" title="Http 反向代理"></a>Http 反向代理</h3><p>我们先实现一个小目标：不考虑复杂的配置，仅仅是完成一个 http 反向代理。</p>
+<p><code>nginx.conf</code> 配置文件如下：</p>
+<blockquote>
+<p><strong><em>注：<code>conf/nginx.conf</code> 是 nginx 的默认配置文件。你也可以使用 nginx -c 指定你的配置文件</em></strong></p>
+</blockquote>
+<pre class="line-numbers language-nginx"><code class="language-nginx"><span class="token comment" spellcheck="true">#运行用户</span>
+<span class="token comment" spellcheck="true">#user somebody;</span>
+
+<span class="token comment" spellcheck="true">#启动进程,通常设置成和cpu的数量相等</span>
+<span class="token keyword">worker_processes</span>  <span class="token number">1</span><span class="token punctuation">;</span>
+
+<span class="token comment" spellcheck="true">#全局错误日志</span>
+<span class="token keyword">error_log</span>  D<span class="token punctuation">:</span><span class="token operator">/</span>Tools<span class="token operator">/</span>nginx<span class="token number">-1.10</span><span class="token punctuation">.</span><span class="token number">1</span><span class="token operator">/</span>logs<span class="token operator">/</span>error<span class="token punctuation">.</span>log<span class="token punctuation">;</span>
+<span class="token keyword">error_log</span>  D<span class="token punctuation">:</span><span class="token operator">/</span>Tools<span class="token operator">/</span>nginx<span class="token number">-1.10</span><span class="token punctuation">.</span><span class="token number">1</span><span class="token operator">/</span>logs<span class="token operator">/</span>notice<span class="token punctuation">.</span>log  notice<span class="token punctuation">;</span>
+<span class="token keyword">error_log</span>  D<span class="token punctuation">:</span><span class="token operator">/</span>Tools<span class="token operator">/</span>nginx<span class="token number">-1.10</span><span class="token punctuation">.</span><span class="token number">1</span><span class="token operator">/</span>logs<span class="token operator">/</span>info<span class="token punctuation">.</span>log  info<span class="token punctuation">;</span>
+
+<span class="token comment" spellcheck="true">#PID文件，记录当前启动的nginx的进程ID</span>
+<span class="token keyword">pid</span>        D<span class="token punctuation">:</span><span class="token operator">/</span>Tools<span class="token operator">/</span>nginx<span class="token number">-1.10</span><span class="token punctuation">.</span><span class="token number">1</span><span class="token operator">/</span>logs<span class="token operator">/</span>nginx<span class="token punctuation">.</span><span class="token keyword">pid</span><span class="token punctuation">;</span>
+
+<span class="token comment" spellcheck="true">#工作模式及连接数上限</span>
+<span class="token keyword">events</span> <span class="token punctuation">{</span>
+    <span class="token keyword">worker_connections</span> <span class="token number">1024</span><span class="token punctuation">;</span>    <span class="token comment" spellcheck="true">#单个后台worker process进程的最大并发链接数</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment" spellcheck="true">#设定http服务器，利用它的反向代理功能提供负载均衡支持</span>
+<span class="token keyword">http</span> <span class="token punctuation">{</span>
+    <span class="token comment" spellcheck="true">#设定mime类型(邮件支持类型),类型由mime.types文件定义</span>
+    <span class="token keyword">include</span>       D<span class="token punctuation">:</span><span class="token operator">/</span>Tools<span class="token operator">/</span>nginx<span class="token number">-1.10</span><span class="token punctuation">.</span><span class="token number">1</span><span class="token operator">/</span>conf<span class="token operator">/</span>mime<span class="token punctuation">.</span><span class="token keyword">types</span><span class="token punctuation">;</span>
+    <span class="token keyword">default_type</span>  application<span class="token operator">/</span>octet<span class="token operator">-</span>stream<span class="token punctuation">;</span>
+
+    <span class="token comment" spellcheck="true">#设定日志</span>
+    <span class="token keyword">log_format</span>  main  <span class="token string">'[$remote_addr] - [$remote_user] [$time_local] "$request" '</span>
+                      <span class="token string">'$status $body_bytes_sent "$http_referer" '</span>
+                      <span class="token string">'"$http_user_agent" "$http_x_forwarded_for"'</span><span class="token punctuation">;</span>
+
+    <span class="token keyword">access_log</span>    D<span class="token punctuation">:</span><span class="token operator">/</span>Tools<span class="token operator">/</span>nginx<span class="token number">-1.10</span><span class="token punctuation">.</span><span class="token number">1</span><span class="token operator">/</span>logs<span class="token operator">/</span>access<span class="token punctuation">.</span>log main<span class="token punctuation">;</span>
+    rewrite_log     on<span class="token punctuation">;</span>
+
+    <span class="token comment" spellcheck="true">#sendfile 指令指定 nginx 是否调用 sendfile 函数（zero copy 方式）来输出文件，对于普通应用，</span>
+    <span class="token comment" spellcheck="true">#必须设为 on,如果用来进行下载等应用磁盘IO重负载应用，可设置为 off，以平衡磁盘与网络I/O处理速度，降低系统的uptime.</span>
+    <span class="token keyword">sendfile</span>        on<span class="token punctuation">;</span>
+    <span class="token comment" spellcheck="true">#tcp_nopush     on;</span>
+
+    <span class="token comment" spellcheck="true">#连接超时时间</span>
+    <span class="token keyword">keepalive_timeout</span>  <span class="token number">120</span><span class="token punctuation">;</span>
+    <span class="token keyword">tcp_nodelay</span>        on<span class="token punctuation">;</span>
+
+    <span class="token comment" spellcheck="true">#gzip压缩开关</span>
+    <span class="token comment" spellcheck="true">#gzip  on;</span>
+
+    <span class="token comment" spellcheck="true">#设定实际的服务器列表</span>
+    <span class="token keyword">upstream</span> zp_server1<span class="token punctuation">{</span>
+        <span class="token keyword">server</span> <span class="token number">127.0</span><span class="token punctuation">.</span><span class="token number">0.1</span><span class="token punctuation">:</span><span class="token number">8089</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment" spellcheck="true">#HTTP服务器</span>
+    <span class="token keyword">server</span> <span class="token punctuation">{</span>
+        <span class="token comment" spellcheck="true">#监听80端口，80端口是知名端口号，用于HTTP协议</span>
+        <span class="token keyword">listen</span>       <span class="token number">80</span><span class="token punctuation">;</span>
+
+        <span class="token comment" spellcheck="true">#定义使用www.xx.com访问</span>
+        <span class="token keyword">server_name</span>  www<span class="token punctuation">.</span>pipbest<span class="token punctuation">.</span>com<span class="token punctuation">;</span>
+
+        <span class="token comment" spellcheck="true">#首页</span>
+        <span class="token keyword">index</span> <span class="token keyword">index</span><span class="token punctuation">.</span>html
+
+        <span class="token comment" spellcheck="true">#指向webapp的目录</span>
+        <span class="token keyword">root</span> D<span class="token punctuation">:</span>\01_Workspace\Project\github\zp\SpringNotes\spring<span class="token operator">-</span>security\spring<span class="token operator">-</span>shiro\src\main\webapp<span class="token punctuation">;</span>
+
+        <span class="token comment" spellcheck="true">#编码格式</span>
+        <span class="token keyword">charset</span> utf<span class="token number">-8</span><span class="token punctuation">;</span>
+
+        <span class="token comment" spellcheck="true">#代理配置参数</span>
+        <span class="token keyword">proxy_connect_timeout</span> <span class="token number">180</span><span class="token punctuation">;</span>
+        <span class="token keyword">proxy_send_timeout</span> <span class="token number">180</span><span class="token punctuation">;</span>
+        <span class="token keyword">proxy_read_timeout</span> <span class="token number">180</span><span class="token punctuation">;</span>
+        <span class="token keyword">proxy_set_header</span> Host <span class="token variable">$host</span><span class="token punctuation">;</span>
+        <span class="token keyword">proxy_set_header</span> X<span class="token operator">-</span>Forwarder<span class="token operator">-</span>For <span class="token variable">$remote_addr</span><span class="token punctuation">;</span>
+
+        <span class="token comment" spellcheck="true">#反向代理的路径（和upstream绑定），location 后面设置映射的路径</span>
+        <span class="token keyword">location</span> <span class="token operator">/</span> <span class="token punctuation">{</span>
+            <span class="token keyword">proxy_pass</span> <span class="token keyword">http</span><span class="token punctuation">:</span><span class="token operator">/</span><span class="token operator">/</span>zp_server1<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+
+        <span class="token comment" spellcheck="true">#静态文件，nginx自己处理</span>
+        <span class="token keyword">location</span> <span class="token operator">~</span> <span class="token operator">^</span><span class="token operator">/</span><span class="token punctuation">(</span>images<span class="token operator">|</span>javascript<span class="token operator">|</span>js<span class="token operator">|</span>css<span class="token operator">|</span>flash<span class="token operator">|</span>media<span class="token operator">|</span>static<span class="token punctuation">)</span><span class="token operator">/</span> <span class="token punctuation">{</span>
+            <span class="token keyword">root</span> D<span class="token punctuation">:</span>\01_Workspace\Project\github\zp\SpringNotes\spring<span class="token operator">-</span>security\spring<span class="token operator">-</span>shiro\src\main\webapp\views<span class="token punctuation">;</span>
+            <span class="token comment" spellcheck="true">#过期30天，静态文件不怎么更新，过期可以设大一点，如果频繁更新，则可以设置得小一点。</span>
+            <span class="token keyword">expires</span> 30d<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+
+        <span class="token comment" spellcheck="true">#设定查看Nginx状态的地址</span>
+        <span class="token keyword">location</span> <span class="token operator">/</span>NginxStatus <span class="token punctuation">{</span>
+            <span class="token keyword">stub_status</span>           on<span class="token punctuation">;</span>
+            <span class="token keyword">access_log</span>            on<span class="token punctuation">;</span>
+            <span class="token keyword">auth_basic</span>            <span class="token string">"NginxStatus"</span><span class="token punctuation">;</span>
+            <span class="token keyword">auth_basic_user_file</span>  conf<span class="token operator">/</span>htpasswd<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+
+        <span class="token comment" spellcheck="true">#禁止访问 .htxxx 文件</span>
+        <span class="token keyword">location</span> <span class="token operator">~</span> <span class="token operator">/</span>\<span class="token punctuation">.</span>ht <span class="token punctuation">{</span>
+            <span class="token keyword">deny</span> all<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+
+        <span class="token comment" spellcheck="true">#错误处理页面（可选择性配置）</span>
+        <span class="token comment" spellcheck="true">#error_page   404              /404.html;</span>
+        <span class="token comment" spellcheck="true">#error_page   500 502 503 504  /50x.html;</span>
+        <span class="token comment" spellcheck="true">#location = /50x.html {</span>
+        <span class="token comment" spellcheck="true">#    root   html;</span>
+        <span class="token comment" spellcheck="true">#}</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>好了，让我们来试试吧：</p>
+<ol>
+<li> 启动 webapp，注意启动绑定的端口要和 nginx 中的 <code>upstream</code> 设置的端口保持一致。</li>
+<li> 更改 host：在 C:\Windows\System32\drivers\etc 目录下的 host 文件中添加一条 DNS 记录</li>
+</ol>
+<pre><code>127.0.0.1 www.pipbest.com
+</code></pre>
+<ol start="3">
+<li> 启动前文中 startup.bat 的命令</li>
+<li> 在浏览器中访问 <a target="_blank" rel="noopener" href="http://www.pipbest.com,不出意外,已经可以访问了./">www.pipbest.com，不出意外，已经可以访问了。</a></li>
+</ol>
+<h3 id="Https-反向代理"><a href="#Https-反向代理" class="headerlink" title="Https 反向代理"></a>Https 反向代理</h3><p>一些对安全性要求比较高的站点，可能会使用 HTTPS（一种使用 ssl 通信标准的安全 HTTP 协议）。</p>
+<p>这里不科普 HTTP 协议和 SSL 标准。但是，使用 nginx 配置 https 需要知道几点：</p>
+<ul>
+<li>HTTPS 的固定端口号是 443，不同于 HTTP 的 80 端口</li>
+<li>SSL 标准需要引入安全证书，所以在 nginx.conf 中你需要指定证书和它对应的 key</li>
+</ul>
+<p>其他和 http 反向代理基本一样，只是在 <code>Server</code> 部分配置有些不同。</p>
+<pre class="line-numbers language-nginx"><code class="language-nginx">  <span class="token comment" spellcheck="true">#HTTP服务器</span>
+  <span class="token keyword">server</span> <span class="token punctuation">{</span>
+      <span class="token comment" spellcheck="true">#监听443端口。443为知名端口号，主要用于HTTPS协议</span>
+      <span class="token keyword">listen</span>       <span class="token number">443</span> <span class="token keyword">ssl</span><span class="token punctuation">;</span>
+
+      <span class="token comment" spellcheck="true">#定义使用www.xx.com访问</span>
+      <span class="token keyword">server_name</span>  www<span class="token punctuation">.</span>pipbest<span class="token punctuation">.</span>com<span class="token punctuation">;</span>
+
+      <span class="token comment" spellcheck="true">#ssl证书文件位置(常见证书文件格式为：crt/pem)</span>
+      <span class="token keyword">ssl_certificate</span>      cert<span class="token punctuation">.</span>pem<span class="token punctuation">;</span>
+      <span class="token comment" spellcheck="true">#ssl证书key位置</span>
+      <span class="token keyword">ssl_certificate_key</span>  cert<span class="token punctuation">.</span>key<span class="token punctuation">;</span>
+
+      <span class="token comment" spellcheck="true">#ssl配置参数（选择性配置）</span>
+      <span class="token keyword">ssl_session_cache</span>    shared<span class="token punctuation">:</span><span class="token keyword">SSL</span><span class="token punctuation">:</span>1m<span class="token punctuation">;</span>
+      <span class="token keyword">ssl_session_timeout</span>  5m<span class="token punctuation">;</span>
+      <span class="token comment" spellcheck="true">#数字签名，此处使用MD5</span>
+      <span class="token keyword">ssl_ciphers</span>  HIGH<span class="token punctuation">:</span><span class="token operator">!</span>aNULL<span class="token punctuation">:</span><span class="token operator">!</span>MD5<span class="token punctuation">;</span>
+      <span class="token keyword">ssl_prefer_server_ciphers</span>  on<span class="token punctuation">;</span>
+
+      <span class="token keyword">location</span> <span class="token operator">/</span> <span class="token punctuation">{</span>
+          <span class="token keyword">root</span>   <span class="token operator">/</span><span class="token keyword">root</span><span class="token punctuation">;</span>
+          <span class="token keyword">index</span>  <span class="token keyword">index</span><span class="token punctuation">.</span>html <span class="token keyword">index</span><span class="token punctuation">.</span>htm<span class="token punctuation">;</span>
+      <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="负载均衡"><a href="#负载均衡" class="headerlink" title="负载均衡"></a>负载均衡</h3><p>前面的例子中，代理仅仅指向一个服务器。</p>
+<p>但是，网站在实际运营过程中，大部分都是以集群的方式运行，这时需要使用负载均衡来分流。</p>
+<p>nginx 也可以实现简单的负载均衡功能。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/pipbest/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://gitee.com/pipbest/images/raw/master/cs/web/nginx/nginx-load-balance.png" alt="img"></p>
+<p>假设这样一个应用场景：将应用部署在 192.168.1.11:80、192.168.1.12:80、192.168.1.13:80 三台 linux 环境的服务器上。网站域名叫 <a target="_blank" rel="noopener" href="http://www.pipbest.com,公网/">www.pipbest.com，公网</a> IP 为 192.168.1.11。在公网 IP 所在的服务器上部署 nginx，对所有请求做负载均衡处理（下面例子中使用的是加权轮询策略）。</p>
+<p>nginx.conf 配置如下：</p>
+<pre class="line-numbers language-nginx"><code class="language-nginx"><span class="token keyword">http</span> <span class="token punctuation">{</span>
+     <span class="token comment" spellcheck="true">#设定mime类型,类型由mime.type文件定义</span>
+    <span class="token keyword">include</span>       <span class="token operator">/</span>etc<span class="token operator">/</span>nginx<span class="token operator">/</span>mime<span class="token punctuation">.</span><span class="token keyword">types</span><span class="token punctuation">;</span>
+    <span class="token keyword">default_type</span>  application<span class="token operator">/</span>octet<span class="token operator">-</span>stream<span class="token punctuation">;</span>
+    <span class="token comment" spellcheck="true">#设定日志格式</span>
+    <span class="token keyword">access_log</span>    <span class="token operator">/</span>var<span class="token operator">/</span>log<span class="token operator">/</span>nginx<span class="token operator">/</span>access<span class="token punctuation">.</span>log<span class="token punctuation">;</span>
+
+    <span class="token comment" spellcheck="true">#设定负载均衡的服务器列表</span>
+    <span class="token keyword">upstream</span> load_balance_server <span class="token punctuation">{</span>
+        <span class="token comment" spellcheck="true">#weigth参数表示权值，权值越高被分配到的几率越大</span>
+        <span class="token keyword">server</span> <span class="token number">192.168</span><span class="token punctuation">.</span><span class="token number">1.11</span><span class="token punctuation">:</span><span class="token number">80</span>   weight<span class="token operator">=</span><span class="token number">5</span><span class="token punctuation">;</span>
+        <span class="token keyword">server</span> <span class="token number">192.168</span><span class="token punctuation">.</span><span class="token number">1.12</span><span class="token punctuation">:</span><span class="token number">80</span>   weight<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">;</span>
+        <span class="token keyword">server</span> <span class="token number">192.168</span><span class="token punctuation">.</span><span class="token number">1.13</span><span class="token punctuation">:</span><span class="token number">80</span>   weight<span class="token operator">=</span><span class="token number">6</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+   <span class="token comment" spellcheck="true">#HTTP服务器</span>
+   <span class="token keyword">server</span> <span class="token punctuation">{</span>
+        <span class="token comment" spellcheck="true">#侦听80端口</span>
+        <span class="token keyword">listen</span>       <span class="token number">80</span><span class="token punctuation">;</span>
+
+        <span class="token comment" spellcheck="true">#定义使用www.xx.com访问</span>
+        <span class="token keyword">server_name</span>  www<span class="token punctuation">.</span>pipbest<span class="token punctuation">.</span>com<span class="token punctuation">;</span>
+
+        <span class="token comment" spellcheck="true">#对所有请求进行负载均衡请求</span>
+        <span class="token keyword">location</span> <span class="token operator">/</span> <span class="token punctuation">{</span>
+            <span class="token keyword">root</span>        <span class="token operator">/</span><span class="token keyword">root</span><span class="token punctuation">;</span>                 <span class="token comment" spellcheck="true">#定义服务器的默认网站根目录位置</span>
+            <span class="token keyword">index</span>       <span class="token keyword">index</span><span class="token punctuation">.</span>html <span class="token keyword">index</span><span class="token punctuation">.</span>htm<span class="token punctuation">;</span>  <span class="token comment" spellcheck="true">#定义首页索引文件的名称</span>
+            <span class="token keyword">proxy_pass</span>  <span class="token keyword">http</span><span class="token punctuation">:</span><span class="token operator">/</span><span class="token operator">/</span>load_balance_server <span class="token punctuation">;</span><span class="token comment" spellcheck="true">#请求转向load_balance_server 定义的服务器列表</span>
+
+            <span class="token comment" spellcheck="true">#以下是一些反向代理的配置(可选择性配置)</span>
+            <span class="token comment" spellcheck="true">#proxy_redirect off;</span>
+            <span class="token keyword">proxy_set_header</span> Host <span class="token variable">$host</span><span class="token punctuation">;</span>
+            <span class="token keyword">proxy_set_header</span> X<span class="token operator">-</span>Real<span class="token operator">-</span>IP <span class="token variable">$remote_addr</span><span class="token punctuation">;</span>
+            <span class="token comment" spellcheck="true">#后端的Web服务器可以通过X-Forwarded-For获取用户真实IP</span>
+            <span class="token keyword">proxy_set_header</span> X<span class="token operator">-</span>Forwarded<span class="token operator">-</span>For <span class="token variable">$remote_addr</span><span class="token punctuation">;</span>
+            <span class="token keyword">proxy_connect_timeout</span> <span class="token number">90</span><span class="token punctuation">;</span>          <span class="token comment" spellcheck="true">#nginx跟后端服务器连接超时时间(代理连接超时)</span>
+            <span class="token keyword">proxy_send_timeout</span> <span class="token number">90</span><span class="token punctuation">;</span>             <span class="token comment" spellcheck="true">#后端服务器数据回传时间(代理发送超时)</span>
+            <span class="token keyword">proxy_read_timeout</span> <span class="token number">90</span><span class="token punctuation">;</span>             <span class="token comment" spellcheck="true">#连接成功后，后端服务器响应时间(代理接收超时)</span>
+            <span class="token keyword">proxy_buffer_size</span> 4k<span class="token punctuation">;</span>              <span class="token comment" spellcheck="true">#设置代理服务器（nginx）保存用户头信息的缓冲区大小</span>
+            <span class="token keyword">proxy_buffers</span> <span class="token number">4</span> 32k<span class="token punctuation">;</span>               <span class="token comment" spellcheck="true">#proxy_buffers缓冲区，网页平均在32k以下的话，这样设置</span>
+            <span class="token keyword">proxy_busy_buffers_size</span> 64k<span class="token punctuation">;</span>       <span class="token comment" spellcheck="true">#高负荷下缓冲大小（proxy_buffers*2）</span>
+            <span class="token keyword">proxy_temp_file_write_size</span> 64k<span class="token punctuation">;</span>    <span class="token comment" spellcheck="true">#设定缓存文件夹大小，大于这个值，将从upstream服务器传</span>
+
+            <span class="token keyword">client_max_body_size</span> 10m<span class="token punctuation">;</span>          <span class="token comment" spellcheck="true">#允许客户端请求的最大单文件字节数</span>
+            <span class="token keyword">client_body_buffer_size</span> 128k<span class="token punctuation">;</span>      <span class="token comment" spellcheck="true">#缓冲区代理缓冲用户端请求的最大字节数</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h4 id="负载均衡策略"><a href="#负载均衡策略" class="headerlink" title="负载均衡策略"></a>负载均衡策略</h4><p>Nginx 提供了多种负载均衡策略，让我们来一一了解一下：</p>
+<p>负载均衡策略在各种分布式系统中基本上原理一致，对于原理有兴趣，不妨参考 <a target="_blank" rel="noopener" href="https://dunwu.github.io/blog/design/theory/load-balance-theory/">负载均衡</a></p>
+<h5 id="轮询"><a href="#轮询" class="headerlink" title="轮询"></a>轮询</h5><pre class="line-numbers language-nginx"><code class="language-nginx"><span class="token keyword">upstream</span> bck_testing_01 <span class="token punctuation">{</span>
+  <span class="token comment" spellcheck="true"># 默认所有服务器权重为 1</span>
+  <span class="token keyword">server</span> <span class="token number">192.168</span><span class="token punctuation">.</span><span class="token number">250.220</span><span class="token punctuation">:</span><span class="token number">8080</span>
+  <span class="token keyword">server</span> <span class="token number">192.168</span><span class="token punctuation">.</span><span class="token number">250.221</span><span class="token punctuation">:</span><span class="token number">8080</span>
+  <span class="token keyword">server</span> <span class="token number">192.168</span><span class="token punctuation">.</span><span class="token number">250.222</span><span class="token punctuation">:</span><span class="token number">8080</span>
+<span class="token punctuation">}</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h5 id="加权轮询"><a href="#加权轮询" class="headerlink" title="加权轮询"></a>加权轮询</h5><pre class="line-numbers language-nginx"><code class="language-nginx"><span class="token keyword">upstream</span> bck_testing_01 <span class="token punctuation">{</span>
+  <span class="token keyword">server</span> <span class="token number">192.168</span><span class="token punctuation">.</span><span class="token number">250.220</span><span class="token punctuation">:</span><span class="token number">8080</span>   weight<span class="token operator">=</span><span class="token number">3</span>
+  <span class="token keyword">server</span> <span class="token number">192.168</span><span class="token punctuation">.</span><span class="token number">250.221</span><span class="token punctuation">:</span><span class="token number">8080</span>              <span class="token comment" spellcheck="true"># default weight=1</span>
+  <span class="token keyword">server</span> <span class="token number">192.168</span><span class="token punctuation">.</span><span class="token number">250.222</span><span class="token punctuation">:</span><span class="token number">8080</span>              <span class="token comment" spellcheck="true"># default weight=1</span>
+<span class="token punctuation">}</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h5 id="最少连接"><a href="#最少连接" class="headerlink" title="最少连接"></a>最少连接</h5><pre class="line-numbers language-nginx"><code class="language-nginx"><span class="token keyword">upstream</span> bck_testing_01 <span class="token punctuation">{</span>
+  least_conn<span class="token punctuation">;</span>
+
+  <span class="token comment" spellcheck="true"># with default weight for all (weight=1)</span>
+  <span class="token keyword">server</span> <span class="token number">192.168</span><span class="token punctuation">.</span><span class="token number">250.220</span><span class="token punctuation">:</span><span class="token number">8080</span>
+  <span class="token keyword">server</span> <span class="token number">192.168</span><span class="token punctuation">.</span><span class="token number">250.221</span><span class="token punctuation">:</span><span class="token number">8080</span>
+  <span class="token keyword">server</span> <span class="token number">192.168</span><span class="token punctuation">.</span><span class="token number">250.222</span><span class="token punctuation">:</span><span class="token number">8080</span>
+<span class="token punctuation">}</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h5 id="加权最少连接"><a href="#加权最少连接" class="headerlink" title="加权最少连接"></a>加权最少连接</h5><pre class="line-numbers language-nginx"><code class="language-nginx"><span class="token keyword">upstream</span> bck_testing_01 <span class="token punctuation">{</span>
+  least_conn<span class="token punctuation">;</span>
+
+  <span class="token keyword">server</span> <span class="token number">192.168</span><span class="token punctuation">.</span><span class="token number">250.220</span><span class="token punctuation">:</span><span class="token number">8080</span>   weight<span class="token operator">=</span><span class="token number">3</span>
+  <span class="token keyword">server</span> <span class="token number">192.168</span><span class="token punctuation">.</span><span class="token number">250.221</span><span class="token punctuation">:</span><span class="token number">8080</span>              <span class="token comment" spellcheck="true"># default weight=1</span>
+  <span class="token keyword">server</span> <span class="token number">192.168</span><span class="token punctuation">.</span><span class="token number">250.222</span><span class="token punctuation">:</span><span class="token number">8080</span>              <span class="token comment" spellcheck="true"># default weight=1</span>
+<span class="token punctuation">}</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h5 id="IP-Hash"><a href="#IP-Hash" class="headerlink" title="IP Hash"></a>IP Hash</h5><pre class="line-numbers language-nginx"><code class="language-nginx"><span class="token keyword">upstream</span> bck_testing_01 <span class="token punctuation">{</span>
+
+  <span class="token keyword">ip_hash</span><span class="token punctuation">;</span>
+
+  <span class="token comment" spellcheck="true"># with default weight for all (weight=1)</span>
+  <span class="token keyword">server</span> <span class="token number">192.168</span><span class="token punctuation">.</span><span class="token number">250.220</span><span class="token punctuation">:</span><span class="token number">8080</span>
+  <span class="token keyword">server</span> <span class="token number">192.168</span><span class="token punctuation">.</span><span class="token number">250.221</span><span class="token punctuation">:</span><span class="token number">8080</span>
+  <span class="token keyword">server</span> <span class="token number">192.168</span><span class="token punctuation">.</span><span class="token number">250.222</span><span class="token punctuation">:</span><span class="token number">8080</span>
+
+<span class="token punctuation">}</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h5 id="普通-Hash"><a href="#普通-Hash" class="headerlink" title="普通 Hash"></a>普通 Hash</h5><pre class="line-numbers language-nginx"><code class="language-nginx"><span class="token keyword">upstream</span> bck_testing_01 <span class="token punctuation">{</span>
+
+  hash <span class="token variable">$request_uri</span><span class="token punctuation">;</span>
+
+  <span class="token comment" spellcheck="true"># with default weight for all (weight=1)</span>
+  <span class="token keyword">server</span> <span class="token number">192.168</span><span class="token punctuation">.</span><span class="token number">250.220</span><span class="token punctuation">:</span><span class="token number">8080</span>
+  <span class="token keyword">server</span> <span class="token number">192.168</span><span class="token punctuation">.</span><span class="token number">250.221</span><span class="token punctuation">:</span><span class="token number">8080</span>
+  <span class="token keyword">server</span> <span class="token number">192.168</span><span class="token punctuation">.</span><span class="token number">250.222</span><span class="token punctuation">:</span><span class="token number">8080</span>
+
+<span class="token punctuation">}</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="网站有多个-webapp-的配置"><a href="#网站有多个-webapp-的配置" class="headerlink" title="网站有多个 webapp 的配置"></a>网站有多个 webapp 的配置</h3><p>当一个网站功能越来越丰富时，往往需要将一些功能相对独立的模块剥离出来，独立维护。这样的话，通常，会有多个 webapp。</p>
+<p>举个例子：假如 <a href="http://www.pipbest.com/">www.pipbest.com</a> 站点有好几个 webapp，finance（金融）、product（产品）、admin（用户中心）。访问这些应用的方式通过上下文(context)来进行区分:</p>
+<p><a href="http://www.pipbest.com/finance/">www.pipbest.com/finance/</a></p>
+<p><a href="http://www.pipbest.com/product/">www.pipbest.com/product/</a></p>
+<p><a href="http://www.pipbest.com/admin/">www.pipbest.com/admin/</a></p>
+<p>我们知道，http 的默认端口号是 80，如果在一台服务器上同时启动这 3 个 webapp 应用，都用 80 端口，肯定是不成的。所以，这三个应用需要分别绑定不同的端口号。</p>
+<p>那么，问题来了，用户在实际访问 <a href="http://www.pipbest.com/">www.pipbest.com</a> 站点时，访问不同 webapp，总不会还带着对应的端口号去访问吧。所以，你再次需要用到反向代理来做处理。</p>
+<p>配置也不难，来看看怎么做吧：</p>
+<pre class="line-numbers language-nginx"><code class="language-nginx"><span class="token keyword">http</span> <span class="token punctuation">{</span>
+    <span class="token comment" spellcheck="true">#此处省略一些基本配置</span>
+
+    <span class="token keyword">upstream</span> product_server<span class="token punctuation">{</span>
+        <span class="token keyword">server</span> www<span class="token punctuation">.</span>pipbest<span class="token punctuation">.</span>com<span class="token punctuation">:</span><span class="token number">8081</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">upstream</span> admin_server<span class="token punctuation">{</span>
+        <span class="token keyword">server</span> www<span class="token punctuation">.</span>pipbest<span class="token punctuation">.</span>com<span class="token punctuation">:</span><span class="token number">8082</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">upstream</span> finance_server<span class="token punctuation">{</span>
+        <span class="token keyword">server</span> www<span class="token punctuation">.</span>pipbest<span class="token punctuation">.</span>com<span class="token punctuation">:</span><span class="token number">8083</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">server</span> <span class="token punctuation">{</span>
+        <span class="token comment" spellcheck="true">#此处省略一些基本配置</span>
+        <span class="token comment" spellcheck="true">#默认指向product的server</span>
+        <span class="token keyword">location</span> <span class="token operator">/</span> <span class="token punctuation">{</span>
+            <span class="token keyword">proxy_pass</span> <span class="token keyword">http</span><span class="token punctuation">:</span><span class="token operator">/</span><span class="token operator">/</span>product_server<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+
+        <span class="token keyword">location</span> <span class="token operator">/</span>product<span class="token operator">/</span><span class="token punctuation">{</span>
+            <span class="token keyword">proxy_pass</span> <span class="token keyword">http</span><span class="token punctuation">:</span><span class="token operator">/</span><span class="token operator">/</span>product_server<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+
+        <span class="token keyword">location</span> <span class="token operator">/</span>admin<span class="token operator">/</span> <span class="token punctuation">{</span>
+            <span class="token keyword">proxy_pass</span> <span class="token keyword">http</span><span class="token punctuation">:</span><span class="token operator">/</span><span class="token operator">/</span>admin_server<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+
+        <span class="token keyword">location</span> <span class="token operator">/</span>finance<span class="token operator">/</span> <span class="token punctuation">{</span>
+            <span class="token keyword">proxy_pass</span> <span class="token keyword">http</span><span class="token punctuation">:</span><span class="token operator">/</span><span class="token operator">/</span>finance_server<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="静态站点"><a href="#静态站点" class="headerlink" title="静态站点"></a>静态站点</h3><p>有时候，我们需要配置静态站点(即 html 文件和一堆静态资源)。</p>
+<p>举例来说：如果所有的静态资源都放在了 <code>/app/dist</code> 目录下，我们只需要在 <code>nginx.conf</code> 中指定首页以及这个站点的 host 即可。</p>
+<p>配置如下：</p>
+<pre class="line-numbers language-nginx"><code class="language-nginx"><span class="token keyword">worker_processes</span>  <span class="token number">1</span><span class="token punctuation">;</span>
+
+<span class="token keyword">events</span> <span class="token punctuation">{</span>
+    <span class="token keyword">worker_connections</span>  <span class="token number">1024</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">http</span> <span class="token punctuation">{</span>
+    <span class="token keyword">include</span>       mime<span class="token punctuation">.</span><span class="token keyword">types</span><span class="token punctuation">;</span>
+    <span class="token keyword">default_type</span>  application<span class="token operator">/</span>octet<span class="token operator">-</span>stream<span class="token punctuation">;</span>
+    <span class="token keyword">sendfile</span>        on<span class="token punctuation">;</span>
+    <span class="token keyword">keepalive_timeout</span>  <span class="token number">65</span><span class="token punctuation">;</span>
+
+    <span class="token keyword">gzip</span> on<span class="token punctuation">;</span>
+    <span class="token keyword">gzip_types</span> text<span class="token operator">/</span>plain application<span class="token operator">/</span>x<span class="token operator">-</span>javascript text<span class="token operator">/</span>css application<span class="token operator">/</span>xml text<span class="token operator">/</span>javascript application<span class="token operator">/</span>javascript image<span class="token operator">/</span>jpeg image<span class="token operator">/</span>gif image<span class="token operator">/</span>png<span class="token punctuation">;</span>
+    <span class="token keyword">gzip_vary</span> on<span class="token punctuation">;</span>
+
+    <span class="token keyword">server</span> <span class="token punctuation">{</span>
+        <span class="token keyword">listen</span>       <span class="token number">80</span><span class="token punctuation">;</span>
+        <span class="token keyword">server_name</span>  static<span class="token punctuation">.</span>zp<span class="token punctuation">.</span>cn<span class="token punctuation">;</span>
+
+        <span class="token keyword">location</span> <span class="token operator">/</span> <span class="token punctuation">{</span>
+            <span class="token keyword">root</span> <span class="token operator">/</span>app<span class="token operator">/</span>dist<span class="token punctuation">;</span>
+            <span class="token keyword">index</span> <span class="token keyword">index</span><span class="token punctuation">.</span>html<span class="token punctuation">;</span>
+            <span class="token comment" spellcheck="true">#转发任何请求到 index.html</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>然后，添加 HOST：</p>
+<p>127.0.0.1 static.zp.cn</p>
+<p>此时，在本地浏览器访问 static.zp.cn ，就可以访问静态站点了。</p>
+<h3 id="搭建文件服务器"><a href="#搭建文件服务器" class="headerlink" title="搭建文件服务器"></a>搭建文件服务器</h3><p>有时候，团队需要归档一些数据或资料，那么文件服务器必不可少。使用 Nginx 可以非常快速便捷的搭建一个简易的文件服务。</p>
+<p>Nginx 中的配置要点：</p>
+<ul>
+<li>将 autoindex 开启可以显示目录，默认不开启。</li>
+<li>将 autoindex_exact_size 开启可以显示文件的大小。</li>
+<li>将 autoindex_localtime 开启可以显示文件的修改时间。</li>
+<li>root 用来设置开放为文件服务的根路径。</li>
+<li>charset 设置为 <code>charset utf-8,gbk;</code>，可以避免中文乱码问题（windows 服务器下设置后，依然乱码，本人暂时没有找到解决方法）。</li>
+</ul>
+<p>一个最简化的配置如下：</p>
+<pre class="line-numbers language-nginx"><code class="language-nginx"><span class="token keyword">autoindex</span> on<span class="token punctuation">;</span><span class="token comment" spellcheck="true"># 显示目录</span>
+<span class="token keyword">autoindex_exact_size</span> on<span class="token punctuation">;</span><span class="token comment" spellcheck="true"># 显示文件大小</span>
+<span class="token keyword">autoindex_localtime</span> on<span class="token punctuation">;</span><span class="token comment" spellcheck="true"># 显示文件时间</span>
+
+<span class="token keyword">server</span> <span class="token punctuation">{</span>
+    <span class="token keyword">charset</span>      utf<span class="token number">-8</span><span class="token punctuation">,</span>gbk<span class="token punctuation">;</span> <span class="token comment" spellcheck="true"># windows 服务器下设置后，依然乱码，暂时无解</span>
+    <span class="token keyword">listen</span>       <span class="token number">9050</span> default_server<span class="token punctuation">;</span>
+    <span class="token keyword">listen</span>       <span class="token punctuation">[</span><span class="token punctuation">:</span><span class="token punctuation">:</span><span class="token punctuation">]</span><span class="token punctuation">:</span><span class="token number">9050</span> default_server<span class="token punctuation">;</span>
+    <span class="token keyword">server_name</span>  _<span class="token punctuation">;</span>
+    <span class="token keyword">root</span>         <span class="token operator">/</span>share<span class="token operator">/</span>fs<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="解决跨域"><a href="#解决跨域" class="headerlink" title="解决跨域"></a>解决跨域</h3><p>web 领域开发中，经常采用前后端分离模式。这种模式下，前端和后端分别是独立的 web 应用程序，例如：后端是 Java 程序，前端是 React 或 Vue 应用。</p>
+<p>各自独立的 web app 在互相访问时，势必存在跨域问题。解决跨域问题一般有两种思路：</p>
+<ol>
+<li> <strong>CORS</strong></li>
+</ol>
+<p>在后端服务器设置 HTTP 响应头，把你需要允许访问的域名加入 <code>Access-Control-Allow-Origin</code> 中。</p>
+<ol start="2">
+<li> <strong>jsonp</strong></li>
+</ol>
+<p>把后端根据请求，构造 json 数据，并返回，前端用 jsonp 跨域。</p>
+<p>这两种思路，本文不展开讨论。</p>
+<p>需要说明的是，nginx 根据第一种思路，也提供了一种解决跨域的解决方案。</p>
+<p>举例：<a href="http://www.pipbest.com/">www.pipbest.com</a> 网站是由一个前端 app ，一个后端 app 组成的。前端端口号为 9000， 后端端口号为 8080。</p>
+<p>前端和后端如果使用 http 进行交互时，请求会被拒绝，因为存在跨域问题。来看看，nginx 是怎么解决的吧：</p>
+<p>首先，在 enable-cors.conf 文件中设置 cors ：</p>
+<pre class="line-numbers language-nginx"><code class="language-nginx"><span class="token comment" spellcheck="true"># allow origin list</span>
+<span class="token keyword">set</span> <span class="token variable">$ACAO</span> <span class="token string">'*'</span><span class="token punctuation">;</span>
+
+<span class="token comment" spellcheck="true"># set single origin</span>
+<span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token variable">$http_origin</span> <span class="token operator">~</span><span class="token operator">*</span> <span class="token punctuation">(</span>www<span class="token punctuation">.</span>pipbest<span class="token punctuation">.</span>com<span class="token punctuation">)</span>$<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">set</span> <span class="token variable">$ACAO</span> <span class="token variable">$http_origin</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token variable">$cors</span> <span class="token operator">=</span> <span class="token string">"trueget"</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">add_header</span> <span class="token string">'Access-Control-Allow-Origin'</span> <span class="token string">"$http_origin"</span><span class="token punctuation">;</span>
+    <span class="token keyword">add_header</span> <span class="token string">'Access-Control-Allow-Credentials'</span> <span class="token string">'true'</span><span class="token punctuation">;</span>
+    <span class="token keyword">add_header</span> <span class="token string">'Access-Control-Allow-Methods'</span> <span class="token string">'GET, POST, OPTIONS'</span><span class="token punctuation">;</span>
+    <span class="token keyword">add_header</span> <span class="token string">'Access-Control-Allow-Headers'</span> <span class="token string">'DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type'</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token variable">$request_method</span> <span class="token operator">=</span> <span class="token string">'OPTIONS'</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">set</span> <span class="token variable">$cors</span> <span class="token string">"${cors}options"</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token variable">$request_method</span> <span class="token operator">=</span> <span class="token string">'GET'</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">set</span> <span class="token variable">$cors</span> <span class="token string">"${cors}get"</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token variable">$request_method</span> <span class="token operator">=</span> <span class="token string">'POST'</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">set</span> <span class="token variable">$cors</span> <span class="token string">"${cors}post"</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>接下来，在你的服务器中 <code>include enable-cors.conf</code> 来引入跨域配置：</p>
+<pre class="line-numbers language-nginx"><code class="language-nginx"><span class="token comment" spellcheck="true"># ----------------------------------------------------</span>
+<span class="token comment" spellcheck="true"># 此文件为项目 nginx 配置片段</span>
+<span class="token comment" spellcheck="true"># 可以直接在 nginx config 中 include（推荐）</span>
+<span class="token comment" spellcheck="true"># 或者 copy 到现有 nginx 中，自行配置</span>
+<span class="token comment" spellcheck="true"># www.pipbest.com 域名需配合 dns hosts 进行配置</span>
+<span class="token comment" spellcheck="true"># 其中，api 开启了 cors，需配合本目录下另一份配置文件</span>
+<span class="token comment" spellcheck="true"># ----------------------------------------------------</span>
+<span class="token keyword">upstream</span> front_server<span class="token punctuation">{</span>
+  <span class="token keyword">server</span> www<span class="token punctuation">.</span>pipbest<span class="token punctuation">.</span>com<span class="token punctuation">:</span><span class="token number">9000</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">upstream</span> api_server<span class="token punctuation">{</span>
+  <span class="token keyword">server</span> www<span class="token punctuation">.</span>pipbest<span class="token punctuation">.</span>com<span class="token punctuation">:</span><span class="token number">8080</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">server</span> <span class="token punctuation">{</span>
+  <span class="token keyword">listen</span>       <span class="token number">80</span><span class="token punctuation">;</span>
+  <span class="token keyword">server_name</span>  www<span class="token punctuation">.</span>pipbest<span class="token punctuation">.</span>com<span class="token punctuation">;</span>
+
+  <span class="token keyword">location</span> <span class="token operator">~</span> <span class="token operator">^</span><span class="token operator">/</span>api<span class="token operator">/</span> <span class="token punctuation">{</span>
+    <span class="token keyword">include</span> enable<span class="token operator">-</span>cors<span class="token punctuation">.</span>conf<span class="token punctuation">;</span>
+    <span class="token keyword">proxy_pass</span> <span class="token keyword">http</span><span class="token punctuation">:</span><span class="token operator">/</span><span class="token operator">/</span>api_server<span class="token punctuation">;</span>
+    <span class="token keyword">rewrite</span> <span class="token string">"^/api/(.*)$"</span> <span class="token operator">/</span>$<span class="token number">1</span> <span class="token keyword">break</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token keyword">location</span> <span class="token operator">~</span> <span class="token operator">^</span><span class="token operator">/</span> <span class="token punctuation">{</span>
+    <span class="token keyword">proxy_pass</span> <span class="token keyword">http</span><span class="token punctuation">:</span><span class="token operator">/</span><span class="token operator">/</span>front_server<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>到此，就完成了。</p>
+<h2 id="资源"><a href="#资源" class="headerlink" title="资源"></a>资源</h2><ul>
+<li><a target="_blank" rel="noopener" href="http://tool.oschina.net/apidocs/apidoc?api=nginx-zh">Nginx 的中文维基</a></li>
+<li><a target="_blank" rel="noopener" href="http://tengine.taobao.org/book/index.html">Nginx 开发从入门到精通</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/trimstray/nginx-admins-handbook">nginx-admins-handbook</a></li>
+<li><a target="_blank" rel="noopener" href="https://nginxconfig.io/">nginxconfig.io</a> - 一款 Nginx 配置生成器</li>
+</ul>
+
+            </div>
+            <hr/>
+
+            
+            <style>
+    #reward {
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    #reward .reward-link {
+        font-size: 1.88rem;
+    }
+
+    #reward .btn-floating:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    #rewardModal {
+        width: 320px;
+        height: 350px;
+    }
+
+    #rewardModal .reward-title {
+        margin: 15px auto;
+        padding-bottom: 5px;
+    }
+
+    #rewardModal .modal-content {
+        padding: 10px;
+    }
+
+    #rewardModal .close {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 1.3rem;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    #rewardModal .close:hover {
+        color: #ef5350;
+        transform: scale(1.3);
+        -moz-transform:scale(1.3);
+        -webkit-transform:scale(1.3);
+        -o-transform:scale(1.3);
+    }
+
+    #rewardModal .reward-tabs {
+        margin: 0 auto;
+        width: 210px;
+    }
+
+    .reward-tabs .tabs {
+        height: 38px;
+        margin: 10px auto;
+        padding-left: 0;
+    }
+
+    .reward-content ul {
+        padding-left: 0 !important;
+    }
+
+    .reward-tabs .tabs .tab {
+        height: 38px;
+        line-height: 38px;
+    }
+
+    .reward-tabs .tab a {
+        color: #fff;
+        background-color: #ccc;
+    }
+
+    .reward-tabs .tab a:hover {
+        background-color: #ccc;
+        color: #fff;
+    }
+
+    .reward-tabs .wechat-tab .active {
+        color: #fff !important;
+        background-color: #22AB38 !important;
+    }
+
+    .reward-tabs .alipay-tab .active {
+        color: #fff !important;
+        background-color: #019FE8 !important;
+    }
+
+    .reward-tabs .reward-img {
+        width: 210px;
+        height: 210px;
+    }
+</style>
+
+<div id="reward">
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-large waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close modal-close"><i class="fa fa-close"></i></a>
+            <h4 class="reward-title">你的赏识是我前进的动力!</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs row">
+                        <li class="tab col s6 alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                        <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
+                    </ul>
+                    <div id="alipay">
+                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                    </div>
+                    <div id="wechat">
+                        <img src="/medias/reward/wechat.jpg" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('.tabs').tabs();
+    });
+</script>
+            
+
+            <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+
+<div id="article-share">
+    
+    <div class="social-share" data-disabled="qzone" data-wechat-qrcode-helper="<p>微信里点“发现”->“扫一扫”二维码便可查看分享。</p>"></div>
+    
+</div>
+
+<script src="/libs/share/js/social-share.min.js"></script>
+
+            
+            
+            
+            <div class="reprint1">
+                <p>
+                    <span class="reprint1-tip">
+                        <i class="fa fa-exclamation-circle"></i>&nbsp;&nbsp;转载请注明:
+                    </span>
+                    <a href="https://www.pipbest.com" class="b-link-green">金点帝国</a>
+                    <i class="fa fa-angle-right fa-lg fa-fw text-color"></i>
+                    <a href="/2021/10/20/handbook/nginx/nginx-quickstart/" class="b-link-green"></a>
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+        <style>
+    .valine-card {
+        margin: 1.5rem auto;
+    }
+
+    .valine-card .card-content {
+        padding: 20px 20px 5px 20px;
+    }
+    /* valine 评论框增加背景图片 */
+    #vcomments textarea {
+        box-sizing: border-box;
+        background: url("") 100% 100% no-repeat;
+    }
+
+    #vcomments input[type=text],
+    #vcomments input[type=email],
+    #vcomments input[type=url],
+    #vcomments textarea {
+        box-sizing: border-box;
+    }
+
+    #vcomments p {
+        margin: 2px 2px 10px;
+        font-size: 1.05rem;
+        line-height: 1.78rem;
+    }
+
+    #vcomments blockquote p {
+        text-indent: 0.2rem;
+    }
+
+    #vcomments a {
+        padding: 0 2px;
+        color: #42b983;
+        font-weight: 500;
+        text-decoration: underline;
+    }
+
+    #vcomments img {
+        max-width: 100%;
+        height: auto;
+        cursor: pointer;
+    }
+
+    #vcomments ol li {
+        list-style-type: decimal;
+    }
+
+    #vcomments ol,
+    ul {
+        display: block;
+        padding-left: 2em;
+        word-spacing: 0.05rem;
+    }
+
+    #vcomments ul li,
+    ol li {
+        display: list-item;
+        line-height: 1.8rem;
+        font-size: 1rem;
+    }
+
+    #vcomments ul li {
+        list-style-type: disc;
+    }
+
+    #vcomments ul ul li {
+        list-style-type: circle;
+    }
+
+    #vcomments table, th, td {
+        padding: 12px 13px;
+        border: 1px solid #dfe2e5;
+    }
+
+    #vcomments table, th, td {
+        border: 0;
+    }
+
+    table tr:nth-child(2n), thead {
+        background-color: #fafafa;
+    }
+
+    #vcomments table th {
+        background-color: #f2f2f2;
+        min-width: 80px;
+    }
+
+    #vcomments table td {
+        min-width: 80px;
+    }
+
+    #vcomments h1 {
+        font-size: 1.85rem;
+        font-weight: bold;
+        line-height: 2.2rem;
+    }
+
+    #vcomments h2 {
+        font-size: 1.65rem;
+        font-weight: bold;
+        line-height: 1.9rem;
+    }
+
+    #vcomments h3 {
+        font-size: 1.45rem;
+        font-weight: bold;
+        line-height: 1.7rem;
+    }
+
+    #vcomments h4 {
+        font-size: 1.25rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    #vcomments h5 {
+        font-size: 1.1rem;
+        font-weight: bold;
+        line-height: 1.4rem;
+    }
+
+    #vcomments h6 {
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+
+    #vcomments p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    #vcomments hr {
+        margin: 12px 0;
+        border: 0;
+        border-top: 1px solid #ccc;
+    }
+
+    #vcomments blockquote {
+        margin: 15px 0;
+        border-left: 5px solid #42b983;
+        padding: 1rem 0.8rem 0.3rem 0.8rem;
+        color: #666;
+        background-color: rgba(66, 185, 131, .1);
+    }
+
+    #vcomments pre {
+        font-family: monospace, monospace;
+        padding: 1.2em;
+        margin: .5em 0;
+        background: #272822;
+        overflow: auto;
+        border-radius: 0.3em;
+        tab-size: 4;
+    }
+
+    #vcomments code {
+        font-family: monospace, monospace;
+        padding: 1px 3px;
+        font-size: 0.92rem;
+        color: #e96900;
+        background-color: #f8f8f8;
+        border-radius: 2px;
+    }
+
+    #vcomments pre code {
+        font-family: monospace, monospace;
+        padding: 0;
+        color: #e8eaf6;
+        background-color: #272822;
+    }
+
+    #vcomments pre[class*="language-"] {
+        padding: 1.2em;
+        margin: .5em 0;
+    }
+
+    #vcomments code[class*="language-"],
+    pre[class*="language-"] {
+        color: #e8eaf6;
+    }
+
+    #vcomments [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+        position: inherit;
+        margin-left: -1.3rem;
+        margin-right: 0.4rem;
+        margin-top: -1px;
+        vertical-align: middle;
+        left: unset;
+        visibility: visible;
+    }
+
+    #vcomments b,
+    strong {
+        font-weight: bold;
+    }
+
+    #vcomments dfn {
+        font-style: italic;
+    }
+
+    #vcomments small {
+        font-size: 85%;
+    }
+
+    #vcomments cite {
+        font-style: normal;
+    }
+
+    #vcomments mark {
+        background-color: #fcf8e3;
+        padding: .2em;
+    }
+
+    #vcomments table, th, td {
+        padding: 12px 13px;
+        border: 1px solid #dfe2e5;
+    }
+
+    table tr:nth-child(2n), thead {
+        background-color: #fafafa;
+    }
+
+    #vcomments table th {
+        background-color: #f2f2f2;
+        min-width: 80px;
+    }
+
+    #vcomments table td {
+        min-width: 80px;
+    }
+
+    #vcomments [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+        position: inherit;
+        margin-left: -1.3rem;
+        margin-right: 0.4rem;
+        margin-top: -1px;
+        vertical-align: middle;
+        left: unset;
+        visibility: visible;
+    }
+
+    /* 修复评论第一行位置错位 */
+    .v .vlist .vcard {
+    padding-top: 2.5em !important ;
+    }
+</style>
+
+<div class="card valine-card" data-aos="fade-up">
+    <div id="vcomments" class="card-content"></div>
+</div>
+
+<script src="/libs/valine/av-min.js"></script>
+<script src="/libs/valine/Valine.min.js"></script>
+<!-- <link rel="stylesheet" type="text/css" href="/libs//libs/jQuery-emoji/dist/css/jquery.emoji.css">
+<script src="/libs//libs/jQuery-emoji/dist/js/jquery.emoji.min.js"></script>
+<script src="/libs//libs/jQuery-emoji/dist/js/emoji.list.js"></script> -->
+<script>
+    new Valine({
+        el: '#vcomments',
+        appId: 'wrLCz4J765vLN3uoblAXSDvy-gzGzoHsz',
+        appKey: 'RWQODIs2ysniGzLulWVIBo5L',
+        notify: 'true' === 'true',
+        verify: 'true' === 'true',
+        visitor: 'true' === 'true',
+        avatar: 'mm',
+        pageSize: '10',
+        lang: 'zh-cn',
+        placeholder: 'just go go',
+
+    });
+
+//     function parse_emoji() {
+//     jQuery(".vcontent").emojiParse({
+//       basePath: '/libs/jQuery-emoji/images/emoji',
+//       icons: emojiLists   // 注：详见 js/emoji.list.js
+//     });
+//   }
+  
+//   setTimeout(function() {
+//     // jQuery emoji 解析
+//     parse_emoji();
+//     // jquery emoji 初始化
+//     jQuery(".veditor").emoji({
+//       showTab: true,
+//       animation: 'slide',
+//       basePath: '/libs/jQuery-emoji/images/emoji',
+//       icons: emojiLists  // 注：详见 js/emoji.list.js
+//     });
+//     jQuery(".vmore").on("click", function() {
+//       setTimeout(function() {
+//         parse_emoji();
+//       }, 500);
+//     });
+//   }, 800)
+
+</script>
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
+            <div class="card">
+                <a href="/2021/10/20/handbook/nginx/nginx-ops/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="">
+                        
+                        <span class="card-title"></span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            Nginx 运维
+
+
+Windows 安装
+Linux 安装
+rpm 包方式（推荐）
+源码编译方式
+
+
+Linux 开机自启动
+rpm 包方式
+源码编译方式
+
+
+脚本
+参考资料
+
+
+
+一、普通安装Windows 安装（1）进入官方下载地址，
+                        
+                    </div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="fa fa-clock-o fa-fw icon-date"></i>2021-10-20
+                        </span>
+                        <span class="publish-author">
+                            
+                        </span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fa fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2021/10/20/handbook/nginx/nginx-configuration/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="">
+                        
+                        <span class="card-title"></span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            Nginx 配置
+Nginx 的默认配置文件为 nginx.conf。
+
+nginx -c xxx.conf - 以指定的文件作为配置文件，启动 Nginx。
+
+
+配置文件实例以下为一个 nginx.conf 配置文件实例：
+#定义 ngi
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2021-10-20
+                            </span>
+                        <span class="publish-author">
+                            
+                        </span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+</div>
+
+
+<script>
+    $('#articleContent').on('copy', function (e) {
+        // IE8 or earlier browser is 'undefined'
+        if (typeof window.getSelection === 'undefined') return;
+
+        var selection = window.getSelection();
+        // if the selection is short let's not annoy our users.
+        if (('' + selection).length < Number.parseInt('120')) {
+            return;
+        }
+
+        // create a div outside of the visible area and fill it with the selected text.
+        var bodyElement = document.getElementsByTagName('body')[0];
+        var newdiv = document.createElement('div');
+        newdiv.style.position = 'absolute';
+        newdiv.style.left = '-99999px';
+        bodyElement.appendChild(newdiv);
+        newdiv.appendChild(selection.getRangeAt(0).cloneContents());
+
+        // we need a <pre> tag workaround.
+        // otherwise the text inside "pre" loses all the line breaks!
+        if (selection.getRangeAt(0).commonAncestorContainer.nodeName === 'PRE') {
+            newdiv.innerHTML = "<pre>" + newdiv.innerHTML + "</pre>";
+        }
+
+        var url = document.location.href;
+        newdiv.innerHTML += '<br />'
+            + '来源: 金点帝国<br />'
+            + '作者: jamin<br />'
+            + '链接: <a href="' + url + '">' + url + '</a><br />'
+            + '本文章著作权归作者所有，任何形式的转载都请注明出处。';
+
+        selection.selectAllChildren(newdiv);
+        window.setTimeout(function () {bodyElement.removeChild(newdiv);}, 200);
+    });
+</script>
+
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget">
+            <div class="toc-title"><i class="fa fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fa fa-list"></i>
+    </a>
+</div>
+
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            // headingsOffset: -205,
+            headingSelector: 'h1, h2, h3, h4, h5'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('#articleContent').children('h1, h2, h3, h4, h5').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).slideUp(500);
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).slideDown(500);
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
+    
+
+</main>
+
+
+        <footer class="page-footer bg-color">
+    <div class="container row center-align">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&copy; 2021 jamin. 
+
+            <br>
+            <span id="sitetime"></span><span class="my-face">ღゝ◡╹)ノ♡</span>
+            <br>
+
+            
+
+            
+                    
+                        <span id="busuanzi_container_site_pv" style='display:none'></span>
+                        总访问量: <span id="busuanzi_value_site_pv" class="white-color"></span>
+                    
+        
+                    
+                        <span id="busuanzi_container_site_uv" style='display:none'></span>
+                        人次&nbsp; | &nbsp;访客人数: <span id="busuanzi_value_site_uv" class="white-color"></span> 人
+                    
+    
+            
+
+            
+                &nbsp; | &nbsp;字数统计:&nbsp;
+                <span class="white-color">64k</span> 字
+            
+
+            
+            <br>
+
+        </div>
+
+        <div class="col s12 m4 l4 social-link social-statis">
+    <a href="https://github.com/jamingh" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+        <i class="fa fa-github"></i>
+    </a>
+
+
+ 
+    <a href="https://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=382834253@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+        <i class="fa fa-envelope-open"></i>
+    </a>
+
+
+
+
+    <a href="https://zhihu.com/people/jamin" class="tooltipped" target="_blank" data-tooltip="访问我的知乎" data-position="top" data-delay="50">
+        <i class="fa fa-inverse">知</i>
+    </a>
+
+
+
+    <a href="http://wpa.qq.com/msgrd?v=3&uin=382834253&site=qq&menu=yes" class="tooltipped" target="_blank" data-tooltip="访问我的QQ空间" data-position="top" data-delay="50">
+        <i class="fa fa-qq"></i>
+    </a>
+
+
+
+    <a href="https://weibo.com/jamin" class="tooltipped" target="_blank" data-tooltip="关注我的微博" data-position="top" data-delay="50">
+        <i class="fa fa-weibo"></i>
+    </a>
+
+
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+        <i class="fa fa-rss"></i>
+    </a>
+</div>
+
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+<script language=javascript>
+    function siteTime() {
+        window.setTimeout("siteTime()", 1000);
+        var seconds = 1000;
+        var minutes = seconds * 60;
+        var hours = minutes * 60;
+        var days = hours * 24;
+        var years = days * 365;
+        var today = new Date();
+        var todayYear = today.getFullYear();
+        var todayMonth = today.getMonth() + 1;
+        var todayDate = today.getDate();
+        var todayHour = today.getHours();
+        var todayMinute = today.getMinutes();
+        var todaySecond = today.getSeconds();
+
+        /* Date.UTC() -- 返回date对象距世界标准时间(UTC)1970年1月1日午夜之间的毫秒数(时间戳)
+        year - 作为date对象的年份，为4位年份值
+        month - 0-11之间的整数，做为date对象的月份
+        day - 1-31之间的整数，做为date对象的天数
+        hours - 0(午夜24点)-23之间的整数，做为date对象的小时数
+        minutes - 0-59之间的整数，做为date对象的分钟数
+        seconds - 0-59之间的整数，做为date对象的秒数
+        microseconds - 0-999之间的整数，做为date对象的毫秒数 */
+
+        var t1 = Date.UTC(2021, 08, 10, 00, 00, 00); //北京时间2021-8-1 00:00:00
+        var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
+        var diff = t2 - t1;
+        var diffYears = Math.floor(diff / years);
+        var diffDays = Math.floor((diff / days) - diffYears * 365);
+        var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
+        var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) / minutes);
+        var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours - diffMinutes *
+            minutes) / seconds);
+        document.getElementById("sitetime").innerHTML = "本站已安静运行 " + diffYears + " 年 " + diffDays + " 天 " + diffHours +
+            " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒" ;
+    } /*因为建站时间还没有一年，就将之注释掉了。需要的可以取消*/
+    siteTime();
+</script>
+
+
+
+
+
+
+        <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fa fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script src="/js/search.js"></script>
+<script type="text/javascript">
+$(function () {
+    searchFunc("/" + "search.xml", 'searchInput', 'searchResult');
+});
+</script>
+        <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fa fa-angle-up"></i>
+    </a>
+</div>
+
+
+        <script src="https://cdn.bootcss.com/materialize/1.0.0/js/materialize.min.js"></script>
+        <script src="https://cdn.bootcss.com/masonry/4.2.2/masonry.pkgd.min.js"></script>
+        <script src="https://cdn.bootcss.com/aos/3.0.0-beta.6/aos.js"></script>
+        <script src="https://cdn.bootcss.com/scrollprogress/3.0.2/scrollProgress.min.js"></script>
+        <script src="https://cdn.bootcss.com/lightgallery/1.6.12/js/lightgallery-all.min.js"></script>
+        <script src="/js/matery.js"></script>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+
+        
+            <script src="/libs/others/clicklove.js"></script>
+        
+
+        
+            <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+        
+
+        <!-- jamin pipbest add 2021.08.28 -->
+        <script type="text/javascript">
+            var OriginTitile = document.title,
+                st;
+            document.addEventListener("visibilitychange", function () {
+                document.hidden ? (document.title = "看不见我🙈~看不见我🙈~", clearTimeout(st)) : (document.title =
+                    "(๑•̀ㅂ•́) ✧被发现了～", st = setTimeout(function () {
+                        document.title = OriginTitile
+                    }, 3e3))
+            })
+        </script>
+
+        <!-- 鼠标点击烟花爆炸效果  jamin pipbest add 2021.09.09 -->
+        
+            <canvas class="fireworks" style="position: fixed; left: 0; top: 0; z-index: 1; pointer-events: none;"></canvas>
+            <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script>
+            <script type="text/javascript" src="/js/fireworks.js"></script>
+        
+
+        <!-- 背景雪花飘落特效jamin pipbest add 2021.09.10 -->
+        
+            <script type="text/javascript">
+            //只在桌面版网页启用特效
+            var windowWidth = $(window).width();
+            if (windowWidth > 768) {
+                document.write('<script type="text/javascript" src="/js/sakura.js"><\/script>');
+            }
+            </script>
+        
+
+        <!-- 鼠标点击文字特效 jamin pipbest add 2021.09.10-->
+        
+            <script src="/js/wenzi.js" type="text/javascript"></script>
+        
+
+        <!-- 背景雪花飘落特效 jamin pipbest add 2021.09.10 -->
+        
+            <script type="text/javascript">
+                var windowWidth = $(window).width();
+                if (windowWidth > 768) {
+                    document.write('<script type="text/javascript" src="/js/xuehuapiaoluo.js"><\/script>');
+                }
+            </script>
+        
+
+        <!-- 在线聊天工具  jamin pipbest add 2021.09.11 -->
+        
+            <script src="//code.tidio.co/otz1peoauctkwfnw78hswvhglbkxvof8.js"></script>
+            <!--  在线聊天位置自定义  jamin pipbest add 2021.09.13  -->
+            <script> 
+                $(document).ready(function () {
+
+                    setInterval(change_Tidio, 50);  
+                    function change_Tidio() { 
+
+                        var tidio=$("#tidio-chat iframe");
+                        if(tidio.css("display")=="block"&& $(window).width()>977 ){
+                            document.getElementById("tidio-chat-iframe").style.bottom= ($("div#backTop.top-scroll").css("display")=="none" &&$(window).width()>977)>0? "-40px" : ($("div.toc-title").length&&$(window).width()>977)>0?"80px":"20px";   
+                            document.getElementById("tidio-chat-iframe").style.right="-15px";   
+                            document.getElementById("tidio-chat-iframe").style.height=parseInt(tidio.css("height"))>=520?"520px":tidio.css("height");
+                            document.getElementById("tidio-chat-iframe").style.zIndex="997";
+                        } 
+                        else if(tidio.css("display")=="block"&&$(window).width()>601 &&$(window).width()<992 ){
+                            document.getElementById("tidio-chat-iframe").style.bottom= ($("div#backTop.top-scroll").css("display")=="none" && 601< $(window).width()<992)>0? "-40px":"20px" ;   
+                            document.getElementById("tidio-chat-iframe").style.right="-15px"; 
+                            document.getElementById("tidio-chat-iframe").style.zIndex="997";
+                        }
+                        else if(tidio.css("display")=="block"&&$(window).width()<601 && parseInt(tidio.css("height"))<230){
+                            document.getElementById("tidio-chat-iframe").style.bottom= ($("div#backTop.top-scroll").css("display")=="none" && $(window).width()<601)>0? "-10px":"45px" ;   
+                            document.getElementById("tidio-chat-iframe").style.zIndex="997";
+                        }
+
+                        if( tidio.css("display")=="block"&&$(window).width()<601 && parseInt(tidio.css("height"))>=230){
+                            document.getElementById("tidio-chat-iframe").style.zIndex="998";
+                        }
+                    } 
+                }); 
+            </script>
+        
+
+        <!-- 背景 canvas-nest  jamin shw 2018  add 2021.09.15-->
+        
+            <script type="text/javascript">
+            var windowWidth = $(window).width();
+            if (windowWidth > 992) {
+                document.write('<script type="text/javascript" color="0,0,255" pointColor="0,0,255" opacity= "0.8" zIndex="--1" count="150"src="/libs/background/canvas-nest.js"><\/script>');
+            }
+            </script>
+        
+
+        <!-- 背景静止彩带  jamin shw 2018  add 2021.09.15-->
+        
+
+        <!-- 背景动态彩带 jamin shw 2018  add 2021.09.15-->
+        
+            <script type="text/javascript">
+            var windowWidth = $(window).width();
+            if (windowWidth > 992) {
+                document.write('<script type="text/javascript" src="/libs/background/ribbon-dynamic.js"><\/script>');
+            }
+            </script>
+        
+
+    <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"left","width":150,"height":200},"mobile":{"show":false},"react":{"opacity":0.7}});</script><script>
+            window.imageLazyLoadSetting = {
+                isSPA: false,
+                preloadRatio: 1,
+                processImages: null,
+            };
+        </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(n){n.imageLazyLoadSetting.processImages=o;var e=n.imageLazyLoadSetting.isSPA,i=n.imageLazyLoadSetting.preloadRatio||1,r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function o(){e&&(r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")));for(var t,a=0;a<r.length;a++)0<=(t=(t=r[a]).getBoundingClientRect()).bottom&&0<=t.left&&t.top<=(n.innerHeight*i||document.documentElement.clientHeight*i)&&function(){var t,e,n,i,o=r[a];t=o,e=function(){r=r.filter(function(t){return o!==t})},n=new Image,i=t.getAttribute("data-original"),n.onload=function(){t.src=i,e&&e()},t.src!==i&&(n.src=i)}()}o(),n.addEventListener("scroll",function(){var t,e;t=o,e=n,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(e)},500)})}(this);</script></body>
+</html>
