@@ -6,16 +6,17 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Mac软件 一次购买 永久授权 土地大亨 买块土地 建造家园 医美药妆 开启逆龄 永葆青春 智能控制 一键开启 智慧生活 萌宠乐园 我的宝贝 快乐成长 低碳交易 绿色出行 健康生活">
+    <meta name="keywords" content="Nginx 运维, Mac软件 一次购买 永久授权 土地大亨 买块土地 建造家园 医美药妆 开启逆龄 永葆青春 智能控制 一键开启 智慧生活 萌宠乐园 我的宝贝 快乐成长 低碳交易 绿色出行 健康生活">
     <meta name="baidu-site-verification" content="fmlEuI34ir" />
     <meta name="google-site-verification" content="KeoTn_OFy4ndJwXNmm2gMeQfPhd7alqE9vQDwI32KCY" />
-    <meta name="description" content="Nginx 运维
-
-
+    <meta name="description" content="
+一、普通安装
 Windows 安装
 Linux 安装
 rpm 包方式（推荐）
 源码编译方式
+安装编译工具及库
+编译安装 Nginx
 
 
 Linux 开机自启动
@@ -23,12 +24,14 @@ rpm 包方式
 源码编译方式
 
 
-脚本
-参考资料
 
 
 
-一、普通安装Windows 安装（1）进入官方下载地址，">
+
+二、Docker 安装
+三、脚本
+
+">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -36,7 +39,7 @@ rpm 包方式
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>金点帝国</title>
+    <title>Nginx 运维 | 金点帝国</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -568,13 +571,13 @@ rpm 包方式
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/0.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/6.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        
+                        Nginx 运维
                     </div>
                 </div>
             </div>
@@ -684,12 +687,25 @@ rpm 包方式
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/Nginx-macOS-http-daemon-pid-web-sever-proxy/" target="_blank">
+                                <span class="chip bg-color">Nginx,macOS,http,daemon,pid,web,sever,proxy</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fa fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/Nginx/" class="post-category" target="_blank">
+                                Nginx
+                            </a>
+                        
+                    </div>
                     
                 </div>
             </div>
@@ -697,7 +713,7 @@ rpm 包方式
             <div class="post-info">
                 <div class="post-date info-break-policy">
                     <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-10-20
+                    2021-10-18
                 </div>
 
                 <div class="post-author info-break-policy">
@@ -711,7 +727,7 @@ rpm 包方式
                     
                     <div class="info-break-policy">
                         <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                        995
+                        979
                     </div>
                     
 
@@ -735,13 +751,14 @@ rpm 包方式
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="Nginx-运维"><a href="#Nginx-运维" class="headerlink" title="Nginx 运维"></a>Nginx 运维</h1><!-- TOC depthFrom:2 depthTo:3 -->
-
-<ul>
+                <ul>
+<li><a href="#%E4%B8%80%E6%99%AE%E9%80%9A%E5%AE%89%E8%A3%85">一、普通安装</a><ul>
 <li><a href="#windows-%E5%AE%89%E8%A3%85">Windows 安装</a></li>
 <li><a href="#linux-%E5%AE%89%E8%A3%85">Linux 安装</a><ul>
 <li><a href="#rpm-%E5%8C%85%E6%96%B9%E5%BC%8F%E6%8E%A8%E8%8D%90">rpm 包方式（推荐）</a></li>
-<li><a href="#%E6%BA%90%E7%A0%81%E7%BC%96%E8%AF%91%E6%96%B9%E5%BC%8F">源码编译方式</a></li>
+<li><a href="#%E6%BA%90%E7%A0%81%E7%BC%96%E8%AF%91%E6%96%B9%E5%BC%8F">源码编译方式</a><ul>
+<li><a href="#%E5%AE%89%E8%A3%85%E7%BC%96%E8%AF%91%E5%B7%A5%E5%85%B7%E5%8F%8A%E5%BA%93">安装编译工具及库</a></li>
+<li><a href="#%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85-nginx">编译安装 Nginx</a></li>
 </ul>
 </li>
 <li><a href="#linux-%E5%BC%80%E6%9C%BA%E8%87%AA%E5%90%AF%E5%8A%A8">Linux 开机自启动</a><ul>
@@ -749,8 +766,12 @@ rpm 包方式
 <li><a href="#%E6%BA%90%E7%A0%81%E7%BC%96%E8%AF%91%E6%96%B9%E5%BC%8F-1">源码编译方式</a></li>
 </ul>
 </li>
-<li><a href="#%E8%84%9A%E6%9C%AC">脚本</a></li>
-<li><a href="#%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99">参考资料</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#%E4%BA%8Cdocker-%E5%AE%89%E8%A3%85">二、Docker 安装</a></li>
+<li><a href="#%E4%B8%89%E8%84%9A%E6%9C%AC">三、脚本</a></li>
 </ul>
 <!-- /TOC -->
 
@@ -857,10 +878,6 @@ wget -qO- https://gitee.com/turnon/linux-tutorial/raw/master/codes/linux/soft/ng
 </ul>
 <pre class="line-numbers language-bash"><code class="language-bash">sh nginx-install.sh <span class="token punctuation">[</span>version<span class="token punctuation">]</span>
 <span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><ul>
-<li><a target="_blank" rel="noopener" href="http://www.dohooe.com/2016/03/03/352.html?utm_source=tuicool&amp;utm_medium=referral">http://www.dohooe.com/2016/03/03/352.html?utm_source=tuicool&amp;utm_medium=referral</a></li>
-<li><a target="_blank" rel="noopener" href="https://blog.51cto.com/kling/1253474">nginx+keepalived实现nginx双主高可用的负载均衡</a></li>
-</ul>
 
             </div>
             <hr/>
@@ -1011,7 +1028,7 @@ wget -qO- https://gitee.com/turnon/linux-tutorial/raw/master/codes/linux/soft/ng
                     </span>
                     <a href="https://www.pipbest.com" class="b-link-green">金点帝国</a>
                     <i class="fa fa-angle-right fa-lg fa-fw text-color"></i>
-                    <a href="/2021/10/20/handbook/nginx/nginx-ops/" class="b-link-green"></a>
+                    <a href="/2021/10/18/handbook/nginx/nginx-ops/" class="b-link-green">Nginx 运维</a>
                 </p>
             </div>
 
@@ -1335,30 +1352,47 @@ wget -qO- https://gitee.com/turnon/linux-tutorial/raw/master/codes/linux/soft/ng
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/10/20/handbook/nginx/nginx-faq/">
+                <a href="/2021/10/18/handbook/nginx/nginx-introduction/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="">
+                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Nginx 特性">
                         
-                        <span class="card-title"></span>
+                        <span class="card-title">Nginx 特性</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Nginx 问题集Nginx 出现大量 TIME_WAIT检测TIME_WAIT状态的语句$ netstat -n | awk '/^tcp/ {++S[$NF]} END {for(a in S) print a, S[a]}'  
-SY
+                            Ngnix 优点
+模块化设计：良好的扩展性，可以通过模块方式进行功能扩展。
+高可靠性：主控进程和 worker 是同步实现的，一个 worker 出现问题，会立刻启动另一个 worker。
+内存消耗低：一万个长连接（keep-alive）,
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="fa fa-clock-o fa-fw icon-date"></i>2021-10-20
+                            <i class="fa fa-clock-o fa-fw icon-date"></i>2021-10-18
                         </span>
                         <span class="publish-author">
                             
+                            <i class="fa fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Nginx/" class="post-category" target="_blank">
+                                    Nginx
+                                </a>
+                            
+                            
                         </span>
                     </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Nginx-macOS-http-daemon-pid-web-sever-proxy/" target="_blank">
+                        <span class="chip bg-color">Nginx,macOS,http,daemon,pid,web,sever,proxy</span>
+                    </a>
+                    
                 </div>
                 
             </div>
@@ -1370,32 +1404,48 @@ SY
                 下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/10/20/handbook/nginx/nginx-introduction/">
+                <a href="/2021/10/18/handbook/nginx/nginx-quickstart/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="">
+                        <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="Nginx 快速入门">
                         
-                        <span class="card-title"></span>
+                        <span class="card-title">Nginx 快速入门</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Nginx 简介Ngnix 特点
-模块化设计：良好的扩展性，可以通过模块方式进行功能扩展。
-高可靠性：主控进程和 worker 是同步实现的，一个 worker 出现问题，会立刻启动另一个 worker。
-内存消耗低：一万个长连接（keep
+                            
+本文是一个 Nginx 入门教程，目的在于帮助新手快速入门 Nginx。
+
+一、Nginx 简介什么是 Nginx?
+Nginx (engine x) 是一款轻量级的 Web 服务器 、反向代理服务器及电子邮件（IMAP/POP3）代理服
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2021-10-20
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2021-10-18
                             </span>
                         <span class="publish-author">
                             
+                            <i class="fa fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Nginx/" class="post-category" target="_blank">
+                                    Nginx
+                                </a>
+                            
+                            
                         </span>
                     </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Nginx-macOS-http-daemon-pid-web-sever-proxy/" target="_blank">
+                        <span class="chip bg-color">Nginx,macOS,http,daemon,pid,web,sever,proxy</span>
+                    </a>
+                    
                 </div>
                 
             </div>
@@ -1811,11 +1861,11 @@ $(function () {
             </script>
         
 
-    <script>
+    <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"left","width":150,"height":200},"mobile":{"show":false},"react":{"opacity":0.7}});</script><script>
             window.imageLazyLoadSetting = {
                 isSPA: false,
                 preloadRatio: 1,
                 processImages: null,
             };
-        </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(n){n.imageLazyLoadSetting.processImages=o;var e=n.imageLazyLoadSetting.isSPA,i=n.imageLazyLoadSetting.preloadRatio||1,r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function o(){e&&(r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")));for(var t,a=0;a<r.length;a++)0<=(t=(t=r[a]).getBoundingClientRect()).bottom&&0<=t.left&&t.top<=(n.innerHeight*i||document.documentElement.clientHeight*i)&&function(){var t,e,n,i,o=r[a];t=o,e=function(){r=r.filter(function(t){return o!==t})},n=new Image,i=t.getAttribute("data-original"),n.onload=function(){t.src=i,e&&e()},t.src!==i&&(n.src=i)}()}o(),n.addEventListener("scroll",function(){var t,e;t=o,e=n,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(e)},500)})}(this);</script><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"left","width":150,"height":200},"mobile":{"show":false},"react":{"opacity":0.7}});</script></body>
+        </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(n){n.imageLazyLoadSetting.processImages=o;var e=n.imageLazyLoadSetting.isSPA,i=n.imageLazyLoadSetting.preloadRatio||1,r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function o(){e&&(r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")));for(var t,a=0;a<r.length;a++)0<=(t=(t=r[a]).getBoundingClientRect()).bottom&&0<=t.left&&t.top<=(n.innerHeight*i||document.documentElement.clientHeight*i)&&function(){var t,e,n,i,o=r[a];t=o,e=function(){r=r.filter(function(t){return o!==t})},n=new Image,i=t.getAttribute("data-original"),n.onload=function(){t.src=i,e&&e()},t.src!==i&&(n.src=i)}()}o(),n.addEventListener("scroll",function(){var t,e;t=o,e=n,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(e)},500)})}(this);</script></body>
 </html>
