@@ -670,12 +670,12 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/Nginx/" target="_blank">
-                                <span class="chip bg-color">Nginx</span>
-                            </a>
-                        
                             <a href="/tags/macOS/" target="_blank">
                                 <span class="chip bg-color">macOS</span>
+                            </a>
+                        
+                            <a href="/tags/Nginx/" target="_blank">
+                                <span class="chip bg-color">Nginx</span>
                             </a>
                         
                             <a href="/tags/http/" target="_blank">
@@ -823,7 +823,7 @@
 <p>分布式系统中，应用只部署一台服务器会存在单点故障，负载均衡同样有类似的问题。一般可采用主备或负载均衡设备集群的方式节约单点故障或高并发请求分流。</p>
 <p>Ngnix 高可用，至少包含两个 Ngnix 服务器，一台主服务器，一台备服务器，之间使用 Keepalived 做健康监控和故障检测。开放 VIP 端口，通过防火墙进行外部映射。</p>
 <p>DNS 解析公网的 IP 实际为 VIP。</p>
-
+<script type="text&#x2F;javascript" src="https://cdn.jsdelivr.net/npm/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://cdn.jsdelivr.net/npm/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://cdn.jsdelivr.net/npm/hexo-simple-mindmap@0.7.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://cdn.jsdelivr.net/npm/hexo-simple-mindmap@0.7.0/dist/mindmap.min.css">
             </div>
             <hr/>
 
@@ -973,7 +973,7 @@
                     </span>
                     <a href="https://www.pipbest.com" class="b-link-green">金点帝国</a>
                     <i class="fa fa-angle-right fa-lg fa-fw text-color"></i>
-                    <a href="/2021/10/18/handbook/nginx/nginx-introduction/" class="b-link-green">Nginx 特性</a>
+                    <a href="/2021/10/18/handbook/web/nginx/nginx-introduction/" class="b-link-green">Nginx 特性</a>
                 </p>
             </div>
 
@@ -1297,20 +1297,23 @@
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/10/18/awesome/mac-ping-guo-mian-fei-zi-yuan-da-quan/">
+                <a href="/2021/10/18/handbook/web/nginx/nginx-quickstart/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="macOS苹果免费资源大全">
+                        <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="Nginx 快速入门">
                         
-                        <span class="card-title">macOS苹果免费资源大全</span>
+                        <span class="card-title">Nginx 快速入门</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Mac苹果免费资源大全 现在我们变得非常大，与最初的想法不同，如今我们需要收集各种类别非常好用的 Mac 应用程序、软件以及工具。我需要它们帮助我高效的工作，同时也分享给你。
-开发者工具编辑器一种用于编辑纯文本文件的程序，建议使用免费开源
+                            
+本文是一个 Nginx 入门教程，目的在于帮助新手快速入门 Nginx。
+
+一、Nginx 简介什么是 Nginx?
+Nginx (engine x) 是一款轻量级的 Web 服务器 、反向代理服务器及电子邮件（IMAP/POP3）代理服
                         
                     </div>
                     <div class="publish-info">
@@ -1321,8 +1324,8 @@
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E5%90%88%E9%9B%86%E5%88%86%E4%BA%AB/" class="post-category" target="_blank">
-                                    合集分享
+                            <a href="/categories/Nginx/" class="post-category" target="_blank">
+                                    Nginx
                                 </a>
                             
                             
@@ -1336,16 +1339,32 @@
                         <span class="chip bg-color">macOS</span>
                     </a>
                     
-                    <a href="/tags/%E8%BD%AF%E4%BB%B6/" target="_blank">
-                        <span class="chip bg-color">软件</span>
+                    <a href="/tags/Nginx/" target="_blank">
+                        <span class="chip bg-color">Nginx</span>
                     </a>
                     
-                    <a href="/tags/%E5%BC%80%E6%BA%90/" target="_blank">
-                        <span class="chip bg-color">开源</span>
+                    <a href="/tags/http/" target="_blank">
+                        <span class="chip bg-color">http</span>
                     </a>
                     
-                    <a href="/tags/%E5%85%8D%E8%B4%B9/" target="_blank">
-                        <span class="chip bg-color">免费</span>
+                    <a href="/tags/daemon/" target="_blank">
+                        <span class="chip bg-color">daemon</span>
+                    </a>
+                    
+                    <a href="/tags/pid/" target="_blank">
+                        <span class="chip bg-color">pid</span>
+                    </a>
+                    
+                    <a href="/tags/web/" target="_blank">
+                        <span class="chip bg-color">web</span>
+                    </a>
+                    
+                    <a href="/tags/sever/" target="_blank">
+                        <span class="chip bg-color">sever</span>
+                    </a>
+                    
+                    <a href="/tags/proxy/" target="_blank">
+                        <span class="chip bg-color">proxy</span>
                     </a>
                     
                 </div>
@@ -1359,41 +1378,26 @@
                 下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/10/18/handbook/nginx/nginx-ops/">
+                <a href="/2021/10/18/handbook/web/nginx/nginx-configuration/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="Nginx 运维">
+                        <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="Nginx 配置">
                         
-                        <span class="card-title">Nginx 运维</span>
+                        <span class="card-title">Nginx 配置</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
                             
-一、普通安装
-Windows 安装
-Linux 安装
-rpm 包方式（推荐）
-源码编译方式
-安装编译工具及库
-编译安装 Nginx
+Nginx 的默认配置文件为 nginx.conf。
+
+nginx -c xxx.conf - 以指定的文件作为配置文件，启动 Nginx。
 
 
-Linux 开机自启动
-rpm 包方式
-源码编译方式
-
-
-
-
-
-
-二、Docker 安装
-三、脚本
-
-
+配置文件实例以下为一个 nginx.conf 配置文件实例：
+#定义 nginx 运行的用户
                         
                     </div>
                     <div class="publish-info">
@@ -1415,12 +1419,12 @@ rpm 包方式
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Nginx/" target="_blank">
-                        <span class="chip bg-color">Nginx</span>
-                    </a>
-                    
                     <a href="/tags/macOS/" target="_blank">
                         <span class="chip bg-color">macOS</span>
+                    </a>
+                    
+                    <a href="/tags/Nginx/" target="_blank">
+                        <span class="chip bg-color">Nginx</span>
                     </a>
                     
                     <a href="/tags/http/" target="_blank">
@@ -1619,7 +1623,7 @@ rpm 包方式
 
             
                 &nbsp; | &nbsp;字数统计:&nbsp;
-                <span class="white-color">64k</span> 字
+                <span class="white-color">82.6k</span> 字
             
 
             
@@ -1772,10 +1776,6 @@ $(function () {
         </script>
 
         <!-- 鼠标点击烟花爆炸效果  jamin pipbest add 2021.09.09 -->
-        
-            <canvas class="fireworks" style="position: fixed; left: 0; top: 0; z-index: 1; pointer-events: none;"></canvas>
-            <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script>
-            <script type="text/javascript" src="/js/fireworks.js"></script>
         
 
         <!-- 背景雪花飘落特效jamin pipbest add 2021.09.10 -->

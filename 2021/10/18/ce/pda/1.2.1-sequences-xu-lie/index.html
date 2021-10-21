@@ -734,7 +734,7 @@
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <h1 id="1-2-1-Sequences-序列"><a href="#1-2-1-Sequences-序列" class="headerlink" title="1.2.1:Sequences 序列"></a>1.2.1:Sequences 序列</h1><p>在Python中，序列是按位置排序的对象集合。<br>In Python, a sequence is a collection of objects ordered by their position.<br>在Python中，有三个基本序列，即列表、元组和所谓的“范围对象”。<br>In Python, there are three basic sequences,which are lists, tuples, and so-called “range objects”.<br>但是Python也有额外的序列类型来表示字符串之类的东西。<br>But Python also has additional sequence types for representing things like strings.<br>关于序列的关键方面是，任何序列数据类型都将支持公共序列操作。<br>The crucial aspect about sequences is that any sequence data type will support the common sequence operations.<br>但是，除此之外，这些不同的类型将有自己的方法可用于执行特定的操作。<br>But, in addition, these different types will have their own methods available for performing specific operations.<br>序列被称为“序列”，因为它们包含的对象形成了一个序列。<br>Sequences are called “sequences” because the objects that they contain form a sequence.<br>让我们以图表的形式来看。<br>So let’s look at this as a diagram.<br>假设这是我们的序列，在这个例子中，序列中有一些不同的对象——三角形、正方形和圆形。<br>Imagine that this is our sequence, and we have a few different objects in our sequence here– triangles, squares,and circles, in this example.<br>要理解序列的第一个基本方面是索引从0开始。<br>The first, fundamental aspect to understand about sequences is that indexing starts at 0.<br>因此，如果我们称这个序列为“s”，我们将通过键入“s”来访问序列中的第一个元素，并在括号中放入它的位置，即0。<br>So if we call this sequence “s”, we would access the first element in our sequence by typing “s” and, in brackets, putting its location, which is 0.<br>这个位于第二个位置的对象将作为s[1]进行寻址和访问，依此类推。<br>This object here in the second position would be addressed and accessed as s[1], and so on.<br>这将是s2，3和4。<br>This would be s 2, 3, and 4.<br>访问序列中对象的另一种方法不是从左向右计数，而是从右向左计数。<br>Another way to access objects within the sequence is not to count from left to right, but from right to left.<br>所以我们可以通过给出一个正的索引来访问序列，这是从左到右计数一个位置，或者我们可以使用一个负的索引，这是从右到左计数位置。<br>So we can access sequences either by giving a positive index, which is counting a location from the left to right,or we can use a negative index, which is counting positions from right to left.<br>在这种情况下，我们必须对序列中的最后一个对象使用负1。<br>In that case, we have to use the negative 1 for the very last object in our sequence.<br>相应地，负2对应于倒数第二个对象，依此类推。<br>Correspondingly, minus 2 would correspond to the second to last object, and so on.<br>序列还支持称为“切片”的操作<br>Sequences also support an operation called “slicing.”<br>现在让我们来看一看。<br>So let’s take a look at that now.<br>如果我们再次拥有序列“s”。要访问特定的单元、特定的对象，我们只需要使用位置——例如，在本例中为2。<br>If we, again, have our sequence “s”. To access a specific unit, specific object, we would just use the location– for example, 2, in this case.<br>但是，如果我们想提取序列中的多个对象，我们可以执行以下操作。<br>However, if we wanted to extract multiple objects in the sequence,we can do the following.<br>我们可以说s括号，比如说，0，2。<br>We can say s bracket, say, 0, 2.<br>这是第一个索引，第一个位置是起始位置，第二个位置是停止位置。<br>This first index, the first position is the start position,and the second position here is to stop position.<br>Python切片在Python到达停止位置的元素之前停止。<br>Python slices stop before Python reaches the element at the stop location.<br>这意味着，如果键入“s”，并在括号中键入“0 column 2”，Python将返回一个包含位置0和1中的对象的切片，但不会返回位置2处的对象。<br>This means that if you type “s”, and, in brackets, “0 column 2”,Python is going to return a slice to which consists of the objects in locations 0 and 1,but it will not return to you the object at location 2.</p>
-
+<script type="text&#x2F;javascript" src="https://cdn.jsdelivr.net/npm/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://cdn.jsdelivr.net/npm/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://cdn.jsdelivr.net/npm/hexo-simple-mindmap@0.7.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://cdn.jsdelivr.net/npm/hexo-simple-mindmap@0.7.0/dist/mindmap.min.css">
             </div>
             <hr/>
 
@@ -1208,19 +1208,19 @@
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/10/18/ce/pda/1.1.5-random-choice-sui-ji-xuan-ze/">
+                <a href="/2021/10/18/ce/pda/1.1.6-expressions-and-booleans/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/11.jpg" class="responsive-img" alt="Random Choice 随机选择">
+                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="Expressions and Booleans 表达式和布尔值">
                         
-                        <span class="card-title">Random Choice 随机选择</span>
+                        <span class="card-title">Expressions and Booleans 表达式和布尔值</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            1.1.5: Random Choice 随机选择通常，当我们使用数字时，偶尔也会使用其他类型的对象，我们希望使用某种类型的随机性。Often when we’re using numbers, but also,occasionally,
+                            1.1.6: Expressions and Booleans 表达式和布尔值表达式是计算值的对象和运算符的组合。Expression is a combination of objects and operators that compu
                         
                     </div>
                     <div class="publish-info">
@@ -1475,7 +1475,7 @@
 
             
                 &nbsp; | &nbsp;字数统计:&nbsp;
-                <span class="white-color">64k</span> 字
+                <span class="white-color">82.6k</span> 字
             
 
             
@@ -1628,10 +1628,6 @@ $(function () {
         </script>
 
         <!-- 鼠标点击烟花爆炸效果  jamin pipbest add 2021.09.09 -->
-        
-            <canvas class="fireworks" style="position: fixed; left: 0; top: 0; z-index: 1; pointer-events: none;"></canvas>
-            <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script>
-            <script type="text/javascript" src="/js/fireworks.js"></script>
         
 
         <!-- 背景雪花飘落特效jamin pipbest add 2021.09.10 -->

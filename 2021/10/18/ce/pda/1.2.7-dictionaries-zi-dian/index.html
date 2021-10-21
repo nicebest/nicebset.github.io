@@ -734,7 +734,7 @@
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <h1 id="1-2-7-Dictionaries-字典"><a href="#1-2-7-Dictionaries-字典" class="headerlink" title="1.2.7: Dictionaries 字典"></a>1.2.7: Dictionaries 字典</h1><p>字典是从键对象到值对象的映射。<br>Dictionaries are mappings from key objects to value objects.<br>字典由键：值对组成，其中键必须是不可变的，值可以是任何值。<br>Dictionaries consists of Key:Value pairs, where the keys must be immutable and the values can be anything.<br>词典本身是可变的，因此这意味着一旦创建词典，就可以动态修改其内容。<br>Dictionaries themselves are mutable so this means once you create your dictionary, you can modify its contents on the fly.<br>字典可用于对无序数据执行非常快速的查找。<br>Dictionaries can be used for performing very fast look-ups on unordered data.<br>关于词典，需要注意的一个关键方面是它们不是序列，因此不保持任何类型的左右顺序。<br>A key aspect to be aware about regarding dictionaries is that they are not sequences, and therefore do not maintain any type of left-right order.<br>这意味着，如果在字典上循环，Key:Value对将以任意顺序迭代。<br>This means that if you’re looping over a dictionary,the Key:Value pairs will be iterated over in arbitrary order.<br>让我们看一个图表来阐明这个观点。<br>Let’s look at a diagram to clarify this idea.<br>我们将建立一个简单的字典，其中有与value对象关联的第一个键。<br>We’re going to set up a simple dictionary where we have our first key that’s associated with a value object.<br>我们有第二把钥匙，和另一个物体在一起。<br>We have our second key that goes with another object.<br>假设我们这里有第四个键，它和相应的值对象一起。<br>And let’s say we have key number four here which goes with the corresponding value object.<br>如果这是一个字典，那么这个键对象将始终与这个值对象相关联。<br>If this is a dictionary, this key object will always be associated with this value object.<br>类似地，此键将始终与此值对象一起使用。<br>Similarly, this key will always go with this value object.<br>当我们说字典不维护任何类型的左或右顺序时，我们所说的是这些键值对本身的顺序没有定义。<br>When we say that dictionaries don’t maintain any type of left or right order, what we’re saying is that the ordering of these key-value pairs themselves is not defined.<br>这意味着如果我在这些对上循环，我可能首先得到对应于我的第二个密钥的对。<br>That means if I’m looping over these pairs,I might first get the pair that corresponds to my second key here.<br>然后让我们看看字典的一些用法。<br>Let’s then look at some uses of dictionaries.<br>我想编一本叫做《年龄》的字典。<br>I would like to set up a dictionary which is called age.<br>如果我希望这是一个空字典，我有两种方法来构造它。<br>And if I want this to be an empty dictionary,I have two ways to construct that.<br>第一种方法是只使用一对花括号，这会给我一个字典年龄，在构建时它是空的。<br>The first approach is just to use a pair of curly braces,and this would give me a dictionary age which would be empty at the time of construction.<br>另一种可能是键入“age=dict”，这是一个关键字，用左括号和右括号括起来。<br>Another possibility is to type “age = dict”,which is a key word, open and close parentheses.<br>我又一次创建了一本空字典。<br>And again I have created an empty dictionary.<br>然后，让我们构建一个包含姓名和年龄的词典。<br>Let’s then construct a dictionary that consists of names and ages.<br>在这个特定的字典中，名称将成为键，年龄将成为值对象。<br>In this particular dictionary, the names are going to be the keys and the ages are going to be the value objects.<br>想象一下，我们要做的第一项任务是查找一个人的年龄。<br>Imagine the first task we’d like to do is look up a person’s age.<br>我们使用以下语法来实现这一点。<br>We do this using the following syntax.<br>我们首先键入词典的名称。<br>We first type the name of the dictionary.<br>然后用方括号表示。<br>We then follow with the square brackets.<br>在方括号内，插入我们感兴趣查找的键。<br>Inside the square brackets, we insert the key we’re interested in looking up.<br>比如说，在这种情况下，我们想知道Pam多大了？<br>Let’s say, in this case, we’d like to know, how old is Pam?<br>所以我们在方括号内输入“Pam”。<br>So we’d enter “Pam” inside the square brackets.<br>Python将结果返回给我们。<br>And Python returns the result to us.<br>通常，我们希望修改与特定键关联的值对象。<br>Often, we’d like to modify the value objects that are associated with specific keys.<br>假设我们想把Tim的年龄提高一年。<br>Let’s say we would like to increase the age of Tim by one year.<br>我们可以这样做。<br>Here is how we could do this.<br>我们先拿我们的年龄字典。<br>We first take our age dictionary.<br>我们想修改提姆。<br>We’d like to modify Tim.<br>假设我们想把他的年龄提高一岁。<br>And let’s say we want to increase his age by one year.<br>我们可以使用以下语法。<br>We could use the following kind of syntax.<br>我们可以说Tim的年龄等于Tim的年龄加1。<br>We could say age of Tim is equal to age of Tim plus 1.<br>这当然有效。<br>And this certainly works.<br>然而，将一个对象的值增加一个或其他数字是一种非常常见的操作。<br>However incrementing the value of an object by one, or by some other number,is a very common operation.<br>在Python中有一个非常方便的简写符号。<br>And there’s a very handy shorthand notation for doing that in Python.<br>让我们以Tim的年龄为例，假设我们想将其增加一年，我们可以做以下事情：我们只需输入“+=1”。<br>So let’s take the age of Tim,and say we would like to increase that by one year,we can do the following:We can just type “+= 1”.<br>如果我们检查Tim的年龄会发生什么，我们会再次将Tim年龄增加一年。<br>And what happens if we check the age of Tim,we will have increased Tim age again by one year.<br>让我们确保我们理解当我们说加号等于时会发生什么。<br>Let’s make sure we understand what happens when we say plus equals.<br>当您从左向右读取代码时，加号操作首先发生。<br>When you’re reading code from left to right,the plus operation happens first.<br>然后我们有了等号，这意味着赋值。<br>Then we have the equal sign, which means assignment.<br>例如，当我们说某物加上等于1时，我们首先获取对象的值，我们向该对象添加一个值，然后将其重新分配回原始对象。<br>So when we say something plus equals 1, for example, we first take the value of the object, we add one to that object,and then we reassign it back to the original object.<br>一个常见的错误是有时混淆了这两个操作的顺序。<br>A common mistake is sometimes to mix up the order of these two operations.<br>想想如果你说x等于+1会发生什么。<br>Think about what happens if you say x equals plus 1.<br>您没有将x的值增加1。<br>You’re not incrementing the value of x by 1.<br>相反，你是说x应该被赋值为+1，这和x等于1是一样的。<br>Instead, you’re saying that x should be assigned the value of plus 1, which is just the same thing as saying x is equal to 1.<br>如果希望将变量的值递增1，请先递增，然后赋值。<br>If you wish to increment the value of a variable by 1,you first do it the incrementation and then the assignment.<br>这就是为什么这两个运算的顺序是加号然后等于。<br>That’s why the order of these two operations is plus and then equals.<br>您可以使用dictionary方法键来找出dictionary中的所有键。<br>You can use the dictionary method keys to find out what are all the keys in the dictionary.<br>同样，您可以使用values方法找出字典中的所有值。<br>And similarly, you can use the values method to find out what are all of the values in the dictionary.<br>当您调用这些方法时，Python将返回一个具有非常特殊类型的对象。<br>When you call these methods, Python returns to you an object which has a very special type.<br>返回对象的类型称为“视图对象”。<br>The type of the returned object is what’s called a “view object”.<br>视图对象所做的正是您所想象的。<br>View objects do precisely what you might imagine that they do.<br>它们提供字典中键或值的动态视图。<br>They provide a dynamic view of the keys or values in the dictionary.<br>这里的一个关键点是，当您更新或修改字典时，视图也会相应地改变。<br>A key point here is that as you update or modify your dictionary,the views will also change correspondingly.<br>现在让我们使用刚才定义的字典。<br>Let’s now work with the dictionary that we just defined.<br>我们将首先提取字典中的所有名称。<br>We’re going to first extract all of the names in the dictionary.<br>所以我会说“names=age.keys”。<br>So I’ll do that by saying “names = age.keys”.<br>现在让我们检查一下对象名的类型。<br>Now let’s just check the type of the object names.<br>Python确认这是一个dictionary keys对象。<br>And Python confirms that this is a dictionary keys object.<br>假设我想在我的字典中添加一个新键。<br>Let’s say I would like to add a new key to my dictionary.<br>我们再加上一个叫汤姆的人，他在我们的字典里已经50岁了。<br>Let’s add a person called Tom who is 50 in our dictionary.<br>所以我们说年龄[“Tom”]，然后将值对象50赋给该键。<br>So we say age[“Tom”] and we assign the value object 50 to that key.<br>如果我们现在问，名称是什么，您将看到view对象也包含Tom。<br>If we now ask, what are the names, you’ll see that the view object also contains Tom.<br>我们没有重新定义名称的内容，这就是视图对象的本质。<br>We didn’t redefine the content of names,and this is the nature of view object.<br>当我们修改字典时，视图对象的内容将自动更改。<br>As we modify the dictionary, the content of the view object will change automatically.<br>让我们看看values方法。<br>Let’s look at the values method.<br>因此，如果我们说age.values，Python将返回字典中的所有值。<br>So if we say age.values, Python returns to us all of the values in the dictionary.<br>我将称之为年龄，我们可以看看这个物体。<br>I’m going to call this ages,and we can look at that object.<br>所以在这个例子中，我们有一个，两个，三个，四个，五个不同的年龄段在字典里。<br>So in this case, we have one, two, three, four,five different ages contained in the dictionary.<br>我打算在字典里再加一个人。<br>I’m going to add one more person to the dictionary.<br>我们给那个人打电话叫尼克，尼克31岁了。<br>Let’s call that person Nick,and let’s say Nick is 31 years old.<br>如果我现在问Python，名称是什么，您将看到名称Nick也包含在names对象中。<br>If I now ask Python, what are the names, you’ll see that the name Nick is also contained in the names object.<br>这就是视图对象的本质——它们的内容在您修改字典时动态更新。<br>This is the nature of views objects–their content is dynamically updated as you modify your dictionary.<br>最后，让我们看看如何测试字典中的成员资格。<br>Finally, let’s see how we’ll test for membership in a dictionary.<br>我们知道我们的字典里有一个关键的汤姆。<br>We know that we have a key Tom in our dictionary.<br>如果我想问汤姆是否是我们字典的一员，如果汤姆是我们字典里的一把钥匙，我可以问“汤姆”的年龄？<br>If I want to ask if Tom is a member of our dictionary,if Tom is a key in our dictionary, I can ask, “Tom” in age?<br>答案是“真的”。<br>And the answer is going to be “True”.<br>如果我问，“佐菲亚”在我们的字典里吗？<br>If I ask, is “Zofia” in our dictionary?<br>Python会说“False”。<br>Python is going to say “False”.<br>这就是我们在字典中测试对象成员身份的方法。<br>This is how we test for object membership in a dictionary.</p>
-
+<script type="text&#x2F;javascript" src="https://cdn.jsdelivr.net/npm/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://cdn.jsdelivr.net/npm/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://cdn.jsdelivr.net/npm/hexo-simple-mindmap@0.7.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://cdn.jsdelivr.net/npm/hexo-simple-mindmap@0.7.0/dist/mindmap.min.css">
             </div>
             <hr/>
 
@@ -1258,22 +1258,24 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="fa fa-dot-circle-o"></i>
+                下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/10/18/ce/pda/1.2.7-dictionaries-zi-dian/">
+                <a href="/2021/10/18/handbook/web/nginx/nginx-faq/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/11.jpg" class="responsive-img" alt="Dictionaries 字典">
+                        <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="Nginx 问题集">
                         
-                        <span class="card-title">Dictionaries 字典</span>
+                        <span class="card-title">Nginx 问题集</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            1.2.7: Dictionaries 字典字典是从键对象到值对象的映射。Dictionaries are mappings from key objects to value objects.字典由键：值对组成，其中键必须是不可变的，值可
+                            Nginx 出现大量 TIME_WAIT检测TIME_WAIT状态的语句$ netstat -n | awk '/^tcp/ {++S[$NF]} END {for(a in S) print a, S[a]}'  
+SYN_RECV 7
+
                         
                     </div>
                     <div class="publish-info">
@@ -1284,24 +1286,47 @@
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Python%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%EF%BC%88%E4%B8%AD%E8%8B%B1%E5%AF%B9%E7%85%A7%EF%BC%89/" class="post-category" target="_blank">
-                                    Python数据分析（中英对照）
+                            <a href="/categories/Nginx/" class="post-category" target="_blank">
+                                    Nginx
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Python/" target="_blank">
-                        <span class="chip bg-color">Python</span>
+                    <a href="/tags/macOS/" target="_blank">
+                        <span class="chip bg-color">macOS</span>
                     </a>
                     
-                    <a href="/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/" target="_blank">
-                        <span class="chip bg-color">数据分析</span>
+                    <a href="/tags/Nginx/" target="_blank">
+                        <span class="chip bg-color">Nginx</span>
+                    </a>
+                    
+                    <a href="/tags/http/" target="_blank">
+                        <span class="chip bg-color">http</span>
+                    </a>
+                    
+                    <a href="/tags/daemon/" target="_blank">
+                        <span class="chip bg-color">daemon</span>
+                    </a>
+                    
+                    <a href="/tags/pid/" target="_blank">
+                        <span class="chip bg-color">pid</span>
+                    </a>
+                    
+                    <a href="/tags/web/" target="_blank">
+                        <span class="chip bg-color">web</span>
+                    </a>
+                    
+                    <a href="/tags/sever/" target="_blank">
+                        <span class="chip bg-color">sever</span>
+                    </a>
+                    
+                    <a href="/tags/proxy/" target="_blank">
+                        <span class="chip bg-color">proxy</span>
                     </a>
                     
                 </div>
@@ -1476,7 +1501,7 @@
 
             
                 &nbsp; | &nbsp;字数统计:&nbsp;
-                <span class="white-color">64k</span> 字
+                <span class="white-color">82.6k</span> 字
             
 
             
@@ -1629,10 +1654,6 @@ $(function () {
         </script>
 
         <!-- 鼠标点击烟花爆炸效果  jamin pipbest add 2021.09.09 -->
-        
-            <canvas class="fireworks" style="position: fixed; left: 0; top: 0; z-index: 1; pointer-events: none;"></canvas>
-            <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script>
-            <script type="text/javascript" src="/js/fireworks.js"></script>
         
 
         <!-- 背景雪花飘落特效jamin pipbest add 2021.09.10 -->

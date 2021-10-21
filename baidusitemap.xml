@@ -1,27 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/web/git/git/</loc>
+    <lastmod>2021-10-21</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/web/nginx/nginx-quickstart/</loc>
+    <lastmod>2021-10-21</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/web/nginx/nginx-ops/</loc>
+    <lastmod>2021-10-21</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/web/regex/regex/</loc>
+    <lastmod>2021-10-21</lastmod>
+  </url>
+  <url>
     <loc>https://www.pipbest.com/2021/10/18/awesome/mac-ping-guo-mian-fei-zi-yuan-da-quan/</loc>
     <lastmod>2021-10-20</lastmod>
   </url>
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/nginx/nginx-configuration/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/web/nginx/nginx-configuration/</loc>
     <lastmod>2021-10-20</lastmod>
   </url>
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/nginx/nginx-introduction/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/web/nginx/nginx-introduction/</loc>
     <lastmod>2021-10-20</lastmod>
   </url>
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/nginx/nginx-quickstart/</loc>
-    <lastmod>2021-10-20</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/nginx/nginx-faq/</loc>
-    <lastmod>2021-10-20</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/nginx/nginx-ops/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/web/nginx/nginx-faq/</loc>
     <lastmod>2021-10-20</lastmod>
   </url>
   <url>
@@ -53,15 +61,15 @@
     <lastmod>2021-10-20</lastmod>
   </url>
   <url>
+    <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.1.6-expressions-and-booleans/</loc>
+    <lastmod>2021-10-20</lastmod>
+  </url>
+  <url>
     <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.2.1-sequences-xu-lie/</loc>
     <lastmod>2021-10-20</lastmod>
   </url>
   <url>
     <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.2.2-lists-lie-biao/</loc>
-    <lastmod>2021-10-20</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.1.6-expressions-and-booleans/</loc>
     <lastmod>2021-10-20</lastmod>
   </url>
   <url>

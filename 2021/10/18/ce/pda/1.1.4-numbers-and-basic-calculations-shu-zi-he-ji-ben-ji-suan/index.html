@@ -734,7 +734,7 @@
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <h1 id="1-1-4-Numbers-and-Basic-Calculations-数字和基本计算"><a href="#1-1-4-Numbers-and-Basic-Calculations-数字和基本计算" class="headerlink" title="1.1.4: Numbers and Basic Calculations 数字和基本计算"></a>1.1.4: Numbers and Basic Calculations 数字和基本计算</h1><p>数字是Python中的一种对象类型。<br>Numbers are one type of object in Python.<br>实际上，Python提供了三种不同的数值类型。<br>And Python, in fact, provides three different numeric types.<br>这些称为整数、浮点数和复数。<br>These are called integers, floating point numbers, and complex numbers.<br>Python整数的一个有趣之处是它们具有无限的精度。<br>One of the interesting things about Python integers is that they have unlimited precision.<br>这意味着您的整数永远不会太长，无法适应Python的整数类型。<br>That means your integer will never be too long to fit into Python’s integer type.<br>关于数字另一个需要了解的重要方面是，您可以自由混合不同的数字类型。<br>Another important aspect to realize about numbers is that you can freely mix different numeric types.<br>所有Python数字都支持所有常用的算术运算。<br>All Python numbers support all the usual arithmetic operations.<br>现在让我们试试其中的一些。<br>And let’s try a few of them out right now.<br>当然，像加法和乘法这样的基础知识很简单。<br>The basics, like addition and multiplication are, of course, easy.<br>我们也可以把一个数提高到一个幂。<br>We can also raise a number to a power.<br>你会看到，如果我们稍微增加一点指数，结果将是一个非常大的数字，但这不会是一个问题。<br>And you’ll see that if we increase the exponent a little bit,the result is going to be a very large number,but that’s not going to be a problem.<br>同样，Python对整数具有无限精度。<br>Again, Python has unlimited precision for integers.<br>让我们试试除法。<br>Let’s try out division.<br>除法是用斜杠来完成的。<br>Division is accomplished using the slash.<br>例如，如果我们说6除以7，Python会给出浮点答案。<br>So for example, if we say 6 divided by 7,Python gives us the floating point answer.<br>然而，有时我们可能想做所谓的地板分割，或整数分割。<br>Sometimes, however, we might want to do what’s called floor division, or integer division.<br>这是通过使用两个斜线符号来实现的。<br>This is accomplished by using two slash signs.<br>在本例中，让我们做一些类似于15除以7的事情，在浮点中是2.14。<br>In this case, let’s do something like 15 divided by 7, which in a floating point is 2.14.<br>如果我们使用整数除法，Python将给我们一个2的答案。<br>If we use integer division, Python is going to give us an answer of 2.<br>所以这里发生的事情如下：Python像往常一样执行除法，得到的数字是2.14。<br>So what happened here is the following: Python carries out the division as usual and that gives you the number 2.14.<br>然后将该数字舍入到最接近的整数，该整数小于实际的浮点答案。<br>It then rounds that number to the closest integer,which is less than the actual floating point answer.<br>因此，浮点数2.14向下舍入为更接近的较小整数，即2。<br>So 2.14, a floating point number, gets rounded down to the closer, smaller integer, which is 2.<br>Python中的交互模式提供了一个非常有用的操作，即下划线运算符。<br>The interactive mode in Python provides a very useful operation which is the underscore operator.<br>下划线运算符的值始终是Python返回给您的最后一个对象。<br>And the value of the underscore operator is always the last object that Python has returned to you.<br>让我们看看这意味着什么。<br>So let’s see what that means.<br>让我们做一个简单的除法——比如说，15除以2.3。<br>Let’s do a simple division– 15 divided by 2.3, say.<br>Python告诉我们它是6.521，以此类推。<br>Python tells us that it’s 6.521 and so on.<br>现在，如果我点击下划线，Python将返回最新操作的值。<br>Now, if I hit underscore, Python is returning the value of the latest operation.<br>假设我想将这个数字乘以2.3，这将返回15的数字。<br>Say I wanted to multiply this number with 2.3, which would give me back the number of 15.<br>所以我可以用下面的方法。<br>So I can do that in the following way.<br>我只取下划线，乘以2.3，答案是15。<br>I just take the underscore,I multiply that by 2.3, and the answer is 15.<br>如果您想更改一些计算，这在交互模式下尤其方便。<br>This is especially handy in the interactive mode if you’d like to change a few calculations.<br>让我们来举一个例子。<br>So let’s try one example.<br>让我们先从10乘以2开始。<br>Let’s first start with 10 times 2.<br>那是20。<br>That’s 20.<br>我们取这个数，再加上5，然后取25，再把它提高到二次方。<br>Let’s take that number,let’s add 5 to it,and let’s then take that number 25 raise that to the second power.<br>在这种情况下，答案是625。<br>In this case, the answer is 625.<br>我们通常需要超越Python提供的内置函数和操作。<br>Very commonly we need to go beyond the built-in functions and operations that Python provides.<br>对于数字来说，一种方法是使用数学模块，它包含一些基本的数学运算，比如阶乘。<br>And one way to do this for numbers is to use the math module, which contains some basic mathematical operations,like the factorial.<br>让我们快速提醒自己，什么是阶乘运算。<br>Let’s just quickly remind ourselves, what is the factorial operation.<br>所以n的阶乘，用感叹号表示，是n乘以n减去1乘以2乘以1。<br>So the factorial of n,indicated by exclamation mark, is n times n minus 1 all the way times 2 times 1.<br>例如，3阶乘等于3乘以2乘以1，也就是6。<br>And so for example, 3 factorial would be equal to 3 times 2 times 1, which is 6.<br>现在的问题是，我们如何用Python实现这个简单的计算？<br>Now, the question is, how could we implement this simple calculation in Python?<br>让我们从导入数学模块开始。<br>Let’s start by importing the math module.<br>所以我们输入数学。<br>So we type import math.<br>我们感兴趣的函数是math.factorial。<br>And the function we’re interested in is math.factorial.<br>本例中的参数是3，Python告诉我们3阶乘等于6。<br>So the argument in this case would be 3, and Python tells us 3 factorial is equal to 6.</p>
-
+<script type="text&#x2F;javascript" src="https://cdn.jsdelivr.net/npm/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://cdn.jsdelivr.net/npm/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://cdn.jsdelivr.net/npm/hexo-simple-mindmap@0.7.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://cdn.jsdelivr.net/npm/hexo-simple-mindmap@0.7.0/dist/mindmap.min.css">
             </div>
             <hr/>
 
@@ -1208,19 +1208,20 @@
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/10/18/ce/pda/1.1.3-modules-and-methods-mo-kuai-he-fang-fa/">
+                <a href="/2021/10/18/awesome/mac-ping-guo-mian-fei-zi-yuan-da-quan/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="Modules and Methods 模块和方法">
+                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="macOS苹果免费资源大全">
                         
-                        <span class="card-title">Modules and Methods 模块和方法</span>
+                        <span class="card-title">macOS苹果免费资源大全</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            1.1.3: Modules and Methods 模块和方法让我们谈谈模块。Let’s talk a little bit about modules.Python模块是代码库，您可以使用import语句导入Python模块。Pytho
+                            Mac苹果免费资源大全 现在我们变得非常大，与最初的想法不同，如今我们需要收集各种类别非常好用的 Mac 应用程序、软件以及工具。我需要它们帮助我高效的工作，同时也分享给你。
+开发者工具编辑器一种用于编辑纯文本文件的程序，建议使用免费开源
                         
                     </div>
                     <div class="publish-info">
@@ -1231,8 +1232,8 @@
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Python%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%EF%BC%88%E4%B8%AD%E8%8B%B1%E5%AF%B9%E7%85%A7%EF%BC%89/" class="post-category" target="_blank">
-                                    Python数据分析（中英对照）
+                            <a href="/categories/%E5%90%88%E9%9B%86%E5%88%86%E4%BA%AB/" class="post-category" target="_blank">
+                                    合集分享
                                 </a>
                             
                             
@@ -1242,12 +1243,20 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Python/" target="_blank">
-                        <span class="chip bg-color">Python</span>
+                    <a href="/tags/%E8%BD%AF%E4%BB%B6/" target="_blank">
+                        <span class="chip bg-color">软件</span>
                     </a>
                     
-                    <a href="/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/" target="_blank">
-                        <span class="chip bg-color">数据分析</span>
+                    <a href="/tags/macOS/" target="_blank">
+                        <span class="chip bg-color">macOS</span>
+                    </a>
+                    
+                    <a href="/tags/%E5%BC%80%E6%BA%90/" target="_blank">
+                        <span class="chip bg-color">开源</span>
+                    </a>
+                    
+                    <a href="/tags/%E5%85%8D%E8%B4%B9/" target="_blank">
+                        <span class="chip bg-color">免费</span>
                     </a>
                     
                 </div>
@@ -1261,19 +1270,19 @@
                 下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/10/18/ce/pda/1.1.5-random-choice-sui-ji-xuan-ze/">
+                <a href="/2021/10/18/ce/pda/1.1.6-expressions-and-booleans/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/11.jpg" class="responsive-img" alt="Random Choice 随机选择">
+                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="Expressions and Booleans 表达式和布尔值">
                         
-                        <span class="card-title">Random Choice 随机选择</span>
+                        <span class="card-title">Expressions and Booleans 表达式和布尔值</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            1.1.5: Random Choice 随机选择通常，当我们使用数字时，偶尔也会使用其他类型的对象，我们希望使用某种类型的随机性。Often when we’re using numbers, but also,occasionally,
+                            1.1.6: Expressions and Booleans 表达式和布尔值表达式是计算值的对象和运算符的组合。Expression is a combination of objects and operators that compu
                         
                     </div>
                     <div class="publish-info">
@@ -1475,7 +1484,7 @@
 
             
                 &nbsp; | &nbsp;字数统计:&nbsp;
-                <span class="white-color">64k</span> 字
+                <span class="white-color">82.6k</span> 字
             
 
             
@@ -1628,10 +1637,6 @@ $(function () {
         </script>
 
         <!-- 鼠标点击烟花爆炸效果  jamin pipbest add 2021.09.09 -->
-        
-            <canvas class="fireworks" style="position: fixed; left: 0; top: 0; z-index: 1; pointer-events: none;"></canvas>
-            <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script>
-            <script type="text/javascript" src="/js/fireworks.js"></script>
         
 
         <!-- 背景雪花飘落特效jamin pipbest add 2021.09.10 -->
