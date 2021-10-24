@@ -1,6 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.pipbest.com/2021/10/18/ce/pda/2.1.1-scope-rules-fan-wei-gui-ze/</loc>
+    <lastmod>2021-10-24</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/ce/pda/2.1.2-classes-and-object-oriented-programming-lei-he-mian-xiang-dui-xiang-bian-cheng/</loc>
+    <lastmod>2021-10-24</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/ce/pda/2.2.1-introduction-to-numpy-arrays-numpy-shu-zu-jian-jie/</loc>
+    <lastmod>2021-10-24</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/ce/pda/2.2.3-indexing-numpy-arrays-suo-yin-numpy-shu-zu/</loc>
+    <lastmod>2021-10-24</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/ce/pda/2.2.4-building-and-examining-numpy-arrays-gou-jian-he-jian-cha-numpy-shu-zu/</loc>
+    <lastmod>2021-10-24</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/ce/pda/2.3.1-introduction-to-matplotlib-and-pyplot-matplotlib-he-pyplot-jie-shao/</loc>
+    <lastmod>2021-10-24</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/ce/pda/2.3.3-plotting-using-logarithmic-axes-shi-yong-dui-shu-zhou-hui-tu/</loc>
+    <lastmod>2021-10-24</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/ce/pda/2.3.4-generating-histograms-sheng-cheng-zhi-fang-tu/</loc>
+    <lastmod>2021-10-24</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/ce/pda/2.4.1-simulating-randomness-mo-ni-sui-ji-xing/</loc>
+    <lastmod>2021-10-24</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/ce/pda/2.2.2-slicing-numpy-arrays-qie-pian-numpy-shu-zu/</loc>
+    <lastmod>2021-10-24</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/ce/pda/2.4.2-examples-involving-randomness-she-ji-sui-ji-xing-de-li-zi/</loc>
+    <lastmod>2021-10-24</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/ce/pda/2.3.2-customizing-your-plots-zi-ding-yi-hui-tu/</loc>
+    <lastmod>2021-10-24</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/ce/pda/2.4.3-using-the-numpy-random-module-shi-yong-numpy-sui-ji-mo-kuai/</loc>
+    <lastmod>2021-10-24</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/ce/pda/2.4.4-measuring-time-ce-liang-shi-jian/</loc>
+    <lastmod>2021-10-24</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/ce/pda/2.4.5-random-walks-sui-ji-you-zou/</loc>
+    <lastmod>2021-10-24</lastmod>
+  </url>
+  <url>
     <loc>https://www.pipbest.com/2021/10/18/handbook/web/git/git/</loc>
     <lastmod>2021-10-21</lastmod>
   </url>
@@ -61,14 +121,6 @@
     <lastmod>2021-10-20</lastmod>
   </url>
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.1.6-expressions-and-booleans/</loc>
-    <lastmod>2021-10-20</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.2.1-sequences-xu-lie/</loc>
-    <lastmod>2021-10-20</lastmod>
-  </url>
-  <url>
     <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.2.2-lists-lie-biao/</loc>
     <lastmod>2021-10-20</lastmod>
   </url>
@@ -77,11 +129,19 @@
     <lastmod>2021-10-20</lastmod>
   </url>
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.2.6-sets-ji-he/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.1.6-expressions-and-booleans/</loc>
+    <lastmod>2021-10-20</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.2.1-sequences-xu-lie/</loc>
     <lastmod>2021-10-20</lastmod>
   </url>
   <url>
     <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.2.7-dictionaries-zi-dian/</loc>
+    <lastmod>2021-10-20</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.2.6-sets-ji-he/</loc>
     <lastmod>2021-10-20</lastmod>
   </url>
 </urlset> 
