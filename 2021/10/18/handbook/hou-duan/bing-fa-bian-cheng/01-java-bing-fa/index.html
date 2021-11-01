@@ -2389,19 +2389,20 @@ ThreadLocal<span class="token punctuation">.</span>ThreadLocalMap threadLocals <
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/14-blockingqueue/">
+                <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/02-synchronized/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="BlockingQueue">
+                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="synchronized 关键字">
                         
-                        <span class="card-title">BlockingQueue</span>
+                        <span class="card-title">synchronized 关键字</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            BlockingQueueBlockingQueue，即阻塞队列被广泛使用在“生产者-消费者”问题中，其原因是 BlockingQueue 提供了可阻塞的插入和移除的方法。当队列容器已满，生产者线程会被阻塞，直到队列未满；当队列容器为空时，
+                            synchronized 关键字synchronized 关键字采用对代码块/方法体加锁的方式解决 Java 中多线程访问同一个资源时，引起的资源冲突问题。
+一句话总结：synchronized 能够保证同一时刻最多只有一个线程执行某段代码
                         
                     </div>
                     <div class="publish-info">
@@ -2470,20 +2471,20 @@ ThreadLocal<span class="token punctuation">.</span>ThreadLocalMap threadLocals <
                 下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/10/18/handbook/qian-duan/react/01-react-props-children-chuan-zhi/">
+                <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/03-volatile/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/20.jpg" class="responsive-img" alt="React Props Children 传值">
+                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="volatile 关键字">
                         
-                        <span class="card-title">React Props Children 传值</span>
+                        <span class="card-title">volatile 关键字</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            React Props Children 传值背景是在使用 umijs 框架时，它提供一个根节点 layout。我想在根节点传值到 Route 组件中却不得其法，后来查阅 issues 得到解答。
-props.children 属性在 Re
+                            volatile 关键字volatile 关键字使一个变量在多个线程间可见。
+A、B 线程都有用到一个变量，java 默认是 A 线程缓冲区保留一份 copy，这样如果 B 线程修改了变量，则 A 线程未必知道。使用 volatile 关键
                         
                     </div>
                     <div class="publish-info">
@@ -2494,8 +2495,8 @@ props.children 属性在 Re
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/React/" class="post-category" target="_blank">
-                                    React
+                            <a href="/categories/Java-%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
+                                    Java 并发编程
                                 </a>
                             
                             
@@ -2505,20 +2506,40 @@ props.children 属性在 Re
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Javascript/" target="_blank">
-                        <span class="chip bg-color">Javascript</span>
+                    <a href="/tags/Java/" target="_blank">
+                        <span class="chip bg-color">Java</span>
                     </a>
                     
-                    <a href="/tags/React/" target="_blank">
-                        <span class="chip bg-color">React</span>
+                    <a href="/tags/synchronized/" target="_blank">
+                        <span class="chip bg-color">synchronized</span>
                     </a>
                     
-                    <a href="/tags/Hook/" target="_blank">
-                        <span class="chip bg-color">Hook</span>
+                    <a href="/tags/volatile/" target="_blank">
+                        <span class="chip bg-color">volatile</span>
                     </a>
                     
-                    <a href="/tags/TypeScript%E5%89%8D%E7%AB%AF/" target="_blank">
-                        <span class="chip bg-color">TypeScript前端</span>
+                    <a href="/tags/ReentrantLock/" target="_blank">
+                        <span class="chip bg-color">ReentrantLock</span>
+                    </a>
+                    
+                    <a href="/tags/Atom/" target="_blank">
+                        <span class="chip bg-color">Atom</span>
+                    </a>
+                    
+                    <a href="/tags/ForkJoin/" target="_blank">
+                        <span class="chip bg-color">ForkJoin</span>
+                    </a>
+                    
+                    <a href="/tags/ThreadLocal/" target="_blank">
+                        <span class="chip bg-color">ThreadLocal</span>
+                    </a>
+                    
+                    <a href="/tags/ExecutorService/" target="_blank">
+                        <span class="chip bg-color">ExecutorService</span>
+                    </a>
+                    
+                    <a href="/tags/%E5%90%8E%E5%8F%B0/" target="_blank">
+                        <span class="chip bg-color">后台</span>
                     </a>
                     
                 </div>

@@ -1300,19 +1300,20 @@
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/13-atom-yuan-zi-lei/">
+                <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/12-executorservice/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/19.jpg" class="responsive-img" alt="Atom 原子类">
+                        <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="ExecutorService">
                         
-                        <span class="card-title">Atom 原子类</span>
+                        <span class="card-title">ExecutorService</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Atom 原子类在 Java Java 并发编程中，经常通过 synchronized 进行控制来达到线程安全的目的。但是由于 synchronized 是采用的是悲观锁策略，并不是特别高效的一种解决方案。实际上，在 J.U.C 下的 at
+                            ExecutorServiceExecutorService 是 java.util.concurrent 包的重要组成部分，是 Java JDK 提供的框架，用于简化异步模式下任务的执行。
+一般来说，ExecutorService 会自动
                         
                     </div>
                     <div class="publish-info">
@@ -1381,22 +1382,21 @@
                 下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/01-java-bing-fa/">
+                <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/09-threadlocal/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="Java 并发">
+                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="ThreadLocal">
                         
-                        <span class="card-title">Java 并发</span>
+                        <span class="card-title">ThreadLocal</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Java 并发线程状态转换
-新建（New）创建后尚未启动。
-可运行（Runnable）可能正在运行，也可能正在等待 CPU 时间片。包含了操作系统线程状态中的 Running 和 Ready。
-阻塞（Blocked）等待获取一个排它锁，如果
+                            ThreadLocal对于多任务，Java 标准库提供的线程池可以方便地执行这些任务，同时复用线程。那么如何在一个线程内传递状态？
+如下栗子，一个内部需要调用若干其他方法，同时传递参数 user。
+public void process(U
                         
                     </div>
                     <div class="publish-info">

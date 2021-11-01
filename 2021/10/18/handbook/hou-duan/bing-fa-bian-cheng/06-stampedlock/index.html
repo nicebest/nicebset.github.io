@@ -1291,20 +1291,21 @@ ReadWriteLock 有个潜在的问题：如果有线程正在读，写线程需要
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/04-reentrantlock/">
+                <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/05-readwritelock/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="ReentrantLock">
+                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="ReadWriteLock">
                         
-                        <span class="card-title">ReentrantLock</span>
+                        <span class="card-title">ReadWriteLock</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            ReentrantLock从 Java 5 开始，引入了一个高级的处理并发的 java.util.concurrent 包，它提供了大量更高级的并发功能，能大大简化多线程程序的编写。
-我们知道 synchronized 关键字用于加锁，但这
+                            ReadWriteLock前面讲到的 ReentrantLock 保证了只有一个线程可以执行临界区代码：
+public class Counter {
+    private final Lock lock = new ReentrantL
                         
                     </div>
                     <div class="publish-info">
@@ -1373,20 +1374,22 @@ ReadWriteLock 有个潜在的问题：如果有线程正在读，写线程需要
                 下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/07-completablefuture/">
+                <a href="/2021/10/18/handbook/hou-duan/mysql/07-mysql-cha-kan-shu-ju-ku-biao-xiang-qing/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="CompletableFuture">
+                        <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="MySQL 查看数据库表详情">
                         
-                        <span class="card-title">CompletableFuture</span>
+                        <span class="card-title">MySQL 查看数据库表详情</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            CompletableFutureJava 8 开始引入了 CompletableFuture，它针对 Future 做了改进，可以传入回调对象，当异步任务完成或者发生异常时，自动调用回调对象的回调方法。
-CompletableFuture
+                            MySQL 查看数据库表详情查看所有数据库容量大小select
+table_schema as '数据库',
+sum(table_rows) as '记录数',
+sum(truncate(data_length/1024/1024, 2))
                         
                     </div>
                     <div class="publish-info">
@@ -1397,8 +1400,8 @@ CompletableFuture
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Java-%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
-                                    Java 并发编程
+                            <a href="/categories/MySQL/" class="post-category" target="_blank">
+                                    MySQL
                                 </a>
                             
                             
@@ -1408,40 +1411,36 @@ CompletableFuture
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Java/" target="_blank">
-                        <span class="chip bg-color">Java</span>
+                    <a href="/tags/SQL/" target="_blank">
+                        <span class="chip bg-color">SQL</span>
                     </a>
                     
-                    <a href="/tags/synchronized/" target="_blank">
-                        <span class="chip bg-color">synchronized</span>
+                    <a href="/tags/select/" target="_blank">
+                        <span class="chip bg-color">select</span>
                     </a>
                     
-                    <a href="/tags/volatile/" target="_blank">
-                        <span class="chip bg-color">volatile</span>
+                    <a href="/tags/truncate/" target="_blank">
+                        <span class="chip bg-color">truncate</span>
                     </a>
                     
-                    <a href="/tags/ReentrantLock/" target="_blank">
-                        <span class="chip bg-color">ReentrantLock</span>
+                    <a href="/tags/delete/" target="_blank">
+                        <span class="chip bg-color">delete</span>
                     </a>
                     
-                    <a href="/tags/Atom/" target="_blank">
-                        <span class="chip bg-color">Atom</span>
+                    <a href="/tags/where/" target="_blank">
+                        <span class="chip bg-color">where</span>
                     </a>
                     
-                    <a href="/tags/ForkJoin/" target="_blank">
-                        <span class="chip bg-color">ForkJoin</span>
+                    <a href="/tags/Mybatis/" target="_blank">
+                        <span class="chip bg-color">Mybatis</span>
                     </a>
                     
-                    <a href="/tags/ThreadLocal/" target="_blank">
-                        <span class="chip bg-color">ThreadLocal</span>
+                    <a href="/tags/%E4%BA%8B%E5%8A%A1/" target="_blank">
+                        <span class="chip bg-color">事务</span>
                     </a>
                     
-                    <a href="/tags/ExecutorService/" target="_blank">
-                        <span class="chip bg-color">ExecutorService</span>
-                    </a>
-                    
-                    <a href="/tags/%E5%90%8E%E5%8F%B0/" target="_blank">
-                        <span class="chip bg-color">后台</span>
+                    <a href="/tags/%E5%85%B3%E7%B3%BB%E6%A8%A1%E5%9E%8B/" target="_blank">
+                        <span class="chip bg-color">关系模型</span>
                     </a>
                     
                 </div>

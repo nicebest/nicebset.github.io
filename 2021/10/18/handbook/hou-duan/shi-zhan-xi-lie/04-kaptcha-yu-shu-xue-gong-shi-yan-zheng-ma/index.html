@@ -1589,21 +1589,20 @@ Spring 中引入非常简单，首先添加依赖：
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/10/18/handbook/hou-duan/shi-zhan-xi-lie/06-gao-xing-neng-wu-suo-dui-lie-disruptor/">
+                <a href="/2021/10/18/handbook/hou-duan/shi-zhan-xi-lie/03-huo-qu-qing-qiu-ip-di-zhi/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="高性能无锁队列 Disruptor">
+                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="获取请求 IP 地址">
                         
-                        <span class="card-title">高性能无锁队列 Disruptor</span>
+                        <span class="card-title">获取请求 IP 地址</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            高性能无锁队列 DisruptorDisruptor 是英国外汇交易公司 LMAX 开发的一个高性能队列，研发的初衷是解决内存队列的延迟问题，因其出色的性能表现获得 2011 Duke’s 程序框架创新奖。
-
-A High Performa
+                            获取请求 IP 地址在 Spring 中，获取客户端真实 IP 地址的方法是 request.getRemoteAddr()，这种方法在大部分情况下都是有效的，但是在通过了 Squid 等反向代理软件就无法工作。
+如果使用了反向代理软件，将
                         
                     </div>
                     <div class="publish-info">
@@ -1672,19 +1671,20 @@ A High Performa
                 下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/10/18/handbook/qian-duan/css/01-flex-dan-xing-bu-ju/">
+                <a href="/2021/10/18/handbook/hou-duan/shi-zhan-xi-lie/05-netty-huo-qu-ke-hu-duan-ip/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="Flex 弹性布局">
+                        <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="Netty 获取客户端 IP">
                         
-                        <span class="card-title">Flex 弹性布局</span>
+                        <span class="card-title">Netty 获取客户端 IP</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Flex 弹性布局Flex（Flexible Box）即为“弹性布局” ，它是一种一维的布局模型。采用 Flex 布局的元素，称为 Flex 容器（flex container）。它的所有子元素自动成为容器成员，称为 Flex 项目（fle
+                            Netty 获取客户端 IP近期在后端摸鱼无聊，索性找个练手的项目，最终决定摸一个基于 netty 实现的 WEB IM（在线聊天项目）。项目不大，技术力也不高，期间依旧也踩了不少坑，毕竟咱还是太菜力 😹。
+其中一个大坑就是获取 IM 中
                         
                     </div>
                     <div class="publish-info">
@@ -1695,8 +1695,8 @@ A High Performa
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/CSS/" class="post-category" target="_blank">
-                                    CSS
+                            <a href="/categories/Java-%E5%AE%9E%E6%88%98%E7%B3%BB%E5%88%97/" class="post-category" target="_blank">
+                                    Java 实战系列
                                 </a>
                             
                             
@@ -1706,12 +1706,40 @@ A High Performa
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E5%89%8D%E7%AB%AF/" target="_blank">
-                        <span class="chip bg-color">前端</span>
+                    <a href="/tags/Java/" target="_blank">
+                        <span class="chip bg-color">Java</span>
                     </a>
                     
-                    <a href="/tags/CSS/" target="_blank">
-                        <span class="chip bg-color">CSS</span>
+                    <a href="/tags/synchronized/" target="_blank">
+                        <span class="chip bg-color">synchronized</span>
+                    </a>
+                    
+                    <a href="/tags/volatile/" target="_blank">
+                        <span class="chip bg-color">volatile</span>
+                    </a>
+                    
+                    <a href="/tags/ReentrantLock/" target="_blank">
+                        <span class="chip bg-color">ReentrantLock</span>
+                    </a>
+                    
+                    <a href="/tags/Atom/" target="_blank">
+                        <span class="chip bg-color">Atom</span>
+                    </a>
+                    
+                    <a href="/tags/ForkJoin/" target="_blank">
+                        <span class="chip bg-color">ForkJoin</span>
+                    </a>
+                    
+                    <a href="/tags/ThreadLocal/" target="_blank">
+                        <span class="chip bg-color">ThreadLocal</span>
+                    </a>
+                    
+                    <a href="/tags/ExecutorService/" target="_blank">
+                        <span class="chip bg-color">ExecutorService</span>
+                    </a>
+                    
+                    <a href="/tags/%E5%90%8E%E5%8F%B0/" target="_blank">
+                        <span class="chip bg-color">后台</span>
                     </a>
                     
                 </div>

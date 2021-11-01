@@ -1288,20 +1288,20 @@
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/02-synchronized/">
+                <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/03-volatile/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="synchronized 关键字">
+                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="volatile 关键字">
                         
-                        <span class="card-title">synchronized 关键字</span>
+                        <span class="card-title">volatile 关键字</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            synchronized 关键字synchronized 关键字采用对代码块/方法体加锁的方式解决 Java 中多线程访问同一个资源时，引起的资源冲突问题。
-一句话总结：synchronized 能够保证同一时刻最多只有一个线程执行某段代码
+                            volatile 关键字volatile 关键字使一个变量在多个线程间可见。
+A、B 线程都有用到一个变量，java 默认是 A 线程缓冲区保留一份 copy，这样如果 B 线程修改了变量，则 A 线程未必知道。使用 volatile 关键
                         
                     </div>
                     <div class="publish-info">
@@ -1370,20 +1370,21 @@
                 下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/06-stampedlock/">
+                <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/05-readwritelock/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="StampedLock">
+                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="ReadWriteLock">
                         
-                        <span class="card-title">StampedLock</span>
+                        <span class="card-title">ReadWriteLock</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            StampedLockReadWriteLock 可以解决多线程同时读，但只有一个线程能写的问题。
-ReadWriteLock 有个潜在的问题：如果有线程正在读，写线程需要等待读线程释放锁后才能获取写锁，即读的过程中不允许写，这是一种悲观的
+                            ReadWriteLock前面讲到的 ReentrantLock 保证了只有一个线程可以执行临界区代码：
+public class Counter {
+    private final Lock lock = new ReentrantL
                         
                     </div>
                     <div class="publish-info">

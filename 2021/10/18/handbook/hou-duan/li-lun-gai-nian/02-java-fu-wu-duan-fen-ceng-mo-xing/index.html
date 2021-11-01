@@ -1283,20 +1283,22 @@ Java 服务端开发亦是如此，采用分层架构，针对每一层，对应
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/10/18/handbook/hou-duan/spring/21-spring-boot-kua-yu-jie-jue-fang-shi/">
+                <a href="/2021/10/18/handbook/hou-duan/li-lun-gai-nian/04-lru-huan-cun-tao-tai-suan-fa/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="Spring Boot 跨域解决方式">
+                        <img src="/medias/featureimages/20.jpg" class="responsive-img" alt="LRU 缓存淘汰算法">
                         
-                        <span class="card-title">Spring Boot 跨域解决方式</span>
+                        <span class="card-title">LRU 缓存淘汰算法</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Spring Boot 跨域解决方式要解释跨域，先要了解同源策略，所谓同源策略就是在浏览器端出于安全考量，向服务端发起请求必须满足：协议相同、Host（ip）相同、端口相同，否则访问将被禁止，该访问也就被称为跨域访问。
-跨域访问解决方案前端
+                            LRU 缓存淘汰算法
+本文为个人学习摘要笔记。原文地址：聊聊缓存淘汰算法-LRU 实现原理
+
+我们常用缓存提升数据查询速度，由于缓存容量有限，当缓存容量到达上限，就需要删除部分数据挪出空间，这样新数据才可以添加进来。缓存数据不能随机删除，一
                         
                     </div>
                     <div class="publish-info">
@@ -1307,8 +1309,8 @@ Java 服务端开发亦是如此，采用分层架构，针对每一层，对应
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Spring/" class="post-category" target="_blank">
-                                    Spring
+                            <a href="/categories/Java-%E7%90%86%E8%AE%BA%E6%A6%82%E5%BF%B5/" class="post-category" target="_blank">
+                                    Java 理论概念
                                 </a>
                             
                             
@@ -1322,32 +1324,36 @@ Java 服务端开发亦是如此，采用分层架构，针对每一层，对应
                         <span class="chip bg-color">Java</span>
                     </a>
                     
-                    <a href="/tags/Spring/" target="_blank">
-                        <span class="chip bg-color">Spring</span>
+                    <a href="/tags/synchronized/" target="_blank">
+                        <span class="chip bg-color">synchronized</span>
                     </a>
                     
-                    <a href="/tags/Boot/" target="_blank">
-                        <span class="chip bg-color">Boot</span>
+                    <a href="/tags/volatile/" target="_blank">
+                        <span class="chip bg-color">volatile</span>
                     </a>
                     
-                    <a href="/tags/Cloud/" target="_blank">
-                        <span class="chip bg-color">Cloud</span>
+                    <a href="/tags/ReentrantLock/" target="_blank">
+                        <span class="chip bg-color">ReentrantLock</span>
                     </a>
                     
-                    <a href="/tags/AOP/" target="_blank">
-                        <span class="chip bg-color">AOP</span>
+                    <a href="/tags/Atom/" target="_blank">
+                        <span class="chip bg-color">Atom</span>
                     </a>
                     
-                    <a href="/tags/JWT/" target="_blank">
-                        <span class="chip bg-color">JWT</span>
+                    <a href="/tags/ForkJoin/" target="_blank">
+                        <span class="chip bg-color">ForkJoin</span>
                     </a>
                     
-                    <a href="/tags/JPA/" target="_blank">
-                        <span class="chip bg-color">JPA</span>
+                    <a href="/tags/ThreadLocal/" target="_blank">
+                        <span class="chip bg-color">ThreadLocal</span>
                     </a>
                     
-                    <a href="/tags/Shiro/" target="_blank">
-                        <span class="chip bg-color">Shiro</span>
+                    <a href="/tags/ExecutorService/" target="_blank">
+                        <span class="chip bg-color">ExecutorService</span>
+                    </a>
+                    
+                    <a href="/tags/%E5%90%8E%E5%8F%B0/" target="_blank">
+                        <span class="chip bg-color">后台</span>
                     </a>
                     
                 </div>
@@ -1361,20 +1367,22 @@ Java 服务端开发亦是如此，采用分层架构，针对每一层，对应
                 下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/10/18/handbook/hou-duan/li-lun-gai-nian/03-jing-dian-pai-xu-suan-fa/">
+                <a href="/2021/10/18/handbook/hou-duan/li-lun-gai-nian/05-bloomfilter-pan-duan-yuan-su-cun-zai/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="经典排序算法">
+                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="BloomFilter 判断元素存在">
                         
-                        <span class="card-title">经典排序算法</span>
+                        <span class="card-title">BloomFilter 判断元素存在</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            经典排序算法重温排序算法，动画详见：Magicsort
-插入排序插入排序是一种简单的排序算法。它的工作原理是通过构建有序序列，对于未排序数据，在已排序序列中从后向前扫描，找到相应位置并插入。插入排序在实现上，通常采用 in-place 排序
+                            BloomFilter 判断元素存在
+本文为个人学习摘要笔记。原文地址：到底是存在还是不存在之 BloomFilter
+
+什么是 BloomFilter布隆过滤器（Bloom Filter）是 1970 年由布隆提出的。它实际上是一个很长的
                         
                     </div>
                     <div class="publish-info">

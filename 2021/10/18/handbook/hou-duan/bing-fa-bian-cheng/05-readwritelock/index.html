@@ -1325,20 +1325,20 @@ public class Counter {
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/07-completablefuture/">
+                <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/04-reentrantlock/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="CompletableFuture">
+                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="ReentrantLock">
                         
-                        <span class="card-title">CompletableFuture</span>
+                        <span class="card-title">ReentrantLock</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            CompletableFutureJava 8 开始引入了 CompletableFuture，它针对 Future 做了改进，可以传入回调对象，当异步任务完成或者发生异常时，自动调用回调对象的回调方法。
-CompletableFuture
+                            ReentrantLock从 Java 5 开始，引入了一个高级的处理并发的 java.util.concurrent 包，它提供了大量更高级的并发功能，能大大简化多线程程序的编写。
+我们知道 synchronized 关键字用于加锁，但这
                         
                     </div>
                     <div class="publish-info">
@@ -1407,20 +1407,20 @@ CompletableFuture
                 下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/08-forkjoin/">
+                <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/06-stampedlock/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="ForkJoin">
+                        <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="StampedLock">
                         
-                        <span class="card-title">ForkJoin</span>
+                        <span class="card-title">StampedLock</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            ForkJoinJava 7 开始引入了一种新的 Fork/Join 线程池，它可以执行一种特殊的任务：把一个大任务拆成多个小任务并行执行。
-Fork/Join 任务的原理：判断一个任务是否足够小，如果是，直接计算，否则，就分拆成几个小任务
+                            StampedLockReadWriteLock 可以解决多线程同时读，但只有一个线程能写的问题。
+ReadWriteLock 有个潜在的问题：如果有线程正在读，写线程需要等待读线程释放锁后才能获取写锁，即读的过程中不允许写，这是一种悲观的
                         
                     </div>
                     <div class="publish-info">

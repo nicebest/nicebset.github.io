@@ -1338,20 +1338,19 @@ public void process(U">
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/08-forkjoin/">
+                <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/14-blockingqueue/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="ForkJoin">
+                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="BlockingQueue">
                         
-                        <span class="card-title">ForkJoin</span>
+                        <span class="card-title">BlockingQueue</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            ForkJoinJava 7 开始引入了一种新的 Fork/Join 线程池，它可以执行一种特殊的任务：把一个大任务拆成多个小任务并行执行。
-Fork/Join 任务的原理：判断一个任务是否足够小，如果是，直接计算，否则，就分拆成几个小任务
+                            BlockingQueueBlockingQueue，即阻塞队列被广泛使用在“生产者-消费者”问题中，其原因是 BlockingQueue 提供了可阻塞的插入和移除的方法。当队列容器已满，生产者线程会被阻塞，直到队列未满；当队列容器为空时，
                         
                     </div>
                     <div class="publish-info">
@@ -1420,20 +1419,21 @@ Fork/Join 任务的原理：判断一个任务是否足够小，如果是，直�
                 下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/03-volatile/">
+                <a href="/2021/10/18/handbook/hou-duan/gao-xiao-bian-cheng/01-30-seconds-of-java8/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="volatile 关键字">
+                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="30 seconds of java8">
                         
-                        <span class="card-title">volatile 关键字</span>
+                        <span class="card-title">30 seconds of java8</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            volatile 关键字volatile 关键字使一个变量在多个线程间可见。
-A、B 线程都有用到一个变量，java 默认是 A 线程缓冲区保留一份 copy，这样如果 B 线程修改了变量，则 A 线程未必知道。使用 volatile 关键
+                            30 seconds of java8Arraychunk将数组分割成特定大小的小数组：
+public static int[][] chunk(int[] numbers, int size) {
+    return IntStream
                         
                     </div>
                     <div class="publish-info">
@@ -1444,8 +1444,8 @@ A、B 线程都有用到一个变量，java 默认是 A 线程缓冲区保留一
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Java-%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
-                                    Java 并发编程
+                            <a href="/categories/Java-%E9%AB%98%E6%95%88%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
+                                    Java 高效编程
                                 </a>
                             
                             

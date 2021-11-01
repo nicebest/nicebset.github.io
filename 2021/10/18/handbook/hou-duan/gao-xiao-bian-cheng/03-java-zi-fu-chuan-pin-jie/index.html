@@ -1395,21 +1395,25 @@ StringBuilder sb <span class="token operator">=</span> <span class="token keywor
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/10/18/handbook/hou-duan/li-lun-gai-nian/06-java-hashmap-mian-shi-da-quan/">
+                <a href="/2021/10/18/handbook/hou-duan/gao-xiao-bian-cheng/02-han-shu-shi-ti-dai-for-xun-huan/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="HashMap 面试大全">
+                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="函数式替代 for 循环">
                         
-                        <span class="card-title">HashMap 面试大全</span>
+                        <span class="card-title">函数式替代 for 循环</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            HashMap 面试大全关于 HashMap 参考前文 Java HashMap
-001 HashMap 的结构哈希表结构（链表散列：数组+链表）实现，结合数组和链表的优点。当链表长度超过 8 时，链表转换为红黑树。
-002 Get 方法的
+                            函数式替代 for 循环举个栗子以一个简单的循环打印为例：
+for(int i = 1; i &lt; 4; i++) {
+    System.out.print(i + "...");
+}
+
+IntStream.range(1, 4)
+
                         
                     </div>
                     <div class="publish-info">
@@ -1420,8 +1424,8 @@ StringBuilder sb <span class="token operator">=</span> <span class="token keywor
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Java-%E7%90%86%E8%AE%BA%E6%A6%82%E5%BF%B5/" class="post-category" target="_blank">
-                                    Java 理论概念
+                            <a href="/categories/Java-%E9%AB%98%E6%95%88%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
+                                    Java 高效编程
                                 </a>
                             
                             
@@ -1478,19 +1482,20 @@ StringBuilder sb <span class="token operator">=</span> <span class="token keywor
                 下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/10/18/handbook/hou-duan/gao-xiao-bian-cheng/04-dan-li-mo-shi-de-ji-chong-shi-xian/">
+                <a href="/2021/10/18/handbook/hou-duan/gao-xiao-bian-cheng/05-hashmap-pai-xu/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="单例模式的几种实现">
+                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="HashMap 排序">
                         
-                        <span class="card-title">单例模式的几种实现</span>
+                        <span class="card-title">HashMap 排序</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            单例模式的几种实现单例模式是一种对象创建模式，它用于产生一个对象的具体实例，它可以确保系统中一个类只产生一个实例。Java 里面实现的单例是一个虚拟机的范围，因为装载类的功能是虚拟机的，所以一个虚拟机在通过自己的 ClassLoad 装载实
+                            HashMap 排序HashMap 的值是没有顺序的，它是按照 key 的 HashCode 来实现的，对于这个无序的 HashMap 我们要怎么来实现排序呢？
+根据 key 排序TreeMap 基于红黑树实现，该映射根据其键的自然顺序进行
                         
                     </div>
                     <div class="publish-info">

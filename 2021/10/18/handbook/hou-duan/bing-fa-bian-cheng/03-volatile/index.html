@@ -1350,21 +1350,22 @@ A、B 线程都有用到一个变量，java 默认是 A 线程缓冲区保留一
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/09-threadlocal/">
+                <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/01-java-bing-fa/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="ThreadLocal">
+                        <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="Java 并发">
                         
-                        <span class="card-title">ThreadLocal</span>
+                        <span class="card-title">Java 并发</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            ThreadLocal对于多任务，Java 标准库提供的线程池可以方便地执行这些任务，同时复用线程。那么如何在一个线程内传递状态？
-如下栗子，一个内部需要调用若干其他方法，同时传递参数 user。
-public void process(U
+                            Java 并发线程状态转换
+新建（New）创建后尚未启动。
+可运行（Runnable）可能正在运行，也可能正在等待 CPU 时间片。包含了操作系统线程状态中的 Running 和 Ready。
+阻塞（Blocked）等待获取一个排它锁，如果
                         
                     </div>
                     <div class="publish-info">
@@ -1433,20 +1434,20 @@ public void process(U
                 下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/10-countdownlatch/">
+                <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/04-reentrantlock/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="CountDownLatch">
+                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="ReentrantLock">
                         
-                        <span class="card-title">CountDownLatch</span>
+                        <span class="card-title">ReentrantLock</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            CountDownLatchCountDownLatch 中 count down 是倒数的意思，latch 则是门闩的含义。整体含义可以理解为倒数的门栓，似乎有一点“三二一，芝麻开门”的感觉。
-在构造 CountDownLatch 的时候
+                            ReentrantLock从 Java 5 开始，引入了一个高级的处理并发的 java.util.concurrent 包，它提供了大量更高级的并发功能，能大大简化多线程程序的编写。
+我们知道 synchronized 关键字用于加锁，但这
                         
                     </div>
                     <div class="publish-info">

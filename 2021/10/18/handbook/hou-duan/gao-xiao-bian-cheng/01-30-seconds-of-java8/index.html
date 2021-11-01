@@ -1485,20 +1485,21 @@ public static int[][] chunk(int[] numbers, int size) {
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/10/18/handbook/hou-duan/gao-xiao-bian-cheng/05-hashmap-pai-xu/">
+                <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/09-threadlocal/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="HashMap 排序">
+                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="ThreadLocal">
                         
-                        <span class="card-title">HashMap 排序</span>
+                        <span class="card-title">ThreadLocal</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            HashMap 排序HashMap 的值是没有顺序的，它是按照 key 的 HashCode 来实现的，对于这个无序的 HashMap 我们要怎么来实现排序呢？
-根据 key 排序TreeMap 基于红黑树实现，该映射根据其键的自然顺序进行
+                            ThreadLocal对于多任务，Java 标准库提供的线程池可以方便地执行这些任务，同时复用线程。那么如何在一个线程内传递状态？
+如下栗子，一个内部需要调用若干其他方法，同时传递参数 user。
+public void process(U
                         
                     </div>
                     <div class="publish-info">
@@ -1509,8 +1510,8 @@ public static int[][] chunk(int[] numbers, int size) {
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Java-%E9%AB%98%E6%95%88%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
-                                    Java 高效编程
+                            <a href="/categories/Java-%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
+                                    Java 并发编程
                                 </a>
                             
                             
@@ -1567,20 +1568,25 @@ public static int[][] chunk(int[] numbers, int size) {
                 下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/10/18/handbook/qian-duan/javascript/01-javascript-mi-mi-hua-yuan/">
+                <a href="/2021/10/18/handbook/hou-duan/gao-xiao-bian-cheng/02-han-shu-shi-ti-dai-for-xun-huan/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/19.jpg" class="responsive-img" alt="JavaScript 秘密花园">
+                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="函数式替代 for 循环">
                         
-                        <span class="card-title">JavaScript 秘密花园</span>
+                        <span class="card-title">函数式替代 for 循环</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            JavaScript 秘密花园JavaScript 秘密花园由两位 Stack Overflow 用户伊沃·韦特泽尔（写作）和张易江（设计）完成，由三生石上翻译完成，内容短小精炼。这次温故知新，做一番总结。
-对象对象使用和属性JavaScr
+                            函数式替代 for 循环举个栗子以一个简单的循环打印为例：
+for(int i = 1; i &lt; 4; i++) {
+    System.out.print(i + "...");
+}
+
+IntStream.range(1, 4)
+
                         
                     </div>
                     <div class="publish-info">
@@ -1591,8 +1597,8 @@ public static int[][] chunk(int[] numbers, int size) {
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/JavaScript/" class="post-category" target="_blank">
-                                    JavaScript
+                            <a href="/categories/Java-%E9%AB%98%E6%95%88%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
+                                    Java 高效编程
                                 </a>
                             
                             
@@ -1602,12 +1608,40 @@ public static int[][] chunk(int[] numbers, int size) {
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Javascript/" target="_blank">
-                        <span class="chip bg-color">Javascript</span>
+                    <a href="/tags/Java/" target="_blank">
+                        <span class="chip bg-color">Java</span>
                     </a>
                     
-                    <a href="/tags/%E5%89%8D%E7%AB%AF/" target="_blank">
-                        <span class="chip bg-color">前端</span>
+                    <a href="/tags/synchronized/" target="_blank">
+                        <span class="chip bg-color">synchronized</span>
+                    </a>
+                    
+                    <a href="/tags/volatile/" target="_blank">
+                        <span class="chip bg-color">volatile</span>
+                    </a>
+                    
+                    <a href="/tags/ReentrantLock/" target="_blank">
+                        <span class="chip bg-color">ReentrantLock</span>
+                    </a>
+                    
+                    <a href="/tags/Atom/" target="_blank">
+                        <span class="chip bg-color">Atom</span>
+                    </a>
+                    
+                    <a href="/tags/ForkJoin/" target="_blank">
+                        <span class="chip bg-color">ForkJoin</span>
+                    </a>
+                    
+                    <a href="/tags/ThreadLocal/" target="_blank">
+                        <span class="chip bg-color">ThreadLocal</span>
+                    </a>
+                    
+                    <a href="/tags/ExecutorService/" target="_blank">
+                        <span class="chip bg-color">ExecutorService</span>
+                    </a>
+                    
+                    <a href="/tags/%E5%90%8E%E5%8F%B0/" target="_blank">
+                        <span class="chip bg-color">后台</span>
                     </a>
                     
                 </div>

@@ -6,7 +6,7 @@
   <link href="https://www.pipbest.com/atom.xml" rel="self"/>
   
   <link href="https://www.pipbest.com/"/>
-  <updated>2021-11-01T05:01:04.890Z</updated>
+  <updated>2021-11-01T07:22:23.562Z</updated>
   <id>https://www.pipbest.com/</id>
   
   <author>
@@ -17,32 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="https://www.pipbest.com/2021/11/01/handbook/tools/wei-ming-ming-wen-jian-jia/01-note/"/>
-    <id>https://www.pipbest.com/2021/11/01/handbook/tools/wei-ming-ming-wen-jian-jia/01-note/</id>
-    <published>2021-11-01T05:01:04.725Z</published>
-    <updated>2021-11-01T05:01:04.890Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;Note&quot;&gt;&lt;a href=&quot;#Note&quot; class=&quot;headerlink&quot; title=&quot;Note&quot;&gt;&lt;/a&gt;Note&lt;/h1&gt;&lt;script type=&quot;text&amp;#x2F;javascript&quot;</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>Note</title>
     <link href="https://www.pipbest.com/2021/10/18/note/01-note/"/>
     <id>https://www.pipbest.com/2021/10/18/note/01-note/</id>
     <published>2021-10-18T07:42:02.000Z</published>
-    <updated>2021-11-01T04:54:59.488Z</updated>
+    <updated>2021-11-01T07:22:23.562Z</updated>
     
     
       
@@ -61,72 +40,6 @@
     <category term="Note" scheme="https://www.pipbest.com/tags/Note/"/>
     
     <category term="常用命令" scheme="https://www.pipbest.com/tags/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>变量声明与解构赋值</title>
-    <link href="https://www.pipbest.com/2021/10/18/handbook/es6-biao-zhun-ru-men/01-bian-liang-sheng-ming-yu-jie-gou-fu-zhi/"/>
-    <id>https://www.pipbest.com/2021/10/18/handbook/es6-biao-zhun-ru-men/01-bian-liang-sheng-ming-yu-jie-gou-fu-zhi/</id>
-    <published>2021-10-18T07:42:02.000Z</published>
-    <updated>2021-11-01T05:01:04.350Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;变量声明与解构赋值&quot;&gt;&lt;a href=&quot;#变量声明与解构赋值&quot; class=&quot;headerlink&quot; title=&quot;变量声明与解构赋值&quot;&gt;&lt;/a&gt;变量声明与解构赋值&lt;/h1&gt;&lt;p&gt;柏林已经来了命令，阿尔萨斯和洛林的学校只许教 ES6</summary>
-        
-      
-    
-    
-    
-    <category term="ES6-标准入门" scheme="https://www.pipbest.com/categories/ES6-%E6%A0%87%E5%87%86%E5%85%A5%E9%97%A8/"/>
-    
-    
-    <category term="ES6" scheme="https://www.pipbest.com/tags/ES6/"/>
-    
-    <category term="Proxy" scheme="https://www.pipbest.com/tags/Proxy/"/>
-    
-    <category term="Promise" scheme="https://www.pipbest.com/tags/Promise/"/>
-    
-    <category term="Async" scheme="https://www.pipbest.com/tags/Async/"/>
-    
-    <category term="class" scheme="https://www.pipbest.com/tags/class/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>数据类型与数据结构</title>
-    <link href="https://www.pipbest.com/2021/10/18/handbook/es6-biao-zhun-ru-men/03-shu-ju-lei-xing-yu-shu-ju-jie-gou/"/>
-    <id>https://www.pipbest.com/2021/10/18/handbook/es6-biao-zhun-ru-men/03-shu-ju-lei-xing-yu-shu-ju-jie-gou/</id>
-    <published>2021-10-18T07:42:02.000Z</published>
-    <updated>2021-11-01T05:01:04.350Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;数据类型与数据结构&quot;&gt;&lt;a href=&quot;#数据类型与数据结构&quot; class=&quot;headerlink&quot; title=&quot;数据类型与数据结构&quot;&gt;&lt;/a&gt;数据类型与数据结构&lt;/h1&gt;&lt;p&gt;ES6 新增了 Synmbol 数据类型和 Set、Map</summary>
-        
-      
-    
-    
-    
-    <category term="ES6-标准入门" scheme="https://www.pipbest.com/categories/ES6-%E6%A0%87%E5%87%86%E5%85%A5%E9%97%A8/"/>
-    
-    
-    <category term="ES6" scheme="https://www.pipbest.com/tags/ES6/"/>
-    
-    <category term="Proxy" scheme="https://www.pipbest.com/tags/Proxy/"/>
-    
-    <category term="Promise" scheme="https://www.pipbest.com/tags/Promise/"/>
-    
-    <category term="Async" scheme="https://www.pipbest.com/tags/Async/"/>
-    
-    <category term="class" scheme="https://www.pipbest.com/tags/class/"/>
     
   </entry>
   
@@ -154,39 +67,6 @@
     <category term="Snippets" scheme="https://www.pipbest.com/tags/Snippets/"/>
     
     <category term="代码组件化" scheme="https://www.pipbest.com/tags/%E4%BB%A3%E7%A0%81%E7%BB%84%E4%BB%B6%E5%8C%96/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>语法的扩展</title>
-    <link href="https://www.pipbest.com/2021/10/18/handbook/es6-biao-zhun-ru-men/02-yu-fa-de-kuo-zhan/"/>
-    <id>https://www.pipbest.com/2021/10/18/handbook/es6-biao-zhun-ru-men/02-yu-fa-de-kuo-zhan/</id>
-    <published>2021-10-18T07:42:02.000Z</published>
-    <updated>2021-11-01T05:01:04.350Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;语法的扩展&quot;&gt;&lt;a href=&quot;#语法的扩展&quot; class=&quot;headerlink&quot; title=&quot;语法的扩展&quot;&gt;&lt;/a&gt;语法的扩展&lt;/h1&gt;&lt;p&gt;ES6 对语法进行了大量扩展，包括且不限于字符串、正则、数值、函数、数组、对象的扩展等，此篇总结 ES6</summary>
-        
-      
-    
-    
-    
-    <category term="ES6-标准入门" scheme="https://www.pipbest.com/categories/ES6-%E6%A0%87%E5%87%86%E5%85%A5%E9%97%A8/"/>
-    
-    
-    <category term="ES6" scheme="https://www.pipbest.com/tags/ES6/"/>
-    
-    <category term="Proxy" scheme="https://www.pipbest.com/tags/Proxy/"/>
-    
-    <category term="Promise" scheme="https://www.pipbest.com/tags/Promise/"/>
-    
-    <category term="Async" scheme="https://www.pipbest.com/tags/Async/"/>
-    
-    <category term="class" scheme="https://www.pipbest.com/tags/class/"/>
     
   </entry>
   
@@ -222,409 +102,461 @@
   </entry>
   
   <entry>
-    <title>Proxy 和 Reflect</title>
-    <link href="https://www.pipbest.com/2021/10/18/handbook/es6-biao-zhun-ru-men/04-proxy-he-reflect/"/>
-    <id>https://www.pipbest.com/2021/10/18/handbook/es6-biao-zhun-ru-men/04-proxy-he-reflect/</id>
+    <title>Python Basics Python 基础</title>
+    <link href="https://www.pipbest.com/2021/10/18/ce/pda/1.1.1-python-basics-python-ji-chu/"/>
+    <id>https://www.pipbest.com/2021/10/18/ce/pda/1.1.1-python-basics-python-ji-chu/</id>
     <published>2021-10-18T07:42:02.000Z</published>
-    <updated>2021-11-01T05:01:04.350Z</updated>
+    <updated>2021-10-20T10:33:36.811Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;Proxy-和-Reflect&quot;&gt;&lt;a href=&quot;#Proxy-和-Reflect&quot; class=&quot;headerlink&quot; title=&quot;Proxy 和 Reflect&quot;&gt;&lt;/a&gt;Proxy 和 Reflect&lt;/h1&gt;&lt;p&gt;ES6 新增 Proxy 和</summary>
+    <summary type="html">&lt;h1 id=&quot;1-1-1-Python-Basics-Python-基础&quot;&gt;&lt;a href=&quot;#1-1-1-Python-Basics-Python-基础&quot; class=&quot;headerlink&quot; title=&quot;1.1.1: Python Basics Python</summary>
         
       
     
     
     
-    <category term="ES6-标准入门" scheme="https://www.pipbest.com/categories/ES6-%E6%A0%87%E5%87%86%E5%85%A5%E9%97%A8/"/>
+    <category term="Python数据分析（中英对照）" scheme="https://www.pipbest.com/categories/Python%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%EF%BC%88%E4%B8%AD%E8%8B%B1%E5%AF%B9%E7%85%A7%EF%BC%89/"/>
     
     
-    <category term="ES6" scheme="https://www.pipbest.com/tags/ES6/"/>
+    <category term="Python" scheme="https://www.pipbest.com/tags/Python/"/>
     
-    <category term="Proxy" scheme="https://www.pipbest.com/tags/Proxy/"/>
-    
-    <category term="Promise" scheme="https://www.pipbest.com/tags/Promise/"/>
-    
-    <category term="Async" scheme="https://www.pipbest.com/tags/Async/"/>
-    
-    <category term="class" scheme="https://www.pipbest.com/tags/class/"/>
+    <category term="数据分析" scheme="https://www.pipbest.com/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
     
   </entry>
   
   <entry>
-    <title>异步编程 Promise</title>
-    <link href="https://www.pipbest.com/2021/10/18/handbook/es6-biao-zhun-ru-men/05-yi-bu-bian-cheng-promise/"/>
-    <id>https://www.pipbest.com/2021/10/18/handbook/es6-biao-zhun-ru-men/05-yi-bu-bian-cheng-promise/</id>
+    <title>Objects 对象</title>
+    <link href="https://www.pipbest.com/2021/10/18/ce/pda/1.1.2-objects-dui-xiang/"/>
+    <id>https://www.pipbest.com/2021/10/18/ce/pda/1.1.2-objects-dui-xiang/</id>
     <published>2021-10-18T07:42:02.000Z</published>
-    <updated>2021-11-01T05:01:04.350Z</updated>
+    <updated>2021-10-20T10:33:36.811Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;异步编程-Promise&quot;&gt;&lt;a href=&quot;#异步编程-Promise&quot; class=&quot;headerlink&quot; title=&quot;异步编程 Promise&quot;&gt;&lt;/a&gt;异步编程 Promise&lt;/h1&gt;&lt;p&gt;Promise</summary>
+    <summary type="html">&lt;h1 id=&quot;1-1-2-Objects-对象&quot;&gt;&lt;a href=&quot;#1-1-2-Objects-对象&quot; class=&quot;headerlink&quot; title=&quot;1.1.2: Objects 对象&quot;&gt;&lt;/a&gt;1.1.2: Objects</summary>
         
       
     
     
     
-    <category term="ES6-标准入门" scheme="https://www.pipbest.com/categories/ES6-%E6%A0%87%E5%87%86%E5%85%A5%E9%97%A8/"/>
+    <category term="Python数据分析（中英对照）" scheme="https://www.pipbest.com/categories/Python%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%EF%BC%88%E4%B8%AD%E8%8B%B1%E5%AF%B9%E7%85%A7%EF%BC%89/"/>
     
     
-    <category term="ES6" scheme="https://www.pipbest.com/tags/ES6/"/>
+    <category term="Python" scheme="https://www.pipbest.com/tags/Python/"/>
     
-    <category term="Proxy" scheme="https://www.pipbest.com/tags/Proxy/"/>
-    
-    <category term="Promise" scheme="https://www.pipbest.com/tags/Promise/"/>
-    
-    <category term="Async" scheme="https://www.pipbest.com/tags/Async/"/>
-    
-    <category term="class" scheme="https://www.pipbest.com/tags/class/"/>
+    <category term="数据分析" scheme="https://www.pipbest.com/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
     
   </entry>
   
   <entry>
-    <title>Iterator 和 for of 循环</title>
-    <link href="https://www.pipbest.com/2021/10/18/handbook/es6-biao-zhun-ru-men/06-iterator-he-for-of-xun-huan/"/>
-    <id>https://www.pipbest.com/2021/10/18/handbook/es6-biao-zhun-ru-men/06-iterator-he-for-of-xun-huan/</id>
+    <title>Modules and Methods 模块和方法</title>
+    <link href="https://www.pipbest.com/2021/10/18/ce/pda/1.1.3-modules-and-methods-mo-kuai-he-fang-fa/"/>
+    <id>https://www.pipbest.com/2021/10/18/ce/pda/1.1.3-modules-and-methods-mo-kuai-he-fang-fa/</id>
     <published>2021-10-18T07:42:02.000Z</published>
-    <updated>2021-11-01T05:01:04.658Z</updated>
+    <updated>2021-10-20T10:33:36.811Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;Iterator-和-for-of-循环&quot;&gt;&lt;a href=&quot;#Iterator-和-for-of-循环&quot; class=&quot;headerlink&quot; title=&quot;Iterator 和 for of 循环&quot;&gt;&lt;/a&gt;Iterator 和 for of</summary>
+    <summary type="html">&lt;h1 id=&quot;1-1-3-Modules-and-Methods-模块和方法&quot;&gt;&lt;a href=&quot;#1-1-3-Modules-and-Methods-模块和方法&quot; class=&quot;headerlink&quot; title=&quot;1.1.3: Modules and Methods</summary>
         
       
     
     
     
-    <category term="ES6-标准入门" scheme="https://www.pipbest.com/categories/ES6-%E6%A0%87%E5%87%86%E5%85%A5%E9%97%A8/"/>
+    <category term="Python数据分析（中英对照）" scheme="https://www.pipbest.com/categories/Python%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%EF%BC%88%E4%B8%AD%E8%8B%B1%E5%AF%B9%E7%85%A7%EF%BC%89/"/>
     
     
-    <category term="ES6" scheme="https://www.pipbest.com/tags/ES6/"/>
+    <category term="Python" scheme="https://www.pipbest.com/tags/Python/"/>
     
-    <category term="Proxy" scheme="https://www.pipbest.com/tags/Proxy/"/>
-    
-    <category term="Promise" scheme="https://www.pipbest.com/tags/Promise/"/>
-    
-    <category term="Async" scheme="https://www.pipbest.com/tags/Async/"/>
-    
-    <category term="class" scheme="https://www.pipbest.com/tags/class/"/>
+    <category term="数据分析" scheme="https://www.pipbest.com/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
     
   </entry>
   
   <entry>
-    <title>Generator 函数</title>
-    <link href="https://www.pipbest.com/2021/10/18/handbook/es6-biao-zhun-ru-men/07-generator-han-shu/"/>
-    <id>https://www.pipbest.com/2021/10/18/handbook/es6-biao-zhun-ru-men/07-generator-han-shu/</id>
+    <title>Numbers and Basic Calculations 数字和基本计算</title>
+    <link href="https://www.pipbest.com/2021/10/18/ce/pda/1.1.4-numbers-and-basic-calculations-shu-zi-he-ji-ben-ji-suan/"/>
+    <id>https://www.pipbest.com/2021/10/18/ce/pda/1.1.4-numbers-and-basic-calculations-shu-zi-he-ji-ben-ji-suan/</id>
     <published>2021-10-18T07:42:02.000Z</published>
-    <updated>2021-11-01T05:01:04.659Z</updated>
+    <updated>2021-10-20T10:33:36.811Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;Generator-函数&quot;&gt;&lt;a href=&quot;#Generator-函数&quot; class=&quot;headerlink&quot; title=&quot;Generator 函数&quot;&gt;&lt;/a&gt;Generator 函数&lt;/h1&gt;&lt;p&gt;Generator 函数是 ES6</summary>
+    <summary type="html">&lt;h1 id=&quot;1-1-4-Numbers-and-Basic-Calculations-数字和基本计算&quot;&gt;&lt;a href=&quot;#1-1-4-Numbers-and-Basic-Calculations-数字和基本计算&quot; class=&quot;headerlink&quot;</summary>
         
       
     
     
     
-    <category term="ES6-标准入门" scheme="https://www.pipbest.com/categories/ES6-%E6%A0%87%E5%87%86%E5%85%A5%E9%97%A8/"/>
+    <category term="Python数据分析（中英对照）" scheme="https://www.pipbest.com/categories/Python%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%EF%BC%88%E4%B8%AD%E8%8B%B1%E5%AF%B9%E7%85%A7%EF%BC%89/"/>
     
     
-    <category term="ES6" scheme="https://www.pipbest.com/tags/ES6/"/>
+    <category term="Python" scheme="https://www.pipbest.com/tags/Python/"/>
     
-    <category term="Proxy" scheme="https://www.pipbest.com/tags/Proxy/"/>
-    
-    <category term="Promise" scheme="https://www.pipbest.com/tags/Promise/"/>
-    
-    <category term="Async" scheme="https://www.pipbest.com/tags/Async/"/>
-    
-    <category term="class" scheme="https://www.pipbest.com/tags/class/"/>
+    <category term="数据分析" scheme="https://www.pipbest.com/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
     
   </entry>
   
   <entry>
-    <title>Async 函数</title>
-    <link href="https://www.pipbest.com/2021/10/18/handbook/es6-biao-zhun-ru-men/08-async-han-shu/"/>
-    <id>https://www.pipbest.com/2021/10/18/handbook/es6-biao-zhun-ru-men/08-async-han-shu/</id>
+    <title>Random Choice 随机选择</title>
+    <link href="https://www.pipbest.com/2021/10/18/ce/pda/1.1.5-random-choice-sui-ji-xuan-ze/"/>
+    <id>https://www.pipbest.com/2021/10/18/ce/pda/1.1.5-random-choice-sui-ji-xuan-ze/</id>
     <published>2021-10-18T07:42:02.000Z</published>
-    <updated>2021-11-01T05:01:04.659Z</updated>
+    <updated>2021-10-20T10:33:36.946Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;Async-函数&quot;&gt;&lt;a href=&quot;#Async-函数&quot; class=&quot;headerlink&quot; title=&quot;Async 函数&quot;&gt;&lt;/a&gt;Async 函数&lt;/h1&gt;&lt;p&gt;Async 函数是 ES2017 标准提供的改进版异步编程解决方案，它比</summary>
+    <summary type="html">&lt;h1 id=&quot;1-1-5-Random-Choice-随机选择&quot;&gt;&lt;a href=&quot;#1-1-5-Random-Choice-随机选择&quot; class=&quot;headerlink&quot; title=&quot;1.1.5: Random Choice 随机选择&quot;&gt;&lt;/a&gt;1.1.5:</summary>
         
       
     
     
     
-    <category term="ES6-标准入门" scheme="https://www.pipbest.com/categories/ES6-%E6%A0%87%E5%87%86%E5%85%A5%E9%97%A8/"/>
+    <category term="Python数据分析（中英对照）" scheme="https://www.pipbest.com/categories/Python%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%EF%BC%88%E4%B8%AD%E8%8B%B1%E5%AF%B9%E7%85%A7%EF%BC%89/"/>
     
     
-    <category term="ES6" scheme="https://www.pipbest.com/tags/ES6/"/>
+    <category term="Python" scheme="https://www.pipbest.com/tags/Python/"/>
     
-    <category term="Proxy" scheme="https://www.pipbest.com/tags/Proxy/"/>
-    
-    <category term="Promise" scheme="https://www.pipbest.com/tags/Promise/"/>
-    
-    <category term="Async" scheme="https://www.pipbest.com/tags/Async/"/>
-    
-    <category term="class" scheme="https://www.pipbest.com/tags/class/"/>
+    <category term="数据分析" scheme="https://www.pipbest.com/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
     
   </entry>
   
   <entry>
-    <title>Class 类</title>
-    <link href="https://www.pipbest.com/2021/10/18/handbook/es6-biao-zhun-ru-men/09-class-lei/"/>
-    <id>https://www.pipbest.com/2021/10/18/handbook/es6-biao-zhun-ru-men/09-class-lei/</id>
+    <title>Expressions and Booleans 表达式和布尔值</title>
+    <link href="https://www.pipbest.com/2021/10/18/ce/pda/1.1.6-expressions-and-booleans/"/>
+    <id>https://www.pipbest.com/2021/10/18/ce/pda/1.1.6-expressions-and-booleans/</id>
     <published>2021-10-18T07:42:02.000Z</published>
-    <updated>2021-11-01T05:01:04.659Z</updated>
+    <updated>2021-10-20T10:33:36.811Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;Class-类&quot;&gt;&lt;a href=&quot;#Class-类&quot; class=&quot;headerlink&quot; title=&quot;Class 类&quot;&gt;&lt;/a&gt;Class 类&lt;/h1&gt;&lt;p&gt;直至 ES6，JavaScript</summary>
+    <summary type="html">&lt;h1 id=&quot;1-1-6-Expressions-and-Booleans-表达式和布尔值&quot;&gt;&lt;a href=&quot;#1-1-6-Expressions-and-Booleans-表达式和布尔值&quot; class=&quot;headerlink&quot; title=&quot;1.1.6:</summary>
         
       
     
     
     
-    <category term="ES6-标准入门" scheme="https://www.pipbest.com/categories/ES6-%E6%A0%87%E5%87%86%E5%85%A5%E9%97%A8/"/>
+    <category term="Python数据分析（中英对照）" scheme="https://www.pipbest.com/categories/Python%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%EF%BC%88%E4%B8%AD%E8%8B%B1%E5%AF%B9%E7%85%A7%EF%BC%89/"/>
     
     
-    <category term="ES6" scheme="https://www.pipbest.com/tags/ES6/"/>
+    <category term="Python" scheme="https://www.pipbest.com/tags/Python/"/>
     
-    <category term="Proxy" scheme="https://www.pipbest.com/tags/Proxy/"/>
-    
-    <category term="Promise" scheme="https://www.pipbest.com/tags/Promise/"/>
-    
-    <category term="Async" scheme="https://www.pipbest.com/tags/Async/"/>
-    
-    <category term="class" scheme="https://www.pipbest.com/tags/class/"/>
+    <category term="数据分析" scheme="https://www.pipbest.com/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
     
   </entry>
   
   <entry>
-    <title>Interview 面试问题</title>
-    <link href="https://www.pipbest.com/2021/10/18/handbook/tools/02-interview/"/>
-    <id>https://www.pipbest.com/2021/10/18/handbook/tools/02-interview/</id>
+    <title>Lists 列表</title>
+    <link href="https://www.pipbest.com/2021/10/18/ce/pda/1.2.2-lists-lie-biao/"/>
+    <id>https://www.pipbest.com/2021/10/18/ce/pda/1.2.2-lists-lie-biao/</id>
     <published>2021-10-18T07:42:02.000Z</published>
-    <updated>2021-11-01T05:01:04.562Z</updated>
+    <updated>2021-10-20T10:33:36.811Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;Interview-面试问题&quot;&gt;&lt;a href=&quot;#Interview-面试问题&quot; class=&quot;headerlink&quot; title=&quot;Interview 面试问题&quot;&gt;&lt;/a&gt;Interview 面试问题&lt;/h1&gt;&lt;h2</summary>
+    <summary type="html">&lt;h1 id=&quot;1-2-2-Lists-列表&quot;&gt;&lt;a href=&quot;#1-2-2-Lists-列表&quot; class=&quot;headerlink&quot; title=&quot;1.2.2: Lists 列表&quot;&gt;&lt;/a&gt;1.2.2: Lists</summary>
         
       
     
     
     
-    <category term="Note" scheme="https://www.pipbest.com/categories/Note/"/>
+    <category term="Python数据分析（中英对照）" scheme="https://www.pipbest.com/categories/Python%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%EF%BC%88%E4%B8%AD%E8%8B%B1%E5%AF%B9%E7%85%A7%EF%BC%89/"/>
     
     
-    <category term="面霸" scheme="https://www.pipbest.com/tags/%E9%9D%A2%E9%9C%B8/"/>
+    <category term="Python" scheme="https://www.pipbest.com/tags/Python/"/>
     
-    <category term="Interview" scheme="https://www.pipbest.com/tags/Interview/"/>
+    <category term="数据分析" scheme="https://www.pipbest.com/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
     
   </entry>
   
   <entry>
-    <title>Docker</title>
-    <link href="https://www.pipbest.com/2021/10/18/handbook/tools/05-docker/"/>
-    <id>https://www.pipbest.com/2021/10/18/handbook/tools/05-docker/</id>
+    <title>Sequences 序列</title>
+    <link href="https://www.pipbest.com/2021/10/18/ce/pda/1.2.1-sequences-xu-lie/"/>
+    <id>https://www.pipbest.com/2021/10/18/ce/pda/1.2.1-sequences-xu-lie/</id>
     <published>2021-10-18T07:42:02.000Z</published>
-    <updated>2021-11-01T05:01:04.349Z</updated>
+    <updated>2021-10-20T10:33:36.811Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;Docker&quot;&gt;&lt;a href=&quot;#Docker&quot; class=&quot;headerlink&quot; title=&quot;Docker&quot;&gt;&lt;/a&gt;Docker&lt;/h1&gt;&lt;p&gt;Docker 属于 Linux</summary>
+    <summary type="html">&lt;h1 id=&quot;1-2-1-Sequences-序列&quot;&gt;&lt;a href=&quot;#1-2-1-Sequences-序列&quot; class=&quot;headerlink&quot; title=&quot;1.2.1:Sequences 序列&quot;&gt;&lt;/a&gt;1.2.1:Sequences</summary>
         
       
     
     
     
-    <category term="Tools" scheme="https://www.pipbest.com/categories/Tools/"/>
+    <category term="Python数据分析（中英对照）" scheme="https://www.pipbest.com/categories/Python%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%EF%BC%88%E4%B8%AD%E8%8B%B1%E5%AF%B9%E7%85%A7%EF%BC%89/"/>
     
     
-    <category term="Tools" scheme="https://www.pipbest.com/tags/Tools/"/>
+    <category term="Python" scheme="https://www.pipbest.com/tags/Python/"/>
     
-    <category term="Docker" scheme="https://www.pipbest.com/tags/Docker/"/>
-    
-    <category term="容器" scheme="https://www.pipbest.com/tags/%E5%AE%B9%E5%99%A8/"/>
+    <category term="数据分析" scheme="https://www.pipbest.com/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
     
   </entry>
   
   <entry>
-    <title>正则表达式</title>
-    <link href="https://www.pipbest.com/2021/10/18/handbook/tools/04-vagrant/"/>
-    <id>https://www.pipbest.com/2021/10/18/handbook/tools/04-vagrant/</id>
+    <title>Tuples 元组</title>
+    <link href="https://www.pipbest.com/2021/10/18/ce/pda/1.2.3-tuples-yuan-zu/"/>
+    <id>https://www.pipbest.com/2021/10/18/ce/pda/1.2.3-tuples-yuan-zu/</id>
     <published>2021-10-18T07:42:02.000Z</published>
-    <updated>2021-11-01T05:01:04.350Z</updated>
+    <updated>2021-10-20T10:33:36.965Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;Vagrant&quot;&gt;&lt;a href=&quot;#Vagrant&quot; class=&quot;headerlink&quot; title=&quot;Vagrant&quot;&gt;&lt;/a&gt;Vagrant&lt;/h1&gt;&lt;h2 id=&quot;安装虚拟机&quot;&gt;&lt;a href=&quot;#安装虚拟机&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h1 id=&quot;1-2-3-Tuples-元组&quot;&gt;&lt;a href=&quot;#1-2-3-Tuples-元组&quot; class=&quot;headerlink&quot; title=&quot;1.2.3: Tuples 元组&quot;&gt;&lt;/a&gt;1.2.3: Tuples</summary>
         
       
     
     
     
-    <category term="Tools" scheme="https://www.pipbest.com/categories/Tools/"/>
+    <category term="Python数据分析（中英对照）" scheme="https://www.pipbest.com/categories/Python%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%EF%BC%88%E4%B8%AD%E8%8B%B1%E5%AF%B9%E7%85%A7%EF%BC%89/"/>
     
     
-    <category term="Tools" scheme="https://www.pipbest.com/tags/Tools/"/>
+    <category term="Python" scheme="https://www.pipbest.com/tags/Python/"/>
     
-    <category term="Vagrant" scheme="https://www.pipbest.com/tags/Vagrant/"/>
-    
-    <category term="虚拟机" scheme="https://www.pipbest.com/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+    <category term="数据分析" scheme="https://www.pipbest.com/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
     
   </entry>
   
   <entry>
-    <title>Lombok</title>
-    <link href="https://www.pipbest.com/2021/10/18/handbook/tools/06-lombok/"/>
-    <id>https://www.pipbest.com/2021/10/18/handbook/tools/06-lombok/</id>
+    <title>Ranges 范围</title>
+    <link href="https://www.pipbest.com/2021/10/18/ce/pda/1.2.4-ranges-fan-wei/"/>
+    <id>https://www.pipbest.com/2021/10/18/ce/pda/1.2.4-ranges-fan-wei/</id>
     <published>2021-10-18T07:42:02.000Z</published>
-    <updated>2021-11-01T04:58:14.261Z</updated>
+    <updated>2021-10-20T10:33:36.811Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;Lombok&quot;&gt;&lt;a href=&quot;#Lombok&quot; class=&quot;headerlink&quot; title=&quot;Lombok&quot;&gt;&lt;/a&gt;Lombok&lt;/h1&gt;&lt;p&gt;记录 Lombok 中常见的一些注解。&lt;/p&gt;
-&lt;h2 id=&quot;Builder&quot;&gt;&lt;a</summary>
+    <summary type="html">&lt;h1 id=&quot;1-2-4-Ranges-范围&quot;&gt;&lt;a href=&quot;#1-2-4-Ranges-范围&quot; class=&quot;headerlink&quot; title=&quot;1.2.4: Ranges 范围&quot;&gt;&lt;/a&gt;1.2.4: Ranges</summary>
         
       
     
     
     
-    <category term="Tools" scheme="https://www.pipbest.com/categories/Tools/"/>
+    <category term="Python数据分析（中英对照）" scheme="https://www.pipbest.com/categories/Python%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%EF%BC%88%E4%B8%AD%E8%8B%B1%E5%AF%B9%E7%85%A7%EF%BC%89/"/>
     
     
-    <category term="Tools" scheme="https://www.pipbest.com/tags/Tools/"/>
+    <category term="Python" scheme="https://www.pipbest.com/tags/Python/"/>
     
-    <category term="Lombok" scheme="https://www.pipbest.com/tags/Lombok/"/>
-    
-    <category term="注释" scheme="https://www.pipbest.com/tags/%E6%B3%A8%E9%87%8A/"/>
+    <category term="数据分析" scheme="https://www.pipbest.com/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
     
   </entry>
   
   <entry>
-    <title>Redis</title>
-    <link href="https://www.pipbest.com/2021/10/18/handbook/tools/08-redis/"/>
-    <id>https://www.pipbest.com/2021/10/18/handbook/tools/08-redis/</id>
+    <title>Strings 字符串</title>
+    <link href="https://www.pipbest.com/2021/10/18/ce/pda/1.2.5-strings-zi-fu-chuan/"/>
+    <id>https://www.pipbest.com/2021/10/18/ce/pda/1.2.5-strings-zi-fu-chuan/</id>
     <published>2021-10-18T07:42:02.000Z</published>
-    <updated>2021-11-01T04:59:56.070Z</updated>
+    <updated>2021-10-20T10:33:36.965Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;Redis&quot;&gt;&lt;a href=&quot;#Redis&quot; class=&quot;headerlink&quot; title=&quot;Redis&quot;&gt;&lt;/a&gt;Redis&lt;/h1&gt;&lt;h2 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h1 id=&quot;1-2-5-Strings-字符串&quot;&gt;&lt;a href=&quot;#1-2-5-Strings-字符串&quot; class=&quot;headerlink&quot; title=&quot;1.2.5: Strings 字符串&quot;&gt;&lt;/a&gt;1.2.5: Strings</summary>
         
       
     
     
     
-    <category term="Tools" scheme="https://www.pipbest.com/categories/Tools/"/>
+    <category term="Python数据分析（中英对照）" scheme="https://www.pipbest.com/categories/Python%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%EF%BC%88%E4%B8%AD%E8%8B%B1%E5%AF%B9%E7%85%A7%EF%BC%89/"/>
     
     
-    <category term="Tools" scheme="https://www.pipbest.com/tags/Tools/"/>
+    <category term="Python" scheme="https://www.pipbest.com/tags/Python/"/>
     
-    <category term="Redis" scheme="https://www.pipbest.com/tags/Redis/"/>
-    
-    <category term="关系库" scheme="https://www.pipbest.com/tags/%E5%85%B3%E7%B3%BB%E5%BA%93/"/>
-    
-    <category term="springboot" scheme="https://www.pipbest.com/tags/springboot/"/>
-    
-    <category term="jedis" scheme="https://www.pipbest.com/tags/jedis/"/>
-    
-    <category term="Lettuce" scheme="https://www.pipbest.com/tags/Lettuce/"/>
+    <category term="数据分析" scheme="https://www.pipbest.com/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
     
   </entry>
   
   <entry>
-    <title>Swagger</title>
-    <link href="https://www.pipbest.com/2021/10/18/handbook/tools/07-swagger/"/>
-    <id>https://www.pipbest.com/2021/10/18/handbook/tools/07-swagger/</id>
+    <title>Sets 集合</title>
+    <link href="https://www.pipbest.com/2021/10/18/ce/pda/1.2.6-sets-ji-he/"/>
+    <id>https://www.pipbest.com/2021/10/18/ce/pda/1.2.6-sets-ji-he/</id>
     <published>2021-10-18T07:42:02.000Z</published>
-    <updated>2021-11-01T05:01:04.349Z</updated>
+    <updated>2021-10-20T10:33:36.811Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;Swagger&quot;&gt;&lt;a href=&quot;#Swagger&quot; class=&quot;headerlink&quot; title=&quot;Swagger&quot;&gt;&lt;/a&gt;Swagger&lt;/h1&gt;&lt;p&gt;Swagger 提供了一套通过代码和注解自动生成文档的方法。&lt;/p&gt;
-&lt;h2</summary>
+    <summary type="html">&lt;h1 id=&quot;1-2-6-Sets-集合&quot;&gt;&lt;a href=&quot;#1-2-6-Sets-集合&quot; class=&quot;headerlink&quot; title=&quot;1.2.6: Sets 集合&quot;&gt;&lt;/a&gt;1.2.6: Sets 集合&lt;/h1&gt;&lt;p&gt;集合是不同散列对象的无序集合。&lt;br&gt;Sets</summary>
         
       
     
     
     
-    <category term="Tools" scheme="https://www.pipbest.com/categories/Tools/"/>
+    <category term="Python数据分析（中英对照）" scheme="https://www.pipbest.com/categories/Python%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%EF%BC%88%E4%B8%AD%E8%8B%B1%E5%AF%B9%E7%85%A7%EF%BC%89/"/>
     
     
-    <category term="Tools" scheme="https://www.pipbest.com/tags/Tools/"/>
+    <category term="Python" scheme="https://www.pipbest.com/tags/Python/"/>
     
-    <category term="注释" scheme="https://www.pipbest.com/tags/%E6%B3%A8%E9%87%8A/"/>
-    
-    <category term="Swagger" scheme="https://www.pipbest.com/tags/Swagger/"/>
-    
-    <category term="文档" scheme="https://www.pipbest.com/tags/%E6%96%87%E6%A1%A3/"/>
+    <category term="数据分析" scheme="https://www.pipbest.com/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
     
   </entry>
   
   <entry>
-    <title>IDEA 高效指南</title>
-    <link href="https://www.pipbest.com/2021/10/18/handbook/tools/10-idea-gao-xiao-zhi-nan/"/>
-    <id>https://www.pipbest.com/2021/10/18/handbook/tools/10-idea-gao-xiao-zhi-nan/</id>
+    <title>Dictionaries 字典</title>
+    <link href="https://www.pipbest.com/2021/10/18/ce/pda/1.2.7-dictionaries-zi-dian/"/>
+    <id>https://www.pipbest.com/2021/10/18/ce/pda/1.2.7-dictionaries-zi-dian/</id>
     <published>2021-10-18T07:42:02.000Z</published>
-    <updated>2021-11-01T05:00:25.940Z</updated>
+    <updated>2021-10-20T10:33:36.811Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;IDEA-高效指南&quot;&gt;&lt;a href=&quot;#IDEA-高效指南&quot; class=&quot;headerlink&quot; title=&quot;IDEA 高效指南&quot;&gt;&lt;/a&gt;IDEA 高效指南&lt;/h1&gt;&lt;h2 id=&quot;必装工具&quot;&gt;&lt;a href=&quot;#必装工具&quot;</summary>
+    <summary type="html">&lt;h1 id=&quot;1-2-7-Dictionaries-字典&quot;&gt;&lt;a href=&quot;#1-2-7-Dictionaries-字典&quot; class=&quot;headerlink&quot; title=&quot;1.2.7: Dictionaries 字典&quot;&gt;&lt;/a&gt;1.2.7: Dictionaries</summary>
         
       
     
     
     
-    <category term="Tools" scheme="https://www.pipbest.com/categories/Tools/"/>
+    <category term="Python数据分析（中英对照）" scheme="https://www.pipbest.com/categories/Python%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%EF%BC%88%E4%B8%AD%E8%8B%B1%E5%AF%B9%E7%85%A7%EF%BC%89/"/>
     
     
-    <category term="Tools" scheme="https://www.pipbest.com/tags/Tools/"/>
+    <category term="Python" scheme="https://www.pipbest.com/tags/Python/"/>
     
-    <category term="IDEA" scheme="https://www.pipbest.com/tags/IDEA/"/>
+    <category term="数据分析" scheme="https://www.pipbest.com/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Scope Rules范围规则</title>
+    <link href="https://www.pipbest.com/2021/10/18/ce/pda/2.1.1-scope-rules-fan-wei-gui-ze/"/>
+    <id>https://www.pipbest.com/2021/10/18/ce/pda/2.1.1-scope-rules-fan-wei-gui-ze/</id>
+    <published>2021-10-18T07:42:02.000Z</published>
+    <updated>2021-10-24T04:57:01.525Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;2-1-1-Scope-Rules范围规则&quot;&gt;&lt;a href=&quot;#2-1-1-Scope-Rules范围规则&quot; class=&quot;headerlink&quot; title=&quot;2.1.1: Scope Rules范围规则&quot;&gt;&lt;/a&gt;2.1.1: Scope</summary>
+        
+      
+    
+    
+    
+    <category term="Python数据分析（中英对照）" scheme="https://www.pipbest.com/categories/Python%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%EF%BC%88%E4%B8%AD%E8%8B%B1%E5%AF%B9%E7%85%A7%EF%BC%89/"/>
+    
+    
+    <category term="Python" scheme="https://www.pipbest.com/tags/Python/"/>
+    
+    <category term="数据分析" scheme="https://www.pipbest.com/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Classes and Object-Oriented Programming类和面向对象编程</title>
+    <link href="https://www.pipbest.com/2021/10/18/ce/pda/2.1.2-classes-and-object-oriented-programming-lei-he-mian-xiang-dui-xiang-bian-cheng/"/>
+    <id>https://www.pipbest.com/2021/10/18/ce/pda/2.1.2-classes-and-object-oriented-programming-lei-he-mian-xiang-dui-xiang-bian-cheng/</id>
+    <published>2021-10-18T07:42:02.000Z</published>
+    <updated>2021-10-24T04:57:01.502Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;2-1-2-Classes-and-Object-Oriented-Programming类和面向对象编程&quot;&gt;&lt;a href=&quot;#2-1-2-Classes-and-Object-Oriented-Programming类和面向对象编程&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Python数据分析（中英对照）" scheme="https://www.pipbest.com/categories/Python%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%EF%BC%88%E4%B8%AD%E8%8B%B1%E5%AF%B9%E7%85%A7%EF%BC%89/"/>
+    
+    
+    <category term="Python" scheme="https://www.pipbest.com/tags/Python/"/>
+    
+    <category term="数据分析" scheme="https://www.pipbest.com/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Slicing NumPy Arrays 切片 NumPy 数组</title>
+    <link href="https://www.pipbest.com/2021/10/18/ce/pda/2.2.2-slicing-numpy-arrays-qie-pian-numpy-shu-zu/"/>
+    <id>https://www.pipbest.com/2021/10/18/ce/pda/2.2.2-slicing-numpy-arrays-qie-pian-numpy-shu-zu/</id>
+    <published>2021-10-18T07:42:02.000Z</published>
+    <updated>2021-10-24T04:57:01.299Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;2-2-2-Slicing-NumPy-Arrays-切片-NumPy-数组&quot;&gt;&lt;a href=&quot;#2-2-2-Slicing-NumPy-Arrays-切片-NumPy-数组&quot; class=&quot;headerlink&quot; title=&quot;2.2.2: Slicing</summary>
+        
+      
+    
+    
+    
+    <category term="Python数据分析（中英对照）" scheme="https://www.pipbest.com/categories/Python%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%EF%BC%88%E4%B8%AD%E8%8B%B1%E5%AF%B9%E7%85%A7%EF%BC%89/"/>
+    
+    
+    <category term="Python" scheme="https://www.pipbest.com/tags/Python/"/>
+    
+    <category term="数据分析" scheme="https://www.pipbest.com/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Indexing NumPy Arrays 索引 NumPy 数组</title>
+    <link href="https://www.pipbest.com/2021/10/18/ce/pda/2.2.3-indexing-numpy-arrays-suo-yin-numpy-shu-zu/"/>
+    <id>https://www.pipbest.com/2021/10/18/ce/pda/2.2.3-indexing-numpy-arrays-suo-yin-numpy-shu-zu/</id>
+    <published>2021-10-18T07:42:02.000Z</published>
+    <updated>2021-10-24T04:57:01.299Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;2-2-3-Indexing-NumPy-Arrays-索引-NumPy-数组&quot;&gt;&lt;a href=&quot;#2-2-3-Indexing-NumPy-Arrays-索引-NumPy-数组&quot; class=&quot;headerlink&quot; title=&quot;2.2.3:</summary>
+        
+      
+    
+    
+    
+    <category term="Python数据分析（中英对照）" scheme="https://www.pipbest.com/categories/Python%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%EF%BC%88%E4%B8%AD%E8%8B%B1%E5%AF%B9%E7%85%A7%EF%BC%89/"/>
+    
+    
+    <category term="Python" scheme="https://www.pipbest.com/tags/Python/"/>
+    
+    <category term="数据分析" scheme="https://www.pipbest.com/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
     
   </entry>
   

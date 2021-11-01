@@ -1303,21 +1303,20 @@ Fork/Join 任务的原理：判断一个任务是否足够小，如果是，直�
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/05-readwritelock/">
+                <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/07-completablefuture/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="ReadWriteLock">
+                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="CompletableFuture">
                         
-                        <span class="card-title">ReadWriteLock</span>
+                        <span class="card-title">CompletableFuture</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            ReadWriteLock前面讲到的 ReentrantLock 保证了只有一个线程可以执行临界区代码：
-public class Counter {
-    private final Lock lock = new ReentrantL
+                            CompletableFutureJava 8 开始引入了 CompletableFuture，它针对 Future 做了改进，可以传入回调对象，当异步任务完成或者发生异常时，自动调用回调对象的回调方法。
+CompletableFuture
                         
                     </div>
                     <div class="publish-info">
@@ -1386,21 +1385,20 @@ public class Counter {
                 下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/09-threadlocal/">
+                <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/11-threadpoolexecutor/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="ThreadLocal">
+                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="ThreadPoolExecutor">
                         
-                        <span class="card-title">ThreadLocal</span>
+                        <span class="card-title">ThreadPoolExecutor</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            ThreadLocal对于多任务，Java 标准库提供的线程池可以方便地执行这些任务，同时复用线程。那么如何在一个线程内传递状态？
-如下栗子，一个内部需要调用若干其他方法，同时传递参数 user。
-public void process(U
+                            ThreadPoolExecutorThreadPoolExecutor 作为 java.util.concurrent 包对外提供基础实现，以内部线程池的形式对外提供管理任务执行、线程调度、线程池管理等等服务。
+ThreadPoolExe
                         
                     </div>
                     <div class="publish-info">

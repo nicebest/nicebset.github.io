@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/qian-duan/react/08-typescript-zhong-is-guan-jian-zi/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/note/01-note/</loc>
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/qian-duan/react/02-use-a-render-prop/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/tools/02-interview/</loc>
+    <lastmod>2021-11-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/qian-duan/react/08-typescript-zhong-is-guan-jian-zi/</loc>
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
@@ -17,7 +21,7 @@
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/qian-duan/react/05-fetch-data-with-react-hooks/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/qian-duan/react/02-use-a-render-prop/</loc>
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
@@ -25,15 +29,19 @@
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
+    <loc>https://www.pipbest.com/2021/10/18/qian-duan/react/05-fetch-data-with-react-hooks/</loc>
+    <lastmod>2021-11-01</lastmod>
+  </url>
+  <url>
     <loc>https://www.pipbest.com/2021/10/18/qian-duan/react/07-typescript-zhong-interface-he-type-qu-bie/</loc>
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/qian-duan/vue/06-vue-yin-ru-scss/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/qian-duan/vue/05-dong-tai-ke-xiang-ying-dui-xiang/</loc>
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/qian-duan/vue/05-dong-tai-ke-xiang-ying-dui-xiang/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/qian-duan/vue/06-vue-yin-ru-scss/</loc>
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
@@ -46,10 +54,6 @@
   </url>
   <url>
     <loc>https://www.pipbest.com/2021/10/18/qian-duan/vue/04-vue-yi-jian-dao-chu-pdf/</loc>
-    <lastmod>2021-11-01</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pipbest.com/2021/11/01/handbook/tools/wei-ming-ming-wen-jian-jia/01-note/</loc>
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
@@ -89,35 +93,7 @@
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/tools/02-interview/</loc>
-    <lastmod>2021-11-01</lastmod>
-  </url>
-  <url>
     <loc>https://www.pipbest.com/2021/10/18/handbook/javascript-she-ji-mo-shi/03-she-ji-mo-shi-xia/</loc>
-    <lastmod>2021-11-01</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/es6-biao-zhun-ru-men/01-bian-liang-sheng-ming-yu-jie-gou-fu-zhi/</loc>
-    <lastmod>2021-11-01</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/es6-biao-zhun-ru-men/03-shu-ju-lei-xing-yu-shu-ju-jie-gou/</loc>
-    <lastmod>2021-11-01</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/es6-biao-zhun-ru-men/02-yu-fa-de-kuo-zhan/</loc>
-    <lastmod>2021-11-01</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/es6-biao-zhun-ru-men/04-proxy-he-reflect/</loc>
-    <lastmod>2021-11-01</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/es6-biao-zhun-ru-men/05-yi-bu-bian-cheng-promise/</loc>
-    <lastmod>2021-11-01</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/tools/04-vagrant/</loc>
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
@@ -129,15 +105,27 @@
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/tools/git/04-git/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/es6-biao-zhun-ru-men/03-shu-ju-lei-xing-yu-shu-ju-jie-gou/</loc>
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/tools/git/git/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/es6-biao-zhun-ru-men/01-bian-liang-sheng-ming-yu-jie-gou-fu-zhi/</loc>
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/tools/nginx/nginx-introduction/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/es6-biao-zhun-ru-men/04-proxy-he-reflect/</loc>
+    <lastmod>2021-11-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/es6-biao-zhun-ru-men/02-yu-fa-de-kuo-zhan/</loc>
+    <lastmod>2021-11-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/es6-biao-zhun-ru-men/05-yi-bu-bian-cheng-promise/</loc>
+    <lastmod>2021-11-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/tools/04-vagrant/</loc>
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
@@ -145,15 +133,27 @@
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/tools/nginx/nginx-configuration/</loc>
-    <lastmod>2021-11-01</lastmod>
-  </url>
-  <url>
     <loc>https://www.pipbest.com/2021/10/18/handbook/tools/nginx/nginx-ops/</loc>
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/tools/nginx/nginx-configuration/</loc>
+    <lastmod>2021-11-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/tools/nginx/nginx-introduction/</loc>
+    <lastmod>2021-11-01</lastmod>
+  </url>
+  <url>
     <loc>https://www.pipbest.com/2021/10/18/handbook/tools/nginx/nginx-quickstart/</loc>
+    <lastmod>2021-11-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/tools/git/04-git/</loc>
+    <lastmod>2021-11-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/tools/git/git/</loc>
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
@@ -178,10 +178,6 @@
   </url>
   <url>
     <loc>https://www.pipbest.com/2021/10/18/note/03-snippets/</loc>
-    <lastmod>2021-11-01</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/note/01-note/</loc>
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
@@ -213,11 +209,15 @@
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/linux/01-linux-wen-jian-quan-xian-xi-tong/</loc>
+    <lastmod>2021-11-01</lastmod>
+  </url>
+  <url>
     <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/netty/03-handler-zhi-xing-shun-xu/</loc>
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/linux/01-linux-wen-jian-quan-xian-xi-tong/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/netty/04-handler-dui-bi/</loc>
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
@@ -225,7 +225,11 @@
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/netty/04-handler-dui-bi/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/project/01-wei-xin-dian-can-xi-tong/</loc>
+    <lastmod>2021-11-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/project/05-netty-liao-tian-xi-tong/</loc>
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
@@ -249,19 +253,11 @@
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/mysql/07-mysql-cha-kan-shu-ju-ku-biao-xiang-qing/</loc>
-    <lastmod>2021-11-01</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/project/01-wei-xin-dian-can-xi-tong/</loc>
-    <lastmod>2021-11-01</lastmod>
-  </url>
-  <url>
     <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/mysql/04-shi-wu/</loc>
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/project/05-netty-liao-tian-xi-tong/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/mysql/07-mysql-cha-kan-shu-ju-ku-biao-xiang-qing/</loc>
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
@@ -289,14 +285,6 @@
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/spring/02-spring-validation/</loc>
-    <lastmod>2021-11-01</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/spring/04-spring-rong-qi/</loc>
-    <lastmod>2021-11-01</lastmod>
-  </url>
-  <url>
     <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/spring/03-spring-data/</loc>
     <lastmod>2021-11-01</lastmod>
   </url>
@@ -309,19 +297,7 @@
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/spring/10-spring-security-oauth2/</loc>
-    <lastmod>2021-11-01</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/spring/09-spring-cloud-alibaba/</loc>
-    <lastmod>2021-11-01</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/spring/13-spring-boot-yi-bu-bian-cheng/</loc>
-    <lastmod>2021-11-01</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/spring/11-spring-boot-qing-qiu-lan-jie/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/spring/02-spring-validation/</loc>
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
@@ -329,7 +305,27 @@
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/spring/09-spring-cloud-alibaba/</loc>
+    <lastmod>2021-11-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/spring/11-spring-boot-qing-qiu-lan-jie/</loc>
+    <lastmod>2021-11-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/spring/13-spring-boot-yi-bu-bian-cheng/</loc>
+    <lastmod>2021-11-01</lastmod>
+  </url>
+  <url>
     <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/spring/14-spring-boot-ding-shi-ren-wu/</loc>
+    <lastmod>2021-11-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/spring/10-spring-security-oauth2/</loc>
+    <lastmod>2021-11-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/spring/04-spring-rong-qi/</loc>
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
@@ -341,11 +337,11 @@
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/spring/18-jpa/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/spring/17-jwt/</loc>
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/spring/17-jwt/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/spring/18-jpa/</loc>
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
@@ -357,11 +353,7 @@
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/spring/20-spring-yi-bu-qing-qiu/</loc>
-    <lastmod>2021-11-01</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/spring/21-spring-boot-kua-yu-jie-jue-fang-shi/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/qian-duan/javascript/02-javascript-zheng-ze-ji-qiao/</loc>
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
@@ -369,19 +361,11 @@
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/qian-duan/javascript/03-cong-liu-lan-qi-jie-xi-js-yun-xing-ji-zhi/</loc>
-    <lastmod>2021-11-01</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/qian-duan/javascript/02-javascript-zheng-ze-ji-qiao/</loc>
-    <lastmod>2021-11-01</lastmod>
-  </url>
-  <url>
     <loc>https://www.pipbest.com/2021/10/18/handbook/qian-duan/javascript/04-canvas-ji-chu-yong-fa/</loc>
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/qian-duan/javascript/07-pai-xu-suan-fa-chu-tan/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/qian-duan/javascript/03-cong-liu-lan-qi-jie-xi-js-yun-xing-ji-zhi/</loc>
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
@@ -393,11 +377,15 @@
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/qian-duan/javascript/09-zheng-ze-pi-pei-match-he-exec/</loc>
+    <lastmod>2021-11-01</lastmod>
+  </url>
+  <url>
     <loc>https://www.pipbest.com/2021/10/18/handbook/qian-duan/javascript/10-zheng-ze-pi-pei-han-zi/</loc>
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/qian-duan/javascript/09-zheng-ze-pi-pei-match-he-exec/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/qian-duan/javascript/07-pai-xu-suan-fa-chu-tan/</loc>
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
@@ -413,11 +401,15 @@
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/qian-duan/shi-zhan-xi-lie/03-you-ya-shi-xian-backtop/</loc>
+    <lastmod>2021-11-01</lastmod>
+  </url>
+  <url>
     <loc>https://www.pipbest.com/2021/10/18/handbook/qian-duan/shi-zhan-xi-lie/02-tu-pian-jia-jie-mi-er-san-shi/</loc>
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/qian-duan/shi-zhan-xi-lie/03-you-ya-shi-xian-backtop/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/qian-duan/shi-zhan-xi-lie/05-shen-qi-de-document.designmode/</loc>
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
@@ -425,7 +417,11 @@
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/qian-duan/shi-zhan-xi-lie/05-shen-qi-de-document.designmode/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/spring/20-spring-yi-bu-qing-qiu/</loc>
+    <lastmod>2021-11-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/spring/21-spring-boot-kua-yu-jie-jue-fang-shi/</loc>
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
@@ -449,15 +445,15 @@
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/java/02-java-shu-ju-lei-xing/</loc>
+    <lastmod>2021-11-01</lastmod>
+  </url>
+  <url>
     <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/java/01-mian-xiang-dui-xiang-ji-ben-te-zheng-yu-yuan-ze/</loc>
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
     <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/java/03-java-string/</loc>
-    <lastmod>2021-11-01</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/java/02-java-shu-ju-lei-xing/</loc>
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
@@ -469,6 +465,10 @@
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/java/07-java-ji-cheng/</loc>
+    <lastmod>2021-11-01</lastmod>
+  </url>
+  <url>
     <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/java/06-java-object-tong-yong-fang-fa/</loc>
     <lastmod>2021-11-01</lastmod>
   </url>
@@ -477,39 +477,7 @@
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/java/07-java-ji-cheng/</loc>
-    <lastmod>2021-11-01</lastmod>
-  </url>
-  <url>
     <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/java/09-java-yi-chang/</loc>
-    <lastmod>2021-11-01</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/java/12-java-io/</loc>
-    <lastmod>2021-11-01</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/java/14-java-list/</loc>
-    <lastmod>2021-11-01</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/java/11-java-xu-ni-ji/</loc>
-    <lastmod>2021-11-01</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/java/13-java-hashmap/</loc>
-    <lastmod>2021-11-01</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/java/16-java-mei-ju/</loc>
-    <lastmod>2021-11-01</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/java/17-java-ri-qi-yu-shi-jian/</loc>
-    <lastmod>2021-11-01</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/java/15-java-stream/</loc>
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
@@ -517,55 +485,31 @@
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/li-lun-gai-nian/02-java-fu-wu-duan-fen-ceng-mo-xing/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/java/13-java-hashmap/</loc>
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/li-lun-gai-nian/03-jing-dian-pai-xu-suan-fa/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/java/11-java-xu-ni-ji/</loc>
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/li-lun-gai-nian/04-lru-huan-cun-tao-tai-suan-fa/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/java/14-java-list/</loc>
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/li-lun-gai-nian/05-bloomfilter-pan-duan-yuan-su-cun-zai/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/java/15-java-stream/</loc>
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/li-lun-gai-nian/01-java-servlet/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/java/17-java-ri-qi-yu-shi-jian/</loc>
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/li-lun-gai-nian/07-http-zhuang-tai-ma-xiang-jie/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/java/16-java-mei-ju/</loc>
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/li-lun-gai-nian/09-ji-yu-xiao-xi-dui-lie-de-fen-bu-shi-shi-wu-jie-jue-fang-an/</loc>
-    <lastmod>2021-11-01</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/li-lun-gai-nian/06-java-hashmap-mian-shi-da-quan/</loc>
-    <lastmod>2021-11-01</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/gao-xiao-bian-cheng/03-java-zi-fu-chuan-pin-jie/</loc>
-    <lastmod>2021-11-01</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/gao-xiao-bian-cheng/04-dan-li-mo-shi-de-ji-chong-shi-xian/</loc>
-    <lastmod>2021-11-01</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/gao-xiao-bian-cheng/02-han-shu-shi-ti-dai-for-xun-huan/</loc>
-    <lastmod>2021-11-01</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/gao-xiao-bian-cheng/05-hashmap-pai-xu/</loc>
-    <lastmod>2021-11-01</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/gao-xiao-bian-cheng/01-30-seconds-of-java8/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/java/12-java-io/</loc>
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
@@ -573,11 +517,15 @@
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/shi-zhan-xi-lie/01-aes-cbc-jia-jie-mi/</loc>
+    <lastmod>2021-11-01</lastmod>
+  </url>
+  <url>
     <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/shi-zhan-xi-lie/03-huo-qu-qing-qiu-ip-di-zhi/</loc>
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/shi-zhan-xi-lie/01-aes-cbc-jia-jie-mi/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/shi-zhan-xi-lie/04-kaptcha-yu-shu-xue-gong-shi-yan-zheng-ma/</loc>
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
@@ -589,11 +537,11 @@
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/shi-zhan-xi-lie/04-kaptcha-yu-shu-xue-gong-shi-yan-zheng-ma/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/shi-zhan-xi-lie/07-qian-hou-duan-jie-ru-a-li-yun-dun/</loc>
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/shi-zhan-xi-lie/07-qian-hou-duan-jie-ru-a-li-yun-dun/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/05-readwritelock/</loc>
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
@@ -605,19 +553,7 @@
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/05-readwritelock/</loc>
-    <lastmod>2021-11-01</lastmod>
-  </url>
-  <url>
     <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/08-forkjoin/</loc>
-    <lastmod>2021-11-01</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/09-threadlocal/</loc>
-    <lastmod>2021-11-01</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/10-countdownlatch/</loc>
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
@@ -625,7 +561,7 @@
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/12-executorservice/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/10-countdownlatch/</loc>
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
@@ -633,7 +569,67 @@
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/12-executorservice/</loc>
+    <lastmod>2021-11-01</lastmod>
+  </url>
+  <url>
     <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/14-blockingqueue/</loc>
+    <lastmod>2021-11-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/09-threadlocal/</loc>
+    <lastmod>2021-11-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/gao-xiao-bian-cheng/01-30-seconds-of-java8/</loc>
+    <lastmod>2021-11-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/gao-xiao-bian-cheng/02-han-shu-shi-ti-dai-for-xun-huan/</loc>
+    <lastmod>2021-11-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/gao-xiao-bian-cheng/03-java-zi-fu-chuan-pin-jie/</loc>
+    <lastmod>2021-11-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/gao-xiao-bian-cheng/05-hashmap-pai-xu/</loc>
+    <lastmod>2021-11-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/gao-xiao-bian-cheng/04-dan-li-mo-shi-de-ji-chong-shi-xian/</loc>
+    <lastmod>2021-11-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/li-lun-gai-nian/01-java-servlet/</loc>
+    <lastmod>2021-11-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/li-lun-gai-nian/03-jing-dian-pai-xu-suan-fa/</loc>
+    <lastmod>2021-11-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/li-lun-gai-nian/04-lru-huan-cun-tao-tai-suan-fa/</loc>
+    <lastmod>2021-11-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/li-lun-gai-nian/02-java-fu-wu-duan-fen-ceng-mo-xing/</loc>
+    <lastmod>2021-11-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/li-lun-gai-nian/05-bloomfilter-pan-duan-yuan-su-cun-zai/</loc>
+    <lastmod>2021-11-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/li-lun-gai-nian/06-java-hashmap-mian-shi-da-quan/</loc>
+    <lastmod>2021-11-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/li-lun-gai-nian/07-http-zhuang-tai-ma-xiang-jie/</loc>
+    <lastmod>2021-11-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/li-lun-gai-nian/09-ji-yu-xiao-xi-dui-lie-de-fen-bu-shi-shi-wu-jie-jue-fang-an/</loc>
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
@@ -641,7 +637,7 @@
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/04-reentrantlock/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/01-java-bing-fa/</loc>
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
@@ -649,7 +645,11 @@
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/01-java-bing-fa/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/04-reentrantlock/</loc>
+    <lastmod>2021-11-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/nginx/02-chang-yong-duan-kou/</loc>
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
@@ -658,10 +658,6 @@
   </url>
   <url>
     <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/nginx/03-nginx-gzip-ya-suo/</loc>
-    <lastmod>2021-11-01</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/nginx/02-chang-yong-duan-kou/</loc>
     <lastmod>2021-11-01</lastmod>
   </url>
   <url>
@@ -689,7 +685,7 @@
     <lastmod>2021-10-24</lastmod>
   </url>
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/ce/pda/2.2.1-introduction-to-numpy-arrays-numpy-shu-zu-jian-jie/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/ce/pda/2.2.2-slicing-numpy-arrays-qie-pian-numpy-shu-zu/</loc>
     <lastmod>2021-10-24</lastmod>
   </url>
   <url>
@@ -701,11 +697,11 @@
     <lastmod>2021-10-24</lastmod>
   </url>
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/ce/pda/2.3.1-introduction-to-matplotlib-and-pyplot-matplotlib-he-pyplot-jie-shao/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/ce/pda/2.2.1-introduction-to-numpy-arrays-numpy-shu-zu-jian-jie/</loc>
     <lastmod>2021-10-24</lastmod>
   </url>
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/ce/pda/2.2.2-slicing-numpy-arrays-qie-pian-numpy-shu-zu/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/ce/pda/2.3.1-introduction-to-matplotlib-and-pyplot-matplotlib-he-pyplot-jie-shao/</loc>
     <lastmod>2021-10-24</lastmod>
   </url>
   <url>
@@ -745,11 +741,11 @@
     <lastmod>2021-10-21</lastmod>
   </url>
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.2.5-strings-zi-fu-chuan/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.2.3-tuples-yuan-zu/</loc>
     <lastmod>2021-10-20</lastmod>
   </url>
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.2.3-tuples-yuan-zu/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.2.5-strings-zi-fu-chuan/</loc>
     <lastmod>2021-10-20</lastmod>
   </url>
   <url>
@@ -757,11 +753,15 @@
     <lastmod>2021-10-20</lastmod>
   </url>
   <url>
+    <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.1.1-python-basics-python-ji-chu/</loc>
+    <lastmod>2021-10-20</lastmod>
+  </url>
+  <url>
     <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.1.2-objects-dui-xiang/</loc>
     <lastmod>2021-10-20</lastmod>
   </url>
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.1.1-python-basics-python-ji-chu/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.1.3-modules-and-methods-mo-kuai-he-fang-fa/</loc>
     <lastmod>2021-10-20</lastmod>
   </url>
   <url>
@@ -773,23 +773,19 @@
     <lastmod>2021-10-20</lastmod>
   </url>
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.2.1-sequences-xu-lie/</loc>
-    <lastmod>2021-10-20</lastmod>
-  </url>
-  <url>
     <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.2.2-lists-lie-biao/</loc>
     <lastmod>2021-10-20</lastmod>
   </url>
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.1.3-modules-and-methods-mo-kuai-he-fang-fa/</loc>
-    <lastmod>2021-10-20</lastmod>
-  </url>
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.2.6-sets-ji-he/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.2.1-sequences-xu-lie/</loc>
     <lastmod>2021-10-20</lastmod>
   </url>
   <url>
     <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.2.4-ranges-fan-wei/</loc>
+    <lastmod>2021-10-20</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.2.6-sets-ji-he/</loc>
     <lastmod>2021-10-20</lastmod>
   </url>
   <url>

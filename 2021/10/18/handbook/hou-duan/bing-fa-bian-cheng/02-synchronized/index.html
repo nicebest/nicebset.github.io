@@ -1799,19 +1799,23 @@ t2 count = 9
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/10/18/handbook/qian-duan/vue/05-dong-tai-ke-xiang-ying-dui-xiang/">
+                <a href="/2021/10/18/handbook/hou-duan/mysql/04-shi-wu/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="动态可响应对象">
+                        <img src="/medias/featureimages/22.jpg" class="responsive-img" alt="事务">
                         
-                        <span class="card-title">动态可响应对象</span>
+                        <span class="card-title">事务</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            动态可响应对象Vue.observable(object) 让一个对象可响应。Vue 内部会用它来处理 data 函数返回的对象。返回的对象可以直接用于渲染函数和计算属性内，并且会在发生变更时触发相应的更新。也可以作为最小化的跨组件状态存储
+                            事务
+本文为个人学习摘要笔记。原文地址：廖雪峰 SQL 教程之事务
+
+什么是事务事务指的是满足 ACID 特性的一组操作，可以通过 Commit 提交一个事务，也可以使用 Rollback 进行回滚。
+可见，数据库事务具有 ACID 这 4
                         
                     </div>
                     <div class="publish-info">
@@ -1822,8 +1826,8 @@ t2 count = 9
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Vue/" class="post-category" target="_blank">
-                                    Vue
+                            <a href="/categories/MySQL/" class="post-category" target="_blank">
+                                    MySQL
                                 </a>
                             
                             
@@ -1833,20 +1837,36 @@ t2 count = 9
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Javascript/" target="_blank">
-                        <span class="chip bg-color">Javascript</span>
+                    <a href="/tags/SQL/" target="_blank">
+                        <span class="chip bg-color">SQL</span>
                     </a>
                     
-                    <a href="/tags/Vue/" target="_blank">
-                        <span class="chip bg-color">Vue</span>
+                    <a href="/tags/select/" target="_blank">
+                        <span class="chip bg-color">select</span>
                     </a>
                     
-                    <a href="/tags/SVG/" target="_blank">
-                        <span class="chip bg-color">SVG</span>
+                    <a href="/tags/truncate/" target="_blank">
+                        <span class="chip bg-color">truncate</span>
                     </a>
                     
-                    <a href="/tags/SCSS/" target="_blank">
-                        <span class="chip bg-color">SCSS</span>
+                    <a href="/tags/delete/" target="_blank">
+                        <span class="chip bg-color">delete</span>
+                    </a>
+                    
+                    <a href="/tags/where/" target="_blank">
+                        <span class="chip bg-color">where</span>
+                    </a>
+                    
+                    <a href="/tags/Mybatis/" target="_blank">
+                        <span class="chip bg-color">Mybatis</span>
+                    </a>
+                    
+                    <a href="/tags/%E4%BA%8B%E5%8A%A1/" target="_blank">
+                        <span class="chip bg-color">事务</span>
+                    </a>
+                    
+                    <a href="/tags/%E5%85%B3%E7%B3%BB%E6%A8%A1%E5%9E%8B/" target="_blank">
+                        <span class="chip bg-color">关系模型</span>
                     </a>
                     
                 </div>
@@ -1860,20 +1880,22 @@ t2 count = 9
                 下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/04-reentrantlock/">
+                <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/01-java-bing-fa/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="ReentrantLock">
+                        <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="Java 并发">
                         
-                        <span class="card-title">ReentrantLock</span>
+                        <span class="card-title">Java 并发</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            ReentrantLock从 Java 5 开始，引入了一个高级的处理并发的 java.util.concurrent 包，它提供了大量更高级的并发功能，能大大简化多线程程序的编写。
-我们知道 synchronized 关键字用于加锁，但这
+                            Java 并发线程状态转换
+新建（New）创建后尚未启动。
+可运行（Runnable）可能正在运行，也可能正在等待 CPU 时间片。包含了操作系统线程状态中的 Running 和 Ready。
+阻塞（Blocked）等待获取一个排它锁，如果
                         
                     </div>
                     <div class="publish-info">

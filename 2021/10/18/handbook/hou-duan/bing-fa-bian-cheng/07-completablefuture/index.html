@@ -1366,20 +1366,22 @@ CompletableFuture">
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/06-stampedlock/">
+                <a href="/2021/10/18/handbook/hou-duan/mysql/07-mysql-cha-kan-shu-ju-ku-biao-xiang-qing/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="StampedLock">
+                        <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="MySQL 查看数据库表详情">
                         
-                        <span class="card-title">StampedLock</span>
+                        <span class="card-title">MySQL 查看数据库表详情</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            StampedLockReadWriteLock 可以解决多线程同时读，但只有一个线程能写的问题。
-ReadWriteLock 有个潜在的问题：如果有线程正在读，写线程需要等待读线程释放锁后才能获取写锁，即读的过程中不允许写，这是一种悲观的
+                            MySQL 查看数据库表详情查看所有数据库容量大小select
+table_schema as '数据库',
+sum(table_rows) as '记录数',
+sum(truncate(data_length/1024/1024, 2))
                         
                     </div>
                     <div class="publish-info">
@@ -1390,8 +1392,8 @@ ReadWriteLock 有个潜在的问题：如果有线程正在读，写线程需要
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Java-%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
-                                    Java 并发编程
+                            <a href="/categories/MySQL/" class="post-category" target="_blank">
+                                    MySQL
                                 </a>
                             
                             
@@ -1401,40 +1403,36 @@ ReadWriteLock 有个潜在的问题：如果有线程正在读，写线程需要
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Java/" target="_blank">
-                        <span class="chip bg-color">Java</span>
+                    <a href="/tags/SQL/" target="_blank">
+                        <span class="chip bg-color">SQL</span>
                     </a>
                     
-                    <a href="/tags/synchronized/" target="_blank">
-                        <span class="chip bg-color">synchronized</span>
+                    <a href="/tags/select/" target="_blank">
+                        <span class="chip bg-color">select</span>
                     </a>
                     
-                    <a href="/tags/volatile/" target="_blank">
-                        <span class="chip bg-color">volatile</span>
+                    <a href="/tags/truncate/" target="_blank">
+                        <span class="chip bg-color">truncate</span>
                     </a>
                     
-                    <a href="/tags/ReentrantLock/" target="_blank">
-                        <span class="chip bg-color">ReentrantLock</span>
+                    <a href="/tags/delete/" target="_blank">
+                        <span class="chip bg-color">delete</span>
                     </a>
                     
-                    <a href="/tags/Atom/" target="_blank">
-                        <span class="chip bg-color">Atom</span>
+                    <a href="/tags/where/" target="_blank">
+                        <span class="chip bg-color">where</span>
                     </a>
                     
-                    <a href="/tags/ForkJoin/" target="_blank">
-                        <span class="chip bg-color">ForkJoin</span>
+                    <a href="/tags/Mybatis/" target="_blank">
+                        <span class="chip bg-color">Mybatis</span>
                     </a>
                     
-                    <a href="/tags/ThreadLocal/" target="_blank">
-                        <span class="chip bg-color">ThreadLocal</span>
+                    <a href="/tags/%E4%BA%8B%E5%8A%A1/" target="_blank">
+                        <span class="chip bg-color">事务</span>
                     </a>
                     
-                    <a href="/tags/ExecutorService/" target="_blank">
-                        <span class="chip bg-color">ExecutorService</span>
-                    </a>
-                    
-                    <a href="/tags/%E5%90%8E%E5%8F%B0/" target="_blank">
-                        <span class="chip bg-color">后台</span>
+                    <a href="/tags/%E5%85%B3%E7%B3%BB%E6%A8%A1%E5%9E%8B/" target="_blank">
+                        <span class="chip bg-color">关系模型</span>
                     </a>
                     
                 </div>
@@ -1448,21 +1446,20 @@ ReadWriteLock 有个潜在的问题：如果有线程正在读，写线程需要
                 下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/05-readwritelock/">
+                <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/08-forkjoin/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="ReadWriteLock">
+                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="ForkJoin">
                         
-                        <span class="card-title">ReadWriteLock</span>
+                        <span class="card-title">ForkJoin</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            ReadWriteLock前面讲到的 ReentrantLock 保证了只有一个线程可以执行临界区代码：
-public class Counter {
-    private final Lock lock = new ReentrantL
+                            ForkJoinJava 7 开始引入了一种新的 Fork/Join 线程池，它可以执行一种特殊的任务：把一个大任务拆成多个小任务并行执行。
+Fork/Join 任务的原理：判断一个任务是否足够小，如果是，直接计算，否则，就分拆成几个小任务
                         
                     </div>
                     <div class="publish-info">
