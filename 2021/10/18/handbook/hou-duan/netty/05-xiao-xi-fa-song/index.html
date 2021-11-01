@@ -1263,36 +1263,19 @@ channelGroup<span class="token punctuation">.</span><span class="token function"
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/10/18/handbook/hou-duan/netty/04-handler-dui-bi/">
+                <a href="/2021/10/18/handbook/hou-duan/netty/03-handler-zhi-xing-shun-xu/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="Handler 对比">
+                        <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="Handler 执行顺序">
                         
-                        <span class="card-title">Handler 对比</span>
+                        <span class="card-title">Handler 执行顺序</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Handler 对比业务常见 handler
-
-
-类名
-说明
-
-
-
-IdleStateHandler
-空闲检测
-
-
-FixedLengthFrameDecoder
-固定长度的拆包器
-
-
-MessageToMessageCodec
-将编解码操
+                            Handler 执行顺序ChannelInboundHandler 和 ChannelOutboundHandlerChannelHandler 有两个子类 ChannelInboundHandler 和 ChannelOutboundHa
                         
                     </div>
                     <div class="publish-info">
@@ -1345,23 +1328,20 @@ MessageToMessageCodec
                 下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/10/18/handbook/hou-duan/project/01-wei-xin-dian-can-xi-tong/">
+                <a href="/2021/10/18/handbook/hou-duan/nginx/02-chang-yong-duan-kou/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="微信点餐系统">
+                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="常用端口">
                         
-                        <span class="card-title">微信点餐系统</span>
+                        <span class="card-title">常用端口</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            微信点餐系统项目设计
-
-create table `product_info` (
-  `product_id` varchar(32) not null,
-  `product_name` varchar(64) not null com
+                            常用端口80 端口是为 HTTP（HyperText Transport Protocol，超文本传输协议) 开放的，主要用于万维网传输信息的协议。
+8080 端口同 80 端口，被用于代理服务，可以实现网页浏览，经常在访问某个网站或使用代
                         
                     </div>
                     <div class="publish-info">
@@ -1372,8 +1352,8 @@ create table `product_info` (
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Project/" class="post-category" target="_blank">
-                                    Project
+                            <a href="/categories/Nginx/" class="post-category" target="_blank">
+                                    Nginx
                                 </a>
                             
                             
@@ -1383,8 +1363,36 @@ create table `product_info` (
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/project/" target="_blank">
-                        <span class="chip bg-color">project</span>
+                    <a href="/tags/macOS/" target="_blank">
+                        <span class="chip bg-color">macOS</span>
+                    </a>
+                    
+                    <a href="/tags/Nginx/" target="_blank">
+                        <span class="chip bg-color">Nginx</span>
+                    </a>
+                    
+                    <a href="/tags/http/" target="_blank">
+                        <span class="chip bg-color">http</span>
+                    </a>
+                    
+                    <a href="/tags/daemon/" target="_blank">
+                        <span class="chip bg-color">daemon</span>
+                    </a>
+                    
+                    <a href="/tags/pid/" target="_blank">
+                        <span class="chip bg-color">pid</span>
+                    </a>
+                    
+                    <a href="/tags/web/" target="_blank">
+                        <span class="chip bg-color">web</span>
+                    </a>
+                    
+                    <a href="/tags/sever/" target="_blank">
+                        <span class="chip bg-color">sever</span>
+                    </a>
+                    
+                    <a href="/tags/proxy/" target="_blank">
+                        <span class="chip bg-color">proxy</span>
                     </a>
                     
                 </div>
@@ -1798,11 +1806,11 @@ $(function () {
             </script>
         
 
-    <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"left","width":150,"height":200},"mobile":{"show":false},"react":{"opacity":0.7}});</script><script>
+    <script>
             window.imageLazyLoadSetting = {
                 isSPA: false,
                 preloadRatio: 1,
                 processImages: null,
             };
-        </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(n){n.imageLazyLoadSetting.processImages=o;var e=n.imageLazyLoadSetting.isSPA,i=n.imageLazyLoadSetting.preloadRatio||1,r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function o(){e&&(r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")));for(var t,a=0;a<r.length;a++)0<=(t=(t=r[a]).getBoundingClientRect()).bottom&&0<=t.left&&t.top<=(n.innerHeight*i||document.documentElement.clientHeight*i)&&function(){var t,e,n,i,o=r[a];t=o,e=function(){r=r.filter(function(t){return o!==t})},n=new Image,i=t.getAttribute("data-original"),n.onload=function(){t.src=i,e&&e()},t.src!==i&&(n.src=i)}()}o(),n.addEventListener("scroll",function(){var t,e;t=o,e=n,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(e)},500)})}(this);</script></body>
+        </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(n){n.imageLazyLoadSetting.processImages=o;var e=n.imageLazyLoadSetting.isSPA,i=n.imageLazyLoadSetting.preloadRatio||1,r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function o(){e&&(r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")));for(var t,a=0;a<r.length;a++)0<=(t=(t=r[a]).getBoundingClientRect()).bottom&&0<=t.left&&t.top<=(n.innerHeight*i||document.documentElement.clientHeight*i)&&function(){var t,e,n,i,o=r[a];t=o,e=function(){r=r.filter(function(t){return o!==t})},n=new Image,i=t.getAttribute("data-original"),n.onload=function(){t.src=i,e&&e()},t.src!==i&&(n.src=i)}()}o(),n.addEventListener("scroll",function(){var t,e;t=o,e=n,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(e)},500)})}(this);</script><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"left","width":150,"height":200},"mobile":{"show":false},"react":{"opacity":0.7}});</script></body>
 </html>

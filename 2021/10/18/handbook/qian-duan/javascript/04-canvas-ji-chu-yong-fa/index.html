@@ -1308,20 +1308,23 @@ ctx<span class="token punctuation">.</span><span class="token function">fill</sp
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/10/18/handbook/qian-duan/javascript/01-javascript-mi-mi-hua-yuan/">
+                <a href="/2021/10/18/handbook/qian-duan/javascript/03-cong-liu-lan-qi-jie-xi-js-yun-xing-ji-zhi/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/19.jpg" class="responsive-img" alt="JavaScript 秘密花园">
+                        <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="从浏览器解析 JS 运行机制">
                         
-                        <span class="card-title">JavaScript 秘密花园</span>
+                        <span class="card-title">从浏览器解析 JS 运行机制</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            JavaScript 秘密花园JavaScript 秘密花园由两位 Stack Overflow 用户伊沃·韦特泽尔（写作）和张易江（设计）完成，由三生石上翻译完成，内容短小精炼。这次温故知新，做一番总结。
-对象对象使用和属性JavaScr
+                            从浏览器解析 JS 运行机制进程与线程对于进程和线程，可以比喻为工厂和工人
+
+进程是一个工厂，工厂有它的独立资源（系统分配的独立一块内存）
+工厂之间相互独立（进程之间相互独立）
+线程是工厂中的工人，多个工人协作完成任务（多个线程在进程中协作
                         
                     </div>
                     <div class="publish-info">
@@ -1362,23 +1365,20 @@ ctx<span class="token punctuation">.</span><span class="token function">fill</sp
                 下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/10/18/handbook/qian-duan/javascript/03-cong-liu-lan-qi-jie-xi-js-yun-xing-ji-zhi/">
+                <a href="/2021/10/18/handbook/qian-duan/javascript/05-blob-url-and-data-url/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="从浏览器解析 JS 运行机制">
+                        <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="Blob Url And Data Url">
                         
-                        <span class="card-title">从浏览器解析 JS 运行机制</span>
+                        <span class="card-title">Blob Url And Data Url</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            从浏览器解析 JS 运行机制进程与线程对于进程和线程，可以比喻为工厂和工人
-
-进程是一个工厂，工厂有它的独立资源（系统分配的独立一块内存）
-工厂之间相互独立（进程之间相互独立）
-线程是工厂中的工人，多个工人协作完成任务（多个线程在进程中协作
+                            Blob Url And Data UrlBlob什么是 BlobBlob（binary large object），二进制大型对象，是一个可以存储二进制文件的“容器”。
+Blob 对象表示一个不可变、原始数据的类文件对象。File 接口基
                         
                     </div>
                     <div class="publish-info">
@@ -1819,11 +1819,11 @@ $(function () {
             </script>
         
 
-    <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"left","width":150,"height":200},"mobile":{"show":false},"react":{"opacity":0.7}});</script><script>
+    <script>
             window.imageLazyLoadSetting = {
                 isSPA: false,
                 preloadRatio: 1,
                 processImages: null,
             };
-        </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(n){n.imageLazyLoadSetting.processImages=o;var e=n.imageLazyLoadSetting.isSPA,i=n.imageLazyLoadSetting.preloadRatio||1,r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function o(){e&&(r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")));for(var t,a=0;a<r.length;a++)0<=(t=(t=r[a]).getBoundingClientRect()).bottom&&0<=t.left&&t.top<=(n.innerHeight*i||document.documentElement.clientHeight*i)&&function(){var t,e,n,i,o=r[a];t=o,e=function(){r=r.filter(function(t){return o!==t})},n=new Image,i=t.getAttribute("data-original"),n.onload=function(){t.src=i,e&&e()},t.src!==i&&(n.src=i)}()}o(),n.addEventListener("scroll",function(){var t,e;t=o,e=n,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(e)},500)})}(this);</script></body>
+        </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(n){n.imageLazyLoadSetting.processImages=o;var e=n.imageLazyLoadSetting.isSPA,i=n.imageLazyLoadSetting.preloadRatio||1,r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function o(){e&&(r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")));for(var t,a=0;a<r.length;a++)0<=(t=(t=r[a]).getBoundingClientRect()).bottom&&0<=t.left&&t.top<=(n.innerHeight*i||document.documentElement.clientHeight*i)&&function(){var t,e,n,i,o=r[a];t=o,e=function(){r=r.filter(function(t){return o!==t})},n=new Image,i=t.getAttribute("data-original"),n.onload=function(){t.src=i,e&&e()},t.src!==i&&(n.src=i)}()}o(),n.addEventListener("scroll",function(){var t,e;t=o,e=n,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(e)},500)})}(this);</script><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"left","width":150,"height":200},"mobile":{"show":false},"react":{"opacity":0.7}});</script></body>
 </html>

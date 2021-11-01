@@ -1246,22 +1246,30 @@
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/10/18/handbook/qian-duan/javascript/09-zheng-ze-pi-pei-match-he-exec/">
+                <a href="/2021/10/18/handbook/qian-duan/css/02-position-ding-wei/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="正则匹配探究">
+                        <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="Position 定位">
                         
-                        <span class="card-title">正则匹配探究</span>
+                        <span class="card-title">Position 定位</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            正则匹配探究在 JavaScript 中常用正则匹配方法有 match 和 exec, 这两个方法属于不同的对象方法。
+                            Position 定位
+本文为个人学习摘要笔记。原文地址：CSS 定位详解
 
-match 是字符串方法，写法为：str.match(regex)
-exec 是正则表达式方法，写法为：regex.e
+position 属性用来指定一个元素在网页上的位置，一共有 5 种定位方式：
+
+static
+relative
+fixed
+absolute
+sticky
+
+s
                         
                     </div>
                     <div class="publish-info">
@@ -1272,8 +1280,8 @@ exec 是正则表达式方法，写法为：regex.e
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/JavaScript/" class="post-category" target="_blank">
-                                    JavaScript
+                            <a href="/categories/CSS/" class="post-category" target="_blank">
+                                    CSS
                                 </a>
                             
                             
@@ -1283,12 +1291,12 @@ exec 是正则表达式方法，写法为：regex.e
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Javascript/" target="_blank">
-                        <span class="chip bg-color">Javascript</span>
-                    </a>
-                    
                     <a href="/tags/%E5%89%8D%E7%AB%AF/" target="_blank">
                         <span class="chip bg-color">前端</span>
+                    </a>
+                    
+                    <a href="/tags/CSS/" target="_blank">
+                        <span class="chip bg-color">CSS</span>
                     </a>
                     
                 </div>
@@ -1302,19 +1310,20 @@ exec 是正则表达式方法，写法为：regex.e
                 下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/10/18/handbook/qian-duan/javascript/07-pai-xu-suan-fa-chu-tan/">
+                <a href="/2021/10/18/handbook/qian-duan/react/01-react-props-children-chuan-zhi/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="排序算法初探">
+                        <img src="/medias/featureimages/20.jpg" class="responsive-img" alt="React Props Children 传值">
                         
-                        <span class="card-title">排序算法初探</span>
+                        <span class="card-title">React Props Children 传值</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            排序算法初探冒泡排序冒泡排序是一种简单的排序算法。它重复地走访过要排序的数列，一次比较两个元素，如果它们的顺序错误就把它们交换过来。走访数列的工作是重复地进行直到没有再需要交换，也就是说该数列已经排序完成。这个算法的名字由来是因为越小的元素
+                            React Props Children 传值背景是在使用 umijs 框架时，它提供一个根节点 layout。我想在根节点传值到 Route 组件中却不得其法，后来查阅 issues 得到解答。
+props.children 属性在 Re
                         
                     </div>
                     <div class="publish-info">
@@ -1325,8 +1334,8 @@ exec 是正则表达式方法，写法为：regex.e
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/JavaScript/" class="post-category" target="_blank">
-                                    JavaScript
+                            <a href="/categories/React/" class="post-category" target="_blank">
+                                    React
                                 </a>
                             
                             
@@ -1340,8 +1349,16 @@ exec 是正则表达式方法，写法为：regex.e
                         <span class="chip bg-color">Javascript</span>
                     </a>
                     
-                    <a href="/tags/%E5%89%8D%E7%AB%AF/" target="_blank">
-                        <span class="chip bg-color">前端</span>
+                    <a href="/tags/React/" target="_blank">
+                        <span class="chip bg-color">React</span>
+                    </a>
+                    
+                    <a href="/tags/Hook/" target="_blank">
+                        <span class="chip bg-color">Hook</span>
+                    </a>
+                    
+                    <a href="/tags/TypeScript%E5%89%8D%E7%AB%AF/" target="_blank">
+                        <span class="chip bg-color">TypeScript前端</span>
                     </a>
                     
                 </div>
@@ -1755,11 +1772,11 @@ $(function () {
             </script>
         
 
-    <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"left","width":150,"height":200},"mobile":{"show":false},"react":{"opacity":0.7}});</script><script>
+    <script>
             window.imageLazyLoadSetting = {
                 isSPA: false,
                 preloadRatio: 1,
                 processImages: null,
             };
-        </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(n){n.imageLazyLoadSetting.processImages=o;var e=n.imageLazyLoadSetting.isSPA,i=n.imageLazyLoadSetting.preloadRatio||1,r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function o(){e&&(r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")));for(var t,a=0;a<r.length;a++)0<=(t=(t=r[a]).getBoundingClientRect()).bottom&&0<=t.left&&t.top<=(n.innerHeight*i||document.documentElement.clientHeight*i)&&function(){var t,e,n,i,o=r[a];t=o,e=function(){r=r.filter(function(t){return o!==t})},n=new Image,i=t.getAttribute("data-original"),n.onload=function(){t.src=i,e&&e()},t.src!==i&&(n.src=i)}()}o(),n.addEventListener("scroll",function(){var t,e;t=o,e=n,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(e)},500)})}(this);</script></body>
+        </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(n){n.imageLazyLoadSetting.processImages=o;var e=n.imageLazyLoadSetting.isSPA,i=n.imageLazyLoadSetting.preloadRatio||1,r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function o(){e&&(r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")));for(var t,a=0;a<r.length;a++)0<=(t=(t=r[a]).getBoundingClientRect()).bottom&&0<=t.left&&t.top<=(n.innerHeight*i||document.documentElement.clientHeight*i)&&function(){var t,e,n,i,o=r[a];t=o,e=function(){r=r.filter(function(t){return o!==t})},n=new Image,i=t.getAttribute("data-original"),n.onload=function(){t.src=i,e&&e()},t.src!==i&&(n.src=i)}()}o(),n.addEventListener("scroll",function(){var t,e;t=o,e=n,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(e)},500)})}(this);</script><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"left","width":150,"height":200},"mobile":{"show":false},"react":{"opacity":0.7}});</script></body>
 </html>

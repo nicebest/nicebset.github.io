@@ -681,25 +681,20 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
             <article class="cd-timeline-content" data-aos="fade-up">
                 <div class="article col s12 m6">
                     <div class="card">
-                        <a href="/2021/10/18/handbook/hou-duan/gao-xiao-bian-cheng/02-han-shu-shi-ti-dai-for-xun-huan/">
+                        <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/03-volatile/">
                             <div class="card-image">
                                 
                                 
-                                <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="函数式替代 for 循环">
+                                <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="volatile 关键字">
                                 
-                                <span class="card-title">函数式替代 for 循环</span>
+                                <span class="card-title">volatile 关键字</span>
                             </div>
                         </a>
                         <div class="card-content article-content">
                             <div class="summary block-with-text">
                                 
-                                函数式替代 for 循环举个栗子以一个简单的循环打印为例：
-for(int i = 1; i &lt; 4; i++) {
-    System.out.print(i + "...");
-}
-
-IntStream.range(1, 4)
-
+                                volatile 关键字volatile 关键字使一个变量在多个线程间可见。
+A、B 线程都有用到一个变量，java 默认是 A 线程缓冲区保留一份 copy，这样如果 B 线程修改了变量，则 A 线程未必知道。使用 volatile 关键
                                 
                             </div>
                             <div class="publish-info">
@@ -711,8 +706,8 @@ IntStream.range(1, 4)
                                     
                                     <i class="fa fa-bookmark fa-fw icon-category"></i>
                                     
-                                    <a href="/categories/Java-%E9%AB%98%E6%95%88%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
-                                        Java 高效编程
+                                    <a href="/categories/Java-%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
+                                        Java 并发编程
                                     </a>
                                     
                                     
@@ -763,27 +758,21 @@ IntStream.range(1, 4)
             <article class="cd-timeline-content" data-aos="fade-up">
                 <div class="article col s12 m6">
                     <div class="card">
-                        <a href="/2021/10/18/handbook/hou-duan/gao-xiao-bian-cheng/03-java-zi-fu-chuan-pin-jie/">
+                        <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/05-readwritelock/">
                             <div class="card-image">
                                 
                                 
-                                <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="Java 字符串拼接">
+                                <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="ReadWriteLock">
                                 
-                                <span class="card-title">Java 字符串拼接</span>
+                                <span class="card-title">ReadWriteLock</span>
                             </div>
                         </a>
                         <div class="card-content article-content">
                             <div class="summary block-with-text">
                                 
-                                Java 字符串拼接
-本文为个人学习摘要笔记。原文地址：羞，Java 字符串拼接竟然有这么多姿势
-
-Java 字符串拼接常用有 6 种方式：
-
-“+”号操作符
-StringBuilder
-StringBuffer
-String 类的 con
+                                ReadWriteLock前面讲到的 ReentrantLock 保证了只有一个线程可以执行临界区代码：
+public class Counter {
+    private final Lock lock = new ReentrantL
                                 
                             </div>
                             <div class="publish-info">
@@ -795,8 +784,8 @@ String 类的 con
                                     
                                     <i class="fa fa-bookmark fa-fw icon-category"></i>
                                     
-                                    <a href="/categories/Java-%E9%AB%98%E6%95%88%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
-                                        Java 高效编程
+                                    <a href="/categories/Java-%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
+                                        Java 并发编程
                                     </a>
                                     
                                     
@@ -847,20 +836,20 @@ String 类的 con
             <article class="cd-timeline-content" data-aos="fade-up">
                 <div class="article col s12 m6">
                     <div class="card">
-                        <a href="/2021/10/18/handbook/hou-duan/gao-xiao-bian-cheng/05-hashmap-pai-xu/">
+                        <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/04-reentrantlock/">
                             <div class="card-image">
                                 
                                 
-                                <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="HashMap 排序">
+                                <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="ReentrantLock">
                                 
-                                <span class="card-title">HashMap 排序</span>
+                                <span class="card-title">ReentrantLock</span>
                             </div>
                         </a>
                         <div class="card-content article-content">
                             <div class="summary block-with-text">
                                 
-                                HashMap 排序HashMap 的值是没有顺序的，它是按照 key 的 HashCode 来实现的，对于这个无序的 HashMap 我们要怎么来实现排序呢？
-根据 key 排序TreeMap 基于红黑树实现，该映射根据其键的自然顺序进行
+                                ReentrantLock从 Java 5 开始，引入了一个高级的处理并发的 java.util.concurrent 包，它提供了大量更高级的并发功能，能大大简化多线程程序的编写。
+我们知道 synchronized 关键字用于加锁，但这
                                 
                             </div>
                             <div class="publish-info">
@@ -872,8 +861,8 @@ String 类的 con
                                     
                                     <i class="fa fa-bookmark fa-fw icon-category"></i>
                                     
-                                    <a href="/categories/Java-%E9%AB%98%E6%95%88%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
-                                        Java 高效编程
+                                    <a href="/categories/Java-%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
+                                        Java 并发编程
                                     </a>
                                     
                                     
@@ -924,19 +913,20 @@ String 类的 con
             <article class="cd-timeline-content" data-aos="fade-up">
                 <div class="article col s12 m6">
                     <div class="card">
-                        <a href="/2021/10/18/handbook/hou-duan/gao-xiao-bian-cheng/04-dan-li-mo-shi-de-ji-chong-shi-xian/">
+                        <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/06-stampedlock/">
                             <div class="card-image">
                                 
                                 
-                                <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="单例模式的几种实现">
+                                <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="StampedLock">
                                 
-                                <span class="card-title">单例模式的几种实现</span>
+                                <span class="card-title">StampedLock</span>
                             </div>
                         </a>
                         <div class="card-content article-content">
                             <div class="summary block-with-text">
                                 
-                                单例模式的几种实现单例模式是一种对象创建模式，它用于产生一个对象的具体实例，它可以确保系统中一个类只产生一个实例。Java 里面实现的单例是一个虚拟机的范围，因为装载类的功能是虚拟机的，所以一个虚拟机在通过自己的 ClassLoad 装载实
+                                StampedLockReadWriteLock 可以解决多线程同时读，但只有一个线程能写的问题。
+ReadWriteLock 有个潜在的问题：如果有线程正在读，写线程需要等待读线程释放锁后才能获取写锁，即读的过程中不允许写，这是一种悲观的
                                 
                             </div>
                             <div class="publish-info">
@@ -948,8 +938,8 @@ String 类的 con
                                     
                                     <i class="fa fa-bookmark fa-fw icon-category"></i>
                                     
-                                    <a href="/categories/Java-%E9%AB%98%E6%95%88%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
-                                        Java 高效编程
+                                    <a href="/categories/Java-%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
+                                        Java 并发编程
                                     </a>
                                     
                                     
@@ -1000,20 +990,20 @@ String 类的 con
             <article class="cd-timeline-content" data-aos="fade-up">
                 <div class="article col s12 m6">
                     <div class="card">
-                        <a href="/2021/10/18/handbook/hou-duan/li-lun-gai-nian/01-java-servlet/">
+                        <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/07-completablefuture/">
                             <div class="card-image">
                                 
                                 
-                                <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="Java-Servlet">
+                                <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="CompletableFuture">
                                 
-                                <span class="card-title">Java-Servlet</span>
+                                <span class="card-title">CompletableFuture</span>
                             </div>
                         </a>
                         <div class="card-content article-content">
                             <div class="summary block-with-text">
                                 
-                                Java-ServletWeb 容器是什么？早期的 Web 应用主要用于浏览新闻等静态页面，HTTP 服务器（比如 Apache、Nginx）向浏览器返回静态 HTML，浏览器负责解析 HTML，将结果呈现给用户。
-随着互联网的发展，我们已
+                                CompletableFutureJava 8 开始引入了 CompletableFuture，它针对 Future 做了改进，可以传入回调对象，当异步任务完成或者发生异常时，自动调用回调对象的回调方法。
+CompletableFuture
                                 
                             </div>
                             <div class="publish-info">
@@ -1025,8 +1015,8 @@ String 类的 con
                                     
                                     <i class="fa fa-bookmark fa-fw icon-category"></i>
                                     
-                                    <a href="/categories/Java-%E7%90%86%E8%AE%BA%E6%A6%82%E5%BF%B5/" class="post-category" target="_blank">
-                                        Java 理论概念
+                                    <a href="/categories/Java-%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
+                                        Java 并发编程
                                     </a>
                                     
                                     
@@ -1077,20 +1067,20 @@ String 类的 con
             <article class="cd-timeline-content" data-aos="fade-up">
                 <div class="article col s12 m6">
                     <div class="card">
-                        <a href="/2021/10/18/handbook/hou-duan/li-lun-gai-nian/03-jing-dian-pai-xu-suan-fa/">
+                        <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/08-forkjoin/">
                             <div class="card-image">
                                 
                                 
-                                <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="经典排序算法">
+                                <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="ForkJoin">
                                 
-                                <span class="card-title">经典排序算法</span>
+                                <span class="card-title">ForkJoin</span>
                             </div>
                         </a>
                         <div class="card-content article-content">
                             <div class="summary block-with-text">
                                 
-                                经典排序算法重温排序算法，动画详见：Magicsort
-插入排序插入排序是一种简单的排序算法。它的工作原理是通过构建有序序列，对于未排序数据，在已排序序列中从后向前扫描，找到相应位置并插入。插入排序在实现上，通常采用 in-place 排序
+                                ForkJoinJava 7 开始引入了一种新的 Fork/Join 线程池，它可以执行一种特殊的任务：把一个大任务拆成多个小任务并行执行。
+Fork/Join 任务的原理：判断一个任务是否足够小，如果是，直接计算，否则，就分拆成几个小任务
                                 
                             </div>
                             <div class="publish-info">
@@ -1102,8 +1092,8 @@ String 类的 con
                                     
                                     <i class="fa fa-bookmark fa-fw icon-category"></i>
                                     
-                                    <a href="/categories/Java-%E7%90%86%E8%AE%BA%E6%A6%82%E5%BF%B5/" class="post-category" target="_blank">
-                                        Java 理论概念
+                                    <a href="/categories/Java-%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
+                                        Java 并发编程
                                     </a>
                                     
                                     
@@ -1154,22 +1144,21 @@ String 类的 con
             <article class="cd-timeline-content" data-aos="fade-up">
                 <div class="article col s12 m6">
                     <div class="card">
-                        <a href="/2021/10/18/handbook/hou-duan/li-lun-gai-nian/04-lru-huan-cun-tao-tai-suan-fa/">
+                        <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/09-threadlocal/">
                             <div class="card-image">
                                 
                                 
-                                <img src="/medias/featureimages/20.jpg" class="responsive-img" alt="LRU 缓存淘汰算法">
+                                <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="ThreadLocal">
                                 
-                                <span class="card-title">LRU 缓存淘汰算法</span>
+                                <span class="card-title">ThreadLocal</span>
                             </div>
                         </a>
                         <div class="card-content article-content">
                             <div class="summary block-with-text">
                                 
-                                LRU 缓存淘汰算法
-本文为个人学习摘要笔记。原文地址：聊聊缓存淘汰算法-LRU 实现原理
-
-我们常用缓存提升数据查询速度，由于缓存容量有限，当缓存容量到达上限，就需要删除部分数据挪出空间，这样新数据才可以添加进来。缓存数据不能随机删除，一
+                                ThreadLocal对于多任务，Java 标准库提供的线程池可以方便地执行这些任务，同时复用线程。那么如何在一个线程内传递状态？
+如下栗子，一个内部需要调用若干其他方法，同时传递参数 user。
+public void process(U
                                 
                             </div>
                             <div class="publish-info">
@@ -1181,8 +1170,8 @@ String 类的 con
                                     
                                     <i class="fa fa-bookmark fa-fw icon-category"></i>
                                     
-                                    <a href="/categories/Java-%E7%90%86%E8%AE%BA%E6%A6%82%E5%BF%B5/" class="post-category" target="_blank">
-                                        Java 理论概念
+                                    <a href="/categories/Java-%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
+                                        Java 并发编程
                                     </a>
                                     
                                     
@@ -1233,20 +1222,22 @@ String 类的 con
             <article class="cd-timeline-content" data-aos="fade-up">
                 <div class="article col s12 m6">
                     <div class="card">
-                        <a href="/2021/10/18/handbook/hou-duan/li-lun-gai-nian/02-java-fu-wu-duan-fen-ceng-mo-xing/">
+                        <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/01-java-bing-fa/">
                             <div class="card-image">
                                 
                                 
-                                <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="Java 服务端分层模型">
+                                <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="Java 并发">
                                 
-                                <span class="card-title">Java 服务端分层模型</span>
+                                <span class="card-title">Java 并发</span>
                             </div>
                         </a>
                         <div class="card-content article-content">
                             <div class="summary block-with-text">
                                 
-                                Java 服务端分层模型复杂的软件系统都会采用分层的架构设计，分层之后，每一层职责鲜明，整体上降低了系统的耦合性，提高了健壮性。
-Java 服务端开发亦是如此，采用分层架构，针对每一层，对应对象的职责是不同的，以及层与层之间也需要通信，故而
+                                Java 并发线程状态转换
+新建（New）创建后尚未启动。
+可运行（Runnable）可能正在运行，也可能正在等待 CPU 时间片。包含了操作系统线程状态中的 Running 和 Ready。
+阻塞（Blocked）等待获取一个排它锁，如果
                                 
                             </div>
                             <div class="publish-info">
@@ -1258,8 +1249,8 @@ Java 服务端开发亦是如此，采用分层架构，针对每一层，对应
                                     
                                     <i class="fa fa-bookmark fa-fw icon-category"></i>
                                     
-                                    <a href="/categories/Java-%E7%90%86%E8%AE%BA%E6%A6%82%E5%BF%B5/" class="post-category" target="_blank">
-                                        Java 理论概念
+                                    <a href="/categories/Java-%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
+                                        Java 并发编程
                                     </a>
                                     
                                     
@@ -1310,22 +1301,20 @@ Java 服务端开发亦是如此，采用分层架构，针对每一层，对应
             <article class="cd-timeline-content" data-aos="fade-up">
                 <div class="article col s12 m6">
                     <div class="card">
-                        <a href="/2021/10/18/handbook/hou-duan/li-lun-gai-nian/05-bloomfilter-pan-duan-yuan-su-cun-zai/">
+                        <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/12-executorservice/">
                             <div class="card-image">
                                 
                                 
-                                <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="BloomFilter 判断元素存在">
+                                <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="ExecutorService">
                                 
-                                <span class="card-title">BloomFilter 判断元素存在</span>
+                                <span class="card-title">ExecutorService</span>
                             </div>
                         </a>
                         <div class="card-content article-content">
                             <div class="summary block-with-text">
                                 
-                                BloomFilter 判断元素存在
-本文为个人学习摘要笔记。原文地址：到底是存在还是不存在之 BloomFilter
-
-什么是 BloomFilter布隆过滤器（Bloom Filter）是 1970 年由布隆提出的。它实际上是一个很长的
+                                ExecutorServiceExecutorService 是 java.util.concurrent 包的重要组成部分，是 Java JDK 提供的框架，用于简化异步模式下任务的执行。
+一般来说，ExecutorService 会自动
                                 
                             </div>
                             <div class="publish-info">
@@ -1337,8 +1326,8 @@ Java 服务端开发亦是如此，采用分层架构，针对每一层，对应
                                     
                                     <i class="fa fa-bookmark fa-fw icon-category"></i>
                                     
-                                    <a href="/categories/Java-%E7%90%86%E8%AE%BA%E6%A6%82%E5%BF%B5/" class="post-category" target="_blank">
-                                        Java 理论概念
+                                    <a href="/categories/Java-%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
+                                        Java 并发编程
                                     </a>
                                     
                                     
@@ -1389,21 +1378,20 @@ Java 服务端开发亦是如此，采用分层架构，针对每一层，对应
             <article class="cd-timeline-content" data-aos="fade-up">
                 <div class="article col s12 m6">
                     <div class="card">
-                        <a href="/2021/10/18/handbook/hou-duan/li-lun-gai-nian/06-java-hashmap-mian-shi-da-quan/">
+                        <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/02-synchronized/">
                             <div class="card-image">
                                 
                                 
-                                <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="HashMap 面试大全">
+                                <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="synchronized 关键字">
                                 
-                                <span class="card-title">HashMap 面试大全</span>
+                                <span class="card-title">synchronized 关键字</span>
                             </div>
                         </a>
                         <div class="card-content article-content">
                             <div class="summary block-with-text">
                                 
-                                HashMap 面试大全关于 HashMap 参考前文 Java HashMap
-001 HashMap 的结构哈希表结构（链表散列：数组+链表）实现，结合数组和链表的优点。当链表长度超过 8 时，链表转换为红黑树。
-002 Get 方法的
+                                synchronized 关键字synchronized 关键字采用对代码块/方法体加锁的方式解决 Java 中多线程访问同一个资源时，引起的资源冲突问题。
+一句话总结：synchronized 能够保证同一时刻最多只有一个线程执行某段代码
                                 
                             </div>
                             <div class="publish-info">
@@ -1415,8 +1403,8 @@ Java 服务端开发亦是如此，采用分层架构，针对每一层，对应
                                     
                                     <i class="fa fa-bookmark fa-fw icon-category"></i>
                                     
-                                    <a href="/categories/Java-%E7%90%86%E8%AE%BA%E6%A6%82%E5%BF%B5/" class="post-category" target="_blank">
-                                        Java 理论概念
+                                    <a href="/categories/Java-%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
+                                        Java 并发编程
                                     </a>
                                     
                                     
@@ -1467,38 +1455,19 @@ Java 服务端开发亦是如此，采用分层架构，针对每一层，对应
             <article class="cd-timeline-content" data-aos="fade-up">
                 <div class="article col s12 m6">
                     <div class="card">
-                        <a href="/2021/10/18/handbook/hou-duan/li-lun-gai-nian/07-http-zhuang-tai-ma-xiang-jie/">
+                        <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/13-atom-yuan-zi-lei/">
                             <div class="card-image">
                                 
                                 
-                                <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="HTTP 状态码详解">
+                                <img src="/medias/featureimages/19.jpg" class="responsive-img" alt="Atom 原子类">
                                 
-                                <span class="card-title">HTTP 状态码详解</span>
+                                <span class="card-title">Atom 原子类</span>
                             </div>
                         </a>
                         <div class="card-content article-content">
                             <div class="summary block-with-text">
                                 
-                                HTTP 状态码详解
-状态码的分类HTTP 状态码共分为 5 种类型：
-
-
-
-分类
-分类描述
-
-
-
-1**
-信息，服务器收到请求，需要请求者继续执行操作
-
-
-2**
-成功，操作被成功接收并处理
-
-
-3**
-重定向，需要进一步的操作以完成请求
+                                Atom 原子类在 Java Java 并发编程中，经常通过 synchronized 进行控制来达到线程安全的目的。但是由于 synchronized 是采用的是悲观锁策略，并不是特别高效的一种解决方案。实际上，在 J.U.C 下的 at
                                 
                             </div>
                             <div class="publish-info">
@@ -1510,8 +1479,8 @@ Java 服务端开发亦是如此，采用分层架构，针对每一层，对应
                                     
                                     <i class="fa fa-bookmark fa-fw icon-category"></i>
                                     
-                                    <a href="/categories/Java-%E7%90%86%E8%AE%BA%E6%A6%82%E5%BF%B5/" class="post-category" target="_blank">
-                                        Java 理论概念
+                                    <a href="/categories/Java-%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
+                                        Java 并发编程
                                     </a>
                                     
                                     
@@ -1562,24 +1531,20 @@ Java 服务端开发亦是如此，采用分层架构，针对每一层，对应
             <article class="cd-timeline-content" data-aos="fade-up">
                 <div class="article col s12 m6">
                     <div class="card">
-                        <a href="/2021/10/18/handbook/hou-duan/li-lun-gai-nian/09-ji-yu-xiao-xi-dui-lie-de-fen-bu-shi-shi-wu-jie-jue-fang-an/">
+                        <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/11-threadpoolexecutor/">
                             <div class="card-image">
                                 
                                 
-                                <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="基于消息队列的分布式事务解决方案">
+                                <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="ThreadPoolExecutor">
                                 
-                                <span class="card-title">基于消息队列的分布式事务解决方案</span>
+                                <span class="card-title">ThreadPoolExecutor</span>
                             </div>
                         </a>
                         <div class="card-content article-content">
                             <div class="summary block-with-text">
                                 
-                                基于消息队列的分布式事务解决方案
-本文为个人学习摘要笔记。原文地址：基于消息队列的分布式事务解决方案
-
-数据库事务数据库事务具有 ACID 这 4 个特性：
-
-A：Atomic，原子性，将所有 SQL 作为原子工作单元执行，要么全部执行，要
+                                ThreadPoolExecutorThreadPoolExecutor 作为 java.util.concurrent 包对外提供基础实现，以内部线程池的形式对外提供管理任务执行、线程调度、线程池管理等等服务。
+ThreadPoolExe
                                 
                             </div>
                             <div class="publish-info">
@@ -1591,8 +1556,8 @@ A：Atomic，原子性，将所有 SQL 作为原子工作单元执行，要么�
                                     
                                     <i class="fa fa-bookmark fa-fw icon-category"></i>
                                     
-                                    <a href="/categories/Java-%E7%90%86%E8%AE%BA%E6%A6%82%E5%BF%B5/" class="post-category" target="_blank">
-                                        Java 理论概念
+                                    <a href="/categories/Java-%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
+                                        Java 并发编程
                                     </a>
                                     
                                     
@@ -1923,11 +1888,11 @@ $(function () {
             </script>
         
 
-    <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"left","width":150,"height":200},"mobile":{"show":false},"react":{"opacity":0.7}});</script><script>
+    <script>
             window.imageLazyLoadSetting = {
                 isSPA: false,
                 preloadRatio: 1,
                 processImages: null,
             };
-        </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(n){n.imageLazyLoadSetting.processImages=o;var e=n.imageLazyLoadSetting.isSPA,i=n.imageLazyLoadSetting.preloadRatio||1,r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function o(){e&&(r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")));for(var t,a=0;a<r.length;a++)0<=(t=(t=r[a]).getBoundingClientRect()).bottom&&0<=t.left&&t.top<=(n.innerHeight*i||document.documentElement.clientHeight*i)&&function(){var t,e,n,i,o=r[a];t=o,e=function(){r=r.filter(function(t){return o!==t})},n=new Image,i=t.getAttribute("data-original"),n.onload=function(){t.src=i,e&&e()},t.src!==i&&(n.src=i)}()}o(),n.addEventListener("scroll",function(){var t,e;t=o,e=n,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(e)},500)})}(this);</script></body>
+        </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(n){n.imageLazyLoadSetting.processImages=o;var e=n.imageLazyLoadSetting.isSPA,i=n.imageLazyLoadSetting.preloadRatio||1,r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function o(){e&&(r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")));for(var t,a=0;a<r.length;a++)0<=(t=(t=r[a]).getBoundingClientRect()).bottom&&0<=t.left&&t.top<=(n.innerHeight*i||document.documentElement.clientHeight*i)&&function(){var t,e,n,i,o=r[a];t=o,e=function(){r=r.filter(function(t){return o!==t})},n=new Image,i=t.getAttribute("data-original"),n.onload=function(){t.src=i,e&&e()},t.src!==i&&(n.src=i)}()}o(),n.addEventListener("scroll",function(){var t,e;t=o,e=n,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(e)},500)})}(this);</script><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"left","width":150,"height":200},"mobile":{"show":false},"react":{"opacity":0.7}});</script></body>
 </html>

@@ -1506,19 +1506,28 @@ docker push nicestar/spring-mybatis:0.0.1
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/10/18/handbook/tools/02-interview/">
+                <a href="/2021/10/18/handbook/tools/04-vagrant/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Interview 面经">
+                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="正则表达式">
                         
-                        <span class="card-title">Interview 面经</span>
+                        <span class="card-title">正则表达式</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Interview 面经001 Spring Boot 最大的优势是什么呢？Spring Boot 的最大的优势是“约定优于配置”。“约定优于配置”是一种软件设计范式，开发人员按照约定的方式来进行编程，可以减少软件开发人员需做决定的数量，获
+                            Vagrant安装虚拟机
+下载 vagrant
+下载 virtualbox
+
+初始化vagrant --help
+# 创建目录
+mkdir DockerProject
+cd DockerProject
+
+# 创建 centos-7 Vagr
                         
                     </div>
                     <div class="publish-info">
@@ -1529,8 +1538,8 @@ docker push nicestar/spring-mybatis:0.0.1
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Note/" class="post-category" target="_blank">
-                                    Note
+                            <a href="/categories/Tools/" class="post-category" target="_blank">
+                                    Tools
                                 </a>
                             
                             
@@ -1540,12 +1549,16 @@ docker push nicestar/spring-mybatis:0.0.1
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E9%9D%A2%E9%9C%B8/" target="_blank">
-                        <span class="chip bg-color">面霸</span>
+                    <a href="/tags/Tools/" target="_blank">
+                        <span class="chip bg-color">Tools</span>
                     </a>
                     
-                    <a href="/tags/Interview/" target="_blank">
-                        <span class="chip bg-color">Interview</span>
+                    <a href="/tags/Vagrant/" target="_blank">
+                        <span class="chip bg-color">Vagrant</span>
+                    </a>
+                    
+                    <a href="/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/" target="_blank">
+                        <span class="chip bg-color">虚拟机</span>
                     </a>
                     
                 </div>
@@ -1559,24 +1572,22 @@ docker push nicestar/spring-mybatis:0.0.1
                 下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/10/18/handbook/tools/06-lombok/">
+                <a href="/2021/10/18/handbook/tools/07-swagger/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="Lombok">
+                        <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="Swagger">
                         
-                        <span class="card-title">Lombok</span>
+                        <span class="card-title">Swagger</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Lombok记录 Lombok 中常见的一些注解。
-@BuilderJava 建造者模式：
-@Data
-public class User {
-    private Integer id;
-    private String name;
+                            SwaggerSwagger 提供了一套通过代码和注解自动生成文档的方法。
+添加依赖&lt;!-- 自动生成描述 API 的 json 文件 -->
+&lt;dependency>
+    &lt;groupId>io.springfox&
                         
                     </div>
                     <div class="publish-info">
@@ -1602,8 +1613,12 @@ public class User {
                         <span class="chip bg-color">Tools</span>
                     </a>
                     
-                    <a href="/tags/Lombok/" target="_blank">
-                        <span class="chip bg-color">Lombok</span>
+                    <a href="/tags/Swagger/" target="_blank">
+                        <span class="chip bg-color">Swagger</span>
+                    </a>
+                    
+                    <a href="/tags/%E6%96%87%E6%A1%A3/" target="_blank">
+                        <span class="chip bg-color">文档</span>
                     </a>
                     
                     <a href="/tags/%E6%B3%A8%E9%87%8A/" target="_blank">
@@ -2028,11 +2043,11 @@ $(function () {
             </script>
         
 
-    <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"left","width":150,"height":200},"mobile":{"show":false},"react":{"opacity":0.7}});</script><script>
+    <script>
             window.imageLazyLoadSetting = {
                 isSPA: false,
                 preloadRatio: 1,
                 processImages: null,
             };
-        </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(n){n.imageLazyLoadSetting.processImages=o;var e=n.imageLazyLoadSetting.isSPA,i=n.imageLazyLoadSetting.preloadRatio||1,r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function o(){e&&(r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")));for(var t,a=0;a<r.length;a++)0<=(t=(t=r[a]).getBoundingClientRect()).bottom&&0<=t.left&&t.top<=(n.innerHeight*i||document.documentElement.clientHeight*i)&&function(){var t,e,n,i,o=r[a];t=o,e=function(){r=r.filter(function(t){return o!==t})},n=new Image,i=t.getAttribute("data-original"),n.onload=function(){t.src=i,e&&e()},t.src!==i&&(n.src=i)}()}o(),n.addEventListener("scroll",function(){var t,e;t=o,e=n,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(e)},500)})}(this);</script></body>
+        </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(n){n.imageLazyLoadSetting.processImages=o;var e=n.imageLazyLoadSetting.isSPA,i=n.imageLazyLoadSetting.preloadRatio||1,r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function o(){e&&(r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")));for(var t,a=0;a<r.length;a++)0<=(t=(t=r[a]).getBoundingClientRect()).bottom&&0<=t.left&&t.top<=(n.innerHeight*i||document.documentElement.clientHeight*i)&&function(){var t,e,n,i,o=r[a];t=o,e=function(){r=r.filter(function(t){return o!==t})},n=new Image,i=t.getAttribute("data-original"),n.onload=function(){t.src=i,e&&e()},t.src!==i&&(n.src=i)}()}o(),n.addEventListener("scroll",function(){var t,e;t=o,e=n,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(e)},500)})}(this);</script><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"left","width":150,"height":200},"mobile":{"show":false},"react":{"opacity":0.7}});</script></body>
 </html>

@@ -681,21 +681,19 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
             <article class="cd-timeline-content" data-aos="fade-up">
                 <div class="article col s12 m6">
                     <div class="card">
-                        <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/05-readwritelock/">
+                        <a href="/2021/10/18/handbook/hou-duan/gao-xiao-bian-cheng/04-dan-li-mo-shi-de-ji-chong-shi-xian/">
                             <div class="card-image">
                                 
                                 
-                                <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="ReadWriteLock">
+                                <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="单例模式的几种实现">
                                 
-                                <span class="card-title">ReadWriteLock</span>
+                                <span class="card-title">单例模式的几种实现</span>
                             </div>
                         </a>
                         <div class="card-content article-content">
                             <div class="summary block-with-text">
                                 
-                                ReadWriteLock前面讲到的 ReentrantLock 保证了只有一个线程可以执行临界区代码：
-public class Counter {
-    private final Lock lock = new ReentrantL
+                                单例模式的几种实现单例模式是一种对象创建模式，它用于产生一个对象的具体实例，它可以确保系统中一个类只产生一个实例。Java 里面实现的单例是一个虚拟机的范围，因为装载类的功能是虚拟机的，所以一个虚拟机在通过自己的 ClassLoad 装载实
                                 
                             </div>
                             <div class="publish-info">
@@ -707,777 +705,8 @@ public class Counter {
                                     
                                     <i class="fa fa-bookmark fa-fw icon-category"></i>
                                     
-                                    <a href="/categories/Java-%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
-                                        Java 并发编程
-                                    </a>
-                                    
-                                    
-                                </span>
-                            </div>
-                        </div>
-
-                        
-                        <div class="card-action article-tags">
-                            
-                            <a href="/tags/Java/"><span class="chip bg-color">Java</span></a>
-                            
-                            <a href="/tags/synchronized/"><span class="chip bg-color">synchronized</span></a>
-                            
-                            <a href="/tags/volatile/"><span class="chip bg-color">volatile</span></a>
-                            
-                            <a href="/tags/ReentrantLock/"><span class="chip bg-color">ReentrantLock</span></a>
-                            
-                            <a href="/tags/Atom/"><span class="chip bg-color">Atom</span></a>
-                            
-                            <a href="/tags/ForkJoin/"><span class="chip bg-color">ForkJoin</span></a>
-                            
-                            <a href="/tags/ThreadLocal/"><span class="chip bg-color">ThreadLocal</span></a>
-                            
-                            <a href="/tags/ExecutorService/"><span class="chip bg-color">ExecutorService</span></a>
-                            
-                            <a href="/tags/%E5%90%8E%E5%8F%B0/"><span class="chip bg-color">后台</span></a>
-                            
-                        </div>
-                        
-                    </div>
-                </div>
-            </article>
-        </div>
-        
-        <div class="cd-timeline-block">
-
-            
-            
-
-            
-            
-
-            
-            <div class="cd-timeline-img day" data-aos="zoom-in-up">
-                <span>18</span>
-            </div>
-            <article class="cd-timeline-content" data-aos="fade-up">
-                <div class="article col s12 m6">
-                    <div class="card">
-                        <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/06-stampedlock/">
-                            <div class="card-image">
-                                
-                                
-                                <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="StampedLock">
-                                
-                                <span class="card-title">StampedLock</span>
-                            </div>
-                        </a>
-                        <div class="card-content article-content">
-                            <div class="summary block-with-text">
-                                
-                                StampedLockReadWriteLock 可以解决多线程同时读，但只有一个线程能写的问题。
-ReadWriteLock 有个潜在的问题：如果有线程正在读，写线程需要等待读线程释放锁后才能获取写锁，即读的过程中不允许写，这是一种悲观的
-                                
-                            </div>
-                            <div class="publish-info">
-                                <span class="publish-date">
-                                    <i
-                                        class="fa fa-clock-o fa-fw icon-date"></i>2021-10-18
-                                </span>
-                                <span class="publish-author">
-                                    
-                                    <i class="fa fa-bookmark fa-fw icon-category"></i>
-                                    
-                                    <a href="/categories/Java-%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
-                                        Java 并发编程
-                                    </a>
-                                    
-                                    
-                                </span>
-                            </div>
-                        </div>
-
-                        
-                        <div class="card-action article-tags">
-                            
-                            <a href="/tags/Java/"><span class="chip bg-color">Java</span></a>
-                            
-                            <a href="/tags/synchronized/"><span class="chip bg-color">synchronized</span></a>
-                            
-                            <a href="/tags/volatile/"><span class="chip bg-color">volatile</span></a>
-                            
-                            <a href="/tags/ReentrantLock/"><span class="chip bg-color">ReentrantLock</span></a>
-                            
-                            <a href="/tags/Atom/"><span class="chip bg-color">Atom</span></a>
-                            
-                            <a href="/tags/ForkJoin/"><span class="chip bg-color">ForkJoin</span></a>
-                            
-                            <a href="/tags/ThreadLocal/"><span class="chip bg-color">ThreadLocal</span></a>
-                            
-                            <a href="/tags/ExecutorService/"><span class="chip bg-color">ExecutorService</span></a>
-                            
-                            <a href="/tags/%E5%90%8E%E5%8F%B0/"><span class="chip bg-color">后台</span></a>
-                            
-                        </div>
-                        
-                    </div>
-                </div>
-            </article>
-        </div>
-        
-        <div class="cd-timeline-block">
-
-            
-            
-
-            
-            
-
-            
-            <div class="cd-timeline-img day" data-aos="zoom-in-up">
-                <span>18</span>
-            </div>
-            <article class="cd-timeline-content" data-aos="fade-up">
-                <div class="article col s12 m6">
-                    <div class="card">
-                        <a href="/2021/10/18/handbook/hou-duan/mysql/07-mysql-cha-kan-shu-ju-ku-biao-xiang-qing/">
-                            <div class="card-image">
-                                
-                                
-                                <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="MySQL 查看数据库表详情">
-                                
-                                <span class="card-title">MySQL 查看数据库表详情</span>
-                            </div>
-                        </a>
-                        <div class="card-content article-content">
-                            <div class="summary block-with-text">
-                                
-                                MySQL 查看数据库表详情查看所有数据库容量大小select
-table_schema as '数据库',
-sum(table_rows) as '记录数',
-sum(truncate(data_length/1024/1024, 2))
-                                
-                            </div>
-                            <div class="publish-info">
-                                <span class="publish-date">
-                                    <i
-                                        class="fa fa-clock-o fa-fw icon-date"></i>2021-10-18
-                                </span>
-                                <span class="publish-author">
-                                    
-                                    <i class="fa fa-bookmark fa-fw icon-category"></i>
-                                    
-                                    <a href="/categories/MySQL/" class="post-category" target="_blank">
-                                        MySQL
-                                    </a>
-                                    
-                                    
-                                </span>
-                            </div>
-                        </div>
-
-                        
-                        <div class="card-action article-tags">
-                            
-                            <a href="/tags/SQL/"><span class="chip bg-color">SQL</span></a>
-                            
-                            <a href="/tags/select/"><span class="chip bg-color">select</span></a>
-                            
-                            <a href="/tags/truncate/"><span class="chip bg-color">truncate</span></a>
-                            
-                            <a href="/tags/delete/"><span class="chip bg-color">delete</span></a>
-                            
-                            <a href="/tags/where/"><span class="chip bg-color">where</span></a>
-                            
-                            <a href="/tags/Mybatis/"><span class="chip bg-color">Mybatis</span></a>
-                            
-                            <a href="/tags/%E4%BA%8B%E5%8A%A1/"><span class="chip bg-color">事务</span></a>
-                            
-                            <a href="/tags/%E5%85%B3%E7%B3%BB%E6%A8%A1%E5%9E%8B/"><span class="chip bg-color">关系模型</span></a>
-                            
-                        </div>
-                        
-                    </div>
-                </div>
-            </article>
-        </div>
-        
-        <div class="cd-timeline-block">
-
-            
-            
-
-            
-            
-
-            
-            <div class="cd-timeline-img day" data-aos="zoom-in-up">
-                <span>18</span>
-            </div>
-            <article class="cd-timeline-content" data-aos="fade-up">
-                <div class="article col s12 m6">
-                    <div class="card">
-                        <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/07-completablefuture/">
-                            <div class="card-image">
-                                
-                                
-                                <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="CompletableFuture">
-                                
-                                <span class="card-title">CompletableFuture</span>
-                            </div>
-                        </a>
-                        <div class="card-content article-content">
-                            <div class="summary block-with-text">
-                                
-                                CompletableFutureJava 8 开始引入了 CompletableFuture，它针对 Future 做了改进，可以传入回调对象，当异步任务完成或者发生异常时，自动调用回调对象的回调方法。
-CompletableFuture
-                                
-                            </div>
-                            <div class="publish-info">
-                                <span class="publish-date">
-                                    <i
-                                        class="fa fa-clock-o fa-fw icon-date"></i>2021-10-18
-                                </span>
-                                <span class="publish-author">
-                                    
-                                    <i class="fa fa-bookmark fa-fw icon-category"></i>
-                                    
-                                    <a href="/categories/Java-%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
-                                        Java 并发编程
-                                    </a>
-                                    
-                                    
-                                </span>
-                            </div>
-                        </div>
-
-                        
-                        <div class="card-action article-tags">
-                            
-                            <a href="/tags/Java/"><span class="chip bg-color">Java</span></a>
-                            
-                            <a href="/tags/synchronized/"><span class="chip bg-color">synchronized</span></a>
-                            
-                            <a href="/tags/volatile/"><span class="chip bg-color">volatile</span></a>
-                            
-                            <a href="/tags/ReentrantLock/"><span class="chip bg-color">ReentrantLock</span></a>
-                            
-                            <a href="/tags/Atom/"><span class="chip bg-color">Atom</span></a>
-                            
-                            <a href="/tags/ForkJoin/"><span class="chip bg-color">ForkJoin</span></a>
-                            
-                            <a href="/tags/ThreadLocal/"><span class="chip bg-color">ThreadLocal</span></a>
-                            
-                            <a href="/tags/ExecutorService/"><span class="chip bg-color">ExecutorService</span></a>
-                            
-                            <a href="/tags/%E5%90%8E%E5%8F%B0/"><span class="chip bg-color">后台</span></a>
-                            
-                        </div>
-                        
-                    </div>
-                </div>
-            </article>
-        </div>
-        
-        <div class="cd-timeline-block">
-
-            
-            
-
-            
-            
-
-            
-            <div class="cd-timeline-img day" data-aos="zoom-in-up">
-                <span>18</span>
-            </div>
-            <article class="cd-timeline-content" data-aos="fade-up">
-                <div class="article col s12 m6">
-                    <div class="card">
-                        <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/08-forkjoin/">
-                            <div class="card-image">
-                                
-                                
-                                <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="ForkJoin">
-                                
-                                <span class="card-title">ForkJoin</span>
-                            </div>
-                        </a>
-                        <div class="card-content article-content">
-                            <div class="summary block-with-text">
-                                
-                                ForkJoinJava 7 开始引入了一种新的 Fork/Join 线程池，它可以执行一种特殊的任务：把一个大任务拆成多个小任务并行执行。
-Fork/Join 任务的原理：判断一个任务是否足够小，如果是，直接计算，否则，就分拆成几个小任务
-                                
-                            </div>
-                            <div class="publish-info">
-                                <span class="publish-date">
-                                    <i
-                                        class="fa fa-clock-o fa-fw icon-date"></i>2021-10-18
-                                </span>
-                                <span class="publish-author">
-                                    
-                                    <i class="fa fa-bookmark fa-fw icon-category"></i>
-                                    
-                                    <a href="/categories/Java-%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
-                                        Java 并发编程
-                                    </a>
-                                    
-                                    
-                                </span>
-                            </div>
-                        </div>
-
-                        
-                        <div class="card-action article-tags">
-                            
-                            <a href="/tags/Java/"><span class="chip bg-color">Java</span></a>
-                            
-                            <a href="/tags/synchronized/"><span class="chip bg-color">synchronized</span></a>
-                            
-                            <a href="/tags/volatile/"><span class="chip bg-color">volatile</span></a>
-                            
-                            <a href="/tags/ReentrantLock/"><span class="chip bg-color">ReentrantLock</span></a>
-                            
-                            <a href="/tags/Atom/"><span class="chip bg-color">Atom</span></a>
-                            
-                            <a href="/tags/ForkJoin/"><span class="chip bg-color">ForkJoin</span></a>
-                            
-                            <a href="/tags/ThreadLocal/"><span class="chip bg-color">ThreadLocal</span></a>
-                            
-                            <a href="/tags/ExecutorService/"><span class="chip bg-color">ExecutorService</span></a>
-                            
-                            <a href="/tags/%E5%90%8E%E5%8F%B0/"><span class="chip bg-color">后台</span></a>
-                            
-                        </div>
-                        
-                    </div>
-                </div>
-            </article>
-        </div>
-        
-        <div class="cd-timeline-block">
-
-            
-            
-
-            
-            
-
-            
-            <div class="cd-timeline-img day" data-aos="zoom-in-up">
-                <span>18</span>
-            </div>
-            <article class="cd-timeline-content" data-aos="fade-up">
-                <div class="article col s12 m6">
-                    <div class="card">
-                        <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/11-threadpoolexecutor/">
-                            <div class="card-image">
-                                
-                                
-                                <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="ThreadPoolExecutor">
-                                
-                                <span class="card-title">ThreadPoolExecutor</span>
-                            </div>
-                        </a>
-                        <div class="card-content article-content">
-                            <div class="summary block-with-text">
-                                
-                                ThreadPoolExecutorThreadPoolExecutor 作为 java.util.concurrent 包对外提供基础实现，以内部线程池的形式对外提供管理任务执行、线程调度、线程池管理等等服务。
-ThreadPoolExe
-                                
-                            </div>
-                            <div class="publish-info">
-                                <span class="publish-date">
-                                    <i
-                                        class="fa fa-clock-o fa-fw icon-date"></i>2021-10-18
-                                </span>
-                                <span class="publish-author">
-                                    
-                                    <i class="fa fa-bookmark fa-fw icon-category"></i>
-                                    
-                                    <a href="/categories/Java-%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
-                                        Java 并发编程
-                                    </a>
-                                    
-                                    
-                                </span>
-                            </div>
-                        </div>
-
-                        
-                        <div class="card-action article-tags">
-                            
-                            <a href="/tags/Java/"><span class="chip bg-color">Java</span></a>
-                            
-                            <a href="/tags/synchronized/"><span class="chip bg-color">synchronized</span></a>
-                            
-                            <a href="/tags/volatile/"><span class="chip bg-color">volatile</span></a>
-                            
-                            <a href="/tags/ReentrantLock/"><span class="chip bg-color">ReentrantLock</span></a>
-                            
-                            <a href="/tags/Atom/"><span class="chip bg-color">Atom</span></a>
-                            
-                            <a href="/tags/ForkJoin/"><span class="chip bg-color">ForkJoin</span></a>
-                            
-                            <a href="/tags/ThreadLocal/"><span class="chip bg-color">ThreadLocal</span></a>
-                            
-                            <a href="/tags/ExecutorService/"><span class="chip bg-color">ExecutorService</span></a>
-                            
-                            <a href="/tags/%E5%90%8E%E5%8F%B0/"><span class="chip bg-color">后台</span></a>
-                            
-                        </div>
-                        
-                    </div>
-                </div>
-            </article>
-        </div>
-        
-        <div class="cd-timeline-block">
-
-            
-            
-
-            
-            
-
-            
-            <div class="cd-timeline-img day" data-aos="zoom-in-up">
-                <span>18</span>
-            </div>
-            <article class="cd-timeline-content" data-aos="fade-up">
-                <div class="article col s12 m6">
-                    <div class="card">
-                        <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/10-countdownlatch/">
-                            <div class="card-image">
-                                
-                                
-                                <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="CountDownLatch">
-                                
-                                <span class="card-title">CountDownLatch</span>
-                            </div>
-                        </a>
-                        <div class="card-content article-content">
-                            <div class="summary block-with-text">
-                                
-                                CountDownLatchCountDownLatch 中 count down 是倒数的意思，latch 则是门闩的含义。整体含义可以理解为倒数的门栓，似乎有一点“三二一，芝麻开门”的感觉。
-在构造 CountDownLatch 的时候
-                                
-                            </div>
-                            <div class="publish-info">
-                                <span class="publish-date">
-                                    <i
-                                        class="fa fa-clock-o fa-fw icon-date"></i>2021-10-18
-                                </span>
-                                <span class="publish-author">
-                                    
-                                    <i class="fa fa-bookmark fa-fw icon-category"></i>
-                                    
-                                    <a href="/categories/Java-%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
-                                        Java 并发编程
-                                    </a>
-                                    
-                                    
-                                </span>
-                            </div>
-                        </div>
-
-                        
-                        <div class="card-action article-tags">
-                            
-                            <a href="/tags/Java/"><span class="chip bg-color">Java</span></a>
-                            
-                            <a href="/tags/synchronized/"><span class="chip bg-color">synchronized</span></a>
-                            
-                            <a href="/tags/volatile/"><span class="chip bg-color">volatile</span></a>
-                            
-                            <a href="/tags/ReentrantLock/"><span class="chip bg-color">ReentrantLock</span></a>
-                            
-                            <a href="/tags/Atom/"><span class="chip bg-color">Atom</span></a>
-                            
-                            <a href="/tags/ForkJoin/"><span class="chip bg-color">ForkJoin</span></a>
-                            
-                            <a href="/tags/ThreadLocal/"><span class="chip bg-color">ThreadLocal</span></a>
-                            
-                            <a href="/tags/ExecutorService/"><span class="chip bg-color">ExecutorService</span></a>
-                            
-                            <a href="/tags/%E5%90%8E%E5%8F%B0/"><span class="chip bg-color">后台</span></a>
-                            
-                        </div>
-                        
-                    </div>
-                </div>
-            </article>
-        </div>
-        
-        <div class="cd-timeline-block">
-
-            
-            
-
-            
-            
-
-            
-            <div class="cd-timeline-img day" data-aos="zoom-in-up">
-                <span>18</span>
-            </div>
-            <article class="cd-timeline-content" data-aos="fade-up">
-                <div class="article col s12 m6">
-                    <div class="card">
-                        <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/13-atom-yuan-zi-lei/">
-                            <div class="card-image">
-                                
-                                
-                                <img src="/medias/featureimages/19.jpg" class="responsive-img" alt="Atom 原子类">
-                                
-                                <span class="card-title">Atom 原子类</span>
-                            </div>
-                        </a>
-                        <div class="card-content article-content">
-                            <div class="summary block-with-text">
-                                
-                                Atom 原子类在 Java Java 并发编程中，经常通过 synchronized 进行控制来达到线程安全的目的。但是由于 synchronized 是采用的是悲观锁策略，并不是特别高效的一种解决方案。实际上，在 J.U.C 下的 at
-                                
-                            </div>
-                            <div class="publish-info">
-                                <span class="publish-date">
-                                    <i
-                                        class="fa fa-clock-o fa-fw icon-date"></i>2021-10-18
-                                </span>
-                                <span class="publish-author">
-                                    
-                                    <i class="fa fa-bookmark fa-fw icon-category"></i>
-                                    
-                                    <a href="/categories/Java-%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
-                                        Java 并发编程
-                                    </a>
-                                    
-                                    
-                                </span>
-                            </div>
-                        </div>
-
-                        
-                        <div class="card-action article-tags">
-                            
-                            <a href="/tags/Java/"><span class="chip bg-color">Java</span></a>
-                            
-                            <a href="/tags/synchronized/"><span class="chip bg-color">synchronized</span></a>
-                            
-                            <a href="/tags/volatile/"><span class="chip bg-color">volatile</span></a>
-                            
-                            <a href="/tags/ReentrantLock/"><span class="chip bg-color">ReentrantLock</span></a>
-                            
-                            <a href="/tags/Atom/"><span class="chip bg-color">Atom</span></a>
-                            
-                            <a href="/tags/ForkJoin/"><span class="chip bg-color">ForkJoin</span></a>
-                            
-                            <a href="/tags/ThreadLocal/"><span class="chip bg-color">ThreadLocal</span></a>
-                            
-                            <a href="/tags/ExecutorService/"><span class="chip bg-color">ExecutorService</span></a>
-                            
-                            <a href="/tags/%E5%90%8E%E5%8F%B0/"><span class="chip bg-color">后台</span></a>
-                            
-                        </div>
-                        
-                    </div>
-                </div>
-            </article>
-        </div>
-        
-        <div class="cd-timeline-block">
-
-            
-            
-
-            
-            
-
-            
-            <div class="cd-timeline-img day" data-aos="zoom-in-up">
-                <span>18</span>
-            </div>
-            <article class="cd-timeline-content" data-aos="fade-up">
-                <div class="article col s12 m6">
-                    <div class="card">
-                        <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/12-executorservice/">
-                            <div class="card-image">
-                                
-                                
-                                <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="ExecutorService">
-                                
-                                <span class="card-title">ExecutorService</span>
-                            </div>
-                        </a>
-                        <div class="card-content article-content">
-                            <div class="summary block-with-text">
-                                
-                                ExecutorServiceExecutorService 是 java.util.concurrent 包的重要组成部分，是 Java JDK 提供的框架，用于简化异步模式下任务的执行。
-一般来说，ExecutorService 会自动
-                                
-                            </div>
-                            <div class="publish-info">
-                                <span class="publish-date">
-                                    <i
-                                        class="fa fa-clock-o fa-fw icon-date"></i>2021-10-18
-                                </span>
-                                <span class="publish-author">
-                                    
-                                    <i class="fa fa-bookmark fa-fw icon-category"></i>
-                                    
-                                    <a href="/categories/Java-%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
-                                        Java 并发编程
-                                    </a>
-                                    
-                                    
-                                </span>
-                            </div>
-                        </div>
-
-                        
-                        <div class="card-action article-tags">
-                            
-                            <a href="/tags/Java/"><span class="chip bg-color">Java</span></a>
-                            
-                            <a href="/tags/synchronized/"><span class="chip bg-color">synchronized</span></a>
-                            
-                            <a href="/tags/volatile/"><span class="chip bg-color">volatile</span></a>
-                            
-                            <a href="/tags/ReentrantLock/"><span class="chip bg-color">ReentrantLock</span></a>
-                            
-                            <a href="/tags/Atom/"><span class="chip bg-color">Atom</span></a>
-                            
-                            <a href="/tags/ForkJoin/"><span class="chip bg-color">ForkJoin</span></a>
-                            
-                            <a href="/tags/ThreadLocal/"><span class="chip bg-color">ThreadLocal</span></a>
-                            
-                            <a href="/tags/ExecutorService/"><span class="chip bg-color">ExecutorService</span></a>
-                            
-                            <a href="/tags/%E5%90%8E%E5%8F%B0/"><span class="chip bg-color">后台</span></a>
-                            
-                        </div>
-                        
-                    </div>
-                </div>
-            </article>
-        </div>
-        
-        <div class="cd-timeline-block">
-
-            
-            
-
-            
-            
-
-            
-            <div class="cd-timeline-img day" data-aos="zoom-in-up">
-                <span>18</span>
-            </div>
-            <article class="cd-timeline-content" data-aos="fade-up">
-                <div class="article col s12 m6">
-                    <div class="card">
-                        <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/14-blockingqueue/">
-                            <div class="card-image">
-                                
-                                
-                                <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="BlockingQueue">
-                                
-                                <span class="card-title">BlockingQueue</span>
-                            </div>
-                        </a>
-                        <div class="card-content article-content">
-                            <div class="summary block-with-text">
-                                
-                                BlockingQueueBlockingQueue，即阻塞队列被广泛使用在“生产者-消费者”问题中，其原因是 BlockingQueue 提供了可阻塞的插入和移除的方法。当队列容器已满，生产者线程会被阻塞，直到队列未满；当队列容器为空时，
-                                
-                            </div>
-                            <div class="publish-info">
-                                <span class="publish-date">
-                                    <i
-                                        class="fa fa-clock-o fa-fw icon-date"></i>2021-10-18
-                                </span>
-                                <span class="publish-author">
-                                    
-                                    <i class="fa fa-bookmark fa-fw icon-category"></i>
-                                    
-                                    <a href="/categories/Java-%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
-                                        Java 并发编程
-                                    </a>
-                                    
-                                    
-                                </span>
-                            </div>
-                        </div>
-
-                        
-                        <div class="card-action article-tags">
-                            
-                            <a href="/tags/Java/"><span class="chip bg-color">Java</span></a>
-                            
-                            <a href="/tags/synchronized/"><span class="chip bg-color">synchronized</span></a>
-                            
-                            <a href="/tags/volatile/"><span class="chip bg-color">volatile</span></a>
-                            
-                            <a href="/tags/ReentrantLock/"><span class="chip bg-color">ReentrantLock</span></a>
-                            
-                            <a href="/tags/Atom/"><span class="chip bg-color">Atom</span></a>
-                            
-                            <a href="/tags/ForkJoin/"><span class="chip bg-color">ForkJoin</span></a>
-                            
-                            <a href="/tags/ThreadLocal/"><span class="chip bg-color">ThreadLocal</span></a>
-                            
-                            <a href="/tags/ExecutorService/"><span class="chip bg-color">ExecutorService</span></a>
-                            
-                            <a href="/tags/%E5%90%8E%E5%8F%B0/"><span class="chip bg-color">后台</span></a>
-                            
-                        </div>
-                        
-                    </div>
-                </div>
-            </article>
-        </div>
-        
-        <div class="cd-timeline-block">
-
-            
-            
-
-            
-            
-
-            
-            <div class="cd-timeline-img day" data-aos="zoom-in-up">
-                <span>18</span>
-            </div>
-            <article class="cd-timeline-content" data-aos="fade-up">
-                <div class="article col s12 m6">
-                    <div class="card">
-                        <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/09-threadlocal/">
-                            <div class="card-image">
-                                
-                                
-                                <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="ThreadLocal">
-                                
-                                <span class="card-title">ThreadLocal</span>
-                            </div>
-                        </a>
-                        <div class="card-content article-content">
-                            <div class="summary block-with-text">
-                                
-                                ThreadLocal对于多任务，Java 标准库提供的线程池可以方便地执行这些任务，同时复用线程。那么如何在一个线程内传递状态？
-如下栗子，一个内部需要调用若干其他方法，同时传递参数 user。
-public void process(U
-                                
-                            </div>
-                            <div class="publish-info">
-                                <span class="publish-date">
-                                    <i
-                                        class="fa fa-clock-o fa-fw icon-date"></i>2021-10-18
-                                </span>
-                                <span class="publish-author">
-                                    
-                                    <i class="fa fa-bookmark fa-fw icon-category"></i>
-                                    
-                                    <a href="/categories/Java-%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
-                                        Java 并发编程
+                                    <a href="/categories/Java-%E9%AB%98%E6%95%88%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
+                                        Java 高效编程
                                     </a>
                                     
                                     
@@ -1556,6 +785,805 @@ public static int[][] chunk(int[] numbers, int size) {
                                     
                                     <a href="/categories/Java-%E9%AB%98%E6%95%88%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
                                         Java 高效编程
+                                    </a>
+                                    
+                                    
+                                </span>
+                            </div>
+                        </div>
+
+                        
+                        <div class="card-action article-tags">
+                            
+                            <a href="/tags/Java/"><span class="chip bg-color">Java</span></a>
+                            
+                            <a href="/tags/synchronized/"><span class="chip bg-color">synchronized</span></a>
+                            
+                            <a href="/tags/volatile/"><span class="chip bg-color">volatile</span></a>
+                            
+                            <a href="/tags/ReentrantLock/"><span class="chip bg-color">ReentrantLock</span></a>
+                            
+                            <a href="/tags/Atom/"><span class="chip bg-color">Atom</span></a>
+                            
+                            <a href="/tags/ForkJoin/"><span class="chip bg-color">ForkJoin</span></a>
+                            
+                            <a href="/tags/ThreadLocal/"><span class="chip bg-color">ThreadLocal</span></a>
+                            
+                            <a href="/tags/ExecutorService/"><span class="chip bg-color">ExecutorService</span></a>
+                            
+                            <a href="/tags/%E5%90%8E%E5%8F%B0/"><span class="chip bg-color">后台</span></a>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+        </div>
+        
+        <div class="cd-timeline-block">
+
+            
+            
+
+            
+            
+
+            
+            <div class="cd-timeline-img day" data-aos="zoom-in-up">
+                <span>18</span>
+            </div>
+            <article class="cd-timeline-content" data-aos="fade-up">
+                <div class="article col s12 m6">
+                    <div class="card">
+                        <a href="/2021/10/18/handbook/hou-duan/li-lun-gai-nian/01-java-servlet/">
+                            <div class="card-image">
+                                
+                                
+                                <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="Java-Servlet">
+                                
+                                <span class="card-title">Java-Servlet</span>
+                            </div>
+                        </a>
+                        <div class="card-content article-content">
+                            <div class="summary block-with-text">
+                                
+                                Java-ServletWeb 容器是什么？早期的 Web 应用主要用于浏览新闻等静态页面，HTTP 服务器（比如 Apache、Nginx）向浏览器返回静态 HTML，浏览器负责解析 HTML，将结果呈现给用户。
+随着互联网的发展，我们已
+                                
+                            </div>
+                            <div class="publish-info">
+                                <span class="publish-date">
+                                    <i
+                                        class="fa fa-clock-o fa-fw icon-date"></i>2021-10-18
+                                </span>
+                                <span class="publish-author">
+                                    
+                                    <i class="fa fa-bookmark fa-fw icon-category"></i>
+                                    
+                                    <a href="/categories/Java-%E7%90%86%E8%AE%BA%E6%A6%82%E5%BF%B5/" class="post-category" target="_blank">
+                                        Java 理论概念
+                                    </a>
+                                    
+                                    
+                                </span>
+                            </div>
+                        </div>
+
+                        
+                        <div class="card-action article-tags">
+                            
+                            <a href="/tags/Java/"><span class="chip bg-color">Java</span></a>
+                            
+                            <a href="/tags/synchronized/"><span class="chip bg-color">synchronized</span></a>
+                            
+                            <a href="/tags/volatile/"><span class="chip bg-color">volatile</span></a>
+                            
+                            <a href="/tags/ReentrantLock/"><span class="chip bg-color">ReentrantLock</span></a>
+                            
+                            <a href="/tags/Atom/"><span class="chip bg-color">Atom</span></a>
+                            
+                            <a href="/tags/ForkJoin/"><span class="chip bg-color">ForkJoin</span></a>
+                            
+                            <a href="/tags/ThreadLocal/"><span class="chip bg-color">ThreadLocal</span></a>
+                            
+                            <a href="/tags/ExecutorService/"><span class="chip bg-color">ExecutorService</span></a>
+                            
+                            <a href="/tags/%E5%90%8E%E5%8F%B0/"><span class="chip bg-color">后台</span></a>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+        </div>
+        
+        <div class="cd-timeline-block">
+
+            
+            
+
+            
+            
+
+            
+            <div class="cd-timeline-img day" data-aos="zoom-in-up">
+                <span>18</span>
+            </div>
+            <article class="cd-timeline-content" data-aos="fade-up">
+                <div class="article col s12 m6">
+                    <div class="card">
+                        <a href="/2021/10/18/handbook/hou-duan/li-lun-gai-nian/02-java-fu-wu-duan-fen-ceng-mo-xing/">
+                            <div class="card-image">
+                                
+                                
+                                <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="Java 服务端分层模型">
+                                
+                                <span class="card-title">Java 服务端分层模型</span>
+                            </div>
+                        </a>
+                        <div class="card-content article-content">
+                            <div class="summary block-with-text">
+                                
+                                Java 服务端分层模型复杂的软件系统都会采用分层的架构设计，分层之后，每一层职责鲜明，整体上降低了系统的耦合性，提高了健壮性。
+Java 服务端开发亦是如此，采用分层架构，针对每一层，对应对象的职责是不同的，以及层与层之间也需要通信，故而
+                                
+                            </div>
+                            <div class="publish-info">
+                                <span class="publish-date">
+                                    <i
+                                        class="fa fa-clock-o fa-fw icon-date"></i>2021-10-18
+                                </span>
+                                <span class="publish-author">
+                                    
+                                    <i class="fa fa-bookmark fa-fw icon-category"></i>
+                                    
+                                    <a href="/categories/Java-%E7%90%86%E8%AE%BA%E6%A6%82%E5%BF%B5/" class="post-category" target="_blank">
+                                        Java 理论概念
+                                    </a>
+                                    
+                                    
+                                </span>
+                            </div>
+                        </div>
+
+                        
+                        <div class="card-action article-tags">
+                            
+                            <a href="/tags/Java/"><span class="chip bg-color">Java</span></a>
+                            
+                            <a href="/tags/synchronized/"><span class="chip bg-color">synchronized</span></a>
+                            
+                            <a href="/tags/volatile/"><span class="chip bg-color">volatile</span></a>
+                            
+                            <a href="/tags/ReentrantLock/"><span class="chip bg-color">ReentrantLock</span></a>
+                            
+                            <a href="/tags/Atom/"><span class="chip bg-color">Atom</span></a>
+                            
+                            <a href="/tags/ForkJoin/"><span class="chip bg-color">ForkJoin</span></a>
+                            
+                            <a href="/tags/ThreadLocal/"><span class="chip bg-color">ThreadLocal</span></a>
+                            
+                            <a href="/tags/ExecutorService/"><span class="chip bg-color">ExecutorService</span></a>
+                            
+                            <a href="/tags/%E5%90%8E%E5%8F%B0/"><span class="chip bg-color">后台</span></a>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+        </div>
+        
+        <div class="cd-timeline-block">
+
+            
+            
+
+            
+            
+
+            
+            <div class="cd-timeline-img day" data-aos="zoom-in-up">
+                <span>18</span>
+            </div>
+            <article class="cd-timeline-content" data-aos="fade-up">
+                <div class="article col s12 m6">
+                    <div class="card">
+                        <a href="/2021/10/18/handbook/hou-duan/gao-xiao-bian-cheng/05-hashmap-pai-xu/">
+                            <div class="card-image">
+                                
+                                
+                                <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="HashMap 排序">
+                                
+                                <span class="card-title">HashMap 排序</span>
+                            </div>
+                        </a>
+                        <div class="card-content article-content">
+                            <div class="summary block-with-text">
+                                
+                                HashMap 排序HashMap 的值是没有顺序的，它是按照 key 的 HashCode 来实现的，对于这个无序的 HashMap 我们要怎么来实现排序呢？
+根据 key 排序TreeMap 基于红黑树实现，该映射根据其键的自然顺序进行
+                                
+                            </div>
+                            <div class="publish-info">
+                                <span class="publish-date">
+                                    <i
+                                        class="fa fa-clock-o fa-fw icon-date"></i>2021-10-18
+                                </span>
+                                <span class="publish-author">
+                                    
+                                    <i class="fa fa-bookmark fa-fw icon-category"></i>
+                                    
+                                    <a href="/categories/Java-%E9%AB%98%E6%95%88%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
+                                        Java 高效编程
+                                    </a>
+                                    
+                                    
+                                </span>
+                            </div>
+                        </div>
+
+                        
+                        <div class="card-action article-tags">
+                            
+                            <a href="/tags/Java/"><span class="chip bg-color">Java</span></a>
+                            
+                            <a href="/tags/synchronized/"><span class="chip bg-color">synchronized</span></a>
+                            
+                            <a href="/tags/volatile/"><span class="chip bg-color">volatile</span></a>
+                            
+                            <a href="/tags/ReentrantLock/"><span class="chip bg-color">ReentrantLock</span></a>
+                            
+                            <a href="/tags/Atom/"><span class="chip bg-color">Atom</span></a>
+                            
+                            <a href="/tags/ForkJoin/"><span class="chip bg-color">ForkJoin</span></a>
+                            
+                            <a href="/tags/ThreadLocal/"><span class="chip bg-color">ThreadLocal</span></a>
+                            
+                            <a href="/tags/ExecutorService/"><span class="chip bg-color">ExecutorService</span></a>
+                            
+                            <a href="/tags/%E5%90%8E%E5%8F%B0/"><span class="chip bg-color">后台</span></a>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+        </div>
+        
+        <div class="cd-timeline-block">
+
+            
+            
+
+            
+            
+
+            
+            <div class="cd-timeline-img day" data-aos="zoom-in-up">
+                <span>18</span>
+            </div>
+            <article class="cd-timeline-content" data-aos="fade-up">
+                <div class="article col s12 m6">
+                    <div class="card">
+                        <a href="/2021/10/18/handbook/hou-duan/li-lun-gai-nian/03-jing-dian-pai-xu-suan-fa/">
+                            <div class="card-image">
+                                
+                                
+                                <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="经典排序算法">
+                                
+                                <span class="card-title">经典排序算法</span>
+                            </div>
+                        </a>
+                        <div class="card-content article-content">
+                            <div class="summary block-with-text">
+                                
+                                经典排序算法重温排序算法，动画详见：Magicsort
+插入排序插入排序是一种简单的排序算法。它的工作原理是通过构建有序序列，对于未排序数据，在已排序序列中从后向前扫描，找到相应位置并插入。插入排序在实现上，通常采用 in-place 排序
+                                
+                            </div>
+                            <div class="publish-info">
+                                <span class="publish-date">
+                                    <i
+                                        class="fa fa-clock-o fa-fw icon-date"></i>2021-10-18
+                                </span>
+                                <span class="publish-author">
+                                    
+                                    <i class="fa fa-bookmark fa-fw icon-category"></i>
+                                    
+                                    <a href="/categories/Java-%E7%90%86%E8%AE%BA%E6%A6%82%E5%BF%B5/" class="post-category" target="_blank">
+                                        Java 理论概念
+                                    </a>
+                                    
+                                    
+                                </span>
+                            </div>
+                        </div>
+
+                        
+                        <div class="card-action article-tags">
+                            
+                            <a href="/tags/Java/"><span class="chip bg-color">Java</span></a>
+                            
+                            <a href="/tags/synchronized/"><span class="chip bg-color">synchronized</span></a>
+                            
+                            <a href="/tags/volatile/"><span class="chip bg-color">volatile</span></a>
+                            
+                            <a href="/tags/ReentrantLock/"><span class="chip bg-color">ReentrantLock</span></a>
+                            
+                            <a href="/tags/Atom/"><span class="chip bg-color">Atom</span></a>
+                            
+                            <a href="/tags/ForkJoin/"><span class="chip bg-color">ForkJoin</span></a>
+                            
+                            <a href="/tags/ThreadLocal/"><span class="chip bg-color">ThreadLocal</span></a>
+                            
+                            <a href="/tags/ExecutorService/"><span class="chip bg-color">ExecutorService</span></a>
+                            
+                            <a href="/tags/%E5%90%8E%E5%8F%B0/"><span class="chip bg-color">后台</span></a>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+        </div>
+        
+        <div class="cd-timeline-block">
+
+            
+            
+
+            
+            
+
+            
+            <div class="cd-timeline-img day" data-aos="zoom-in-up">
+                <span>18</span>
+            </div>
+            <article class="cd-timeline-content" data-aos="fade-up">
+                <div class="article col s12 m6">
+                    <div class="card">
+                        <a href="/2021/10/18/handbook/hou-duan/li-lun-gai-nian/04-lru-huan-cun-tao-tai-suan-fa/">
+                            <div class="card-image">
+                                
+                                
+                                <img src="/medias/featureimages/20.jpg" class="responsive-img" alt="LRU 缓存淘汰算法">
+                                
+                                <span class="card-title">LRU 缓存淘汰算法</span>
+                            </div>
+                        </a>
+                        <div class="card-content article-content">
+                            <div class="summary block-with-text">
+                                
+                                LRU 缓存淘汰算法
+本文为个人学习摘要笔记。原文地址：聊聊缓存淘汰算法-LRU 实现原理
+
+我们常用缓存提升数据查询速度，由于缓存容量有限，当缓存容量到达上限，就需要删除部分数据挪出空间，这样新数据才可以添加进来。缓存数据不能随机删除，一
+                                
+                            </div>
+                            <div class="publish-info">
+                                <span class="publish-date">
+                                    <i
+                                        class="fa fa-clock-o fa-fw icon-date"></i>2021-10-18
+                                </span>
+                                <span class="publish-author">
+                                    
+                                    <i class="fa fa-bookmark fa-fw icon-category"></i>
+                                    
+                                    <a href="/categories/Java-%E7%90%86%E8%AE%BA%E6%A6%82%E5%BF%B5/" class="post-category" target="_blank">
+                                        Java 理论概念
+                                    </a>
+                                    
+                                    
+                                </span>
+                            </div>
+                        </div>
+
+                        
+                        <div class="card-action article-tags">
+                            
+                            <a href="/tags/Java/"><span class="chip bg-color">Java</span></a>
+                            
+                            <a href="/tags/synchronized/"><span class="chip bg-color">synchronized</span></a>
+                            
+                            <a href="/tags/volatile/"><span class="chip bg-color">volatile</span></a>
+                            
+                            <a href="/tags/ReentrantLock/"><span class="chip bg-color">ReentrantLock</span></a>
+                            
+                            <a href="/tags/Atom/"><span class="chip bg-color">Atom</span></a>
+                            
+                            <a href="/tags/ForkJoin/"><span class="chip bg-color">ForkJoin</span></a>
+                            
+                            <a href="/tags/ThreadLocal/"><span class="chip bg-color">ThreadLocal</span></a>
+                            
+                            <a href="/tags/ExecutorService/"><span class="chip bg-color">ExecutorService</span></a>
+                            
+                            <a href="/tags/%E5%90%8E%E5%8F%B0/"><span class="chip bg-color">后台</span></a>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+        </div>
+        
+        <div class="cd-timeline-block">
+
+            
+            
+
+            
+            
+
+            
+            <div class="cd-timeline-img day" data-aos="zoom-in-up">
+                <span>18</span>
+            </div>
+            <article class="cd-timeline-content" data-aos="fade-up">
+                <div class="article col s12 m6">
+                    <div class="card">
+                        <a href="/2021/10/18/handbook/hou-duan/li-lun-gai-nian/05-bloomfilter-pan-duan-yuan-su-cun-zai/">
+                            <div class="card-image">
+                                
+                                
+                                <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="BloomFilter 判断元素存在">
+                                
+                                <span class="card-title">BloomFilter 判断元素存在</span>
+                            </div>
+                        </a>
+                        <div class="card-content article-content">
+                            <div class="summary block-with-text">
+                                
+                                BloomFilter 判断元素存在
+本文为个人学习摘要笔记。原文地址：到底是存在还是不存在之 BloomFilter
+
+什么是 BloomFilter布隆过滤器（Bloom Filter）是 1970 年由布隆提出的。它实际上是一个很长的
+                                
+                            </div>
+                            <div class="publish-info">
+                                <span class="publish-date">
+                                    <i
+                                        class="fa fa-clock-o fa-fw icon-date"></i>2021-10-18
+                                </span>
+                                <span class="publish-author">
+                                    
+                                    <i class="fa fa-bookmark fa-fw icon-category"></i>
+                                    
+                                    <a href="/categories/Java-%E7%90%86%E8%AE%BA%E6%A6%82%E5%BF%B5/" class="post-category" target="_blank">
+                                        Java 理论概念
+                                    </a>
+                                    
+                                    
+                                </span>
+                            </div>
+                        </div>
+
+                        
+                        <div class="card-action article-tags">
+                            
+                            <a href="/tags/Java/"><span class="chip bg-color">Java</span></a>
+                            
+                            <a href="/tags/synchronized/"><span class="chip bg-color">synchronized</span></a>
+                            
+                            <a href="/tags/volatile/"><span class="chip bg-color">volatile</span></a>
+                            
+                            <a href="/tags/ReentrantLock/"><span class="chip bg-color">ReentrantLock</span></a>
+                            
+                            <a href="/tags/Atom/"><span class="chip bg-color">Atom</span></a>
+                            
+                            <a href="/tags/ForkJoin/"><span class="chip bg-color">ForkJoin</span></a>
+                            
+                            <a href="/tags/ThreadLocal/"><span class="chip bg-color">ThreadLocal</span></a>
+                            
+                            <a href="/tags/ExecutorService/"><span class="chip bg-color">ExecutorService</span></a>
+                            
+                            <a href="/tags/%E5%90%8E%E5%8F%B0/"><span class="chip bg-color">后台</span></a>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+        </div>
+        
+        <div class="cd-timeline-block">
+
+            
+            
+
+            
+            
+
+            
+            <div class="cd-timeline-img day" data-aos="zoom-in-up">
+                <span>18</span>
+            </div>
+            <article class="cd-timeline-content" data-aos="fade-up">
+                <div class="article col s12 m6">
+                    <div class="card">
+                        <a href="/2021/10/18/handbook/hou-duan/li-lun-gai-nian/07-http-zhuang-tai-ma-xiang-jie/">
+                            <div class="card-image">
+                                
+                                
+                                <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="HTTP 状态码详解">
+                                
+                                <span class="card-title">HTTP 状态码详解</span>
+                            </div>
+                        </a>
+                        <div class="card-content article-content">
+                            <div class="summary block-with-text">
+                                
+                                HTTP 状态码详解
+状态码的分类HTTP 状态码共分为 5 种类型：
+
+
+
+分类
+分类描述
+
+
+
+1**
+信息，服务器收到请求，需要请求者继续执行操作
+
+
+2**
+成功，操作被成功接收并处理
+
+
+3**
+重定向，需要进一步的操作以完成请求
+                                
+                            </div>
+                            <div class="publish-info">
+                                <span class="publish-date">
+                                    <i
+                                        class="fa fa-clock-o fa-fw icon-date"></i>2021-10-18
+                                </span>
+                                <span class="publish-author">
+                                    
+                                    <i class="fa fa-bookmark fa-fw icon-category"></i>
+                                    
+                                    <a href="/categories/Java-%E7%90%86%E8%AE%BA%E6%A6%82%E5%BF%B5/" class="post-category" target="_blank">
+                                        Java 理论概念
+                                    </a>
+                                    
+                                    
+                                </span>
+                            </div>
+                        </div>
+
+                        
+                        <div class="card-action article-tags">
+                            
+                            <a href="/tags/Java/"><span class="chip bg-color">Java</span></a>
+                            
+                            <a href="/tags/synchronized/"><span class="chip bg-color">synchronized</span></a>
+                            
+                            <a href="/tags/volatile/"><span class="chip bg-color">volatile</span></a>
+                            
+                            <a href="/tags/ReentrantLock/"><span class="chip bg-color">ReentrantLock</span></a>
+                            
+                            <a href="/tags/Atom/"><span class="chip bg-color">Atom</span></a>
+                            
+                            <a href="/tags/ForkJoin/"><span class="chip bg-color">ForkJoin</span></a>
+                            
+                            <a href="/tags/ThreadLocal/"><span class="chip bg-color">ThreadLocal</span></a>
+                            
+                            <a href="/tags/ExecutorService/"><span class="chip bg-color">ExecutorService</span></a>
+                            
+                            <a href="/tags/%E5%90%8E%E5%8F%B0/"><span class="chip bg-color">后台</span></a>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+        </div>
+        
+        <div class="cd-timeline-block">
+
+            
+            
+
+            
+            
+
+            
+            <div class="cd-timeline-img day" data-aos="zoom-in-up">
+                <span>18</span>
+            </div>
+            <article class="cd-timeline-content" data-aos="fade-up">
+                <div class="article col s12 m6">
+                    <div class="card">
+                        <a href="/2021/10/18/handbook/hou-duan/li-lun-gai-nian/06-java-hashmap-mian-shi-da-quan/">
+                            <div class="card-image">
+                                
+                                
+                                <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="HashMap 面试大全">
+                                
+                                <span class="card-title">HashMap 面试大全</span>
+                            </div>
+                        </a>
+                        <div class="card-content article-content">
+                            <div class="summary block-with-text">
+                                
+                                HashMap 面试大全关于 HashMap 参考前文 Java HashMap
+001 HashMap 的结构哈希表结构（链表散列：数组+链表）实现，结合数组和链表的优点。当链表长度超过 8 时，链表转换为红黑树。
+002 Get 方法的
+                                
+                            </div>
+                            <div class="publish-info">
+                                <span class="publish-date">
+                                    <i
+                                        class="fa fa-clock-o fa-fw icon-date"></i>2021-10-18
+                                </span>
+                                <span class="publish-author">
+                                    
+                                    <i class="fa fa-bookmark fa-fw icon-category"></i>
+                                    
+                                    <a href="/categories/Java-%E7%90%86%E8%AE%BA%E6%A6%82%E5%BF%B5/" class="post-category" target="_blank">
+                                        Java 理论概念
+                                    </a>
+                                    
+                                    
+                                </span>
+                            </div>
+                        </div>
+
+                        
+                        <div class="card-action article-tags">
+                            
+                            <a href="/tags/Java/"><span class="chip bg-color">Java</span></a>
+                            
+                            <a href="/tags/synchronized/"><span class="chip bg-color">synchronized</span></a>
+                            
+                            <a href="/tags/volatile/"><span class="chip bg-color">volatile</span></a>
+                            
+                            <a href="/tags/ReentrantLock/"><span class="chip bg-color">ReentrantLock</span></a>
+                            
+                            <a href="/tags/Atom/"><span class="chip bg-color">Atom</span></a>
+                            
+                            <a href="/tags/ForkJoin/"><span class="chip bg-color">ForkJoin</span></a>
+                            
+                            <a href="/tags/ThreadLocal/"><span class="chip bg-color">ThreadLocal</span></a>
+                            
+                            <a href="/tags/ExecutorService/"><span class="chip bg-color">ExecutorService</span></a>
+                            
+                            <a href="/tags/%E5%90%8E%E5%8F%B0/"><span class="chip bg-color">后台</span></a>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+        </div>
+        
+        <div class="cd-timeline-block">
+
+            
+            
+
+            
+            
+
+            
+            <div class="cd-timeline-img day" data-aos="zoom-in-up">
+                <span>18</span>
+            </div>
+            <article class="cd-timeline-content" data-aos="fade-up">
+                <div class="article col s12 m6">
+                    <div class="card">
+                        <a href="/2021/10/18/handbook/hou-duan/li-lun-gai-nian/08-cookie-he-session/">
+                            <div class="card-image">
+                                
+                                
+                                <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="Cookie 和 Session">
+                                
+                                <span class="card-title">Cookie 和 Session</span>
+                            </div>
+                        </a>
+                        <div class="card-content article-content">
+                            <div class="summary block-with-text">
+                                
+                                Cookie 和 Session
+本文为个人学习摘要笔记。原文地址：你真的了解 Cookie 和 Session 吗
+
+什么是 Cookie 和 SessionCookieHTTP Cookie（也叫 Web Cookie 或浏览器 Coo
+                                
+                            </div>
+                            <div class="publish-info">
+                                <span class="publish-date">
+                                    <i
+                                        class="fa fa-clock-o fa-fw icon-date"></i>2021-10-18
+                                </span>
+                                <span class="publish-author">
+                                    
+                                    <i class="fa fa-bookmark fa-fw icon-category"></i>
+                                    
+                                    <a href="/categories/Java-%E7%90%86%E8%AE%BA%E6%A6%82%E5%BF%B5/" class="post-category" target="_blank">
+                                        Java 理论概念
+                                    </a>
+                                    
+                                    
+                                </span>
+                            </div>
+                        </div>
+
+                        
+                        <div class="card-action article-tags">
+                            
+                            <a href="/tags/Java/"><span class="chip bg-color">Java</span></a>
+                            
+                            <a href="/tags/synchronized/"><span class="chip bg-color">synchronized</span></a>
+                            
+                            <a href="/tags/volatile/"><span class="chip bg-color">volatile</span></a>
+                            
+                            <a href="/tags/ReentrantLock/"><span class="chip bg-color">ReentrantLock</span></a>
+                            
+                            <a href="/tags/Atom/"><span class="chip bg-color">Atom</span></a>
+                            
+                            <a href="/tags/ForkJoin/"><span class="chip bg-color">ForkJoin</span></a>
+                            
+                            <a href="/tags/ThreadLocal/"><span class="chip bg-color">ThreadLocal</span></a>
+                            
+                            <a href="/tags/ExecutorService/"><span class="chip bg-color">ExecutorService</span></a>
+                            
+                            <a href="/tags/%E5%90%8E%E5%8F%B0/"><span class="chip bg-color">后台</span></a>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+        </div>
+        
+        <div class="cd-timeline-block">
+
+            
+            
+
+            
+            
+
+            
+            <div class="cd-timeline-img day" data-aos="zoom-in-up">
+                <span>18</span>
+            </div>
+            <article class="cd-timeline-content" data-aos="fade-up">
+                <div class="article col s12 m6">
+                    <div class="card">
+                        <a href="/2021/10/18/handbook/hou-duan/li-lun-gai-nian/09-ji-yu-xiao-xi-dui-lie-de-fen-bu-shi-shi-wu-jie-jue-fang-an/">
+                            <div class="card-image">
+                                
+                                
+                                <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="基于消息队列的分布式事务解决方案">
+                                
+                                <span class="card-title">基于消息队列的分布式事务解决方案</span>
+                            </div>
+                        </a>
+                        <div class="card-content article-content">
+                            <div class="summary block-with-text">
+                                
+                                基于消息队列的分布式事务解决方案
+本文为个人学习摘要笔记。原文地址：基于消息队列的分布式事务解决方案
+
+数据库事务数据库事务具有 ACID 这 4 个特性：
+
+A：Atomic，原子性，将所有 SQL 作为原子工作单元执行，要么全部执行，要
+                                
+                            </div>
+                            <div class="publish-info">
+                                <span class="publish-date">
+                                    <i
+                                        class="fa fa-clock-o fa-fw icon-date"></i>2021-10-18
+                                </span>
+                                <span class="publish-author">
+                                    
+                                    <i class="fa fa-bookmark fa-fw icon-category"></i>
+                                    
+                                    <a href="/categories/Java-%E7%90%86%E8%AE%BA%E6%A6%82%E5%BF%B5/" class="post-category" target="_blank">
+                                        Java 理论概念
                                     </a>
                                     
                                     
@@ -1886,11 +1914,11 @@ $(function () {
             </script>
         
 
-    <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"left","width":150,"height":200},"mobile":{"show":false},"react":{"opacity":0.7}});</script><script>
+    <script>
             window.imageLazyLoadSetting = {
                 isSPA: false,
                 preloadRatio: 1,
                 processImages: null,
             };
-        </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(n){n.imageLazyLoadSetting.processImages=o;var e=n.imageLazyLoadSetting.isSPA,i=n.imageLazyLoadSetting.preloadRatio||1,r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function o(){e&&(r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")));for(var t,a=0;a<r.length;a++)0<=(t=(t=r[a]).getBoundingClientRect()).bottom&&0<=t.left&&t.top<=(n.innerHeight*i||document.documentElement.clientHeight*i)&&function(){var t,e,n,i,o=r[a];t=o,e=function(){r=r.filter(function(t){return o!==t})},n=new Image,i=t.getAttribute("data-original"),n.onload=function(){t.src=i,e&&e()},t.src!==i&&(n.src=i)}()}o(),n.addEventListener("scroll",function(){var t,e;t=o,e=n,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(e)},500)})}(this);</script></body>
+        </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(n){n.imageLazyLoadSetting.processImages=o;var e=n.imageLazyLoadSetting.isSPA,i=n.imageLazyLoadSetting.preloadRatio||1,r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function o(){e&&(r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")));for(var t,a=0;a<r.length;a++)0<=(t=(t=r[a]).getBoundingClientRect()).bottom&&0<=t.left&&t.top<=(n.innerHeight*i||document.documentElement.clientHeight*i)&&function(){var t,e,n,i,o=r[a];t=o,e=function(){r=r.filter(function(t){return o!==t})},n=new Image,i=t.getAttribute("data-original"),n.onload=function(){t.src=i,e&&e()},t.src!==i&&(n.src=i)}()}o(),n.addEventListener("scroll",function(){var t,e;t=o,e=n,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(e)},500)})}(this);</script><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"left","width":150,"height":200},"mobile":{"show":false},"react":{"opacity":0.7}});</script></body>
 </html>
