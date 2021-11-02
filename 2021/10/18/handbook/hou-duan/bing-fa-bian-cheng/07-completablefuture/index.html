@@ -1366,20 +1366,21 @@ CompletableFuture">
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/06-stampedlock/">
+                <a href="/2021/10/18/handbook/hou-duan/shi-zhan-xi-lie/04-kaptcha-yu-shu-xue-gong-shi-yan-zheng-ma/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="StampedLock">
+                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="Kaptcha 与数学公式验证码">
                         
-                        <span class="card-title">StampedLock</span>
+                        <span class="card-title">Kaptcha 与数学公式验证码</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            StampedLockReadWriteLock 可以解决多线程同时读，但只有一个线程能写的问题。
-ReadWriteLock 有个潜在的问题：如果有线程正在读，写线程需要等待读线程释放锁后才能获取写锁，即读的过程中不允许写，这是一种悲观的
+                            Kaptcha 与数学公式验证码kaptcha 实现验证码Google 的 kaptcha 框架是一个高度可配置的实用验证码生成工具，官方地址：kaptcha github。
+Spring 中引入非常简单，首先添加依赖：
+&lt;depen
                         
                     </div>
                     <div class="publish-info">
@@ -1390,8 +1391,8 @@ ReadWriteLock 有个潜在的问题：如果有线程正在读，写线程需要
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Java-%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
-                                    Java 并发编程
+                            <a href="/categories/Java-%E5%AE%9E%E6%88%98%E7%B3%BB%E5%88%97/" class="post-category" target="_blank">
+                                    Java 实战系列
                                 </a>
                             
                             
@@ -1448,20 +1449,20 @@ ReadWriteLock 有个潜在的问题：如果有线程正在读，写线程需要
                 下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/08-forkjoin/">
+                <a href="/2021/10/18/handbook/hou-duan/shi-zhan-xi-lie/05-netty-huo-qu-ke-hu-duan-ip/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="ForkJoin">
+                        <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="Netty 获取客户端 IP">
                         
-                        <span class="card-title">ForkJoin</span>
+                        <span class="card-title">Netty 获取客户端 IP</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            ForkJoinJava 7 开始引入了一种新的 Fork/Join 线程池，它可以执行一种特殊的任务：把一个大任务拆成多个小任务并行执行。
-Fork/Join 任务的原理：判断一个任务是否足够小，如果是，直接计算，否则，就分拆成几个小任务
+                            Netty 获取客户端 IP近期在后端摸鱼无聊，索性找个练手的项目，最终决定摸一个基于 netty 实现的 WEB IM（在线聊天项目）。项目不大，技术力也不高，期间依旧也踩了不少坑，毕竟咱还是太菜力 😹。
+其中一个大坑就是获取 IM 中
                         
                     </div>
                     <div class="publish-info">
@@ -1472,8 +1473,8 @@ Fork/Join 任务的原理：判断一个任务是否足够小，如果是，直�
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Java-%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
-                                    Java 并发编程
+                            <a href="/categories/Java-%E5%AE%9E%E6%88%98%E7%B3%BB%E5%88%97/" class="post-category" target="_blank">
+                                    Java 实战系列
                                 </a>
                             
                             
@@ -1930,11 +1931,11 @@ $(function () {
             </script>
         
 
-    <script>
+    <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"left","width":150,"height":200},"mobile":{"show":false},"react":{"opacity":0.7}});</script><script>
             window.imageLazyLoadSetting = {
                 isSPA: false,
                 preloadRatio: 1,
                 processImages: null,
             };
-        </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(n){n.imageLazyLoadSetting.processImages=o;var e=n.imageLazyLoadSetting.isSPA,i=n.imageLazyLoadSetting.preloadRatio||1,r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function o(){e&&(r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")));for(var t,a=0;a<r.length;a++)0<=(t=(t=r[a]).getBoundingClientRect()).bottom&&0<=t.left&&t.top<=(n.innerHeight*i||document.documentElement.clientHeight*i)&&function(){var t,e,n,i,o=r[a];t=o,e=function(){r=r.filter(function(t){return o!==t})},n=new Image,i=t.getAttribute("data-original"),n.onload=function(){t.src=i,e&&e()},t.src!==i&&(n.src=i)}()}o(),n.addEventListener("scroll",function(){var t,e;t=o,e=n,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(e)},500)})}(this);</script><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"left","width":150,"height":200},"mobile":{"show":false},"react":{"opacity":0.7}});</script></body>
+        </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(n){n.imageLazyLoadSetting.processImages=o;var e=n.imageLazyLoadSetting.isSPA,i=n.imageLazyLoadSetting.preloadRatio||1,r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function o(){e&&(r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")));for(var t,a=0;a<r.length;a++)0<=(t=(t=r[a]).getBoundingClientRect()).bottom&&0<=t.left&&t.top<=(n.innerHeight*i||document.documentElement.clientHeight*i)&&function(){var t,e,n,i,o=r[a];t=o,e=function(){r=r.filter(function(t){return o!==t})},n=new Image,i=t.getAttribute("data-original"),n.onload=function(){t.src=i,e&&e()},t.src!==i&&(n.src=i)}()}o(),n.addEventListener("scroll",function(){var t,e;t=o,e=n,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(e)},500)})}(this);</script></body>
 </html>

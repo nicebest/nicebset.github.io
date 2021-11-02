@@ -1361,27 +1361,20 @@
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/10/18/handbook/hou-duan/gao-xiao-bian-cheng/03-java-zi-fu-chuan-pin-jie/">
+                <a href="/2021/10/18/handbook/hou-duan/shi-zhan-xi-lie/01-aes-cbc-jia-jie-mi/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="Java 字符串拼接">
+                        <img src="/medias/featureimages/22.jpg" class="responsive-img" alt="AES CBC 加解密">
                         
-                        <span class="card-title">Java 字符串拼接</span>
+                        <span class="card-title">AES CBC 加解密</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Java 字符串拼接
-本文为个人学习摘要笔记。原文地址：羞，Java 字符串拼接竟然有这么多姿势
-
-Java 字符串拼接常用有 6 种方式：
-
-“+”号操作符
-StringBuilder
-StringBuffer
-String 类的 con
+                            AES CBC 加解密需要注意的是：编码前要先将发送消息转化为 base64，而解码时不需要，因为接收的消息就是 base64。
+import org.bouncycastle.jce.provider.BouncyCastleProvid
                         
                     </div>
                     <div class="publish-info">
@@ -1392,8 +1385,8 @@ String 类的 con
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Java-%E9%AB%98%E6%95%88%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
-                                    Java 高效编程
+                            <a href="/categories/Java-%E5%AE%9E%E6%88%98%E7%B3%BB%E5%88%97/" class="post-category" target="_blank">
+                                    Java 实战系列
                                 </a>
                             
                             
@@ -1450,19 +1443,19 @@ String 类的 con
                 下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/10/18/handbook/hou-duan/gao-xiao-bian-cheng/04-dan-li-mo-shi-de-ji-chong-shi-xian/">
+                <a href="/2021/10/18/handbook/hou-duan/shi-zhan-xi-lie/02-magic-mo-shu-huo-qu-wen-jian-lei-xing/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="单例模式的几种实现">
+                        <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="Magic 魔数获取文件类型">
                         
-                        <span class="card-title">单例模式的几种实现</span>
+                        <span class="card-title">Magic 魔数获取文件类型</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            单例模式的几种实现单例模式是一种对象创建模式，它用于产生一个对象的具体实例，它可以确保系统中一个类只产生一个实例。Java 里面实现的单例是一个虚拟机的范围，因为装载类的功能是虚拟机的，所以一个虚拟机在通过自己的 ClassLoad 装载实
+                            Magic 魔数获取文件类型魔数有很多种定义，这里我们讨论的主要是在编程领域的定义，文件的起始几个字节的内容是固定的（或是有意填充，或是本就如此），这几个字节的内容也被称为魔数（magic number），因此可以根据这几个字节的内容确定文
                         
                     </div>
                     <div class="publish-info">
@@ -1473,8 +1466,8 @@ String 类的 con
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Java-%E9%AB%98%E6%95%88%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
-                                    Java 高效编程
+                            <a href="/categories/Java-%E5%AE%9E%E6%88%98%E7%B3%BB%E5%88%97/" class="post-category" target="_blank">
+                                    Java 实战系列
                                 </a>
                             
                             
@@ -1931,11 +1924,11 @@ $(function () {
             </script>
         
 
-    <script>
+    <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"left","width":150,"height":200},"mobile":{"show":false},"react":{"opacity":0.7}});</script><script>
             window.imageLazyLoadSetting = {
                 isSPA: false,
                 preloadRatio: 1,
                 processImages: null,
             };
-        </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(n){n.imageLazyLoadSetting.processImages=o;var e=n.imageLazyLoadSetting.isSPA,i=n.imageLazyLoadSetting.preloadRatio||1,r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function o(){e&&(r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")));for(var t,a=0;a<r.length;a++)0<=(t=(t=r[a]).getBoundingClientRect()).bottom&&0<=t.left&&t.top<=(n.innerHeight*i||document.documentElement.clientHeight*i)&&function(){var t,e,n,i,o=r[a];t=o,e=function(){r=r.filter(function(t){return o!==t})},n=new Image,i=t.getAttribute("data-original"),n.onload=function(){t.src=i,e&&e()},t.src!==i&&(n.src=i)}()}o(),n.addEventListener("scroll",function(){var t,e;t=o,e=n,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(e)},500)})}(this);</script><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"left","width":150,"height":200},"mobile":{"show":false},"react":{"opacity":0.7}});</script></body>
+        </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(n){n.imageLazyLoadSetting.processImages=o;var e=n.imageLazyLoadSetting.isSPA,i=n.imageLazyLoadSetting.preloadRatio||1,r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function o(){e&&(r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")));for(var t,a=0;a<r.length;a++)0<=(t=(t=r[a]).getBoundingClientRect()).bottom&&0<=t.left&&t.top<=(n.innerHeight*i||document.documentElement.clientHeight*i)&&function(){var t,e,n,i,o=r[a];t=o,e=function(){r=r.filter(function(t){return o!==t})},n=new Image,i=t.getAttribute("data-original"),n.onload=function(){t.src=i,e&&e()},t.src!==i&&(n.src=i)}()}o(),n.addEventListener("scroll",function(){var t,e;t=o,e=n,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(e)},500)})}(this);</script></body>
 </html>

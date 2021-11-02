@@ -1247,22 +1247,31 @@ truncate 操作中的 table 可以省略，delete 操作中的">
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/10/18/handbook/hou-duan/nginx/03-nginx-gzip-ya-suo/">
+                <a href="/2021/10/18/handbook/hou-duan/netty/01-bio-nio-aio/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="nginx gzip 压缩">
+                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="BIO、NIO、AIO">
                         
-                        <span class="card-title">nginx gzip 压缩</span>
+                        <span class="card-title">BIO、NIO、AIO</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            nginx gzip 压缩
-本文为个人学习摘要笔记。原文地址：Nginx 优化静态文件访问
+                            BIO、NIO、AIO阻塞与非阻塞：线程访问资源，该资源是否准备就绪的一种处理方式。阻塞会一直等待资源就绪，而非阻塞会立即响应结果，先处理其他资源。
+同步和异步：访问数据的一种机制。
 
-Web 开发中需要的静态文件有：CSS、JS、字体、图片，可以通过 web 框架进行访问，但是效率不是最优的。Nginx 对于处理静态文件的效率要
+
+
+
+
+
+
+Reactor 线程模型
+
+
+
                         
                     </div>
                     <div class="publish-info">
@@ -1273,8 +1282,8 @@ Web 开发中需要的静态文件有：CSS、JS、字体、图片，可以通�
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Nginx/" class="post-category" target="_blank">
-                                    Nginx
+                            <a href="/categories/Netty/" class="post-category" target="_blank">
+                                    Netty
                                 </a>
                             
                             
@@ -1284,36 +1293,24 @@ Web 开发中需要的静态文件有：CSS、JS、字体、图片，可以通�
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/macOS/" target="_blank">
-                        <span class="chip bg-color">macOS</span>
+                    <a href="/tags/BIO/" target="_blank">
+                        <span class="chip bg-color">BIO</span>
                     </a>
                     
-                    <a href="/tags/Nginx/" target="_blank">
-                        <span class="chip bg-color">Nginx</span>
+                    <a href="/tags/NIO/" target="_blank">
+                        <span class="chip bg-color">NIO</span>
                     </a>
                     
-                    <a href="/tags/http/" target="_blank">
-                        <span class="chip bg-color">http</span>
+                    <a href="/tags/AIO/" target="_blank">
+                        <span class="chip bg-color">AIO</span>
                     </a>
                     
-                    <a href="/tags/daemon/" target="_blank">
-                        <span class="chip bg-color">daemon</span>
+                    <a href="/tags/Netty/" target="_blank">
+                        <span class="chip bg-color">Netty</span>
                     </a>
                     
-                    <a href="/tags/pid/" target="_blank">
-                        <span class="chip bg-color">pid</span>
-                    </a>
-                    
-                    <a href="/tags/web/" target="_blank">
-                        <span class="chip bg-color">web</span>
-                    </a>
-                    
-                    <a href="/tags/sever/" target="_blank">
-                        <span class="chip bg-color">sever</span>
-                    </a>
-                    
-                    <a href="/tags/proxy/" target="_blank">
-                        <span class="chip bg-color">proxy</span>
+                    <a href="/tags/Handler/" target="_blank">
+                        <span class="chip bg-color">Handler</span>
                     </a>
                     
                 </div>
@@ -1327,20 +1324,28 @@ Web 开发中需要的静态文件有：CSS、JS、字体、图片，可以通�
                 下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/10/18/handbook/hou-duan/project/05-netty-liao-tian-xi-tong/">
+                <a href="/2021/10/18/handbook/hou-duan/netty/02-netty-server/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="Netty 聊天系统">
+                        <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="Netty 服务器">
                         
-                        <span class="card-title">Netty 聊天系统</span>
+                        <span class="card-title">Netty 服务器</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Netty 聊天系统引入依赖该聊天项目是一个标准的多模块 spring boot 项目，只需要引入四个基本的依赖包。
-netty 提供易于使用的 API 客户端/服务器框架，disruptor 高性能无锁队列进行消息生产和消费，fastjs
+                            Netty 服务器Netty 是一个提供了易于使用的 API 客户端/服务器框架。特性：
+
+高并发 - NIO（非阻塞 IO）
+传输快 - 零拷贝
+
+Netty 服务器流程：
+
+构建一对主从线程组
+定义服务器启动类
+为服务器设置 Chann
                         
                     </div>
                     <div class="publish-info">
@@ -1351,8 +1356,8 @@ netty 提供易于使用的 API 客户端/服务器框架，disruptor 高性能�
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Project/" class="post-category" target="_blank">
-                                    Project
+                            <a href="/categories/Netty/" class="post-category" target="_blank">
+                                    Netty
                                 </a>
                             
                             
@@ -1362,8 +1367,24 @@ netty 提供易于使用的 API 客户端/服务器框架，disruptor 高性能�
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/project/" target="_blank">
-                        <span class="chip bg-color">project</span>
+                    <a href="/tags/BIO/" target="_blank">
+                        <span class="chip bg-color">BIO</span>
+                    </a>
+                    
+                    <a href="/tags/NIO/" target="_blank">
+                        <span class="chip bg-color">NIO</span>
+                    </a>
+                    
+                    <a href="/tags/AIO/" target="_blank">
+                        <span class="chip bg-color">AIO</span>
+                    </a>
+                    
+                    <a href="/tags/Netty/" target="_blank">
+                        <span class="chip bg-color">Netty</span>
+                    </a>
+                    
+                    <a href="/tags/Handler/" target="_blank">
+                        <span class="chip bg-color">Handler</span>
                     </a>
                     
                 </div>
@@ -1777,11 +1798,11 @@ $(function () {
             </script>
         
 
-    <script>
+    <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"left","width":150,"height":200},"mobile":{"show":false},"react":{"opacity":0.7}});</script><script>
             window.imageLazyLoadSetting = {
                 isSPA: false,
                 preloadRatio: 1,
                 processImages: null,
             };
-        </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(n){n.imageLazyLoadSetting.processImages=o;var e=n.imageLazyLoadSetting.isSPA,i=n.imageLazyLoadSetting.preloadRatio||1,r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function o(){e&&(r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")));for(var t,a=0;a<r.length;a++)0<=(t=(t=r[a]).getBoundingClientRect()).bottom&&0<=t.left&&t.top<=(n.innerHeight*i||document.documentElement.clientHeight*i)&&function(){var t,e,n,i,o=r[a];t=o,e=function(){r=r.filter(function(t){return o!==t})},n=new Image,i=t.getAttribute("data-original"),n.onload=function(){t.src=i,e&&e()},t.src!==i&&(n.src=i)}()}o(),n.addEventListener("scroll",function(){var t,e;t=o,e=n,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(e)},500)})}(this);</script><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"left","width":150,"height":200},"mobile":{"show":false},"react":{"opacity":0.7}});</script></body>
+        </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(n){n.imageLazyLoadSetting.processImages=o;var e=n.imageLazyLoadSetting.isSPA,i=n.imageLazyLoadSetting.preloadRatio||1,r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function o(){e&&(r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")));for(var t,a=0;a<r.length;a++)0<=(t=(t=r[a]).getBoundingClientRect()).bottom&&0<=t.left&&t.top<=(n.innerHeight*i||document.documentElement.clientHeight*i)&&function(){var t,e,n,i,o=r[a];t=o,e=function(){r=r.filter(function(t){return o!==t})},n=new Image,i=t.getAttribute("data-original"),n.onload=function(){t.src=i,e&&e()},t.src!==i&&(n.src=i)}()}o(),n.addEventListener("scroll",function(){var t,e;t=o,e=n,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(e)},500)})}(this);</script></body>
 </html>

@@ -1243,28 +1243,22 @@ Reactor 线程模型
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/10/18/handbook/hou-duan/netty/02-netty-server/">
+                <a href="/2021/10/18/handbook/hou-duan/mysql/07-mysql-cha-kan-shu-ju-ku-biao-xiang-qing/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="Netty 服务器">
+                        <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="MySQL 查看数据库表详情">
                         
-                        <span class="card-title">Netty 服务器</span>
+                        <span class="card-title">MySQL 查看数据库表详情</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Netty 服务器Netty 是一个提供了易于使用的 API 客户端/服务器框架。特性：
-
-高并发 - NIO（非阻塞 IO）
-传输快 - 零拷贝
-
-Netty 服务器流程：
-
-构建一对主从线程组
-定义服务器启动类
-为服务器设置 Chann
+                            MySQL 查看数据库表详情查看所有数据库容量大小select
+table_schema as '数据库',
+sum(table_rows) as '记录数',
+sum(truncate(data_length/1024/1024, 2))
                         
                     </div>
                     <div class="publish-info">
@@ -1275,8 +1269,8 @@ Netty 服务器流程：
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Netty/" class="post-category" target="_blank">
-                                    Netty
+                            <a href="/categories/MySQL/" class="post-category" target="_blank">
+                                    MySQL
                                 </a>
                             
                             
@@ -1286,24 +1280,36 @@ Netty 服务器流程：
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/BIO/" target="_blank">
-                        <span class="chip bg-color">BIO</span>
+                    <a href="/tags/SQL/" target="_blank">
+                        <span class="chip bg-color">SQL</span>
                     </a>
                     
-                    <a href="/tags/NIO/" target="_blank">
-                        <span class="chip bg-color">NIO</span>
+                    <a href="/tags/select/" target="_blank">
+                        <span class="chip bg-color">select</span>
                     </a>
                     
-                    <a href="/tags/AIO/" target="_blank">
-                        <span class="chip bg-color">AIO</span>
+                    <a href="/tags/truncate/" target="_blank">
+                        <span class="chip bg-color">truncate</span>
                     </a>
                     
-                    <a href="/tags/Netty/" target="_blank">
-                        <span class="chip bg-color">Netty</span>
+                    <a href="/tags/delete/" target="_blank">
+                        <span class="chip bg-color">delete</span>
                     </a>
                     
-                    <a href="/tags/Handler/" target="_blank">
-                        <span class="chip bg-color">Handler</span>
+                    <a href="/tags/where/" target="_blank">
+                        <span class="chip bg-color">where</span>
+                    </a>
+                    
+                    <a href="/tags/Mybatis/" target="_blank">
+                        <span class="chip bg-color">Mybatis</span>
+                    </a>
+                    
+                    <a href="/tags/%E4%BA%8B%E5%8A%A1/" target="_blank">
+                        <span class="chip bg-color">事务</span>
+                    </a>
+                    
+                    <a href="/tags/%E5%85%B3%E7%B3%BB%E6%A8%A1%E5%9E%8B/" target="_blank">
+                        <span class="chip bg-color">关系模型</span>
                     </a>
                     
                 </div>
@@ -1317,36 +1323,23 @@ Netty 服务器流程：
                 下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/10/18/handbook/hou-duan/netty/04-handler-dui-bi/">
+                <a href="/2021/10/18/handbook/hou-duan/mysql/03-truncate-he-delete/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="Handler 对比">
+                        <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="truncate 和 delete">
                         
-                        <span class="card-title">Handler 对比</span>
+                        <span class="card-title">truncate 和 delete</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Handler 对比业务常见 handler
+                            truncate 和 delete删除表信息的方式有两种：
+truncate table table_name;
+delete * from table_name;
 
-
-类名
-说明
-
-
-
-IdleStateHandler
-空闲检测
-
-
-FixedLengthFrameDecoder
-固定长度的拆包器
-
-
-MessageToMessageCodec
-将编解码操
+truncate 操作中的 table 可以省略，delete 操作中的
                         
                     </div>
                     <div class="publish-info">
@@ -1357,8 +1350,8 @@ MessageToMessageCodec
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Netty/" class="post-category" target="_blank">
-                                    Netty
+                            <a href="/categories/MySQL/" class="post-category" target="_blank">
+                                    MySQL
                                 </a>
                             
                             
@@ -1368,24 +1361,36 @@ MessageToMessageCodec
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/BIO/" target="_blank">
-                        <span class="chip bg-color">BIO</span>
+                    <a href="/tags/SQL/" target="_blank">
+                        <span class="chip bg-color">SQL</span>
                     </a>
                     
-                    <a href="/tags/NIO/" target="_blank">
-                        <span class="chip bg-color">NIO</span>
+                    <a href="/tags/select/" target="_blank">
+                        <span class="chip bg-color">select</span>
                     </a>
                     
-                    <a href="/tags/AIO/" target="_blank">
-                        <span class="chip bg-color">AIO</span>
+                    <a href="/tags/truncate/" target="_blank">
+                        <span class="chip bg-color">truncate</span>
                     </a>
                     
-                    <a href="/tags/Netty/" target="_blank">
-                        <span class="chip bg-color">Netty</span>
+                    <a href="/tags/delete/" target="_blank">
+                        <span class="chip bg-color">delete</span>
                     </a>
                     
-                    <a href="/tags/Handler/" target="_blank">
-                        <span class="chip bg-color">Handler</span>
+                    <a href="/tags/where/" target="_blank">
+                        <span class="chip bg-color">where</span>
+                    </a>
+                    
+                    <a href="/tags/Mybatis/" target="_blank">
+                        <span class="chip bg-color">Mybatis</span>
+                    </a>
+                    
+                    <a href="/tags/%E4%BA%8B%E5%8A%A1/" target="_blank">
+                        <span class="chip bg-color">事务</span>
+                    </a>
+                    
+                    <a href="/tags/%E5%85%B3%E7%B3%BB%E6%A8%A1%E5%9E%8B/" target="_blank">
+                        <span class="chip bg-color">关系模型</span>
                     </a>
                     
                 </div>
@@ -1799,11 +1804,11 @@ $(function () {
             </script>
         
 
-    <script>
+    <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"left","width":150,"height":200},"mobile":{"show":false},"react":{"opacity":0.7}});</script><script>
             window.imageLazyLoadSetting = {
                 isSPA: false,
                 preloadRatio: 1,
                 processImages: null,
             };
-        </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(n){n.imageLazyLoadSetting.processImages=o;var e=n.imageLazyLoadSetting.isSPA,i=n.imageLazyLoadSetting.preloadRatio||1,r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function o(){e&&(r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")));for(var t,a=0;a<r.length;a++)0<=(t=(t=r[a]).getBoundingClientRect()).bottom&&0<=t.left&&t.top<=(n.innerHeight*i||document.documentElement.clientHeight*i)&&function(){var t,e,n,i,o=r[a];t=o,e=function(){r=r.filter(function(t){return o!==t})},n=new Image,i=t.getAttribute("data-original"),n.onload=function(){t.src=i,e&&e()},t.src!==i&&(n.src=i)}()}o(),n.addEventListener("scroll",function(){var t,e;t=o,e=n,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(e)},500)})}(this);</script><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"left","width":150,"height":200},"mobile":{"show":false},"react":{"opacity":0.7}});</script></body>
+        </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(n){n.imageLazyLoadSetting.processImages=o;var e=n.imageLazyLoadSetting.isSPA,i=n.imageLazyLoadSetting.preloadRatio||1,r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function o(){e&&(r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")));for(var t,a=0;a<r.length;a++)0<=(t=(t=r[a]).getBoundingClientRect()).bottom&&0<=t.left&&t.top<=(n.innerHeight*i||document.documentElement.clientHeight*i)&&function(){var t,e,n,i,o=r[a];t=o,e=function(){r=r.filter(function(t){return o!==t})},n=new Image,i=t.getAttribute("data-original"),n.onload=function(){t.src=i,e&&e()},t.src!==i&&(n.src=i)}()}o(),n.addEventListener("scroll",function(){var t,e;t=o,e=n,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(e)},500)})}(this);</script></body>
 </html>

@@ -581,20 +581,21 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2021/10/18/handbook/hou-duan/gao-xiao-bian-cheng/04-dan-li-mo-shi-de-ji-chong-shi-xian/" target="_blank">
+                    <a href="/2021/10/18/handbook/hou-duan/shi-zhan-xi-lie/01-aes-cbc-jia-jie-mi/" target="_blank">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="单例模式的几种实现">
+                            <img src="/medias/featureimages/22.jpg" class="responsive-img" alt="AES CBC 加解密">
                             
-                            <span class="card-title">单例模式的几种实现</span>
+                            <span class="card-title">AES CBC 加解密</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                            单例模式的几种实现单例模式是一种对象创建模式，它用于产生一个对象的具体实例，它可以确保系统中一个类只产生一个实例。Java 里面实现的单例是一个虚拟机的范围，因为装载类的功能是虚拟机的，所以一个虚拟机在通过自己的 ClassLoad 装载实
+                            AES CBC 加解密需要注意的是：编码前要先将发送消息转化为 base64，而解码时不需要，因为接收的消息就是 base64。
+import org.bouncycastle.jce.provider.BouncyCastleProvid
                             
                         </div>
                         <div class="publish-info">
@@ -605,8 +606,8 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                                 
                                 <i class="fa fa-bookmark fa-fw icon-category"></i>
                                 
-                                <a href="/categories/Java-%E9%AB%98%E6%95%88%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
-                                    Java 高效编程
+                                <a href="/categories/Java-%E5%AE%9E%E6%88%98%E7%B3%BB%E5%88%97/" class="post-category" target="_blank">
+                                    Java 实战系列
                                 </a>
                                 
                                 
@@ -660,22 +661,21 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2021/10/18/handbook/hou-duan/gao-xiao-bian-cheng/01-30-seconds-of-java8/" target="_blank">
+                    <a href="/2021/10/18/handbook/hou-duan/shi-zhan-xi-lie/03-huo-qu-qing-qiu-ip-di-zhi/" target="_blank">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="30 seconds of java8">
+                            <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="获取请求 IP 地址">
                             
-                            <span class="card-title">30 seconds of java8</span>
+                            <span class="card-title">获取请求 IP 地址</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                            30 seconds of java8Arraychunk将数组分割成特定大小的小数组：
-public static int[][] chunk(int[] numbers, int size) {
-    return IntStream
+                            获取请求 IP 地址在 Spring 中，获取客户端真实 IP 地址的方法是 request.getRemoteAddr()，这种方法在大部分情况下都是有效的，但是在通过了 Squid 等反向代理软件就无法工作。
+如果使用了反向代理软件，将
                             
                         </div>
                         <div class="publish-info">
@@ -686,8 +686,8 @@ public static int[][] chunk(int[] numbers, int size) {
                                 
                                 <i class="fa fa-bookmark fa-fw icon-category"></i>
                                 
-                                <a href="/categories/Java-%E9%AB%98%E6%95%88%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
-                                    Java 高效编程
+                                <a href="/categories/Java-%E5%AE%9E%E6%88%98%E7%B3%BB%E5%88%97/" class="post-category" target="_blank">
+                                    Java 实战系列
                                 </a>
                                 
                                 
@@ -741,21 +741,20 @@ public static int[][] chunk(int[] numbers, int size) {
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2021/10/18/handbook/hou-duan/li-lun-gai-nian/01-java-servlet/" target="_blank">
+                    <a href="/2021/10/18/handbook/hou-duan/shi-zhan-xi-lie/02-magic-mo-shu-huo-qu-wen-jian-lei-xing/" target="_blank">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="Java-Servlet">
+                            <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="Magic 魔数获取文件类型">
                             
-                            <span class="card-title">Java-Servlet</span>
+                            <span class="card-title">Magic 魔数获取文件类型</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                            Java-ServletWeb 容器是什么？早期的 Web 应用主要用于浏览新闻等静态页面，HTTP 服务器（比如 Apache、Nginx）向浏览器返回静态 HTML，浏览器负责解析 HTML，将结果呈现给用户。
-随着互联网的发展，我们已
+                            Magic 魔数获取文件类型魔数有很多种定义，这里我们讨论的主要是在编程领域的定义，文件的起始几个字节的内容是固定的（或是有意填充，或是本就如此），这几个字节的内容也被称为魔数（magic number），因此可以根据这几个字节的内容确定文
                             
                         </div>
                         <div class="publish-info">
@@ -766,8 +765,8 @@ public static int[][] chunk(int[] numbers, int size) {
                                 
                                 <i class="fa fa-bookmark fa-fw icon-category"></i>
                                 
-                                <a href="/categories/Java-%E7%90%86%E8%AE%BA%E6%A6%82%E5%BF%B5/" class="post-category" target="_blank">
-                                    Java 理论概念
+                                <a href="/categories/Java-%E5%AE%9E%E6%88%98%E7%B3%BB%E5%88%97/" class="post-category" target="_blank">
+                                    Java 实战系列
                                 </a>
                                 
                                 
@@ -821,21 +820,22 @@ public static int[][] chunk(int[] numbers, int size) {
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2021/10/18/handbook/hou-duan/li-lun-gai-nian/02-java-fu-wu-duan-fen-ceng-mo-xing/" target="_blank">
+                    <a href="/2021/10/18/handbook/hou-duan/shi-zhan-xi-lie/04-kaptcha-yu-shu-xue-gong-shi-yan-zheng-ma/" target="_blank">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="Java 服务端分层模型">
+                            <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="Kaptcha 与数学公式验证码">
                             
-                            <span class="card-title">Java 服务端分层模型</span>
+                            <span class="card-title">Kaptcha 与数学公式验证码</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                            Java 服务端分层模型复杂的软件系统都会采用分层的架构设计，分层之后，每一层职责鲜明，整体上降低了系统的耦合性，提高了健壮性。
-Java 服务端开发亦是如此，采用分层架构，针对每一层，对应对象的职责是不同的，以及层与层之间也需要通信，故而
+                            Kaptcha 与数学公式验证码kaptcha 实现验证码Google 的 kaptcha 框架是一个高度可配置的实用验证码生成工具，官方地址：kaptcha github。
+Spring 中引入非常简单，首先添加依赖：
+&lt;depen
                             
                         </div>
                         <div class="publish-info">
@@ -846,8 +846,8 @@ Java 服务端开发亦是如此，采用分层架构，针对每一层，对应
                                 
                                 <i class="fa fa-bookmark fa-fw icon-category"></i>
                                 
-                                <a href="/categories/Java-%E7%90%86%E8%AE%BA%E6%A6%82%E5%BF%B5/" class="post-category" target="_blank">
-                                    Java 理论概念
+                                <a href="/categories/Java-%E5%AE%9E%E6%88%98%E7%B3%BB%E5%88%97/" class="post-category" target="_blank">
+                                    Java 实战系列
                                 </a>
                                 
                                 
@@ -901,21 +901,21 @@ Java 服务端开发亦是如此，采用分层架构，针对每一层，对应
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2021/10/18/handbook/hou-duan/gao-xiao-bian-cheng/05-hashmap-pai-xu/" target="_blank">
+                    <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/07-completablefuture/" target="_blank">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="HashMap 排序">
+                            <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="CompletableFuture">
                             
-                            <span class="card-title">HashMap 排序</span>
+                            <span class="card-title">CompletableFuture</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                            HashMap 排序HashMap 的值是没有顺序的，它是按照 key 的 HashCode 来实现的，对于这个无序的 HashMap 我们要怎么来实现排序呢？
-根据 key 排序TreeMap 基于红黑树实现，该映射根据其键的自然顺序进行
+                            CompletableFutureJava 8 开始引入了 CompletableFuture，它针对 Future 做了改进，可以传入回调对象，当异步任务完成或者发生异常时，自动调用回调对象的回调方法。
+CompletableFuture
                             
                         </div>
                         <div class="publish-info">
@@ -926,8 +926,8 @@ Java 服务端开发亦是如此，采用分层架构，针对每一层，对应
                                 
                                 <i class="fa fa-bookmark fa-fw icon-category"></i>
                                 
-                                <a href="/categories/Java-%E9%AB%98%E6%95%88%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
-                                    Java 高效编程
+                                <a href="/categories/Java-%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
+                                    Java 并发编程
                                 </a>
                                 
                                 
@@ -981,21 +981,21 @@ Java 服务端开发亦是如此，采用分层架构，针对每一层，对应
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2021/10/18/handbook/hou-duan/li-lun-gai-nian/03-jing-dian-pai-xu-suan-fa/" target="_blank">
+                    <a href="/2021/10/18/handbook/hou-duan/shi-zhan-xi-lie/05-netty-huo-qu-ke-hu-duan-ip/" target="_blank">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="经典排序算法">
+                            <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="Netty 获取客户端 IP">
                             
-                            <span class="card-title">经典排序算法</span>
+                            <span class="card-title">Netty 获取客户端 IP</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                            经典排序算法重温排序算法，动画详见：Magicsort
-插入排序插入排序是一种简单的排序算法。它的工作原理是通过构建有序序列，对于未排序数据，在已排序序列中从后向前扫描，找到相应位置并插入。插入排序在实现上，通常采用 in-place 排序
+                            Netty 获取客户端 IP近期在后端摸鱼无聊，索性找个练手的项目，最终决定摸一个基于 netty 实现的 WEB IM（在线聊天项目）。项目不大，技术力也不高，期间依旧也踩了不少坑，毕竟咱还是太菜力 😹。
+其中一个大坑就是获取 IM 中
                             
                         </div>
                         <div class="publish-info">
@@ -1006,8 +1006,8 @@ Java 服务端开发亦是如此，采用分层架构，针对每一层，对应
                                 
                                 <i class="fa fa-bookmark fa-fw icon-category"></i>
                                 
-                                <a href="/categories/Java-%E7%90%86%E8%AE%BA%E6%A6%82%E5%BF%B5/" class="post-category" target="_blank">
-                                    Java 理论概念
+                                <a href="/categories/Java-%E5%AE%9E%E6%88%98%E7%B3%BB%E5%88%97/" class="post-category" target="_blank">
+                                    Java 实战系列
                                 </a>
                                 
                                 
@@ -1061,23 +1061,22 @@ Java 服务端开发亦是如此，采用分层架构，针对每一层，对应
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2021/10/18/handbook/hou-duan/li-lun-gai-nian/04-lru-huan-cun-tao-tai-suan-fa/" target="_blank">
+                    <a href="/2021/10/18/handbook/hou-duan/shi-zhan-xi-lie/06-gao-xing-neng-wu-suo-dui-lie-disruptor/" target="_blank">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/20.jpg" class="responsive-img" alt="LRU 缓存淘汰算法">
+                            <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="高性能无锁队列 Disruptor">
                             
-                            <span class="card-title">LRU 缓存淘汰算法</span>
+                            <span class="card-title">高性能无锁队列 Disruptor</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                            LRU 缓存淘汰算法
-本文为个人学习摘要笔记。原文地址：聊聊缓存淘汰算法-LRU 实现原理
+                            高性能无锁队列 DisruptorDisruptor 是英国外汇交易公司 LMAX 开发的一个高性能队列，研发的初衷是解决内存队列的延迟问题，因其出色的性能表现获得 2011 Duke’s 程序框架创新奖。
 
-我们常用缓存提升数据查询速度，由于缓存容量有限，当缓存容量到达上限，就需要删除部分数据挪出空间，这样新数据才可以添加进来。缓存数据不能随机删除，一
+A High Performa
                             
                         </div>
                         <div class="publish-info">
@@ -1088,8 +1087,8 @@ Java 服务端开发亦是如此，采用分层架构，针对每一层，对应
                                 
                                 <i class="fa fa-bookmark fa-fw icon-category"></i>
                                 
-                                <a href="/categories/Java-%E7%90%86%E8%AE%BA%E6%A6%82%E5%BF%B5/" class="post-category" target="_blank">
-                                    Java 理论概念
+                                <a href="/categories/Java-%E5%AE%9E%E6%88%98%E7%B3%BB%E5%88%97/" class="post-category" target="_blank">
+                                    Java 实战系列
                                 </a>
                                 
                                 
@@ -1143,23 +1142,24 @@ Java 服务端开发亦是如此，采用分层架构，针对每一层，对应
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2021/10/18/handbook/hou-duan/li-lun-gai-nian/05-bloomfilter-pan-duan-yuan-su-cun-zai/" target="_blank">
+                    <a href="/2021/10/18/handbook/hou-duan/shi-zhan-xi-lie/07-qian-hou-duan-jie-ru-a-li-yun-dun/" target="_blank">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="BloomFilter 判断元素存在">
+                            <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="前后端接入阿里云盾人机验证">
                             
-                            <span class="card-title">BloomFilter 判断元素存在</span>
+                            <span class="card-title">前后端接入阿里云盾人机验证</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                            BloomFilter 判断元素存在
-本文为个人学习摘要笔记。原文地址：到底是存在还是不存在之 BloomFilter
+                            前后端接入阿里云盾人机验证前端集成准备工作// 先引入链接
+&lt;script src="//g.alicdn.com/sd/nch5/index.js?t=2015052012">&lt;/script>
 
-什么是 BloomFilter布隆过滤器（Bloom Filter）是 1970 年由布隆提出的。它实际上是一个很长的
+// 预设 DOM
+&lt;
                             
                         </div>
                         <div class="publish-info">
@@ -1170,8 +1170,8 @@ Java 服务端开发亦是如此，采用分层架构，针对每一层，对应
                                 
                                 <i class="fa fa-bookmark fa-fw icon-category"></i>
                                 
-                                <a href="/categories/Java-%E7%90%86%E8%AE%BA%E6%A6%82%E5%BF%B5/" class="post-category" target="_blank">
-                                    Java 理论概念
+                                <a href="/categories/Java-%E5%AE%9E%E6%88%98%E7%B3%BB%E5%88%97/" class="post-category" target="_blank">
+                                    Java 实战系列
                                 </a>
                                 
                                 
@@ -1225,39 +1225,24 @@ Java 服务端开发亦是如此，采用分层架构，针对每一层，对应
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2021/10/18/handbook/hou-duan/li-lun-gai-nian/07-http-zhuang-tai-ma-xiang-jie/" target="_blank">
+                    <a href="/2021/10/18/handbook/tools/nginx/nginx-quickstart/" target="_blank">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="HTTP 状态码详解">
+                            <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="Nginx 快速入门">
                             
-                            <span class="card-title">HTTP 状态码详解</span>
+                            <span class="card-title">Nginx 快速入门</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                            HTTP 状态码详解
-状态码的分类HTTP 状态码共分为 5 种类型：
+                            
+本文是一个 Nginx 入门教程，目的在于帮助新手快速入门 Nginx。
 
-
-
-分类
-分类描述
-
-
-
-1**
-信息，服务器收到请求，需要请求者继续执行操作
-
-
-2**
-成功，操作被成功接收并处理
-
-
-3**
-重定向，需要进一步的操作以完成请求
+一、Nginx 简介什么是 Nginx?
+Nginx (engine x) 是一款轻量级的 Web 服务器 、反向代理服务器及电子邮件（IMAP/POP3）代理服
                             
                         </div>
                         <div class="publish-info">
@@ -1268,8 +1253,8 @@ Java 服务端开发亦是如此，采用分层架构，针对每一层，对应
                                 
                                 <i class="fa fa-bookmark fa-fw icon-category"></i>
                                 
-                                <a href="/categories/Java-%E7%90%86%E8%AE%BA%E6%A6%82%E5%BF%B5/" class="post-category" target="_blank">
-                                    Java 理论概念
+                                <a href="/categories/Tools/" class="post-category" target="_blank">
+                                    Tools
                                 </a>
                                 
                                 
@@ -1280,40 +1265,36 @@ Java 服务端开发亦是如此，采用分层架构，针对每一层，对应
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/Java/" target="_blank">
-                            <span class="chip bg-color">Java</span>
+                        <a href="/tags/macOS/" target="_blank">
+                            <span class="chip bg-color">macOS</span>
                         </a>
                         
-                        <a href="/tags/synchronized/" target="_blank">
-                            <span class="chip bg-color">synchronized</span>
+                        <a href="/tags/Nginx/" target="_blank">
+                            <span class="chip bg-color">Nginx</span>
                         </a>
                         
-                        <a href="/tags/volatile/" target="_blank">
-                            <span class="chip bg-color">volatile</span>
+                        <a href="/tags/http/" target="_blank">
+                            <span class="chip bg-color">http</span>
                         </a>
                         
-                        <a href="/tags/ReentrantLock/" target="_blank">
-                            <span class="chip bg-color">ReentrantLock</span>
+                        <a href="/tags/daemon/" target="_blank">
+                            <span class="chip bg-color">daemon</span>
                         </a>
                         
-                        <a href="/tags/Atom/" target="_blank">
-                            <span class="chip bg-color">Atom</span>
+                        <a href="/tags/pid/" target="_blank">
+                            <span class="chip bg-color">pid</span>
                         </a>
                         
-                        <a href="/tags/ForkJoin/" target="_blank">
-                            <span class="chip bg-color">ForkJoin</span>
+                        <a href="/tags/web/" target="_blank">
+                            <span class="chip bg-color">web</span>
                         </a>
                         
-                        <a href="/tags/ThreadLocal/" target="_blank">
-                            <span class="chip bg-color">ThreadLocal</span>
+                        <a href="/tags/sever/" target="_blank">
+                            <span class="chip bg-color">sever</span>
                         </a>
                         
-                        <a href="/tags/ExecutorService/" target="_blank">
-                            <span class="chip bg-color">ExecutorService</span>
-                        </a>
-                        
-                        <a href="/tags/%E5%90%8E%E5%8F%B0/" target="_blank">
-                            <span class="chip bg-color">后台</span>
+                        <a href="/tags/proxy/" target="_blank">
+                            <span class="chip bg-color">proxy</span>
                         </a>
                         
                     </div>
@@ -1323,22 +1304,42 @@ Java 服务端开发亦是如此，采用分层架构，针对每一层，对应
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2021/10/18/handbook/hou-duan/li-lun-gai-nian/06-java-hashmap-mian-shi-da-quan/" target="_blank">
+                    <a href="/2021/10/18/handbook/tools/nginx/nginx-ops/" target="_blank">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="HashMap 面试大全">
+                            <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="Nginx 运维">
                             
-                            <span class="card-title">HashMap 面试大全</span>
+                            <span class="card-title">Nginx 运维</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                            HashMap 面试大全关于 HashMap 参考前文 Java HashMap
-001 HashMap 的结构哈希表结构（链表散列：数组+链表）实现，结合数组和链表的优点。当链表长度超过 8 时，链表转换为红黑树。
-002 Get 方法的
+                            
+一、普通安装
+Windows 安装
+Linux 安装
+rpm 包方式（推荐）
+源码编译方式
+安装编译工具及库
+编译安装 Nginx
+
+
+Linux 开机自启动
+rpm 包方式
+源码编译方式
+
+
+
+
+
+
+二、Docker 安装
+三、脚本
+
+
                             
                         </div>
                         <div class="publish-info">
@@ -1349,8 +1350,8 @@ Java 服务端开发亦是如此，采用分层架构，针对每一层，对应
                                 
                                 <i class="fa fa-bookmark fa-fw icon-category"></i>
                                 
-                                <a href="/categories/Java-%E7%90%86%E8%AE%BA%E6%A6%82%E5%BF%B5/" class="post-category" target="_blank">
-                                    Java 理论概念
+                                <a href="/categories/Tools/" class="post-category" target="_blank">
+                                    Tools
                                 </a>
                                 
                                 
@@ -1361,40 +1362,36 @@ Java 服务端开发亦是如此，采用分层架构，针对每一层，对应
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/Java/" target="_blank">
-                            <span class="chip bg-color">Java</span>
+                        <a href="/tags/macOS/" target="_blank">
+                            <span class="chip bg-color">macOS</span>
                         </a>
                         
-                        <a href="/tags/synchronized/" target="_blank">
-                            <span class="chip bg-color">synchronized</span>
+                        <a href="/tags/Nginx/" target="_blank">
+                            <span class="chip bg-color">Nginx</span>
                         </a>
                         
-                        <a href="/tags/volatile/" target="_blank">
-                            <span class="chip bg-color">volatile</span>
+                        <a href="/tags/http/" target="_blank">
+                            <span class="chip bg-color">http</span>
                         </a>
                         
-                        <a href="/tags/ReentrantLock/" target="_blank">
-                            <span class="chip bg-color">ReentrantLock</span>
+                        <a href="/tags/daemon/" target="_blank">
+                            <span class="chip bg-color">daemon</span>
                         </a>
                         
-                        <a href="/tags/Atom/" target="_blank">
-                            <span class="chip bg-color">Atom</span>
+                        <a href="/tags/pid/" target="_blank">
+                            <span class="chip bg-color">pid</span>
                         </a>
                         
-                        <a href="/tags/ForkJoin/" target="_blank">
-                            <span class="chip bg-color">ForkJoin</span>
+                        <a href="/tags/web/" target="_blank">
+                            <span class="chip bg-color">web</span>
                         </a>
                         
-                        <a href="/tags/ThreadLocal/" target="_blank">
-                            <span class="chip bg-color">ThreadLocal</span>
+                        <a href="/tags/sever/" target="_blank">
+                            <span class="chip bg-color">sever</span>
                         </a>
                         
-                        <a href="/tags/ExecutorService/" target="_blank">
-                            <span class="chip bg-color">ExecutorService</span>
-                        </a>
-                        
-                        <a href="/tags/%E5%90%8E%E5%8F%B0/" target="_blank">
-                            <span class="chip bg-color">后台</span>
+                        <a href="/tags/proxy/" target="_blank">
+                            <span class="chip bg-color">proxy</span>
                         </a>
                         
                     </div>
@@ -1404,23 +1401,24 @@ Java 服务端开发亦是如此，采用分层架构，针对每一层，对应
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2021/10/18/handbook/hou-duan/li-lun-gai-nian/08-cookie-he-session/" target="_blank">
+                    <a href="/2021/10/18/handbook/tools/git/04-git/" target="_blank">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="Cookie 和 Session">
+                            <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="Git 从入门到精通2">
                             
-                            <span class="card-title">Cookie 和 Session</span>
+                            <span class="card-title">Git 从入门到精通2</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                            Cookie 和 Session
-本文为个人学习摘要笔记。原文地址：你真的了解 Cookie 和 Session 吗
+                            Git设置用户名／邮箱git config --list
+git config --global user.name [username]
+git config --global user.email [email]
 
-什么是 Cookie 和 SessionCookieHTTP Cookie（也叫 Web Cookie 或浏览器 Coo
+配置大小写敏感git
                             
                         </div>
                         <div class="publish-info">
@@ -1431,8 +1429,8 @@ Java 服务端开发亦是如此，采用分层架构，针对每一层，对应
                                 
                                 <i class="fa fa-bookmark fa-fw icon-category"></i>
                                 
-                                <a href="/categories/Java-%E7%90%86%E8%AE%BA%E6%A6%82%E5%BF%B5/" class="post-category" target="_blank">
-                                    Java 理论概念
+                                <a href="/categories/Tools/" class="post-category" target="_blank">
+                                    Tools
                                 </a>
                                 
                                 
@@ -1443,40 +1441,16 @@ Java 服务端开发亦是如此，采用分层架构，针对每一层，对应
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/Java/" target="_blank">
-                            <span class="chip bg-color">Java</span>
+                        <a href="/tags/Tools/" target="_blank">
+                            <span class="chip bg-color">Tools</span>
                         </a>
                         
-                        <a href="/tags/synchronized/" target="_blank">
-                            <span class="chip bg-color">synchronized</span>
+                        <a href="/tags/Git/" target="_blank">
+                            <span class="chip bg-color">Git</span>
                         </a>
                         
-                        <a href="/tags/volatile/" target="_blank">
-                            <span class="chip bg-color">volatile</span>
-                        </a>
-                        
-                        <a href="/tags/ReentrantLock/" target="_blank">
-                            <span class="chip bg-color">ReentrantLock</span>
-                        </a>
-                        
-                        <a href="/tags/Atom/" target="_blank">
-                            <span class="chip bg-color">Atom</span>
-                        </a>
-                        
-                        <a href="/tags/ForkJoin/" target="_blank">
-                            <span class="chip bg-color">ForkJoin</span>
-                        </a>
-                        
-                        <a href="/tags/ThreadLocal/" target="_blank">
-                            <span class="chip bg-color">ThreadLocal</span>
-                        </a>
-                        
-                        <a href="/tags/ExecutorService/" target="_blank">
-                            <span class="chip bg-color">ExecutorService</span>
-                        </a>
-                        
-                        <a href="/tags/%E5%90%8E%E5%8F%B0/" target="_blank">
-                            <span class="chip bg-color">后台</span>
+                        <a href="/tags/svn/" target="_blank">
+                            <span class="chip bg-color">svn</span>
                         </a>
                         
                     </div>
@@ -1486,25 +1460,27 @@ Java 服务端开发亦是如此，采用分层架构，针对每一层，对应
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2021/10/18/handbook/hou-duan/li-lun-gai-nian/09-ji-yu-xiao-xi-dui-lie-de-fen-bu-shi-shi-wu-jie-jue-fang-an/" target="_blank">
+                    <a href="/2021/10/18/handbook/tools/nginx/nginx-configuration/" target="_blank">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="基于消息队列的分布式事务解决方案">
+                            <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="Nginx 配置">
                             
-                            <span class="card-title">基于消息队列的分布式事务解决方案</span>
+                            <span class="card-title">Nginx 配置</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                            基于消息队列的分布式事务解决方案
-本文为个人学习摘要笔记。原文地址：基于消息队列的分布式事务解决方案
+                            
+Nginx 的默认配置文件为 nginx.conf。
 
-数据库事务数据库事务具有 ACID 这 4 个特性：
+nginx -c xxx.conf - 以指定的文件作为配置文件，启动 Nginx。
 
-A：Atomic，原子性，将所有 SQL 作为原子工作单元执行，要么全部执行，要
+
+配置文件实例以下为一个 nginx.conf 配置文件实例：
+#定义 nginx 运行的用户
                             
                         </div>
                         <div class="publish-info">
@@ -1515,8 +1491,8 @@ A：Atomic，原子性，将所有 SQL 作为原子工作单元执行，要么�
                                 
                                 <i class="fa fa-bookmark fa-fw icon-category"></i>
                                 
-                                <a href="/categories/Java-%E7%90%86%E8%AE%BA%E6%A6%82%E5%BF%B5/" class="post-category" target="_blank">
-                                    Java 理论概念
+                                <a href="/categories/Tools/" class="post-category" target="_blank">
+                                    Tools
                                 </a>
                                 
                                 
@@ -1527,40 +1503,36 @@ A：Atomic，原子性，将所有 SQL 作为原子工作单元执行，要么�
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/Java/" target="_blank">
-                            <span class="chip bg-color">Java</span>
+                        <a href="/tags/macOS/" target="_blank">
+                            <span class="chip bg-color">macOS</span>
                         </a>
                         
-                        <a href="/tags/synchronized/" target="_blank">
-                            <span class="chip bg-color">synchronized</span>
+                        <a href="/tags/Nginx/" target="_blank">
+                            <span class="chip bg-color">Nginx</span>
                         </a>
                         
-                        <a href="/tags/volatile/" target="_blank">
-                            <span class="chip bg-color">volatile</span>
+                        <a href="/tags/http/" target="_blank">
+                            <span class="chip bg-color">http</span>
                         </a>
                         
-                        <a href="/tags/ReentrantLock/" target="_blank">
-                            <span class="chip bg-color">ReentrantLock</span>
+                        <a href="/tags/daemon/" target="_blank">
+                            <span class="chip bg-color">daemon</span>
                         </a>
                         
-                        <a href="/tags/Atom/" target="_blank">
-                            <span class="chip bg-color">Atom</span>
+                        <a href="/tags/pid/" target="_blank">
+                            <span class="chip bg-color">pid</span>
                         </a>
                         
-                        <a href="/tags/ForkJoin/" target="_blank">
-                            <span class="chip bg-color">ForkJoin</span>
+                        <a href="/tags/web/" target="_blank">
+                            <span class="chip bg-color">web</span>
                         </a>
                         
-                        <a href="/tags/ThreadLocal/" target="_blank">
-                            <span class="chip bg-color">ThreadLocal</span>
+                        <a href="/tags/sever/" target="_blank">
+                            <span class="chip bg-color">sever</span>
                         </a>
                         
-                        <a href="/tags/ExecutorService/" target="_blank">
-                            <span class="chip bg-color">ExecutorService</span>
-                        </a>
-                        
-                        <a href="/tags/%E5%90%8E%E5%8F%B0/" target="_blank">
-                            <span class="chip bg-color">后台</span>
+                        <a href="/tags/proxy/" target="_blank">
+                            <span class="chip bg-color">proxy</span>
                         </a>
                         
                     </div>
@@ -1864,11 +1836,11 @@ $(function () {
             </script>
         
 
-    <script>
+    <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"left","width":150,"height":200},"mobile":{"show":false},"react":{"opacity":0.7}});</script><script>
             window.imageLazyLoadSetting = {
                 isSPA: false,
                 preloadRatio: 1,
                 processImages: null,
             };
-        </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(n){n.imageLazyLoadSetting.processImages=o;var e=n.imageLazyLoadSetting.isSPA,i=n.imageLazyLoadSetting.preloadRatio||1,r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function o(){e&&(r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")));for(var t,a=0;a<r.length;a++)0<=(t=(t=r[a]).getBoundingClientRect()).bottom&&0<=t.left&&t.top<=(n.innerHeight*i||document.documentElement.clientHeight*i)&&function(){var t,e,n,i,o=r[a];t=o,e=function(){r=r.filter(function(t){return o!==t})},n=new Image,i=t.getAttribute("data-original"),n.onload=function(){t.src=i,e&&e()},t.src!==i&&(n.src=i)}()}o(),n.addEventListener("scroll",function(){var t,e;t=o,e=n,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(e)},500)})}(this);</script><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"left","width":150,"height":200},"mobile":{"show":false},"react":{"opacity":0.7}});</script></body>
+        </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(n){n.imageLazyLoadSetting.processImages=o;var e=n.imageLazyLoadSetting.isSPA,i=n.imageLazyLoadSetting.preloadRatio||1,r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function o(){e&&(r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")));for(var t,a=0;a<r.length;a++)0<=(t=(t=r[a]).getBoundingClientRect()).bottom&&0<=t.left&&t.top<=(n.innerHeight*i||document.documentElement.clientHeight*i)&&function(){var t,e,n,i,o=r[a];t=o,e=function(){r=r.filter(function(t){return o!==t})},n=new Image,i=t.getAttribute("data-original"),n.onload=function(){t.src=i,e&&e()},t.src!==i&&(n.src=i)}()}o(),n.addEventListener("scroll",function(){var t,e;t=o,e=n,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(e)},500)})}(this);</script></body>
 </html>

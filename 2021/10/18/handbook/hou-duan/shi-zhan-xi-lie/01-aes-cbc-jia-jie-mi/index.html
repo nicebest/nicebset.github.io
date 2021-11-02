@@ -1287,21 +1287,20 @@ import org.bouncycastle.jce.provider.BouncyCastleProvid">
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/10/18/handbook/hou-duan/spring/16-mybatis-ni-xiang-dai-ma-sheng-cheng/">
+                <a href="/2021/10/18/handbook/hou-duan/gao-xiao-bian-cheng/05-hashmap-pai-xu/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="Mybatis 逆向代码生成">
+                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="HashMap 排序">
                         
-                        <span class="card-title">Mybatis 逆向代码生成</span>
+                        <span class="card-title">HashMap 排序</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Mybatis 逆向代码生成添加依赖pom.xml 依赖如下：
-&lt;?xml version="1.0" encoding="UTF-8"?>
-&lt;project xmlns="http://maven.apache.org/POM
+                            HashMap 排序HashMap 的值是没有顺序的，它是按照 key 的 HashCode 来实现的，对于这个无序的 HashMap 我们要怎么来实现排序呢？
+根据 key 排序TreeMap 基于红黑树实现，该映射根据其键的自然顺序进行
                         
                     </div>
                     <div class="publish-info">
@@ -1312,8 +1311,8 @@ import org.bouncycastle.jce.provider.BouncyCastleProvid">
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Spring/" class="post-category" target="_blank">
-                                    Spring
+                            <a href="/categories/Java-%E9%AB%98%E6%95%88%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
+                                    Java 高效编程
                                 </a>
                             
                             
@@ -1327,32 +1326,36 @@ import org.bouncycastle.jce.provider.BouncyCastleProvid">
                         <span class="chip bg-color">Java</span>
                     </a>
                     
-                    <a href="/tags/Spring/" target="_blank">
-                        <span class="chip bg-color">Spring</span>
+                    <a href="/tags/synchronized/" target="_blank">
+                        <span class="chip bg-color">synchronized</span>
                     </a>
                     
-                    <a href="/tags/Boot/" target="_blank">
-                        <span class="chip bg-color">Boot</span>
+                    <a href="/tags/volatile/" target="_blank">
+                        <span class="chip bg-color">volatile</span>
                     </a>
                     
-                    <a href="/tags/Cloud/" target="_blank">
-                        <span class="chip bg-color">Cloud</span>
+                    <a href="/tags/ReentrantLock/" target="_blank">
+                        <span class="chip bg-color">ReentrantLock</span>
                     </a>
                     
-                    <a href="/tags/AOP/" target="_blank">
-                        <span class="chip bg-color">AOP</span>
+                    <a href="/tags/Atom/" target="_blank">
+                        <span class="chip bg-color">Atom</span>
                     </a>
                     
-                    <a href="/tags/JWT/" target="_blank">
-                        <span class="chip bg-color">JWT</span>
+                    <a href="/tags/ForkJoin/" target="_blank">
+                        <span class="chip bg-color">ForkJoin</span>
                     </a>
                     
-                    <a href="/tags/JPA/" target="_blank">
-                        <span class="chip bg-color">JPA</span>
+                    <a href="/tags/ThreadLocal/" target="_blank">
+                        <span class="chip bg-color">ThreadLocal</span>
                     </a>
                     
-                    <a href="/tags/Shiro/" target="_blank">
-                        <span class="chip bg-color">Shiro</span>
+                    <a href="/tags/ExecutorService/" target="_blank">
+                        <span class="chip bg-color">ExecutorService</span>
+                    </a>
+                    
+                    <a href="/tags/%E5%90%8E%E5%8F%B0/" target="_blank">
+                        <span class="chip bg-color">后台</span>
                     </a>
                     
                 </div>
@@ -1366,19 +1369,20 @@ import org.bouncycastle.jce.provider.BouncyCastleProvid">
                 下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/10/18/handbook/hou-duan/shi-zhan-xi-lie/02-magic-mo-shu-huo-qu-wen-jian-lei-xing/">
+                <a href="/2021/10/18/handbook/hou-duan/shi-zhan-xi-lie/03-huo-qu-qing-qiu-ip-di-zhi/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="Magic 魔数获取文件类型">
+                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="获取请求 IP 地址">
                         
-                        <span class="card-title">Magic 魔数获取文件类型</span>
+                        <span class="card-title">获取请求 IP 地址</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Magic 魔数获取文件类型魔数有很多种定义，这里我们讨论的主要是在编程领域的定义，文件的起始几个字节的内容是固定的（或是有意填充，或是本就如此），这几个字节的内容也被称为魔数（magic number），因此可以根据这几个字节的内容确定文
+                            获取请求 IP 地址在 Spring 中，获取客户端真实 IP 地址的方法是 request.getRemoteAddr()，这种方法在大部分情况下都是有效的，但是在通过了 Squid 等反向代理软件就无法工作。
+如果使用了反向代理软件，将
                         
                     </div>
                     <div class="publish-info">
@@ -1847,11 +1851,11 @@ $(function () {
             </script>
         
 
-    <script>
+    <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"left","width":150,"height":200},"mobile":{"show":false},"react":{"opacity":0.7}});</script><script>
             window.imageLazyLoadSetting = {
                 isSPA: false,
                 preloadRatio: 1,
                 processImages: null,
             };
-        </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(n){n.imageLazyLoadSetting.processImages=o;var e=n.imageLazyLoadSetting.isSPA,i=n.imageLazyLoadSetting.preloadRatio||1,r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function o(){e&&(r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")));for(var t,a=0;a<r.length;a++)0<=(t=(t=r[a]).getBoundingClientRect()).bottom&&0<=t.left&&t.top<=(n.innerHeight*i||document.documentElement.clientHeight*i)&&function(){var t,e,n,i,o=r[a];t=o,e=function(){r=r.filter(function(t){return o!==t})},n=new Image,i=t.getAttribute("data-original"),n.onload=function(){t.src=i,e&&e()},t.src!==i&&(n.src=i)}()}o(),n.addEventListener("scroll",function(){var t,e;t=o,e=n,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(e)},500)})}(this);</script><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"left","width":150,"height":200},"mobile":{"show":false},"react":{"opacity":0.7}});</script></body>
+        </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(n){n.imageLazyLoadSetting.processImages=o;var e=n.imageLazyLoadSetting.isSPA,i=n.imageLazyLoadSetting.preloadRatio||1,r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function o(){e&&(r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")));for(var t,a=0;a<r.length;a++)0<=(t=(t=r[a]).getBoundingClientRect()).bottom&&0<=t.left&&t.top<=(n.innerHeight*i||document.documentElement.clientHeight*i)&&function(){var t,e,n,i,o=r[a];t=o,e=function(){r=r.filter(function(t){return o!==t})},n=new Image,i=t.getAttribute("data-original"),n.onload=function(){t.src=i,e&&e()},t.src!==i&&(n.src=i)}()}o(),n.addEventListener("scroll",function(){var t,e;t=o,e=n,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(e)},500)})}(this);</script></body>
 </html>

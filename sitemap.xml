@@ -37,13 +37,6 @@
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/qian-duan/react/02-use-a-render-prop/</loc>
-    
-    <lastmod>2021-11-01</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://www.pipbest.com/2021/10/18/qian-duan/react/03-react-hook/</loc>
     
     <lastmod>2021-11-01</lastmod>
@@ -58,13 +51,6 @@
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/qian-duan/react/05-fetch-data-with-react-hooks/</loc>
-    
-    <lastmod>2021-11-01</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://www.pipbest.com/2021/10/18/qian-duan/react/06-react-he-vue-zhong-key-de-zuo-yong/</loc>
     
     <lastmod>2021-11-01</lastmod>
@@ -72,7 +58,21 @@
   </url>
   
   <url>
+    <loc>https://www.pipbest.com/2021/10/18/qian-duan/react/02-use-a-render-prop/</loc>
+    
+    <lastmod>2021-11-01</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.pipbest.com/2021/10/18/qian-duan/react/07-typescript-zhong-interface-he-type-qu-bie/</loc>
+    
+    <lastmod>2021-11-01</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/qian-duan/react/05-fetch-data-with-react-hooks/</loc>
     
     <lastmod>2021-11-01</lastmod>
     
@@ -121,14 +121,14 @@
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/es6-biao-zhun-ru-men/07-generator-han-shu/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/es6-biao-zhun-ru-men/08-async-han-shu/</loc>
     
     <lastmod>2021-11-01</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/es6-biao-zhun-ru-men/08-async-han-shu/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/es6-biao-zhun-ru-men/07-generator-han-shu/</loc>
     
     <lastmod>2021-11-01</lastmod>
     
@@ -170,21 +170,7 @@
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/tools/04-vagrant/</loc>
-    
-    <lastmod>2021-11-01</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://www.pipbest.com/2021/10/18/handbook/es6-biao-zhun-ru-men/01-bian-liang-sheng-ming-yu-jie-gou-fu-zhi/</loc>
-    
-    <lastmod>2021-11-01</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/es6-biao-zhun-ru-men/03-shu-ju-lei-xing-yu-shu-ju-jie-gou/</loc>
     
     <lastmod>2021-11-01</lastmod>
     
@@ -198,7 +184,7 @@
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/es6-biao-zhun-ru-men/04-proxy-he-reflect/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/es6-biao-zhun-ru-men/03-shu-ju-lei-xing-yu-shu-ju-jie-gou/</loc>
     
     <lastmod>2021-11-01</lastmod>
     
@@ -206,6 +192,13 @@
   
   <url>
     <loc>https://www.pipbest.com/2021/10/18/handbook/es6-biao-zhun-ru-men/05-yi-bu-bian-cheng-promise/</loc>
+    
+    <lastmod>2021-11-01</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/es6-biao-zhun-ru-men/04-proxy-he-reflect/</loc>
     
     <lastmod>2021-11-01</lastmod>
     
@@ -226,7 +219,42 @@
   </url>
   
   <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/tools/04-vagrant/</loc>
+    
+    <lastmod>2021-11-01</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/tools/nginx/nginx-quickstart/</loc>
+    
+    <lastmod>2021-11-01</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/tools/nginx/nginx-ops/</loc>
+    
+    <lastmod>2021-11-01</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.pipbest.com/2021/10/18/handbook/tools/git/04-git/</loc>
+    
+    <lastmod>2021-11-01</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/tools/nginx/nginx-configuration/</loc>
+    
+    <lastmod>2021-11-01</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/tools/git/git/</loc>
     
     <lastmod>2021-11-01</lastmod>
     
@@ -247,28 +275,7 @@
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/tools/git/git/</loc>
-    
-    <lastmod>2021-11-01</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/tools/nginx/nginx-quickstart/</loc>
-    
-    <lastmod>2021-11-01</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/tools/nginx/nginx-configuration/</loc>
-    
-    <lastmod>2021-11-01</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/tools/nginx/nginx-ops/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/tools/07-swagger/</loc>
     
     <lastmod>2021-11-01</lastmod>
     
@@ -276,13 +283,6 @@
   
   <url>
     <loc>https://www.pipbest.com/2021/10/18/handbook/tools/05-docker/</loc>
-    
-    <lastmod>2021-11-01</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/tools/07-swagger/</loc>
     
     <lastmod>2021-11-01</lastmod>
     
@@ -366,27 +366,6 @@
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/netty/04-handler-dui-bi/</loc>
-    
-    <lastmod>2021-11-01</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/netty/03-handler-zhi-xing-shun-xu/</loc>
-    
-    <lastmod>2021-11-01</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/netty/05-xiao-xi-fa-song/</loc>
-    
-    <lastmod>2021-11-01</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/linux/01-linux-wen-jian-quan-xian-xi-tong/</loc>
     
     <lastmod>2021-11-01</lastmod>
@@ -415,6 +394,13 @@
   </url>
   
   <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/mysql/04-shi-wu/</loc>
+    
+    <lastmod>2021-11-01</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/mysql/06-mybatis/</loc>
     
     <lastmod>2021-11-01</lastmod>
@@ -436,7 +422,21 @@
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/project/05-netty-liao-tian-xi-tong/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/netty/04-handler-dui-bi/</loc>
+    
+    <lastmod>2021-11-01</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/netty/03-handler-zhi-xing-shun-xu/</loc>
+    
+    <lastmod>2021-11-01</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/netty/05-xiao-xi-fa-song/</loc>
     
     <lastmod>2021-11-01</lastmod>
     
@@ -450,14 +450,7 @@
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/mysql/04-shi-wu/</loc>
-    
-    <lastmod>2021-11-01</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/netty/02-netty-server/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/project/05-netty-liao-tian-xi-tong/</loc>
     
     <lastmod>2021-11-01</lastmod>
     
@@ -471,14 +464,14 @@
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/project/04-moemall-admin-snippets/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/netty/02-netty-server/</loc>
     
     <lastmod>2021-11-01</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/project/03-docker-rocketmq/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/project/04-moemall-admin-snippets/</loc>
     
     <lastmod>2021-11-01</lastmod>
     
@@ -492,6 +485,13 @@
   </url>
   
   <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/project/03-docker-rocketmq/</loc>
+    
+    <lastmod>2021-11-01</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/spring/01-spring-boot/</loc>
     
     <lastmod>2021-11-01</lastmod>
@@ -499,21 +499,14 @@
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/spring/02-spring-validation/</loc>
-    
-    <lastmod>2021-11-01</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/spring/05-spring-aop/</loc>
-    
-    <lastmod>2021-11-01</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/spring/04-spring-rong-qi/</loc>
+    
+    <lastmod>2021-11-01</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/spring/03-spring-data/</loc>
     
     <lastmod>2021-11-01</lastmod>
     
@@ -541,7 +534,7 @@
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/spring/11-spring-boot-qing-qiu-lan-jie/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/spring/05-spring-aop/</loc>
     
     <lastmod>2021-11-01</lastmod>
     
@@ -555,49 +548,7 @@
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/spring/14-spring-boot-ding-shi-ren-wu/</loc>
-    
-    <lastmod>2021-11-01</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/spring/03-spring-data/</loc>
-    
-    <lastmod>2021-11-01</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/spring/15-spring-boot-guan-li-bean/</loc>
-    
-    <lastmod>2021-11-01</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/spring/17-jwt/</loc>
-    
-    <lastmod>2021-11-01</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/spring/18-jpa/</loc>
-    
-    <lastmod>2021-11-01</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/spring/08-spring-cloud-netflix/</loc>
-    
-    <lastmod>2021-11-01</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/spring/19-apache-shiro/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/spring/02-spring-validation/</loc>
     
     <lastmod>2021-11-01</lastmod>
     
@@ -611,6 +562,55 @@
   </url>
   
   <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/spring/08-spring-cloud-netflix/</loc>
+    
+    <lastmod>2021-11-01</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/spring/17-jwt/</loc>
+    
+    <lastmod>2021-11-01</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/spring/11-spring-boot-qing-qiu-lan-jie/</loc>
+    
+    <lastmod>2021-11-01</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/spring/19-apache-shiro/</loc>
+    
+    <lastmod>2021-11-01</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/spring/14-spring-boot-ding-shi-ren-wu/</loc>
+    
+    <lastmod>2021-11-01</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/spring/15-spring-boot-guan-li-bean/</loc>
+    
+    <lastmod>2021-11-01</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/spring/18-jpa/</loc>
+    
+    <lastmod>2021-11-01</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.pipbest.com/2021/10/18/handbook/qian-duan/javascript/05-blob-url-and-data-url/</loc>
     
     <lastmod>2021-11-01</lastmod>
@@ -618,7 +618,7 @@
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/qian-duan/javascript/01-javascript-mi-mi-hua-yuan/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/qian-duan/css/02-position-ding-wei/</loc>
     
     <lastmod>2021-11-01</lastmod>
     
@@ -632,7 +632,49 @@
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/qian-duan/javascript/02-javascript-zheng-ze-ji-qiao/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/qian-duan/node/01-node-tips/</loc>
+    
+    <lastmod>2021-11-01</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/qian-duan/shi-zhan-xi-lie/02-tu-pian-jia-jie-mi-er-san-shi/</loc>
+    
+    <lastmod>2021-11-01</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/qian-duan/shi-zhan-xi-lie/03-you-ya-shi-xian-backtop/</loc>
+    
+    <lastmod>2021-11-01</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/qian-duan/shi-zhan-xi-lie/04-dong-tai-jia-zai-js-wen-jian/</loc>
+    
+    <lastmod>2021-11-01</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/qian-duan/shi-zhan-xi-lie/05-shen-qi-de-document.designmode/</loc>
+    
+    <lastmod>2021-11-01</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/spring/20-spring-yi-bu-qing-qiu/</loc>
+    
+    <lastmod>2021-11-01</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/spring/21-spring-boot-kua-yu-jie-jue-fang-shi/</loc>
     
     <lastmod>2021-11-01</lastmod>
     
@@ -646,7 +688,21 @@
   </url>
   
   <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/qian-duan/javascript/01-javascript-mi-mi-hua-yuan/</loc>
+    
+    <lastmod>2021-11-01</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.pipbest.com/2021/10/18/handbook/qian-duan/javascript/04-canvas-ji-chu-yong-fa/</loc>
+    
+    <lastmod>2021-11-01</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/qian-duan/javascript/02-javascript-zheng-ze-ji-qiao/</loc>
     
     <lastmod>2021-11-01</lastmod>
     
@@ -681,63 +737,7 @@
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/qian-duan/css/02-position-ding-wei/</loc>
-    
-    <lastmod>2021-11-01</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://www.pipbest.com/2021/10/18/handbook/qian-duan/javascript/10-zheng-ze-pi-pei-han-zi/</loc>
-    
-    <lastmod>2021-11-01</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/qian-duan/node/01-node-tips/</loc>
-    
-    <lastmod>2021-11-01</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/qian-duan/shi-zhan-xi-lie/02-tu-pian-jia-jie-mi-er-san-shi/</loc>
-    
-    <lastmod>2021-11-01</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/qian-duan/shi-zhan-xi-lie/04-dong-tai-jia-zai-js-wen-jian/</loc>
-    
-    <lastmod>2021-11-01</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/qian-duan/shi-zhan-xi-lie/05-shen-qi-de-document.designmode/</loc>
-    
-    <lastmod>2021-11-01</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/qian-duan/shi-zhan-xi-lie/03-you-ya-shi-xian-backtop/</loc>
-    
-    <lastmod>2021-11-01</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/spring/20-spring-yi-bu-qing-qiu/</loc>
-    
-    <lastmod>2021-11-01</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/spring/21-spring-boot-kua-yu-jie-jue-fang-shi/</loc>
     
     <lastmod>2021-11-01</lastmod>
     
@@ -779,7 +779,7 @@
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/java/02-java-shu-ju-lei-xing/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/java/01-mian-xiang-dui-xiang-ji-ben-te-zheng-yu-yuan-ze/</loc>
     
     <lastmod>2021-11-01</lastmod>
     
@@ -800,35 +800,14 @@
   </url>
   
   <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/java/02-java-shu-ju-lei-xing/</loc>
+    
+    <lastmod>2021-11-01</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/java/06-java-object-tong-yong-fang-fa/</loc>
-    
-    <lastmod>2021-11-01</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/java/05-java-final-yu-static/</loc>
-    
-    <lastmod>2021-11-01</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/java/08-java-fan-she/</loc>
-    
-    <lastmod>2021-11-01</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/java/01-mian-xiang-dui-xiang-ji-ben-te-zheng-yu-yuan-ze/</loc>
-    
-    <lastmod>2021-11-01</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/java/09-java-yi-chang/</loc>
     
     <lastmod>2021-11-01</lastmod>
     
@@ -842,14 +821,21 @@
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/java/10-java-rong-qi/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/java/08-java-fan-she/</loc>
     
     <lastmod>2021-11-01</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/java/13-java-hashmap/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/java/09-java-yi-chang/</loc>
+    
+    <lastmod>2021-11-01</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/java/05-java-final-yu-static/</loc>
     
     <lastmod>2021-11-01</lastmod>
     
@@ -863,14 +849,7 @@
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/java/11-java-xu-ni-ji/</loc>
-    
-    <lastmod>2021-11-01</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/java/15-java-stream/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/java/13-java-hashmap/</loc>
     
     <lastmod>2021-11-01</lastmod>
     
@@ -884,7 +863,7 @@
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/java/16-java-mei-ju/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/java/15-java-stream/</loc>
     
     <lastmod>2021-11-01</lastmod>
     
@@ -898,77 +877,21 @@
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/shi-zhan-xi-lie/01-aes-cbc-jia-jie-mi/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/java/16-java-mei-ju/</loc>
     
     <lastmod>2021-11-01</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/shi-zhan-xi-lie/02-magic-mo-shu-huo-qu-wen-jian-lei-xing/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/java/10-java-rong-qi/</loc>
     
     <lastmod>2021-11-01</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/shi-zhan-xi-lie/04-kaptcha-yu-shu-xue-gong-shi-yan-zheng-ma/</loc>
-    
-    <lastmod>2021-11-01</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/shi-zhan-xi-lie/05-netty-huo-qu-ke-hu-duan-ip/</loc>
-    
-    <lastmod>2021-11-01</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/shi-zhan-xi-lie/06-gao-xing-neng-wu-suo-dui-lie-disruptor/</loc>
-    
-    <lastmod>2021-11-01</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/shi-zhan-xi-lie/07-qian-hou-duan-jie-ru-a-li-yun-dun/</loc>
-    
-    <lastmod>2021-11-01</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/gao-xiao-bian-cheng/02-han-shu-shi-ti-dai-for-xun-huan/</loc>
-    
-    <lastmod>2021-11-01</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/gao-xiao-bian-cheng/03-java-zi-fu-chuan-pin-jie/</loc>
-    
-    <lastmod>2021-11-01</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/shi-zhan-xi-lie/03-huo-qu-qing-qiu-ip-di-zhi/</loc>
-    
-    <lastmod>2021-11-01</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/gao-xiao-bian-cheng/04-dan-li-mo-shi-de-ji-chong-shi-xian/</loc>
-    
-    <lastmod>2021-11-01</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/gao-xiao-bian-cheng/01-30-seconds-of-java8/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/java/11-java-xu-ni-ji/</loc>
     
     <lastmod>2021-11-01</lastmod>
     
@@ -983,13 +906,6 @@
   
   <url>
     <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/li-lun-gai-nian/02-java-fu-wu-duan-fen-ceng-mo-xing/</loc>
-    
-    <lastmod>2021-11-01</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/gao-xiao-bian-cheng/05-hashmap-pai-xu/</loc>
     
     <lastmod>2021-11-01</lastmod>
     
@@ -1017,14 +933,14 @@
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/li-lun-gai-nian/07-http-zhuang-tai-ma-xiang-jie/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/li-lun-gai-nian/06-java-hashmap-mian-shi-da-quan/</loc>
     
     <lastmod>2021-11-01</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/li-lun-gai-nian/06-java-hashmap-mian-shi-da-quan/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/li-lun-gai-nian/07-http-zhuang-tai-ma-xiang-jie/</loc>
     
     <lastmod>2021-11-01</lastmod>
     
@@ -1052,13 +968,6 @@
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/07-completablefuture/</loc>
-    
-    <lastmod>2021-11-01</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/08-forkjoin/</loc>
     
     <lastmod>2021-11-01</lastmod>
@@ -1073,7 +982,7 @@
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/12-executorservice/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/10-countdownlatch/</loc>
     
     <lastmod>2021-11-01</lastmod>
     
@@ -1087,7 +996,7 @@
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/11-threadpoolexecutor/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/12-executorservice/</loc>
     
     <lastmod>2021-11-01</lastmod>
     
@@ -1101,28 +1010,98 @@
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/10-countdownlatch/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/gao-xiao-bian-cheng/01-30-seconds-of-java8/</loc>
     
     <lastmod>2021-11-01</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/03-volatile/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/gao-xiao-bian-cheng/02-han-shu-shi-ti-dai-for-xun-huan/</loc>
     
     <lastmod>2021-11-01</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/04-reentrantlock/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/gao-xiao-bian-cheng/03-java-zi-fu-chuan-pin-jie/</loc>
     
     <lastmod>2021-11-01</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/01-java-bing-fa/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/11-threadpoolexecutor/</loc>
+    
+    <lastmod>2021-11-01</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/gao-xiao-bian-cheng/04-dan-li-mo-shi-de-ji-chong-shi-xian/</loc>
+    
+    <lastmod>2021-11-01</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/gao-xiao-bian-cheng/05-hashmap-pai-xu/</loc>
+    
+    <lastmod>2021-11-01</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/shi-zhan-xi-lie/01-aes-cbc-jia-jie-mi/</loc>
+    
+    <lastmod>2021-11-01</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/shi-zhan-xi-lie/03-huo-qu-qing-qiu-ip-di-zhi/</loc>
+    
+    <lastmod>2021-11-01</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/shi-zhan-xi-lie/02-magic-mo-shu-huo-qu-wen-jian-lei-xing/</loc>
+    
+    <lastmod>2021-11-01</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/shi-zhan-xi-lie/04-kaptcha-yu-shu-xue-gong-shi-yan-zheng-ma/</loc>
+    
+    <lastmod>2021-11-01</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/07-completablefuture/</loc>
+    
+    <lastmod>2021-11-01</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/shi-zhan-xi-lie/05-netty-huo-qu-ke-hu-duan-ip/</loc>
+    
+    <lastmod>2021-11-01</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/shi-zhan-xi-lie/06-gao-xing-neng-wu-suo-dui-lie-disruptor/</loc>
+    
+    <lastmod>2021-11-01</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/shi-zhan-xi-lie/07-qian-hou-duan-jie-ru-a-li-yun-dun/</loc>
     
     <lastmod>2021-11-01</lastmod>
     
@@ -1136,7 +1115,21 @@
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/nginx/02-chang-yong-duan-kou/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/03-volatile/</loc>
+    
+    <lastmod>2021-11-01</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/01-java-bing-fa/</loc>
+    
+    <lastmod>2021-11-01</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/04-reentrantlock/</loc>
     
     <lastmod>2021-11-01</lastmod>
     
@@ -1144,6 +1137,13 @@
   
   <url>
     <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/nginx/01-nginx-zhi-bei/</loc>
+    
+    <lastmod>2021-11-01</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/handbook/hou-duan/nginx/02-chang-yong-duan-kou/</loc>
     
     <lastmod>2021-11-01</lastmod>
     
@@ -1199,21 +1199,7 @@
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/ce/pda/2.2.1-introduction-to-numpy-arrays-numpy-shu-zu-jian-jie/</loc>
-    
-    <lastmod>2021-10-24</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://www.pipbest.com/2021/10/18/ce/pda/2.2.2-slicing-numpy-arrays-qie-pian-numpy-shu-zu/</loc>
-    
-    <lastmod>2021-10-24</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/ce/pda/2.2.3-indexing-numpy-arrays-suo-yin-numpy-shu-zu/</loc>
     
     <lastmod>2021-10-24</lastmod>
     
@@ -1234,6 +1220,20 @@
   </url>
   
   <url>
+    <loc>https://www.pipbest.com/2021/10/18/ce/pda/2.3.3-plotting-using-logarithmic-axes-shi-yong-dui-shu-zhou-hui-tu/</loc>
+    
+    <lastmod>2021-10-24</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/ce/pda/2.2.3-indexing-numpy-arrays-suo-yin-numpy-shu-zu/</loc>
+    
+    <lastmod>2021-10-24</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.pipbest.com/2021/10/18/ce/pda/2.3.1-introduction-to-matplotlib-and-pyplot-matplotlib-he-pyplot-jie-shao/</loc>
     
     <lastmod>2021-10-24</lastmod>
@@ -1242,13 +1242,6 @@
   
   <url>
     <loc>https://www.pipbest.com/2021/10/18/ce/pda/2.3.4-generating-histograms-sheng-cheng-zhi-fang-tu/</loc>
-    
-    <lastmod>2021-10-24</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/ce/pda/2.4.1-simulating-randomness-mo-ni-sui-ji-xing/</loc>
     
     <lastmod>2021-10-24</lastmod>
     
@@ -1283,7 +1276,14 @@
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/ce/pda/2.3.3-plotting-using-logarithmic-axes-shi-yong-dui-shu-zhou-hui-tu/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/ce/pda/2.4.1-simulating-randomness-mo-ni-sui-ji-xing/</loc>
+    
+    <lastmod>2021-10-24</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/ce/pda/2.2.1-introduction-to-numpy-arrays-numpy-shu-zu-jian-jie/</loc>
     
     <lastmod>2021-10-24</lastmod>
     
@@ -1353,14 +1353,21 @@
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.2.1-sequences-xu-lie/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.2.2-lists-lie-biao/</loc>
     
     <lastmod>2021-10-20</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.2.2-lists-lie-biao/</loc>
+    <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.2.4-ranges-fan-wei/</loc>
+    
+    <lastmod>2021-10-20</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.2.1-sequences-xu-lie/</loc>
     
     <lastmod>2021-10-20</lastmod>
     
@@ -1375,13 +1382,6 @@
   
   <url>
     <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.2.7-dictionaries-zi-dian/</loc>
-    
-    <lastmod>2021-10-20</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/2021/10/18/ce/pda/1.2.4-ranges-fan-wei/</loc>
     
     <lastmod>2021-10-20</lastmod>
     
@@ -1495,7 +1495,7 @@
 
   <url>
     <loc>https://www.pipbest.com/</loc>
-    <lastmod>2021-11-01</lastmod>
+    <lastmod>2021-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -1503,630 +1503,630 @@
   
   <url>
     <loc>https://www.pipbest.com/tags/Note/</loc>
-    <lastmod>2021-11-01</lastmod>
+    <lastmod>2021-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.pipbest.com/tags/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</loc>
-    <lastmod>2021-11-01</lastmod>
+    <lastmod>2021-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.pipbest.com/tags/Snippets/</loc>
-    <lastmod>2021-11-01</lastmod>
+    <lastmod>2021-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.pipbest.com/tags/%E4%BB%A3%E7%A0%81%E7%BB%84%E4%BB%B6%E5%8C%96/</loc>
-    <lastmod>2021-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/tags/%E9%9D%A2%E9%9C%B8/</loc>
-    <lastmod>2021-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/tags/Interview/</loc>
-    <lastmod>2021-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/tags/%E8%BD%AF%E4%BB%B6/</loc>
-    <lastmod>2021-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/tags/macOS/</loc>
-    <lastmod>2021-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/tags/%E5%BC%80%E6%BA%90/</loc>
-    <lastmod>2021-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/tags/%E5%85%B1%E4%BA%AB/</loc>
-    <lastmod>2021-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/tags/Tools/</loc>
-    <lastmod>2021-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/tags/Vagrant/</loc>
-    <lastmod>2021-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/</loc>
-    <lastmod>2021-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/tags/Docker/</loc>
-    <lastmod>2021-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/tags/%E5%AE%B9%E5%99%A8/</loc>
-    <lastmod>2021-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/tags/Swagger/</loc>
-    <lastmod>2021-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/tags/%E6%96%87%E6%A1%A3/</loc>
-    <lastmod>2021-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/tags/%E6%B3%A8%E9%87%8A/</loc>
-    <lastmod>2021-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/tags/Redis/</loc>
-    <lastmod>2021-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/tags/%E5%85%B3%E7%B3%BB%E5%BA%93/</loc>
-    <lastmod>2021-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/tags/springboot/</loc>
-    <lastmod>2021-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/tags/jedis/</loc>
-    <lastmod>2021-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/tags/Lettuce/</loc>
-    <lastmod>2021-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/tags/IDEA/</loc>
-    <lastmod>2021-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/tags/Lombok/</loc>
-    <lastmod>2021-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/tags/ES6/</loc>
-    <lastmod>2021-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/tags/Proxy/</loc>
-    <lastmod>2021-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/tags/Promise/</loc>
-    <lastmod>2021-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/tags/Async/</loc>
-    <lastmod>2021-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/tags/class/</loc>
-    <lastmod>2021-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/tags/Javascript/</loc>
-    <lastmod>2021-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/tags/Vue/</loc>
-    <lastmod>2021-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/tags/SVG/</loc>
-    <lastmod>2021-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/tags/SCSS/</loc>
-    <lastmod>2021-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</loc>
-    <lastmod>2021-11-01</lastmod>
+    <lastmod>2021-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.pipbest.com/tags/Python/</loc>
-    <lastmod>2021-11-01</lastmod>
+    <lastmod>2021-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.pipbest.com/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/</loc>
-    <lastmod>2021-11-01</lastmod>
+    <lastmod>2021-11-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/tags/%E8%BD%AF%E4%BB%B6/</loc>
+    <lastmod>2021-11-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/tags/macOS/</loc>
+    <lastmod>2021-11-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/tags/%E5%BC%80%E6%BA%90/</loc>
+    <lastmod>2021-11-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/tags/%E5%85%B1%E4%BA%AB/</loc>
+    <lastmod>2021-11-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/tags/Javascript/</loc>
+    <lastmod>2021-11-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/tags/Vue/</loc>
+    <lastmod>2021-11-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/tags/SVG/</loc>
+    <lastmod>2021-11-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/tags/SCSS/</loc>
+    <lastmod>2021-11-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/tags/ES6/</loc>
+    <lastmod>2021-11-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/tags/Proxy/</loc>
+    <lastmod>2021-11-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/tags/Promise/</loc>
+    <lastmod>2021-11-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/tags/Async/</loc>
+    <lastmod>2021-11-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/tags/class/</loc>
+    <lastmod>2021-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.pipbest.com/tags/React/</loc>
-    <lastmod>2021-11-01</lastmod>
+    <lastmod>2021-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.pipbest.com/tags/Hook/</loc>
-    <lastmod>2021-11-01</lastmod>
+    <lastmod>2021-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.pipbest.com/tags/TypeScript%E5%89%8D%E7%AB%AF/</loc>
-    <lastmod>2021-11-01</lastmod>
+    <lastmod>2021-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/tags/Git/</loc>
-    <lastmod>2021-11-01</lastmod>
+    <loc>https://www.pipbest.com/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</loc>
+    <lastmod>2021-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/tags/svn/</loc>
-    <lastmod>2021-11-01</lastmod>
+    <loc>https://www.pipbest.com/tags/%E9%9D%A2%E9%9C%B8/</loc>
+    <lastmod>2021-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/tags/Nginx/</loc>
-    <lastmod>2021-11-01</lastmod>
+    <loc>https://www.pipbest.com/tags/Interview/</loc>
+    <lastmod>2021-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/tags/http/</loc>
-    <lastmod>2021-11-01</lastmod>
+    <loc>https://www.pipbest.com/tags/Tools/</loc>
+    <lastmod>2021-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/tags/daemon/</loc>
-    <lastmod>2021-11-01</lastmod>
+    <loc>https://www.pipbest.com/tags/Swagger/</loc>
+    <lastmod>2021-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/tags/pid/</loc>
-    <lastmod>2021-11-01</lastmod>
+    <loc>https://www.pipbest.com/tags/%E6%96%87%E6%A1%A3/</loc>
+    <lastmod>2021-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/tags/web/</loc>
-    <lastmod>2021-11-01</lastmod>
+    <loc>https://www.pipbest.com/tags/%E6%B3%A8%E9%87%8A/</loc>
+    <lastmod>2021-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/tags/sever/</loc>
-    <lastmod>2021-11-01</lastmod>
+    <loc>https://www.pipbest.com/tags/Docker/</loc>
+    <lastmod>2021-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/tags/proxy/</loc>
-    <lastmod>2021-11-01</lastmod>
+    <loc>https://www.pipbest.com/tags/%E5%AE%B9%E5%99%A8/</loc>
+    <lastmod>2021-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/tags/%E5%89%8D%E7%AB%AF/</loc>
-    <lastmod>2021-11-01</lastmod>
+    <loc>https://www.pipbest.com/tags/Lombok/</loc>
+    <lastmod>2021-11-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/tags/Redis/</loc>
+    <lastmod>2021-11-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/tags/%E5%85%B3%E7%B3%BB%E5%BA%93/</loc>
+    <lastmod>2021-11-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/tags/springboot/</loc>
+    <lastmod>2021-11-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/tags/jedis/</loc>
+    <lastmod>2021-11-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/tags/Lettuce/</loc>
+    <lastmod>2021-11-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/tags/Vagrant/</loc>
+    <lastmod>2021-11-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/</loc>
+    <lastmod>2021-11-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/tags/IDEA/</loc>
+    <lastmod>2021-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.pipbest.com/tags/CSS/</loc>
-    <lastmod>2021-11-01</lastmod>
+    <lastmod>2021-11-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/tags/%E5%89%8D%E7%AB%AF/</loc>
+    <lastmod>2021-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.pipbest.com/tags/Node/</loc>
-    <lastmod>2021-11-01</lastmod>
+    <lastmod>2021-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.pipbest.com/tags/NodeJs/</loc>
-    <lastmod>2021-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/tags/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/</loc>
-    <lastmod>2021-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/tags/Regex/</loc>
-    <lastmod>2021-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/tags/Java/</loc>
-    <lastmod>2021-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/tags/synchronized/</loc>
-    <lastmod>2021-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/tags/volatile/</loc>
-    <lastmod>2021-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/tags/ReentrantLock/</loc>
-    <lastmod>2021-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/tags/Atom/</loc>
-    <lastmod>2021-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/tags/ForkJoin/</loc>
-    <lastmod>2021-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/tags/ThreadLocal/</loc>
-    <lastmod>2021-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/tags/ExecutorService/</loc>
-    <lastmod>2021-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/tags/%E5%90%8E%E5%8F%B0/</loc>
-    <lastmod>2021-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/tags/BIO/</loc>
-    <lastmod>2021-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/tags/NIO/</loc>
-    <lastmod>2021-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/tags/AIO/</loc>
-    <lastmod>2021-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/tags/Netty/</loc>
-    <lastmod>2021-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/tags/Handler/</loc>
-    <lastmod>2021-11-01</lastmod>
+    <lastmod>2021-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.pipbest.com/tags/Linux/</loc>
-    <lastmod>2021-11-01</lastmod>
+    <lastmod>2021-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.pipbest.com/tags/shell/</loc>
-    <lastmod>2021-11-01</lastmod>
+    <lastmod>2021-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.pipbest.com/tags/sh/</loc>
-    <lastmod>2021-11-01</lastmod>
+    <lastmod>2021-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.pipbest.com/tags/bash/</loc>
-    <lastmod>2021-11-01</lastmod>
+    <lastmod>2021-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.pipbest.com/tags/CentOS/</loc>
-    <lastmod>2021-11-01</lastmod>
+    <lastmod>2021-11-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/tags/Java/</loc>
+    <lastmod>2021-11-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/tags/synchronized/</loc>
+    <lastmod>2021-11-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/tags/volatile/</loc>
+    <lastmod>2021-11-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/tags/ReentrantLock/</loc>
+    <lastmod>2021-11-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/tags/Atom/</loc>
+    <lastmod>2021-11-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/tags/ForkJoin/</loc>
+    <lastmod>2021-11-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/tags/ThreadLocal/</loc>
+    <lastmod>2021-11-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/tags/ExecutorService/</loc>
+    <lastmod>2021-11-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/tags/%E5%90%8E%E5%8F%B0/</loc>
+    <lastmod>2021-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.pipbest.com/tags/SQL/</loc>
-    <lastmod>2021-11-01</lastmod>
+    <lastmod>2021-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.pipbest.com/tags/select/</loc>
-    <lastmod>2021-11-01</lastmod>
+    <lastmod>2021-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.pipbest.com/tags/truncate/</loc>
-    <lastmod>2021-11-01</lastmod>
+    <lastmod>2021-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.pipbest.com/tags/delete/</loc>
-    <lastmod>2021-11-01</lastmod>
+    <lastmod>2021-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.pipbest.com/tags/where/</loc>
-    <lastmod>2021-11-01</lastmod>
+    <lastmod>2021-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.pipbest.com/tags/Mybatis/</loc>
-    <lastmod>2021-11-01</lastmod>
+    <lastmod>2021-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.pipbest.com/tags/%E4%BA%8B%E5%8A%A1/</loc>
-    <lastmod>2021-11-01</lastmod>
+    <lastmod>2021-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.pipbest.com/tags/%E5%85%B3%E7%B3%BB%E6%A8%A1%E5%9E%8B/</loc>
-    <lastmod>2021-11-01</lastmod>
+    <lastmod>2021-11-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/tags/BIO/</loc>
+    <lastmod>2021-11-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/tags/NIO/</loc>
+    <lastmod>2021-11-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/tags/AIO/</loc>
+    <lastmod>2021-11-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/tags/Netty/</loc>
+    <lastmod>2021-11-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/tags/Handler/</loc>
+    <lastmod>2021-11-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/tags/Nginx/</loc>
+    <lastmod>2021-11-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/tags/http/</loc>
+    <lastmod>2021-11-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/tags/daemon/</loc>
+    <lastmod>2021-11-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/tags/pid/</loc>
+    <lastmod>2021-11-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/tags/web/</loc>
+    <lastmod>2021-11-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/tags/sever/</loc>
+    <lastmod>2021-11-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/tags/proxy/</loc>
+    <lastmod>2021-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.pipbest.com/tags/project/</loc>
-    <lastmod>2021-11-01</lastmod>
+    <lastmod>2021-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.pipbest.com/tags/Spring/</loc>
-    <lastmod>2021-11-01</lastmod>
+    <lastmod>2021-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.pipbest.com/tags/Boot/</loc>
-    <lastmod>2021-11-01</lastmod>
+    <lastmod>2021-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.pipbest.com/tags/Cloud/</loc>
-    <lastmod>2021-11-01</lastmod>
+    <lastmod>2021-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.pipbest.com/tags/AOP/</loc>
-    <lastmod>2021-11-01</lastmod>
+    <lastmod>2021-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.pipbest.com/tags/JWT/</loc>
-    <lastmod>2021-11-01</lastmod>
+    <lastmod>2021-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.pipbest.com/tags/JPA/</loc>
-    <lastmod>2021-11-01</lastmod>
+    <lastmod>2021-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.pipbest.com/tags/Shiro/</loc>
-    <lastmod>2021-11-01</lastmod>
+    <lastmod>2021-11-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/tags/Git/</loc>
+    <lastmod>2021-11-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/tags/svn/</loc>
+    <lastmod>2021-11-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/tags/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/</loc>
+    <lastmod>2021-11-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/tags/Regex/</loc>
+    <lastmod>2021-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -2135,168 +2135,168 @@
   
   <url>
     <loc>https://www.pipbest.com/categories/Note/</loc>
-    <lastmod>2021-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/categories/%E5%90%88%E9%9B%86%E5%88%86%E4%BA%AB/</loc>
-    <lastmod>2021-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/categories/Tools/</loc>
-    <lastmod>2021-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/categories/ES6-%E6%A0%87%E5%87%86%E5%85%A5%E9%97%A8/</loc>
-    <lastmod>2021-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/categories/Vue/</loc>
-    <lastmod>2021-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/categories/JavaScript-%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</loc>
-    <lastmod>2021-11-01</lastmod>
+    <lastmod>2021-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.pipbest.com/categories/Python%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%EF%BC%88%E4%B8%AD%E8%8B%B1%E5%AF%B9%E7%85%A7%EF%BC%89/</loc>
-    <lastmod>2021-11-01</lastmod>
+    <lastmod>2021-11-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/categories/%E5%90%88%E9%9B%86%E5%88%86%E4%BA%AB/</loc>
+    <lastmod>2021-11-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/categories/Vue/</loc>
+    <lastmod>2021-11-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/categories/ES6-%E6%A0%87%E5%87%86%E5%85%A5%E9%97%A8/</loc>
+    <lastmod>2021-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.pipbest.com/categories/React/</loc>
-    <lastmod>2021-11-01</lastmod>
+    <lastmod>2021-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/categories/JavaScript/</loc>
-    <lastmod>2021-11-01</lastmod>
+    <loc>https://www.pipbest.com/categories/JavaScript-%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</loc>
+    <lastmod>2021-11-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/categories/Tools/</loc>
+    <lastmod>2021-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.pipbest.com/categories/CSS/</loc>
-    <lastmod>2021-11-01</lastmod>
+    <lastmod>2021-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.pipbest.com/categories/Node/</loc>
-    <lastmod>2021-11-01</lastmod>
+    <lastmod>2021-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.pipbest.com/categories/%E5%89%8D%E7%AB%AF-%E5%AE%9E%E6%88%98%E9%A1%B9%E7%9B%AE/</loc>
-    <lastmod>2021-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/categories/Java-%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5/</loc>
-    <lastmod>2021-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/categories/Netty/</loc>
-    <lastmod>2021-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.pipbest.com/categories/Nginx/</loc>
-    <lastmod>2021-11-01</lastmod>
+    <lastmod>2021-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.pipbest.com/categories/Linux/</loc>
-    <lastmod>2021-11-01</lastmod>
+    <lastmod>2021-11-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/categories/Java-%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5/</loc>
+    <lastmod>2021-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.pipbest.com/categories/MySQL/</loc>
-    <lastmod>2021-11-01</lastmod>
+    <lastmod>2021-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/categories/Project/</loc>
-    <lastmod>2021-11-01</lastmod>
+    <loc>https://www.pipbest.com/categories/Netty/</loc>
+    <lastmod>2021-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/categories/Spring/</loc>
-    <lastmod>2021-11-01</lastmod>
+    <loc>https://www.pipbest.com/categories/Nginx/</loc>
+    <lastmod>2021-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.pipbest.com/categories/note/</loc>
-    <lastmod>2021-11-01</lastmod>
+    <lastmod>2021-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/categories/Java-%E5%AE%9E%E6%88%98%E7%B3%BB%E5%88%97/</loc>
-    <lastmod>2021-11-01</lastmod>
+    <loc>https://www.pipbest.com/categories/Project/</loc>
+    <lastmod>2021-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.pipbest.com/categories/Java-%E9%AB%98%E6%95%88%E7%BC%96%E7%A8%8B/</loc>
-    <lastmod>2021-11-01</lastmod>
+    <loc>https://www.pipbest.com/categories/Spring/</loc>
+    <lastmod>2021-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.pipbest.com/categories/Java-%E7%90%86%E8%AE%BA%E6%A6%82%E5%BF%B5/</loc>
-    <lastmod>2021-11-01</lastmod>
+    <lastmod>2021-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.pipbest.com/categories/Java-%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/</loc>
-    <lastmod>2021-11-01</lastmod>
+    <lastmod>2021-11-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/categories/Java-%E9%AB%98%E6%95%88%E7%BC%96%E7%A8%8B/</loc>
+    <lastmod>2021-11-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/categories/Java-%E5%AE%9E%E6%88%98%E7%B3%BB%E5%88%97/</loc>
+    <lastmod>2021-11-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.pipbest.com/categories/JavaScript/</loc>
+    <lastmod>2021-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
