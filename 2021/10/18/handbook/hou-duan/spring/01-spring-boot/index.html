@@ -71,9 +71,9 @@ Spring Boot 的角色：Spring Framework -&amp;gt; Spring Boot -&amp;gt">
         </script>
     
 
-<meta name="generator" content="Hexo 5.4.0">
+<meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="金点帝国" type="application/atom+xml">
+
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
-<link rel="alternate" href="/atom.xml" title="金点帝国" type="application/atom+xml">
 <link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css">
 <link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
 
@@ -1390,20 +1390,23 @@ description: 最少金额${minMoney}元
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/10/18/handbook/hou-duan/project/05-netty-liao-tian-xi-tong/">
+                <a href="/2021/10/18/handbook/hou-duan/mysql/04-shi-wu/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="Netty 聊天系统">
+                        <img src="/medias/featureimages/22.jpg" class="responsive-img" alt="事务">
                         
-                        <span class="card-title">Netty 聊天系统</span>
+                        <span class="card-title">事务</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Netty 聊天系统引入依赖该聊天项目是一个标准的多模块 spring boot 项目，只需要引入四个基本的依赖包。
-netty 提供易于使用的 API 客户端/服务器框架，disruptor 高性能无锁队列进行消息生产和消费，fastjs
+                            事务
+本文为个人学习摘要笔记。原文地址：廖雪峰 SQL 教程之事务
+
+什么是事务事务指的是满足 ACID 特性的一组操作，可以通过 Commit 提交一个事务，也可以使用 Rollback 进行回滚。
+可见，数据库事务具有 ACID 这 4
                         
                     </div>
                     <div class="publish-info">
@@ -1414,8 +1417,8 @@ netty 提供易于使用的 API 客户端/服务器框架，disruptor 高性能�
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Project/" class="post-category" target="_blank">
-                                    Project
+                            <a href="/categories/MySQL/" class="post-category" target="_blank">
+                                    MySQL
                                 </a>
                             
                             
@@ -1425,8 +1428,36 @@ netty 提供易于使用的 API 客户端/服务器框架，disruptor 高性能�
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/project/" target="_blank">
-                        <span class="chip bg-color">project</span>
+                    <a href="/tags/SQL/" target="_blank">
+                        <span class="chip bg-color">SQL</span>
+                    </a>
+                    
+                    <a href="/tags/select/" target="_blank">
+                        <span class="chip bg-color">select</span>
+                    </a>
+                    
+                    <a href="/tags/truncate/" target="_blank">
+                        <span class="chip bg-color">truncate</span>
+                    </a>
+                    
+                    <a href="/tags/delete/" target="_blank">
+                        <span class="chip bg-color">delete</span>
+                    </a>
+                    
+                    <a href="/tags/where/" target="_blank">
+                        <span class="chip bg-color">where</span>
+                    </a>
+                    
+                    <a href="/tags/Mybatis/" target="_blank">
+                        <span class="chip bg-color">Mybatis</span>
+                    </a>
+                    
+                    <a href="/tags/%E4%BA%8B%E5%8A%A1/" target="_blank">
+                        <span class="chip bg-color">事务</span>
+                    </a>
+                    
+                    <a href="/tags/%E5%85%B3%E7%B3%BB%E6%A8%A1%E5%9E%8B/" target="_blank">
+                        <span class="chip bg-color">关系模型</span>
                     </a>
                     
                 </div>
@@ -1440,20 +1471,22 @@ netty 提供易于使用的 API 客户端/服务器框架，disruptor 高性能�
                 下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/10/18/handbook/hou-duan/project/04-moemall-admin-snippets/">
+                <a href="/2021/10/18/handbook/hou-duan/spring/03-spring-data/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="Snippets">
+                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="Spring Data">
                         
-                        <span class="card-title">Snippets</span>
+                        <span class="card-title">Spring Data</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Snippets001 循环遍历将列表转为树结构public List&lt;UmsPermissionNode> treeList() {
-    List&lt;UmsPermission> permissionList = list(
+                            Spring Data准备工作创建项目并添加数据库依赖 &lt;dependencies>
+  &lt;dependency>
+    &lt;groupId>mysql&lt;/groupId>
+    &lt;artifactId>my
                         
                     </div>
                     <div class="publish-info">
@@ -1464,8 +1497,8 @@ netty 提供易于使用的 API 客户端/服务器框架，disruptor 高性能�
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Project/" class="post-category" target="_blank">
-                                    Project
+                            <a href="/categories/Spring/" class="post-category" target="_blank">
+                                    Spring
                                 </a>
                             
                             
@@ -1475,8 +1508,36 @@ netty 提供易于使用的 API 客户端/服务器框架，disruptor 高性能�
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/project/" target="_blank">
-                        <span class="chip bg-color">project</span>
+                    <a href="/tags/Java/" target="_blank">
+                        <span class="chip bg-color">Java</span>
+                    </a>
+                    
+                    <a href="/tags/Spring/" target="_blank">
+                        <span class="chip bg-color">Spring</span>
+                    </a>
+                    
+                    <a href="/tags/Boot/" target="_blank">
+                        <span class="chip bg-color">Boot</span>
+                    </a>
+                    
+                    <a href="/tags/Cloud/" target="_blank">
+                        <span class="chip bg-color">Cloud</span>
+                    </a>
+                    
+                    <a href="/tags/AOP/" target="_blank">
+                        <span class="chip bg-color">AOP</span>
+                    </a>
+                    
+                    <a href="/tags/JWT/" target="_blank">
+                        <span class="chip bg-color">JWT</span>
+                    </a>
+                    
+                    <a href="/tags/JPA/" target="_blank">
+                        <span class="chip bg-color">JPA</span>
+                    </a>
+                    
+                    <a href="/tags/Shiro/" target="_blank">
+                        <span class="chip bg-color">Shiro</span>
                     </a>
                     
                 </div>

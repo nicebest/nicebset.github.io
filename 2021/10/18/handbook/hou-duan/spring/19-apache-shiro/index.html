@@ -76,9 +76,9 @@
         </script>
     
 
-<meta name="generator" content="Hexo 5.4.0">
+<meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="金点帝国" type="application/atom+xml">
+
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
-<link rel="alternate" href="/atom.xml" title="金点帝国" type="application/atom+xml">
 <link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css">
 <link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
 
@@ -2257,27 +2257,20 @@ info<span class="token punctuation">.</span><span class="token function">setCred
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/10/18/handbook/hou-duan/spring/11-spring-boot-qing-qiu-lan-jie/">
+                <a href="/2021/10/18/handbook/hou-duan/spring/17-jwt/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="Spring Boot 请求拦截">
+                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="JWT">
                         
-                        <span class="card-title">Spring Boot 请求拦截</span>
+                        <span class="card-title">JWT</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Spring Boot 请求拦截在 Spring Boot 中，请求拦截有如下三种方式：
-
-过滤器（Filter）
-拦截器（Interceptor）
-切片（Aspect）
-
-三种方式的请求拦截顺序：
-
-AOPAOP（面向切面编程）不是一种具
+                            JWTJWT 是 JSON WEB TOKEN 的缩写，它是基于 RFC 7519 标准定义的一种可以安全传输的的 JSON 对象，由于使用了数字签名，所以是可信任和安全的。
+JWT 的组成JWT token 的格式：header.payl
                         
                     </div>
                     <div class="publish-info">
@@ -2342,21 +2335,20 @@ AOPAOP（面向切面编程）不是一种具
                 下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/10/18/handbook/hou-duan/spring/20-spring-yi-bu-qing-qiu/">
+                <a href="/2021/10/18/handbook/hou-duan/spring/21-spring-boot-kua-yu-jie-jue-fang-shi/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="Spring 异步请求">
+                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="Spring Boot 跨域解决方式">
                         
-                        <span class="card-title">Spring 异步请求</span>
+                        <span class="card-title">Spring Boot 跨域解决方式</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Spring 异步请求官方文档 Asynchronous Request Processing
-Servlet3.0
-A ServletRequest can be put in asynchronous mode by calling r
+                            Spring Boot 跨域解决方式要解释跨域，先要了解同源策略，所谓同源策略就是在浏览器端出于安全考量，向服务端发起请求必须满足：协议相同、Host（ip）相同、端口相同，否则访问将被禁止，该访问也就被称为跨域访问。
+跨域访问解决方案前端
                         
                     </div>
                     <div class="publish-info">

@@ -70,9 +70,9 @@
         </script>
     
 
-<meta name="generator" content="Hexo 5.4.0">
+<meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="金点帝国" type="application/atom+xml">
+
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
-<link rel="alternate" href="/atom.xml" title="金点帝国" type="application/atom+xml">
 <link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css">
 <link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
 
@@ -581,25 +581,22 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2021/10/18/handbook/hou-duan/java/18-java-fail-fast/" target="_blank">
+                    <a href="/2021/10/18/handbook/hou-duan/java/08-java-fan-she/" target="_blank">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="Java fail fast">
+                            <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="Java 反射">
                             
-                            <span class="card-title">Java fail fast</span>
+                            <span class="card-title">Java 反射</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                            Java fail fast
-本文为个人学习摘要笔记。原文地址：Java，你告诉我 fail-fast 是什么鬼？
+                            Java 反射反射的概念什么是反射反射 (Reflection) 是 Java 的特征之一，它允许运行中的 Java 程序获取自身的信息，并且可以操作类或对象的内部属性。
 
-什么是 Java fail fast，通过一段说明来解释：
-
-In systems design, a fail-fast
+Reflection enables Java code to d
                             
                         </div>
                         <div class="publish-info">
@@ -665,35 +662,22 @@ In systems design, a fail-fast
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2021/10/18/handbook/hou-duan/java/19-java-bifunction-he-binaryoperator/" target="_blank">
+                    <a href="/2021/10/18/handbook/hou-duan/java/09-java-yi-chang/" target="_blank">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="Java BiFunction 和 BinaryOperator">
+                            <img src="/medias/featureimages/20.jpg" class="responsive-img" alt="Java 异常">
                             
-                            <span class="card-title">Java BiFunction 和 BinaryOperator</span>
+                            <span class="card-title">Java 异常</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                            Java BiFunction 和 BinaryOperatorJava 常用函数接口：
-
-
-
-name
-type
-description
-
-
-
-Consumer
-Consumer&lt; T &gt;
-接收 T 对象，不返回值
-
-
-Pre
+                            Java 异常
+Throwable 可以用来表示任何可以作为异常抛出的类，分为两种：Error 和 Exception。
+Error 和 Exception 的区别：Error 通常是灾难性的致命的错误，是程序无法控制和处理的，当出现这些异
                             
                         </div>
                         <div class="publish-info">
@@ -759,27 +743,25 @@ Pre
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2021/10/18/handbook/hou-duan/mysql/01-mysql/" target="_blank">
+                    <a href="/2021/10/18/handbook/hou-duan/java/11-java-xu-ni-ji/" target="_blank">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="MySQL">
+                            <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="Java 虚拟机">
                             
-                            <span class="card-title">MySQL</span>
+                            <span class="card-title">Java 虚拟机</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                            MySQL配置 mysql.cnf[client]
-default-character-set=utf8mb4
+                            Java 虚拟机
+本文为个人学习摘要笔记。原文地址：CS-Notes Java 虚拟机
 
-[mysql]
-default-character-set=utf8mb4
-
-[mysqld]
-character-set-c
+运行时数据区域
+程序计数器记录正在执行的虚拟机字节码指令的地址（如果正在执行的是本地方法则为空）。
+Java 虚拟机栈每个 Java 方法在执行的同时
                             
                         </div>
                         <div class="publish-info">
@@ -790,8 +772,8 @@ character-set-c
                                 
                                 <i class="fa fa-bookmark fa-fw icon-category"></i>
                                 
-                                <a href="/categories/MySQL/" class="post-category" target="_blank">
-                                    MySQL
+                                <a href="/categories/Java-%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5/" class="post-category" target="_blank">
+                                    Java 基础概念
                                 </a>
                                 
                                 
@@ -802,36 +784,40 @@ character-set-c
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/SQL/" target="_blank">
-                            <span class="chip bg-color">SQL</span>
+                        <a href="/tags/Java/" target="_blank">
+                            <span class="chip bg-color">Java</span>
                         </a>
                         
-                        <a href="/tags/select/" target="_blank">
-                            <span class="chip bg-color">select</span>
+                        <a href="/tags/synchronized/" target="_blank">
+                            <span class="chip bg-color">synchronized</span>
                         </a>
                         
-                        <a href="/tags/truncate/" target="_blank">
-                            <span class="chip bg-color">truncate</span>
+                        <a href="/tags/volatile/" target="_blank">
+                            <span class="chip bg-color">volatile</span>
                         </a>
                         
-                        <a href="/tags/delete/" target="_blank">
-                            <span class="chip bg-color">delete</span>
+                        <a href="/tags/ReentrantLock/" target="_blank">
+                            <span class="chip bg-color">ReentrantLock</span>
                         </a>
                         
-                        <a href="/tags/where/" target="_blank">
-                            <span class="chip bg-color">where</span>
+                        <a href="/tags/Atom/" target="_blank">
+                            <span class="chip bg-color">Atom</span>
                         </a>
                         
-                        <a href="/tags/Mybatis/" target="_blank">
-                            <span class="chip bg-color">Mybatis</span>
+                        <a href="/tags/ForkJoin/" target="_blank">
+                            <span class="chip bg-color">ForkJoin</span>
                         </a>
                         
-                        <a href="/tags/%E4%BA%8B%E5%8A%A1/" target="_blank">
-                            <span class="chip bg-color">事务</span>
+                        <a href="/tags/ThreadLocal/" target="_blank">
+                            <span class="chip bg-color">ThreadLocal</span>
                         </a>
                         
-                        <a href="/tags/%E5%85%B3%E7%B3%BB%E6%A8%A1%E5%9E%8B/" target="_blank">
-                            <span class="chip bg-color">关系模型</span>
+                        <a href="/tags/ExecutorService/" target="_blank">
+                            <span class="chip bg-color">ExecutorService</span>
+                        </a>
+                        
+                        <a href="/tags/%E5%90%8E%E5%8F%B0/" target="_blank">
+                            <span class="chip bg-color">后台</span>
                         </a>
                         
                     </div>
@@ -841,24 +827,23 @@ character-set-c
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2021/10/18/handbook/hou-duan/mysql/02-sql-yu-ju-where1-1/" target="_blank">
+                    <a href="/2021/10/18/handbook/hou-duan/java/13-java-hashmap/" target="_blank">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="SQL 语句 where 1=1">
+                            <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="Java HashMap">
                             
-                            <span class="card-title">SQL 语句 where 1=1</span>
+                            <span class="card-title">Java HashMap</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                            SQL 语句 where 1=1在 mall 项目中，看到这样的 sql 语句：
-select * from user where 1=1
+                            Java HashMap
+本文为个人学习摘要笔记。原文地址：Java8 系列之重新认识 HashMap
 
-其中这个 where 1=1 是有特殊意义的，包含以下两种情境：动态 SQL 拼接和查询表结构。
-
+摘要HashMap 是 Java 使用频率最高的用于映射（键值对）处理的数据类型。JDK1.8 对 HashMap 底层的实现进行了优
                             
                         </div>
                         <div class="publish-info">
@@ -869,8 +854,8 @@ select * from user where 1=1
                                 
                                 <i class="fa fa-bookmark fa-fw icon-category"></i>
                                 
-                                <a href="/categories/MySQL/" class="post-category" target="_blank">
-                                    MySQL
+                                <a href="/categories/Java-%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5/" class="post-category" target="_blank">
+                                    Java 基础概念
                                 </a>
                                 
                                 
@@ -881,36 +866,40 @@ select * from user where 1=1
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/SQL/" target="_blank">
-                            <span class="chip bg-color">SQL</span>
+                        <a href="/tags/Java/" target="_blank">
+                            <span class="chip bg-color">Java</span>
                         </a>
                         
-                        <a href="/tags/select/" target="_blank">
-                            <span class="chip bg-color">select</span>
+                        <a href="/tags/synchronized/" target="_blank">
+                            <span class="chip bg-color">synchronized</span>
                         </a>
                         
-                        <a href="/tags/truncate/" target="_blank">
-                            <span class="chip bg-color">truncate</span>
+                        <a href="/tags/volatile/" target="_blank">
+                            <span class="chip bg-color">volatile</span>
                         </a>
                         
-                        <a href="/tags/delete/" target="_blank">
-                            <span class="chip bg-color">delete</span>
+                        <a href="/tags/ReentrantLock/" target="_blank">
+                            <span class="chip bg-color">ReentrantLock</span>
                         </a>
                         
-                        <a href="/tags/where/" target="_blank">
-                            <span class="chip bg-color">where</span>
+                        <a href="/tags/Atom/" target="_blank">
+                            <span class="chip bg-color">Atom</span>
                         </a>
                         
-                        <a href="/tags/Mybatis/" target="_blank">
-                            <span class="chip bg-color">Mybatis</span>
+                        <a href="/tags/ForkJoin/" target="_blank">
+                            <span class="chip bg-color">ForkJoin</span>
                         </a>
                         
-                        <a href="/tags/%E4%BA%8B%E5%8A%A1/" target="_blank">
-                            <span class="chip bg-color">事务</span>
+                        <a href="/tags/ThreadLocal/" target="_blank">
+                            <span class="chip bg-color">ThreadLocal</span>
                         </a>
                         
-                        <a href="/tags/%E5%85%B3%E7%B3%BB%E6%A8%A1%E5%9E%8B/" target="_blank">
-                            <span class="chip bg-color">关系模型</span>
+                        <a href="/tags/ExecutorService/" target="_blank">
+                            <span class="chip bg-color">ExecutorService</span>
+                        </a>
+                        
+                        <a href="/tags/%E5%90%8E%E5%8F%B0/" target="_blank">
+                            <span class="chip bg-color">后台</span>
                         </a>
                         
                     </div>
@@ -920,25 +909,109 @@ select * from user where 1=1
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2021/10/18/handbook/hou-duan/java/16-java-mei-ju/" target="_blank">
+                    <a href="/2021/10/18/handbook/hou-duan/java/14-java-list/" target="_blank">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="Java 枚举">
+                            <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Java List">
                             
-                            <span class="card-title">Java 枚举</span>
+                            <span class="card-title">Java List</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                            Java 枚举
-本文为个人学习摘要笔记。原文地址：恕我直言，我怀疑你没怎么用过枚举
+                            Java List
+本文为个人学习摘要笔记。原文地址：List 中的 ArrayList 和 LinkedList 源码分析
 
-为什么需要枚举相比于使用接口或者常量类，枚举具有一个明确性的约束。
-public class VideoStatus {
-    public stati
+List 是单列集合 Collection 下的一个实现类，List 的实现接口又有几个，一个是 ArrayLi
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2021-10-18
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fa fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/Java-%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5/" class="post-category" target="_blank">
+                                    Java 基础概念
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/Java/" target="_blank">
+                            <span class="chip bg-color">Java</span>
+                        </a>
+                        
+                        <a href="/tags/synchronized/" target="_blank">
+                            <span class="chip bg-color">synchronized</span>
+                        </a>
+                        
+                        <a href="/tags/volatile/" target="_blank">
+                            <span class="chip bg-color">volatile</span>
+                        </a>
+                        
+                        <a href="/tags/ReentrantLock/" target="_blank">
+                            <span class="chip bg-color">ReentrantLock</span>
+                        </a>
+                        
+                        <a href="/tags/Atom/" target="_blank">
+                            <span class="chip bg-color">Atom</span>
+                        </a>
+                        
+                        <a href="/tags/ForkJoin/" target="_blank">
+                            <span class="chip bg-color">ForkJoin</span>
+                        </a>
+                        
+                        <a href="/tags/ThreadLocal/" target="_blank">
+                            <span class="chip bg-color">ThreadLocal</span>
+                        </a>
+                        
+                        <a href="/tags/ExecutorService/" target="_blank">
+                            <span class="chip bg-color">ExecutorService</span>
+                        </a>
+                        
+                        <a href="/tags/%E5%90%8E%E5%8F%B0/" target="_blank">
+                            <span class="chip bg-color">后台</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2021/10/18/handbook/hou-duan/java/12-java-io/" target="_blank">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="Java IO">
+                            
+                            <span class="card-title">Java IO</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                            Java IO
+本文为个人学习摘要笔记。原文地址：CS-Notes Java IO
+
+Java 的 I/O 大概可以分成以下几类：
+
+磁盘操作：File
+字节操作：InputStream 和 OutputStream
+字符操作：Reader
                             
                         </div>
                         <div class="publish-info">
@@ -1086,103 +1159,22 @@ TreeSet：基于红黑树实现，支持有序性操作，例如根
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2021/10/18/handbook/hou-duan/mysql/05-guan-xi-mo-xing/" target="_blank">
+                    <a href="/2021/10/18/handbook/hou-duan/java/15-java-stream/" target="_blank">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="关系模型">
+                            <img src="/medias/featureimages/22.jpg" class="responsive-img" alt="Java Stream">
                             
-                            <span class="card-title">关系模型</span>
+                            <span class="card-title">Java Stream</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                            关系模型外键在 students 表中，通过 class_id 的字段，可以把数据与另一张表关联起来，这种列称为外键。
-外键并不是通过列名实现的，而是通过定义外键约束实现的：
-ALTER TABLE students
-ADD CONSTRA
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2021-10-18
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/MySQL/" class="post-category" target="_blank">
-                                    MySQL
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/SQL/" target="_blank">
-                            <span class="chip bg-color">SQL</span>
-                        </a>
-                        
-                        <a href="/tags/select/" target="_blank">
-                            <span class="chip bg-color">select</span>
-                        </a>
-                        
-                        <a href="/tags/truncate/" target="_blank">
-                            <span class="chip bg-color">truncate</span>
-                        </a>
-                        
-                        <a href="/tags/delete/" target="_blank">
-                            <span class="chip bg-color">delete</span>
-                        </a>
-                        
-                        <a href="/tags/where/" target="_blank">
-                            <span class="chip bg-color">where</span>
-                        </a>
-                        
-                        <a href="/tags/Mybatis/" target="_blank">
-                            <span class="chip bg-color">Mybatis</span>
-                        </a>
-                        
-                        <a href="/tags/%E4%BA%8B%E5%8A%A1/" target="_blank">
-                            <span class="chip bg-color">事务</span>
-                        </a>
-                        
-                        <a href="/tags/%E5%85%B3%E7%B3%BB%E6%A8%A1%E5%9E%8B/" target="_blank">
-                            <span class="chip bg-color">关系模型</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2021/10/18/handbook/hou-duan/java/11-java-xu-ni-ji/" target="_blank">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="Java 虚拟机">
-                            
-                            <span class="card-title">Java 虚拟机</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                            Java 虚拟机
-本文为个人学习摘要笔记。原文地址：CS-Notes Java 虚拟机
-
-运行时数据区域
-程序计数器记录正在执行的虚拟机字节码指令的地址（如果正在执行的是本地方法则为空）。
-Java 虚拟机栈每个 Java 方法在执行的同时
+                            Java StreamStream 总览Stream 是 Java 8 新增加的类，用来补充集合类。
+Stream 代表数据流，流中的数据元素的数量可能是有限的，也可能是无限的。
+Stream 和其它集合类的区别在于：其它集合类主要关注与有
                             
                         </div>
                         <div class="publish-info">
@@ -1248,24 +1240,25 @@ Java 虚拟机栈每个 Java 方法在执行的同时
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2021/10/18/handbook/hou-duan/mysql/04-shi-wu/" target="_blank">
+                    <a href="/2021/10/18/handbook/hou-duan/java/16-java-mei-ju/" target="_blank">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/22.jpg" class="responsive-img" alt="事务">
+                            <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="Java 枚举">
                             
-                            <span class="card-title">事务</span>
+                            <span class="card-title">Java 枚举</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                            事务
-本文为个人学习摘要笔记。原文地址：廖雪峰 SQL 教程之事务
+                            Java 枚举
+本文为个人学习摘要笔记。原文地址：恕我直言，我怀疑你没怎么用过枚举
 
-什么是事务事务指的是满足 ACID 特性的一组操作，可以通过 Commit 提交一个事务，也可以使用 Rollback 进行回滚。
-可见，数据库事务具有 ACID 这 4
+为什么需要枚举相比于使用接口或者常量类，枚举具有一个明确性的约束。
+public class VideoStatus {
+    public stati
                             
                         </div>
                         <div class="publish-info">
@@ -1276,8 +1269,8 @@ Java 虚拟机栈每个 Java 方法在执行的同时
                                 
                                 <i class="fa fa-bookmark fa-fw icon-category"></i>
                                 
-                                <a href="/categories/MySQL/" class="post-category" target="_blank">
-                                    MySQL
+                                <a href="/categories/Java-%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5/" class="post-category" target="_blank">
+                                    Java 基础概念
                                 </a>
                                 
                                 
@@ -1288,36 +1281,40 @@ Java 虚拟机栈每个 Java 方法在执行的同时
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/SQL/" target="_blank">
-                            <span class="chip bg-color">SQL</span>
+                        <a href="/tags/Java/" target="_blank">
+                            <span class="chip bg-color">Java</span>
                         </a>
                         
-                        <a href="/tags/select/" target="_blank">
-                            <span class="chip bg-color">select</span>
+                        <a href="/tags/synchronized/" target="_blank">
+                            <span class="chip bg-color">synchronized</span>
                         </a>
                         
-                        <a href="/tags/truncate/" target="_blank">
-                            <span class="chip bg-color">truncate</span>
+                        <a href="/tags/volatile/" target="_blank">
+                            <span class="chip bg-color">volatile</span>
                         </a>
                         
-                        <a href="/tags/delete/" target="_blank">
-                            <span class="chip bg-color">delete</span>
+                        <a href="/tags/ReentrantLock/" target="_blank">
+                            <span class="chip bg-color">ReentrantLock</span>
                         </a>
                         
-                        <a href="/tags/where/" target="_blank">
-                            <span class="chip bg-color">where</span>
+                        <a href="/tags/Atom/" target="_blank">
+                            <span class="chip bg-color">Atom</span>
                         </a>
                         
-                        <a href="/tags/Mybatis/" target="_blank">
-                            <span class="chip bg-color">Mybatis</span>
+                        <a href="/tags/ForkJoin/" target="_blank">
+                            <span class="chip bg-color">ForkJoin</span>
                         </a>
                         
-                        <a href="/tags/%E4%BA%8B%E5%8A%A1/" target="_blank">
-                            <span class="chip bg-color">事务</span>
+                        <a href="/tags/ThreadLocal/" target="_blank">
+                            <span class="chip bg-color">ThreadLocal</span>
                         </a>
                         
-                        <a href="/tags/%E5%85%B3%E7%B3%BB%E6%A8%A1%E5%9E%8B/" target="_blank">
-                            <span class="chip bg-color">关系模型</span>
+                        <a href="/tags/ExecutorService/" target="_blank">
+                            <span class="chip bg-color">ExecutorService</span>
+                        </a>
+                        
+                        <a href="/tags/%E5%90%8E%E5%8F%B0/" target="_blank">
+                            <span class="chip bg-color">后台</span>
                         </a>
                         
                     </div>
@@ -1327,41 +1324,23 @@ Java 虚拟机栈每个 Java 方法在执行的同时
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2021/10/18/handbook/hou-duan/mysql/06-mybatis/" target="_blank">
+                    <a href="/2021/10/18/handbook/hou-duan/java/17-java-ri-qi-yu-shi-jian/" target="_blank">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="Mybatis">
+                            <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Java 日期与时间">
                             
-                            <span class="card-title">Mybatis</span>
+                            <span class="card-title">Java 日期与时间</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                            MybatisresultMapresultMap 中的标签如下：
+                            Java 日期与时间
+本文为个人学习摘要笔记。原文地址：廖雪峰 Java 教程之日期和时间
 
-
-
-元素名称
-描述
-
-
-
-result
-字段映射
-
-
-constructor
-实例化类时，注入结果到构造方法中
-
-
-association
-关联一个对象
-
-
-collec
+本地化在计算机中，通常使用 Locale 表示一个国家或地区的日期、时间、数字、货币等格式。Locale 由 语言_国家 的字母缩写构成，例如，z
                             
                         </div>
                         <div class="publish-info">
@@ -1372,8 +1351,8 @@ collec
                                 
                                 <i class="fa fa-bookmark fa-fw icon-category"></i>
                                 
-                                <a href="/categories/MySQL/" class="post-category" target="_blank">
-                                    MySQL
+                                <a href="/categories/Java-%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5/" class="post-category" target="_blank">
+                                    Java 基础概念
                                 </a>
                                 
                                 
@@ -1384,36 +1363,40 @@ collec
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/SQL/" target="_blank">
-                            <span class="chip bg-color">SQL</span>
+                        <a href="/tags/Java/" target="_blank">
+                            <span class="chip bg-color">Java</span>
                         </a>
                         
-                        <a href="/tags/select/" target="_blank">
-                            <span class="chip bg-color">select</span>
+                        <a href="/tags/synchronized/" target="_blank">
+                            <span class="chip bg-color">synchronized</span>
                         </a>
                         
-                        <a href="/tags/truncate/" target="_blank">
-                            <span class="chip bg-color">truncate</span>
+                        <a href="/tags/volatile/" target="_blank">
+                            <span class="chip bg-color">volatile</span>
                         </a>
                         
-                        <a href="/tags/delete/" target="_blank">
-                            <span class="chip bg-color">delete</span>
+                        <a href="/tags/ReentrantLock/" target="_blank">
+                            <span class="chip bg-color">ReentrantLock</span>
                         </a>
                         
-                        <a href="/tags/where/" target="_blank">
-                            <span class="chip bg-color">where</span>
+                        <a href="/tags/Atom/" target="_blank">
+                            <span class="chip bg-color">Atom</span>
                         </a>
                         
-                        <a href="/tags/Mybatis/" target="_blank">
-                            <span class="chip bg-color">Mybatis</span>
+                        <a href="/tags/ForkJoin/" target="_blank">
+                            <span class="chip bg-color">ForkJoin</span>
                         </a>
                         
-                        <a href="/tags/%E4%BA%8B%E5%8A%A1/" target="_blank">
-                            <span class="chip bg-color">事务</span>
+                        <a href="/tags/ThreadLocal/" target="_blank">
+                            <span class="chip bg-color">ThreadLocal</span>
                         </a>
                         
-                        <a href="/tags/%E5%85%B3%E7%B3%BB%E6%A8%A1%E5%9E%8B/" target="_blank">
-                            <span class="chip bg-color">关系模型</span>
+                        <a href="/tags/ExecutorService/" target="_blank">
+                            <span class="chip bg-color">ExecutorService</span>
+                        </a>
+                        
+                        <a href="/tags/%E5%90%8E%E5%8F%B0/" target="_blank">
+                            <span class="chip bg-color">后台</span>
                         </a>
                         
                     </div>
@@ -1423,23 +1406,21 @@ collec
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2021/10/18/handbook/hou-duan/mysql/07-mysql-cha-kan-shu-ju-ku-biao-xiang-qing/" target="_blank">
+                    <a href="/2021/10/18/handbook/hou-duan/nginx/02-chang-yong-duan-kou/" target="_blank">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="MySQL 查看数据库表详情">
+                            <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="常用端口">
                             
-                            <span class="card-title">MySQL 查看数据库表详情</span>
+                            <span class="card-title">常用端口</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                            MySQL 查看数据库表详情查看所有数据库容量大小select
-table_schema as '数据库',
-sum(table_rows) as '记录数',
-sum(truncate(data_length/1024/1024, 2))
+                            常用端口80 端口是为 HTTP（HyperText Transport Protocol，超文本传输协议) 开放的，主要用于万维网传输信息的协议。
+8080 端口同 80 端口，被用于代理服务，可以实现网页浏览，经常在访问某个网站或使用代
                             
                         </div>
                         <div class="publish-info">
@@ -1450,8 +1431,8 @@ sum(truncate(data_length/1024/1024, 2))
                                 
                                 <i class="fa fa-bookmark fa-fw icon-category"></i>
                                 
-                                <a href="/categories/MySQL/" class="post-category" target="_blank">
-                                    MySQL
+                                <a href="/categories/Nginx/" class="post-category" target="_blank">
+                                    Nginx
                                 </a>
                                 
                                 
@@ -1462,36 +1443,36 @@ sum(truncate(data_length/1024/1024, 2))
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/SQL/" target="_blank">
-                            <span class="chip bg-color">SQL</span>
+                        <a href="/tags/macOS/" target="_blank">
+                            <span class="chip bg-color">macOS</span>
                         </a>
                         
-                        <a href="/tags/select/" target="_blank">
-                            <span class="chip bg-color">select</span>
+                        <a href="/tags/Nginx/" target="_blank">
+                            <span class="chip bg-color">Nginx</span>
                         </a>
                         
-                        <a href="/tags/truncate/" target="_blank">
-                            <span class="chip bg-color">truncate</span>
+                        <a href="/tags/http/" target="_blank">
+                            <span class="chip bg-color">http</span>
                         </a>
                         
-                        <a href="/tags/delete/" target="_blank">
-                            <span class="chip bg-color">delete</span>
+                        <a href="/tags/daemon/" target="_blank">
+                            <span class="chip bg-color">daemon</span>
                         </a>
                         
-                        <a href="/tags/where/" target="_blank">
-                            <span class="chip bg-color">where</span>
+                        <a href="/tags/pid/" target="_blank">
+                            <span class="chip bg-color">pid</span>
                         </a>
                         
-                        <a href="/tags/Mybatis/" target="_blank">
-                            <span class="chip bg-color">Mybatis</span>
+                        <a href="/tags/web/" target="_blank">
+                            <span class="chip bg-color">web</span>
                         </a>
                         
-                        <a href="/tags/%E4%BA%8B%E5%8A%A1/" target="_blank">
-                            <span class="chip bg-color">事务</span>
+                        <a href="/tags/sever/" target="_blank">
+                            <span class="chip bg-color">sever</span>
                         </a>
                         
-                        <a href="/tags/%E5%85%B3%E7%B3%BB%E6%A8%A1%E5%9E%8B/" target="_blank">
-                            <span class="chip bg-color">关系模型</span>
+                        <a href="/tags/proxy/" target="_blank">
+                            <span class="chip bg-color">proxy</span>
                         </a>
                         
                     </div>
@@ -1501,32 +1482,25 @@ sum(truncate(data_length/1024/1024, 2))
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2021/10/18/handbook/hou-duan/netty/01-bio-nio-aio/" target="_blank">
+                    <a href="/2021/10/18/handbook/hou-duan/java/18-java-fail-fast/" target="_blank">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="BIO、NIO、AIO">
+                            <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="Java fail fast">
                             
-                            <span class="card-title">BIO、NIO、AIO</span>
+                            <span class="card-title">Java fail fast</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                            BIO、NIO、AIO阻塞与非阻塞：线程访问资源，该资源是否准备就绪的一种处理方式。阻塞会一直等待资源就绪，而非阻塞会立即响应结果，先处理其他资源。
-同步和异步：访问数据的一种机制。
+                            Java fail fast
+本文为个人学习摘要笔记。原文地址：Java，你告诉我 fail-fast 是什么鬼？
 
+什么是 Java fail fast，通过一段说明来解释：
 
-
-
-
-
-
-Reactor 线程模型
-
-
-
+In systems design, a fail-fast
                             
                         </div>
                         <div class="publish-info">
@@ -1537,8 +1511,8 @@ Reactor 线程模型
                                 
                                 <i class="fa fa-bookmark fa-fw icon-category"></i>
                                 
-                                <a href="/categories/Netty/" class="post-category" target="_blank">
-                                    Netty
+                                <a href="/categories/Java-%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5/" class="post-category" target="_blank">
+                                    Java 基础概念
                                 </a>
                                 
                                 
@@ -1549,24 +1523,40 @@ Reactor 线程模型
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/BIO/" target="_blank">
-                            <span class="chip bg-color">BIO</span>
+                        <a href="/tags/Java/" target="_blank">
+                            <span class="chip bg-color">Java</span>
                         </a>
                         
-                        <a href="/tags/NIO/" target="_blank">
-                            <span class="chip bg-color">NIO</span>
+                        <a href="/tags/synchronized/" target="_blank">
+                            <span class="chip bg-color">synchronized</span>
                         </a>
                         
-                        <a href="/tags/AIO/" target="_blank">
-                            <span class="chip bg-color">AIO</span>
+                        <a href="/tags/volatile/" target="_blank">
+                            <span class="chip bg-color">volatile</span>
                         </a>
                         
-                        <a href="/tags/Netty/" target="_blank">
-                            <span class="chip bg-color">Netty</span>
+                        <a href="/tags/ReentrantLock/" target="_blank">
+                            <span class="chip bg-color">ReentrantLock</span>
                         </a>
                         
-                        <a href="/tags/Handler/" target="_blank">
-                            <span class="chip bg-color">Handler</span>
+                        <a href="/tags/Atom/" target="_blank">
+                            <span class="chip bg-color">Atom</span>
+                        </a>
+                        
+                        <a href="/tags/ForkJoin/" target="_blank">
+                            <span class="chip bg-color">ForkJoin</span>
+                        </a>
+                        
+                        <a href="/tags/ThreadLocal/" target="_blank">
+                            <span class="chip bg-color">ThreadLocal</span>
+                        </a>
+                        
+                        <a href="/tags/ExecutorService/" target="_blank">
+                            <span class="chip bg-color">ExecutorService</span>
+                        </a>
+                        
+                        <a href="/tags/%E5%90%8E%E5%8F%B0/" target="_blank">
+                            <span class="chip bg-color">后台</span>
                         </a>
                         
                     </div>

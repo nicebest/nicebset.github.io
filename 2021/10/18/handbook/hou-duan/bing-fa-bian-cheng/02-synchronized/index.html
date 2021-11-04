@@ -71,9 +71,9 @@
         </script>
     
 
-<meta name="generator" content="Hexo 5.4.0">
+<meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="金点帝国" type="application/atom+xml">
+
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
-<link rel="alternate" href="/atom.xml" title="金点帝国" type="application/atom+xml">
 <link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css">
 <link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
 
@@ -1799,24 +1799,22 @@ t2 count = 9
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/10/18/handbook/hou-duan/li-lun-gai-nian/09-ji-yu-xiao-xi-dui-lie-de-fen-bu-shi-shi-wu-jie-jue-fang-an/">
+                <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/01-java-bing-fa/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="基于消息队列的分布式事务解决方案">
+                        <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="Java 并发">
                         
-                        <span class="card-title">基于消息队列的分布式事务解决方案</span>
+                        <span class="card-title">Java 并发</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            基于消息队列的分布式事务解决方案
-本文为个人学习摘要笔记。原文地址：基于消息队列的分布式事务解决方案
-
-数据库事务数据库事务具有 ACID 这 4 个特性：
-
-A：Atomic，原子性，将所有 SQL 作为原子工作单元执行，要么全部执行，要
+                            Java 并发线程状态转换
+新建（New）创建后尚未启动。
+可运行（Runnable）可能正在运行，也可能正在等待 CPU 时间片。包含了操作系统线程状态中的 Running 和 Ready。
+阻塞（Blocked）等待获取一个排它锁，如果
                         
                     </div>
                     <div class="publish-info">
@@ -1827,8 +1825,8 @@ A：Atomic，原子性，将所有 SQL 作为原子工作单元执行，要么�
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Java-%E7%90%86%E8%AE%BA%E6%A6%82%E5%BF%B5/" class="post-category" target="_blank">
-                                    Java 理论概念
+                            <a href="/categories/Java-%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
+                                    Java 并发编程
                                 </a>
                             
                             
@@ -1885,20 +1883,21 @@ A：Atomic，原子性，将所有 SQL 作为原子工作单元执行，要么�
                 下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/03-volatile/">
+                <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/05-readwritelock/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="volatile 关键字">
+                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="ReadWriteLock">
                         
-                        <span class="card-title">volatile 关键字</span>
+                        <span class="card-title">ReadWriteLock</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            volatile 关键字volatile 关键字使一个变量在多个线程间可见。
-A、B 线程都有用到一个变量，java 默认是 A 线程缓冲区保留一份 copy，这样如果 B 线程修改了变量，则 A 线程未必知道。使用 volatile 关键
+                            ReadWriteLock前面讲到的 ReentrantLock 保证了只有一个线程可以执行临界区代码：
+public class Counter {
+    private final Lock lock = new ReentrantL
                         
                     </div>
                     <div class="publish-info">

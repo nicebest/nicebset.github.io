@@ -70,9 +70,9 @@
         </script>
     
 
-<meta name="generator" content="Hexo 5.4.0">
+<meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="金点帝国" type="application/atom+xml">
+
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
-<link rel="alternate" href="/atom.xml" title="金点帝国" type="application/atom+xml">
 <link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css">
 <link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
 
@@ -581,24 +581,23 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2021/10/18/handbook/qian-duan/javascript/03-cong-liu-lan-qi-jie-xi-js-yun-xing-ji-zhi/" target="_blank">
+                    <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/01-java-bing-fa/" target="_blank">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="从浏览器解析 JS 运行机制">
+                            <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="Java 并发">
                             
-                            <span class="card-title">从浏览器解析 JS 运行机制</span>
+                            <span class="card-title">Java 并发</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                            从浏览器解析 JS 运行机制进程与线程对于进程和线程，可以比喻为工厂和工人
-
-进程是一个工厂，工厂有它的独立资源（系统分配的独立一块内存）
-工厂之间相互独立（进程之间相互独立）
-线程是工厂中的工人，多个工人协作完成任务（多个线程在进程中协作
+                            Java 并发线程状态转换
+新建（New）创建后尚未启动。
+可运行（Runnable）可能正在运行，也可能正在等待 CPU 时间片。包含了操作系统线程状态中的 Running 和 Ready。
+阻塞（Blocked）等待获取一个排它锁，如果
                             
                         </div>
                         <div class="publish-info">
@@ -609,8 +608,8 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                                 
                                 <i class="fa fa-bookmark fa-fw icon-category"></i>
                                 
-                                <a href="/categories/JavaScript/" class="post-category" target="_blank">
-                                    JavaScript
+                                <a href="/categories/Java-%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
+                                    Java 并发编程
                                 </a>
                                 
                                 
@@ -621,12 +620,40 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/Javascript/" target="_blank">
-                            <span class="chip bg-color">Javascript</span>
+                        <a href="/tags/Java/" target="_blank">
+                            <span class="chip bg-color">Java</span>
                         </a>
                         
-                        <a href="/tags/%E5%89%8D%E7%AB%AF/" target="_blank">
-                            <span class="chip bg-color">前端</span>
+                        <a href="/tags/synchronized/" target="_blank">
+                            <span class="chip bg-color">synchronized</span>
+                        </a>
+                        
+                        <a href="/tags/volatile/" target="_blank">
+                            <span class="chip bg-color">volatile</span>
+                        </a>
+                        
+                        <a href="/tags/ReentrantLock/" target="_blank">
+                            <span class="chip bg-color">ReentrantLock</span>
+                        </a>
+                        
+                        <a href="/tags/Atom/" target="_blank">
+                            <span class="chip bg-color">Atom</span>
+                        </a>
+                        
+                        <a href="/tags/ForkJoin/" target="_blank">
+                            <span class="chip bg-color">ForkJoin</span>
+                        </a>
+                        
+                        <a href="/tags/ThreadLocal/" target="_blank">
+                            <span class="chip bg-color">ThreadLocal</span>
+                        </a>
+                        
+                        <a href="/tags/ExecutorService/" target="_blank">
+                            <span class="chip bg-color">ExecutorService</span>
+                        </a>
+                        
+                        <a href="/tags/%E5%90%8E%E5%8F%B0/" target="_blank">
+                            <span class="chip bg-color">后台</span>
                         </a>
                         
                     </div>
@@ -636,21 +663,21 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2021/10/18/handbook/qian-duan/javascript/01-javascript-mi-mi-hua-yuan/" target="_blank">
+                    <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/02-synchronized/" target="_blank">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/19.jpg" class="responsive-img" alt="JavaScript 秘密花园">
+                            <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="synchronized 关键字">
                             
-                            <span class="card-title">JavaScript 秘密花园</span>
+                            <span class="card-title">synchronized 关键字</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                            JavaScript 秘密花园JavaScript 秘密花园由两位 Stack Overflow 用户伊沃·韦特泽尔（写作）和张易江（设计）完成，由三生石上翻译完成，内容短小精炼。这次温故知新，做一番总结。
-对象对象使用和属性JavaScr
+                            synchronized 关键字synchronized 关键字采用对代码块/方法体加锁的方式解决 Java 中多线程访问同一个资源时，引起的资源冲突问题。
+一句话总结：synchronized 能够保证同一时刻最多只有一个线程执行某段代码
                             
                         </div>
                         <div class="publish-info">
@@ -661,8 +688,8 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                                 
                                 <i class="fa fa-bookmark fa-fw icon-category"></i>
                                 
-                                <a href="/categories/JavaScript/" class="post-category" target="_blank">
-                                    JavaScript
+                                <a href="/categories/Java-%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
+                                    Java 并发编程
                                 </a>
                                 
                                 
@@ -673,12 +700,40 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/Javascript/" target="_blank">
-                            <span class="chip bg-color">Javascript</span>
+                        <a href="/tags/Java/" target="_blank">
+                            <span class="chip bg-color">Java</span>
                         </a>
                         
-                        <a href="/tags/%E5%89%8D%E7%AB%AF/" target="_blank">
-                            <span class="chip bg-color">前端</span>
+                        <a href="/tags/synchronized/" target="_blank">
+                            <span class="chip bg-color">synchronized</span>
+                        </a>
+                        
+                        <a href="/tags/volatile/" target="_blank">
+                            <span class="chip bg-color">volatile</span>
+                        </a>
+                        
+                        <a href="/tags/ReentrantLock/" target="_blank">
+                            <span class="chip bg-color">ReentrantLock</span>
+                        </a>
+                        
+                        <a href="/tags/Atom/" target="_blank">
+                            <span class="chip bg-color">Atom</span>
+                        </a>
+                        
+                        <a href="/tags/ForkJoin/" target="_blank">
+                            <span class="chip bg-color">ForkJoin</span>
+                        </a>
+                        
+                        <a href="/tags/ThreadLocal/" target="_blank">
+                            <span class="chip bg-color">ThreadLocal</span>
+                        </a>
+                        
+                        <a href="/tags/ExecutorService/" target="_blank">
+                            <span class="chip bg-color">ExecutorService</span>
+                        </a>
+                        
+                        <a href="/tags/%E5%90%8E%E5%8F%B0/" target="_blank">
+                            <span class="chip bg-color">后台</span>
                         </a>
                         
                     </div>
@@ -688,22 +743,22 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2021/10/18/handbook/tools/regex/regex/" target="_blank">
+                    <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/05-readwritelock/" target="_blank">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="正则表达式">
+                            <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="ReadWriteLock">
                             
-                            <span class="card-title">正则表达式</span>
+                            <span class="card-title">ReadWriteLock</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                            简介为了理解下面章节的内容，你需要先了解一些基本概念。
-
-正则表达式 - 正则表达式是对字符串操作的一种逻辑公式，就是用事先定义好的一些特定字符、及这些特定字符的组合，组成一个“规则字符串”，这个“规则字符串”用来表达对字符串的一种过滤逻辑
+                            ReadWriteLock前面讲到的 ReentrantLock 保证了只有一个线程可以执行临界区代码：
+public class Counter {
+    private final Lock lock = new ReentrantL
                             
                         </div>
                         <div class="publish-info">
@@ -714,8 +769,8 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                                 
                                 <i class="fa fa-bookmark fa-fw icon-category"></i>
                                 
-                                <a href="/categories/Tools/" class="post-category" target="_blank">
-                                    Tools
+                                <a href="/categories/Java-%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
+                                    Java 并发编程
                                 </a>
                                 
                                 
@@ -726,16 +781,40 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/Tools/" target="_blank">
-                            <span class="chip bg-color">Tools</span>
+                        <a href="/tags/Java/" target="_blank">
+                            <span class="chip bg-color">Java</span>
                         </a>
                         
-                        <a href="/tags/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/" target="_blank">
-                            <span class="chip bg-color">正则表达式</span>
+                        <a href="/tags/synchronized/" target="_blank">
+                            <span class="chip bg-color">synchronized</span>
                         </a>
                         
-                        <a href="/tags/Regex/" target="_blank">
-                            <span class="chip bg-color">Regex</span>
+                        <a href="/tags/volatile/" target="_blank">
+                            <span class="chip bg-color">volatile</span>
+                        </a>
+                        
+                        <a href="/tags/ReentrantLock/" target="_blank">
+                            <span class="chip bg-color">ReentrantLock</span>
+                        </a>
+                        
+                        <a href="/tags/Atom/" target="_blank">
+                            <span class="chip bg-color">Atom</span>
+                        </a>
+                        
+                        <a href="/tags/ForkJoin/" target="_blank">
+                            <span class="chip bg-color">ForkJoin</span>
+                        </a>
+                        
+                        <a href="/tags/ThreadLocal/" target="_blank">
+                            <span class="chip bg-color">ThreadLocal</span>
+                        </a>
+                        
+                        <a href="/tags/ExecutorService/" target="_blank">
+                            <span class="chip bg-color">ExecutorService</span>
+                        </a>
+                        
+                        <a href="/tags/%E5%90%8E%E5%8F%B0/" target="_blank">
+                            <span class="chip bg-color">后台</span>
                         </a>
                         
                     </div>
@@ -745,20 +824,21 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2021/10/18/handbook/qian-duan/javascript/04-canvas-ji-chu-yong-fa/" target="_blank">
+                    <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/04-reentrantlock/" target="_blank">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="Canvas 基础用法">
+                            <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="ReentrantLock">
                             
-                            <span class="card-title">Canvas 基础用法</span>
+                            <span class="card-title">ReentrantLock</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                            Canvas 基础用法基础用法属性介绍&lt;canvas&gt; 标签只有两个可选的属性 width 和 height。当没有设置宽度和高度的时候，canvas 会初始化宽度为 300 像素和高度为 150 像素。宽高属性会自动忽略单位，
+                            ReentrantLock从 Java 5 开始，引入了一个高级的处理并发的 java.util.concurrent 包，它提供了大量更高级的并发功能，能大大简化多线程程序的编写。
+我们知道 synchronized 关键字用于加锁，但这
                             
                         </div>
                         <div class="publish-info">
@@ -769,8 +849,8 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                                 
                                 <i class="fa fa-bookmark fa-fw icon-category"></i>
                                 
-                                <a href="/categories/JavaScript/" class="post-category" target="_blank">
-                                    JavaScript
+                                <a href="/categories/Java-%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
+                                    Java 并发编程
                                 </a>
                                 
                                 
@@ -781,12 +861,40 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/Javascript/" target="_blank">
-                            <span class="chip bg-color">Javascript</span>
+                        <a href="/tags/Java/" target="_blank">
+                            <span class="chip bg-color">Java</span>
                         </a>
                         
-                        <a href="/tags/%E5%89%8D%E7%AB%AF/" target="_blank">
-                            <span class="chip bg-color">前端</span>
+                        <a href="/tags/synchronized/" target="_blank">
+                            <span class="chip bg-color">synchronized</span>
+                        </a>
+                        
+                        <a href="/tags/volatile/" target="_blank">
+                            <span class="chip bg-color">volatile</span>
+                        </a>
+                        
+                        <a href="/tags/ReentrantLock/" target="_blank">
+                            <span class="chip bg-color">ReentrantLock</span>
+                        </a>
+                        
+                        <a href="/tags/Atom/" target="_blank">
+                            <span class="chip bg-color">Atom</span>
+                        </a>
+                        
+                        <a href="/tags/ForkJoin/" target="_blank">
+                            <span class="chip bg-color">ForkJoin</span>
+                        </a>
+                        
+                        <a href="/tags/ThreadLocal/" target="_blank">
+                            <span class="chip bg-color">ThreadLocal</span>
+                        </a>
+                        
+                        <a href="/tags/ExecutorService/" target="_blank">
+                            <span class="chip bg-color">ExecutorService</span>
+                        </a>
+                        
+                        <a href="/tags/%E5%90%8E%E5%8F%B0/" target="_blank">
+                            <span class="chip bg-color">后台</span>
                         </a>
                         
                     </div>
@@ -796,21 +904,21 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2021/10/18/handbook/qian-duan/javascript/05-blob-url-and-data-url/" target="_blank">
+                    <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/08-forkjoin/" target="_blank">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="Blob Url And Data Url">
+                            <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="ForkJoin">
                             
-                            <span class="card-title">Blob Url And Data Url</span>
+                            <span class="card-title">ForkJoin</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                            Blob Url And Data UrlBlob什么是 BlobBlob（binary large object），二进制大型对象，是一个可以存储二进制文件的“容器”。
-Blob 对象表示一个不可变、原始数据的类文件对象。File 接口基
+                            ForkJoinJava 7 开始引入了一种新的 Fork/Join 线程池，它可以执行一种特殊的任务：把一个大任务拆成多个小任务并行执行。
+Fork/Join 任务的原理：判断一个任务是否足够小，如果是，直接计算，否则，就分拆成几个小任务
                             
                         </div>
                         <div class="publish-info">
@@ -821,8 +929,8 @@ Blob 对象表示一个不可变、原始数据的类文件对象。File 接口�
                                 
                                 <i class="fa fa-bookmark fa-fw icon-category"></i>
                                 
-                                <a href="/categories/JavaScript/" class="post-category" target="_blank">
-                                    JavaScript
+                                <a href="/categories/Java-%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
+                                    Java 并发编程
                                 </a>
                                 
                                 
@@ -833,12 +941,40 @@ Blob 对象表示一个不可变、原始数据的类文件对象。File 接口�
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/Javascript/" target="_blank">
-                            <span class="chip bg-color">Javascript</span>
+                        <a href="/tags/Java/" target="_blank">
+                            <span class="chip bg-color">Java</span>
                         </a>
                         
-                        <a href="/tags/%E5%89%8D%E7%AB%AF/" target="_blank">
-                            <span class="chip bg-color">前端</span>
+                        <a href="/tags/synchronized/" target="_blank">
+                            <span class="chip bg-color">synchronized</span>
+                        </a>
+                        
+                        <a href="/tags/volatile/" target="_blank">
+                            <span class="chip bg-color">volatile</span>
+                        </a>
+                        
+                        <a href="/tags/ReentrantLock/" target="_blank">
+                            <span class="chip bg-color">ReentrantLock</span>
+                        </a>
+                        
+                        <a href="/tags/Atom/" target="_blank">
+                            <span class="chip bg-color">Atom</span>
+                        </a>
+                        
+                        <a href="/tags/ForkJoin/" target="_blank">
+                            <span class="chip bg-color">ForkJoin</span>
+                        </a>
+                        
+                        <a href="/tags/ThreadLocal/" target="_blank">
+                            <span class="chip bg-color">ThreadLocal</span>
+                        </a>
+                        
+                        <a href="/tags/ExecutorService/" target="_blank">
+                            <span class="chip bg-color">ExecutorService</span>
+                        </a>
+                        
+                        <a href="/tags/%E5%90%8E%E5%8F%B0/" target="_blank">
+                            <span class="chip bg-color">后台</span>
                         </a>
                         
                     </div>
@@ -848,22 +984,21 @@ Blob 对象表示一个不可变、原始数据的类文件对象。File 接口�
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2021/10/18/handbook/qian-duan/javascript/02-javascript-zheng-ze-ji-qiao/" target="_blank">
+                    <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/10-countdownlatch/" target="_blank">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="JavaScript 正则技巧">
+                            <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="CountDownLatch">
                             
-                            <span class="card-title">JavaScript 正则技巧</span>
+                            <span class="card-title">CountDownLatch</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                            JS 正则技巧何为正则？一句话总结：正则是匹配模式，要么匹配字符，要么匹配位置。
-字符匹配模糊匹配正则除了精确匹配，还能实现模糊匹配，模糊匹配又分为横向模糊和纵向模糊。
-横向模糊匹配横向模糊指的是，一个正则可匹配的字符串的长度不是固定的。其
+                            CountDownLatchCountDownLatch 中 count down 是倒数的意思，latch 则是门闩的含义。整体含义可以理解为倒数的门栓，似乎有一点“三二一，芝麻开门”的感觉。
+在构造 CountDownLatch 的时候
                             
                         </div>
                         <div class="publish-info">
@@ -874,8 +1009,8 @@ Blob 对象表示一个不可变、原始数据的类文件对象。File 接口�
                                 
                                 <i class="fa fa-bookmark fa-fw icon-category"></i>
                                 
-                                <a href="/categories/JavaScript/" class="post-category" target="_blank">
-                                    JavaScript
+                                <a href="/categories/Java-%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
+                                    Java 并发编程
                                 </a>
                                 
                                 
@@ -886,12 +1021,40 @@ Blob 对象表示一个不可变、原始数据的类文件对象。File 接口�
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/Javascript/" target="_blank">
-                            <span class="chip bg-color">Javascript</span>
+                        <a href="/tags/Java/" target="_blank">
+                            <span class="chip bg-color">Java</span>
                         </a>
                         
-                        <a href="/tags/%E5%89%8D%E7%AB%AF/" target="_blank">
-                            <span class="chip bg-color">前端</span>
+                        <a href="/tags/synchronized/" target="_blank">
+                            <span class="chip bg-color">synchronized</span>
+                        </a>
+                        
+                        <a href="/tags/volatile/" target="_blank">
+                            <span class="chip bg-color">volatile</span>
+                        </a>
+                        
+                        <a href="/tags/ReentrantLock/" target="_blank">
+                            <span class="chip bg-color">ReentrantLock</span>
+                        </a>
+                        
+                        <a href="/tags/Atom/" target="_blank">
+                            <span class="chip bg-color">Atom</span>
+                        </a>
+                        
+                        <a href="/tags/ForkJoin/" target="_blank">
+                            <span class="chip bg-color">ForkJoin</span>
+                        </a>
+                        
+                        <a href="/tags/ThreadLocal/" target="_blank">
+                            <span class="chip bg-color">ThreadLocal</span>
+                        </a>
+                        
+                        <a href="/tags/ExecutorService/" target="_blank">
+                            <span class="chip bg-color">ExecutorService</span>
+                        </a>
+                        
+                        <a href="/tags/%E5%90%8E%E5%8F%B0/" target="_blank">
+                            <span class="chip bg-color">后台</span>
                         </a>
                         
                     </div>
@@ -901,22 +1064,22 @@ Blob 对象表示一个不可变、原始数据的类文件对象。File 接口�
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2021/10/18/handbook/tools/git/git/" target="_blank">
+                    <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/09-threadlocal/" target="_blank">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="Git 从入门到精通1">
+                            <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="ThreadLocal">
                             
-                            <span class="card-title">Git 从入门到精通1</span>
+                            <span class="card-title">ThreadLocal</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                            简介Git 是什么？Git 是一个开源的分布式版本控制系统。
-什么是版本控制？版本控制是一种记录一个或若干文件内容变化，以便将来查阅特定版本修订情况的系统。
-什么是分布式版本控制系统？介绍分布式版本控制系统前，有必要先了解一下传统的集中式版
+                            ThreadLocal对于多任务，Java 标准库提供的线程池可以方便地执行这些任务，同时复用线程。那么如何在一个线程内传递状态？
+如下栗子，一个内部需要调用若干其他方法，同时传递参数 user。
+public void process(U
                             
                         </div>
                         <div class="publish-info">
@@ -927,8 +1090,8 @@ Blob 对象表示一个不可变、原始数据的类文件对象。File 接口�
                                 
                                 <i class="fa fa-bookmark fa-fw icon-category"></i>
                                 
-                                <a href="/categories/Tools/" class="post-category" target="_blank">
-                                    Tools
+                                <a href="/categories/Java-%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
+                                    Java 并发编程
                                 </a>
                                 
                                 
@@ -939,16 +1102,40 @@ Blob 对象表示一个不可变、原始数据的类文件对象。File 接口�
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/Tools/" target="_blank">
-                            <span class="chip bg-color">Tools</span>
+                        <a href="/tags/Java/" target="_blank">
+                            <span class="chip bg-color">Java</span>
                         </a>
                         
-                        <a href="/tags/Git/" target="_blank">
-                            <span class="chip bg-color">Git</span>
+                        <a href="/tags/synchronized/" target="_blank">
+                            <span class="chip bg-color">synchronized</span>
                         </a>
                         
-                        <a href="/tags/svn/" target="_blank">
-                            <span class="chip bg-color">svn</span>
+                        <a href="/tags/volatile/" target="_blank">
+                            <span class="chip bg-color">volatile</span>
+                        </a>
+                        
+                        <a href="/tags/ReentrantLock/" target="_blank">
+                            <span class="chip bg-color">ReentrantLock</span>
+                        </a>
+                        
+                        <a href="/tags/Atom/" target="_blank">
+                            <span class="chip bg-color">Atom</span>
+                        </a>
+                        
+                        <a href="/tags/ForkJoin/" target="_blank">
+                            <span class="chip bg-color">ForkJoin</span>
+                        </a>
+                        
+                        <a href="/tags/ThreadLocal/" target="_blank">
+                            <span class="chip bg-color">ThreadLocal</span>
+                        </a>
+                        
+                        <a href="/tags/ExecutorService/" target="_blank">
+                            <span class="chip bg-color">ExecutorService</span>
+                        </a>
+                        
+                        <a href="/tags/%E5%90%8E%E5%8F%B0/" target="_blank">
+                            <span class="chip bg-color">后台</span>
                         </a>
                         
                     </div>
@@ -958,23 +1145,21 @@ Blob 对象表示一个不可变、原始数据的类文件对象。File 接口�
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2021/10/18/handbook/qian-duan/javascript/06-han-shu-jie-liu-yu-han-shu-fang-dou/" target="_blank">
+                    <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/06-stampedlock/" target="_blank">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="函数节流与函数防抖">
+                            <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="StampedLock">
                             
-                            <span class="card-title">函数节流与函数防抖</span>
+                            <span class="card-title">StampedLock</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                            函数节流与函数防抖函数节流（throttle）与函数防抖（debounce）核心思想都是通过限制函数调用来实现性能优化，但两者概念却有不同：
-
-函数节流：函数按指定间隔调用，限制函数调用频率
-函数防抖：一定时间段连续的函数调用，只让其执行一
+                            StampedLockReadWriteLock 可以解决多线程同时读，但只有一个线程能写的问题。
+ReadWriteLock 有个潜在的问题：如果有线程正在读，写线程需要等待读线程释放锁后才能获取写锁，即读的过程中不允许写，这是一种悲观的
                             
                         </div>
                         <div class="publish-info">
@@ -985,8 +1170,8 @@ Blob 对象表示一个不可变、原始数据的类文件对象。File 接口�
                                 
                                 <i class="fa fa-bookmark fa-fw icon-category"></i>
                                 
-                                <a href="/categories/JavaScript/" class="post-category" target="_blank">
-                                    JavaScript
+                                <a href="/categories/Java-%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
+                                    Java 并发编程
                                 </a>
                                 
                                 
@@ -997,12 +1182,40 @@ Blob 对象表示一个不可变、原始数据的类文件对象。File 接口�
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/Javascript/" target="_blank">
-                            <span class="chip bg-color">Javascript</span>
+                        <a href="/tags/Java/" target="_blank">
+                            <span class="chip bg-color">Java</span>
                         </a>
                         
-                        <a href="/tags/%E5%89%8D%E7%AB%AF/" target="_blank">
-                            <span class="chip bg-color">前端</span>
+                        <a href="/tags/synchronized/" target="_blank">
+                            <span class="chip bg-color">synchronized</span>
+                        </a>
+                        
+                        <a href="/tags/volatile/" target="_blank">
+                            <span class="chip bg-color">volatile</span>
+                        </a>
+                        
+                        <a href="/tags/ReentrantLock/" target="_blank">
+                            <span class="chip bg-color">ReentrantLock</span>
+                        </a>
+                        
+                        <a href="/tags/Atom/" target="_blank">
+                            <span class="chip bg-color">Atom</span>
+                        </a>
+                        
+                        <a href="/tags/ForkJoin/" target="_blank">
+                            <span class="chip bg-color">ForkJoin</span>
+                        </a>
+                        
+                        <a href="/tags/ThreadLocal/" target="_blank">
+                            <span class="chip bg-color">ThreadLocal</span>
+                        </a>
+                        
+                        <a href="/tags/ExecutorService/" target="_blank">
+                            <span class="chip bg-color">ExecutorService</span>
+                        </a>
+                        
+                        <a href="/tags/%E5%90%8E%E5%8F%B0/" target="_blank">
+                            <span class="chip bg-color">后台</span>
                         </a>
                         
                     </div>
@@ -1012,20 +1225,21 @@ Blob 对象表示一个不可变、原始数据的类文件对象。File 接口�
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2021/10/18/handbook/qian-duan/javascript/07-pai-xu-suan-fa-chu-tan/" target="_blank">
+                    <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/07-completablefuture/" target="_blank">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="排序算法初探">
+                            <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="CompletableFuture">
                             
-                            <span class="card-title">排序算法初探</span>
+                            <span class="card-title">CompletableFuture</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                            排序算法初探冒泡排序冒泡排序是一种简单的排序算法。它重复地走访过要排序的数列，一次比较两个元素，如果它们的顺序错误就把它们交换过来。走访数列的工作是重复地进行直到没有再需要交换，也就是说该数列已经排序完成。这个算法的名字由来是因为越小的元素
+                            CompletableFutureJava 8 开始引入了 CompletableFuture，它针对 Future 做了改进，可以传入回调对象，当异步任务完成或者发生异常时，自动调用回调对象的回调方法。
+CompletableFuture
                             
                         </div>
                         <div class="publish-info">
@@ -1036,8 +1250,8 @@ Blob 对象表示一个不可变、原始数据的类文件对象。File 接口�
                                 
                                 <i class="fa fa-bookmark fa-fw icon-category"></i>
                                 
-                                <a href="/categories/JavaScript/" class="post-category" target="_blank">
-                                    JavaScript
+                                <a href="/categories/Java-%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
+                                    Java 并发编程
                                 </a>
                                 
                                 
@@ -1048,12 +1262,40 @@ Blob 对象表示一个不可变、原始数据的类文件对象。File 接口�
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/Javascript/" target="_blank">
-                            <span class="chip bg-color">Javascript</span>
+                        <a href="/tags/Java/" target="_blank">
+                            <span class="chip bg-color">Java</span>
                         </a>
                         
-                        <a href="/tags/%E5%89%8D%E7%AB%AF/" target="_blank">
-                            <span class="chip bg-color">前端</span>
+                        <a href="/tags/synchronized/" target="_blank">
+                            <span class="chip bg-color">synchronized</span>
+                        </a>
+                        
+                        <a href="/tags/volatile/" target="_blank">
+                            <span class="chip bg-color">volatile</span>
+                        </a>
+                        
+                        <a href="/tags/ReentrantLock/" target="_blank">
+                            <span class="chip bg-color">ReentrantLock</span>
+                        </a>
+                        
+                        <a href="/tags/Atom/" target="_blank">
+                            <span class="chip bg-color">Atom</span>
+                        </a>
+                        
+                        <a href="/tags/ForkJoin/" target="_blank">
+                            <span class="chip bg-color">ForkJoin</span>
+                        </a>
+                        
+                        <a href="/tags/ThreadLocal/" target="_blank">
+                            <span class="chip bg-color">ThreadLocal</span>
+                        </a>
+                        
+                        <a href="/tags/ExecutorService/" target="_blank">
+                            <span class="chip bg-color">ExecutorService</span>
+                        </a>
+                        
+                        <a href="/tags/%E5%90%8E%E5%8F%B0/" target="_blank">
+                            <span class="chip bg-color">后台</span>
                         </a>
                         
                     </div>
@@ -1063,21 +1305,21 @@ Blob 对象表示一个不可变、原始数据的类文件对象。File 接口�
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2021/10/18/handbook/qian-duan/javascript/08-xi-pai-suan-fa-shi-xian-shu-zu-luan-xu/" target="_blank">
+                    <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/12-executorservice/" target="_blank">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="洗牌算法实现数组乱序">
+                            <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="ExecutorService">
                             
-                            <span class="card-title">洗牌算法实现数组乱序</span>
+                            <span class="card-title">ExecutorService</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                            洗牌算法实现数组乱序关于 JavaScript 数组乱序的方法有多种实现方式，或者借助一些第三方开源工具库如 loadsh 也可以轻松实现，然而要做到数组足够的无规律乱序也非易予，还是有一些要点需要考虑。
-sort 方法最简单的便是使用 s
+                            ExecutorServiceExecutorService 是 java.util.concurrent 包的重要组成部分，是 Java JDK 提供的框架，用于简化异步模式下任务的执行。
+一般来说，ExecutorService 会自动
                             
                         </div>
                         <div class="publish-info">
@@ -1088,8 +1330,8 @@ sort 方法最简单的便是使用 s
                                 
                                 <i class="fa fa-bookmark fa-fw icon-category"></i>
                                 
-                                <a href="/categories/JavaScript/" class="post-category" target="_blank">
-                                    JavaScript
+                                <a href="/categories/Java-%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
+                                    Java 并发编程
                                 </a>
                                 
                                 
@@ -1100,12 +1342,40 @@ sort 方法最简单的便是使用 s
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/Javascript/" target="_blank">
-                            <span class="chip bg-color">Javascript</span>
+                        <a href="/tags/Java/" target="_blank">
+                            <span class="chip bg-color">Java</span>
                         </a>
                         
-                        <a href="/tags/%E5%89%8D%E7%AB%AF/" target="_blank">
-                            <span class="chip bg-color">前端</span>
+                        <a href="/tags/synchronized/" target="_blank">
+                            <span class="chip bg-color">synchronized</span>
+                        </a>
+                        
+                        <a href="/tags/volatile/" target="_blank">
+                            <span class="chip bg-color">volatile</span>
+                        </a>
+                        
+                        <a href="/tags/ReentrantLock/" target="_blank">
+                            <span class="chip bg-color">ReentrantLock</span>
+                        </a>
+                        
+                        <a href="/tags/Atom/" target="_blank">
+                            <span class="chip bg-color">Atom</span>
+                        </a>
+                        
+                        <a href="/tags/ForkJoin/" target="_blank">
+                            <span class="chip bg-color">ForkJoin</span>
+                        </a>
+                        
+                        <a href="/tags/ThreadLocal/" target="_blank">
+                            <span class="chip bg-color">ThreadLocal</span>
+                        </a>
+                        
+                        <a href="/tags/ExecutorService/" target="_blank">
+                            <span class="chip bg-color">ExecutorService</span>
+                        </a>
+                        
+                        <a href="/tags/%E5%90%8E%E5%8F%B0/" target="_blank">
+                            <span class="chip bg-color">后台</span>
                         </a>
                         
                     </div>
@@ -1115,23 +1385,20 @@ sort 方法最简单的便是使用 s
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2021/10/18/handbook/qian-duan/javascript/09-zheng-ze-pi-pei-match-he-exec/" target="_blank">
+                    <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/13-atom-yuan-zi-lei/" target="_blank">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="正则匹配探究">
+                            <img src="/medias/featureimages/19.jpg" class="responsive-img" alt="Atom 原子类">
                             
-                            <span class="card-title">正则匹配探究</span>
+                            <span class="card-title">Atom 原子类</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                            正则匹配探究在 JavaScript 中常用正则匹配方法有 match 和 exec, 这两个方法属于不同的对象方法。
-
-match 是字符串方法，写法为：str.match(regex)
-exec 是正则表达式方法，写法为：regex.e
+                            Atom 原子类在 Java Java 并发编程中，经常通过 synchronized 进行控制来达到线程安全的目的。但是由于 synchronized 是采用的是悲观锁策略，并不是特别高效的一种解决方案。实际上，在 J.U.C 下的 at
                             
                         </div>
                         <div class="publish-info">
@@ -1142,8 +1409,8 @@ exec 是正则表达式方法，写法为：regex.e
                                 
                                 <i class="fa fa-bookmark fa-fw icon-category"></i>
                                 
-                                <a href="/categories/JavaScript/" class="post-category" target="_blank">
-                                    JavaScript
+                                <a href="/categories/Java-%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
+                                    Java 并发编程
                                 </a>
                                 
                                 
@@ -1154,12 +1421,40 @@ exec 是正则表达式方法，写法为：regex.e
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/Javascript/" target="_blank">
-                            <span class="chip bg-color">Javascript</span>
+                        <a href="/tags/Java/" target="_blank">
+                            <span class="chip bg-color">Java</span>
                         </a>
                         
-                        <a href="/tags/%E5%89%8D%E7%AB%AF/" target="_blank">
-                            <span class="chip bg-color">前端</span>
+                        <a href="/tags/synchronized/" target="_blank">
+                            <span class="chip bg-color">synchronized</span>
+                        </a>
+                        
+                        <a href="/tags/volatile/" target="_blank">
+                            <span class="chip bg-color">volatile</span>
+                        </a>
+                        
+                        <a href="/tags/ReentrantLock/" target="_blank">
+                            <span class="chip bg-color">ReentrantLock</span>
+                        </a>
+                        
+                        <a href="/tags/Atom/" target="_blank">
+                            <span class="chip bg-color">Atom</span>
+                        </a>
+                        
+                        <a href="/tags/ForkJoin/" target="_blank">
+                            <span class="chip bg-color">ForkJoin</span>
+                        </a>
+                        
+                        <a href="/tags/ThreadLocal/" target="_blank">
+                            <span class="chip bg-color">ThreadLocal</span>
+                        </a>
+                        
+                        <a href="/tags/ExecutorService/" target="_blank">
+                            <span class="chip bg-color">ExecutorService</span>
+                        </a>
+                        
+                        <a href="/tags/%E5%90%8E%E5%8F%B0/" target="_blank">
+                            <span class="chip bg-color">后台</span>
                         </a>
                         
                     </div>
@@ -1169,23 +1464,21 @@ exec 是正则表达式方法，写法为：regex.e
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2021/10/18/handbook/qian-duan/javascript/10-zheng-ze-pi-pei-han-zi/" target="_blank">
+                    <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/11-threadpoolexecutor/" target="_blank">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="正则匹配汉字">
+                            <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="ThreadPoolExecutor">
                             
-                            <span class="card-title">正则匹配汉字</span>
+                            <span class="card-title">ThreadPoolExecutor</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                            正则匹配汉字在此之前，项目中使用正则匹配汉字的表达式都是 /[\u4e00-\u9fa5]/，虽然常用，但是一直未深究其所以然。
-汉文与汉字首先，我们需要了解汉文和汉字这两个基础概念：
-
-汉文（Han Script）是汉语、日本语、朝鲜语、
+                            ThreadPoolExecutorThreadPoolExecutor 作为 java.util.concurrent 包对外提供基础实现，以内部线程池的形式对外提供管理任务执行、线程调度、线程池管理等等服务。
+ThreadPoolExe
                             
                         </div>
                         <div class="publish-info">
@@ -1196,8 +1489,8 @@ exec 是正则表达式方法，写法为：regex.e
                                 
                                 <i class="fa fa-bookmark fa-fw icon-category"></i>
                                 
-                                <a href="/categories/JavaScript/" class="post-category" target="_blank">
-                                    JavaScript
+                                <a href="/categories/Java-%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
+                                    Java 并发编程
                                 </a>
                                 
                                 
@@ -1208,12 +1501,40 @@ exec 是正则表达式方法，写法为：regex.e
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/Javascript/" target="_blank">
-                            <span class="chip bg-color">Javascript</span>
+                        <a href="/tags/Java/" target="_blank">
+                            <span class="chip bg-color">Java</span>
                         </a>
                         
-                        <a href="/tags/%E5%89%8D%E7%AB%AF/" target="_blank">
-                            <span class="chip bg-color">前端</span>
+                        <a href="/tags/synchronized/" target="_blank">
+                            <span class="chip bg-color">synchronized</span>
+                        </a>
+                        
+                        <a href="/tags/volatile/" target="_blank">
+                            <span class="chip bg-color">volatile</span>
+                        </a>
+                        
+                        <a href="/tags/ReentrantLock/" target="_blank">
+                            <span class="chip bg-color">ReentrantLock</span>
+                        </a>
+                        
+                        <a href="/tags/Atom/" target="_blank">
+                            <span class="chip bg-color">Atom</span>
+                        </a>
+                        
+                        <a href="/tags/ForkJoin/" target="_blank">
+                            <span class="chip bg-color">ForkJoin</span>
+                        </a>
+                        
+                        <a href="/tags/ThreadLocal/" target="_blank">
+                            <span class="chip bg-color">ThreadLocal</span>
+                        </a>
+                        
+                        <a href="/tags/ExecutorService/" target="_blank">
+                            <span class="chip bg-color">ExecutorService</span>
+                        </a>
+                        
+                        <a href="/tags/%E5%90%8E%E5%8F%B0/" target="_blank">
+                            <span class="chip bg-color">后台</span>
                         </a>
                         
                     </div>

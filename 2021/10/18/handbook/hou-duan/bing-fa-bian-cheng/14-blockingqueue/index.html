@@ -70,9 +70,9 @@
         </script>
     
 
-<meta name="generator" content="Hexo 5.4.0">
+<meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="金点帝国" type="application/atom+xml">
+
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
-<link rel="alternate" href="/atom.xml" title="金点帝国" type="application/atom+xml">
 <link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css">
 <link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
 
@@ -1300,20 +1300,21 @@
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/12-executorservice/">
+                <a href="/2021/10/18/handbook/tools/regex/regex/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="ExecutorService">
+                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="正则表达式">
                         
-                        <span class="card-title">ExecutorService</span>
+                        <span class="card-title">正则表达式</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            ExecutorServiceExecutorService 是 java.util.concurrent 包的重要组成部分，是 Java JDK 提供的框架，用于简化异步模式下任务的执行。
-一般来说，ExecutorService 会自动
+                            简介为了理解下面章节的内容，你需要先了解一些基本概念。
+
+正则表达式 - 正则表达式是对字符串操作的一种逻辑公式，就是用事先定义好的一些特定字符、及这些特定字符的组合，组成一个“规则字符串”，这个“规则字符串”用来表达对字符串的一种过滤逻辑
                         
                     </div>
                     <div class="publish-info">
@@ -1324,8 +1325,8 @@
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Java-%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
-                                    Java 并发编程
+                            <a href="/categories/Tools/" class="post-category" target="_blank">
+                                    Tools
                                 </a>
                             
                             
@@ -1335,40 +1336,16 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Java/" target="_blank">
-                        <span class="chip bg-color">Java</span>
+                    <a href="/tags/Tools/" target="_blank">
+                        <span class="chip bg-color">Tools</span>
                     </a>
                     
-                    <a href="/tags/synchronized/" target="_blank">
-                        <span class="chip bg-color">synchronized</span>
+                    <a href="/tags/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/" target="_blank">
+                        <span class="chip bg-color">正则表达式</span>
                     </a>
                     
-                    <a href="/tags/volatile/" target="_blank">
-                        <span class="chip bg-color">volatile</span>
-                    </a>
-                    
-                    <a href="/tags/ReentrantLock/" target="_blank">
-                        <span class="chip bg-color">ReentrantLock</span>
-                    </a>
-                    
-                    <a href="/tags/Atom/" target="_blank">
-                        <span class="chip bg-color">Atom</span>
-                    </a>
-                    
-                    <a href="/tags/ForkJoin/" target="_blank">
-                        <span class="chip bg-color">ForkJoin</span>
-                    </a>
-                    
-                    <a href="/tags/ThreadLocal/" target="_blank">
-                        <span class="chip bg-color">ThreadLocal</span>
-                    </a>
-                    
-                    <a href="/tags/ExecutorService/" target="_blank">
-                        <span class="chip bg-color">ExecutorService</span>
-                    </a>
-                    
-                    <a href="/tags/%E5%90%8E%E5%8F%B0/" target="_blank">
-                        <span class="chip bg-color">后台</span>
+                    <a href="/tags/Regex/" target="_blank">
+                        <span class="chip bg-color">Regex</span>
                     </a>
                     
                 </div>
@@ -1382,78 +1359,29 @@
                 下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/10/18/handbook/hou-duan/gao-xiao-bian-cheng/01-30-seconds-of-java8/">
+                <a href="/2021/06/17/note/02-interview/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="30 seconds of java8">
+                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="">
                         
-                        <span class="card-title">30 seconds of java8</span>
+                        <span class="card-title"></span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            30 seconds of java8Arraychunk将数组分割成特定大小的小数组：
-public static int[][] chunk(int[] numbers, int size) {
-    return IntStream
+                            Interview 面试问题001 Spring Boot 最大的优势是什么呢？Spring Boot 的最大的优势是“约定优于配置”。“约定优于配置”是一种软件设计范式，开发人员按照约定的方式来进行编程，可以减少软件开发人员需做决定的数量
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2021-10-18
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2021-06-17
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fa fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/Java-%E9%AB%98%E6%95%88%E7%BC%96%E7%A8%8B/" class="post-category" target="_blank">
-                                    Java 高效编程
-                                </a>
-                            
-                            
                         </span>
                     </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/Java/" target="_blank">
-                        <span class="chip bg-color">Java</span>
-                    </a>
-                    
-                    <a href="/tags/synchronized/" target="_blank">
-                        <span class="chip bg-color">synchronized</span>
-                    </a>
-                    
-                    <a href="/tags/volatile/" target="_blank">
-                        <span class="chip bg-color">volatile</span>
-                    </a>
-                    
-                    <a href="/tags/ReentrantLock/" target="_blank">
-                        <span class="chip bg-color">ReentrantLock</span>
-                    </a>
-                    
-                    <a href="/tags/Atom/" target="_blank">
-                        <span class="chip bg-color">Atom</span>
-                    </a>
-                    
-                    <a href="/tags/ForkJoin/" target="_blank">
-                        <span class="chip bg-color">ForkJoin</span>
-                    </a>
-                    
-                    <a href="/tags/ThreadLocal/" target="_blank">
-                        <span class="chip bg-color">ThreadLocal</span>
-                    </a>
-                    
-                    <a href="/tags/ExecutorService/" target="_blank">
-                        <span class="chip bg-color">ExecutorService</span>
-                    </a>
-                    
-                    <a href="/tags/%E5%90%8E%E5%8F%B0/" target="_blank">
-                        <span class="chip bg-color">后台</span>
-                    </a>
-                    
                 </div>
                 
             </div>

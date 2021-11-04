@@ -70,9 +70,9 @@
         </script>
     
 
-<meta name="generator" content="Hexo 5.4.0">
+<meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="金点帝国" type="application/atom+xml">
+
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
-<link rel="alternate" href="/atom.xml" title="金点帝国" type="application/atom+xml">
 <link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css">
 <link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
 
@@ -581,6 +581,467 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
+                    <a href="/2021/10/18/handbook/qian-duan/javascript/10-zheng-ze-pi-pei-han-zi/" target="_blank">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="正则匹配汉字">
+                            
+                            <span class="card-title">正则匹配汉字</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                            正则匹配汉字在此之前，项目中使用正则匹配汉字的表达式都是 /[\u4e00-\u9fa5]/，虽然常用，但是一直未深究其所以然。
+汉文与汉字首先，我们需要了解汉文和汉字这两个基础概念：
+
+汉文（Han Script）是汉语、日本语、朝鲜语、
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2021-10-18
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fa fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/JavaScript/" class="post-category" target="_blank">
+                                    JavaScript
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/Javascript/" target="_blank">
+                            <span class="chip bg-color">Javascript</span>
+                        </a>
+                        
+                        <a href="/tags/%E5%89%8D%E7%AB%AF/" target="_blank">
+                            <span class="chip bg-color">前端</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2021/10/18/handbook/qian-duan/javascript/09-zheng-ze-pi-pei-match-he-exec/" target="_blank">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="正则匹配探究">
+                            
+                            <span class="card-title">正则匹配探究</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                            正则匹配探究在 JavaScript 中常用正则匹配方法有 match 和 exec, 这两个方法属于不同的对象方法。
+
+match 是字符串方法，写法为：str.match(regex)
+exec 是正则表达式方法，写法为：regex.e
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2021-10-18
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fa fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/JavaScript/" class="post-category" target="_blank">
+                                    JavaScript
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/Javascript/" target="_blank">
+                            <span class="chip bg-color">Javascript</span>
+                        </a>
+                        
+                        <a href="/tags/%E5%89%8D%E7%AB%AF/" target="_blank">
+                            <span class="chip bg-color">前端</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2021/10/18/handbook/qian-duan/javascript/06-han-shu-jie-liu-yu-han-shu-fang-dou/" target="_blank">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="函数节流与函数防抖">
+                            
+                            <span class="card-title">函数节流与函数防抖</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                            函数节流与函数防抖函数节流（throttle）与函数防抖（debounce）核心思想都是通过限制函数调用来实现性能优化，但两者概念却有不同：
+
+函数节流：函数按指定间隔调用，限制函数调用频率
+函数防抖：一定时间段连续的函数调用，只让其执行一
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2021-10-18
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fa fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/JavaScript/" class="post-category" target="_blank">
+                                    JavaScript
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/Javascript/" target="_blank">
+                            <span class="chip bg-color">Javascript</span>
+                        </a>
+                        
+                        <a href="/tags/%E5%89%8D%E7%AB%AF/" target="_blank">
+                            <span class="chip bg-color">前端</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2021/10/18/handbook/qian-duan/javascript/05-blob-url-and-data-url/" target="_blank">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="Blob Url And Data Url">
+                            
+                            <span class="card-title">Blob Url And Data Url</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                            Blob Url And Data UrlBlob什么是 BlobBlob（binary large object），二进制大型对象，是一个可以存储二进制文件的“容器”。
+Blob 对象表示一个不可变、原始数据的类文件对象。File 接口基
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2021-10-18
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fa fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/JavaScript/" class="post-category" target="_blank">
+                                    JavaScript
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/Javascript/" target="_blank">
+                            <span class="chip bg-color">Javascript</span>
+                        </a>
+                        
+                        <a href="/tags/%E5%89%8D%E7%AB%AF/" target="_blank">
+                            <span class="chip bg-color">前端</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2021/10/18/handbook/qian-duan/javascript/04-canvas-ji-chu-yong-fa/" target="_blank">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="Canvas 基础用法">
+                            
+                            <span class="card-title">Canvas 基础用法</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                            Canvas 基础用法基础用法属性介绍&lt;canvas&gt; 标签只有两个可选的属性 width 和 height。当没有设置宽度和高度的时候，canvas 会初始化宽度为 300 像素和高度为 150 像素。宽高属性会自动忽略单位，
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2021-10-18
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fa fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/JavaScript/" class="post-category" target="_blank">
+                                    JavaScript
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/Javascript/" target="_blank">
+                            <span class="chip bg-color">Javascript</span>
+                        </a>
+                        
+                        <a href="/tags/%E5%89%8D%E7%AB%AF/" target="_blank">
+                            <span class="chip bg-color">前端</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2021/10/18/handbook/qian-duan/react/01-react-props-children-chuan-zhi/" target="_blank">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/20.jpg" class="responsive-img" alt="React Props Children 传值">
+                            
+                            <span class="card-title">React Props Children 传值</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                            React Props Children 传值背景是在使用 umijs 框架时，它提供一个根节点 layout。我想在根节点传值到 Route 组件中却不得其法，后来查阅 issues 得到解答。
+props.children 属性在 Re
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2021-10-18
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fa fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/React/" class="post-category" target="_blank">
+                                    React
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/Javascript/" target="_blank">
+                            <span class="chip bg-color">Javascript</span>
+                        </a>
+                        
+                        <a href="/tags/React/" target="_blank">
+                            <span class="chip bg-color">React</span>
+                        </a>
+                        
+                        <a href="/tags/Hook/" target="_blank">
+                            <span class="chip bg-color">Hook</span>
+                        </a>
+                        
+                        <a href="/tags/TypeScript%E5%89%8D%E7%AB%AF/" target="_blank">
+                            <span class="chip bg-color">TypeScript前端</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2021/10/18/handbook/qian-duan/shi-zhan-xi-lie/01-websocket-xin-tiao-chong-lian-ji-zhi/" target="_blank">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="WebSocket 心跳重连机制">
+                            
+                            <span class="card-title">WebSocket 心跳重连机制</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                            WebSocket 心跳重连机制WebSocket 是一种网络通信协议，它使得客户端和服务器之间的数据交换变得更加简单。最近在项目中使用 WebSocket 实现了一个简单在线聊天室功能，在此探究下心跳重连的机制。
+WebSocketWeb
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2021-10-18
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fa fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/%E5%89%8D%E7%AB%AF-%E5%AE%9E%E6%88%98%E9%A1%B9%E7%9B%AE/" class="post-category" target="_blank">
+                                    前端 实战项目
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/Javascript/" target="_blank">
+                            <span class="chip bg-color">Javascript</span>
+                        </a>
+                        
+                        <a href="/tags/React/" target="_blank">
+                            <span class="chip bg-color">React</span>
+                        </a>
+                        
+                        <a href="/tags/Vue/" target="_blank">
+                            <span class="chip bg-color">Vue</span>
+                        </a>
+                        
+                        <a href="/tags/CSS/" target="_blank">
+                            <span class="chip bg-color">CSS</span>
+                        </a>
+                        
+                        <a href="/tags/%E5%89%8D%E7%AB%AF/" target="_blank">
+                            <span class="chip bg-color">前端</span>
+                        </a>
+                        
+                        <a href="/tags/Node/" target="_blank">
+                            <span class="chip bg-color">Node</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2021/10/18/handbook/qian-duan/shi-zhan-xi-lie/02-tu-pian-jia-jie-mi-er-san-shi/" target="_blank">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/20.jpg" class="responsive-img" alt="图片加解密二三事">
+                            
+                            <span class="card-title">图片加解密二三事</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                            图片加解密二三事近来公司新项目管理后台需要做图片上传并加解密功能，加密在服务端进行，加密成功后返回加密后图片地址，后台负责解密在线图片然后预览，折腾一天，此中曲折，闲做记录。
+高级加密标准 AES高级加密标准（Advanced Encryp
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2021-10-18
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fa fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/%E5%89%8D%E7%AB%AF-%E5%AE%9E%E6%88%98%E9%A1%B9%E7%9B%AE/" class="post-category" target="_blank">
+                                    前端 实战项目
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/Javascript/" target="_blank">
+                            <span class="chip bg-color">Javascript</span>
+                        </a>
+                        
+                        <a href="/tags/React/" target="_blank">
+                            <span class="chip bg-color">React</span>
+                        </a>
+                        
+                        <a href="/tags/Vue/" target="_blank">
+                            <span class="chip bg-color">Vue</span>
+                        </a>
+                        
+                        <a href="/tags/CSS/" target="_blank">
+                            <span class="chip bg-color">CSS</span>
+                        </a>
+                        
+                        <a href="/tags/%E5%89%8D%E7%AB%AF/" target="_blank">
+                            <span class="chip bg-color">前端</span>
+                        </a>
+                        
+                        <a href="/tags/Node/" target="_blank">
+                            <span class="chip bg-color">Node</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
                     <a href="/2021/10/18/handbook/qian-duan/shi-zhan-xi-lie/05-shen-qi-de-document.designmode/" target="_blank">
                         <div class="card-image">
                             
@@ -623,12 +1084,148 @@ document.des
                             <span class="chip bg-color">Javascript</span>
                         </a>
                         
+                        <a href="/tags/React/" target="_blank">
+                            <span class="chip bg-color">React</span>
+                        </a>
+                        
                         <a href="/tags/Vue/" target="_blank">
                             <span class="chip bg-color">Vue</span>
                         </a>
                         
+                        <a href="/tags/CSS/" target="_blank">
+                            <span class="chip bg-color">CSS</span>
+                        </a>
+                        
+                        <a href="/tags/%E5%89%8D%E7%AB%AF/" target="_blank">
+                            <span class="chip bg-color">前端</span>
+                        </a>
+                        
+                        <a href="/tags/Node/" target="_blank">
+                            <span class="chip bg-color">Node</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2021/10/18/handbook/qian-duan/shi-zhan-xi-lie/04-dong-tai-jia-zai-js-wen-jian/" target="_blank">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="动态加载 JS 文件">
+                            
+                            <span class="card-title">动态加载 JS 文件</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                            动态加载 JS 文件对于 Vue、React 等框架开发的单页面应用，在某些页面开发特殊功能时经常需要依赖第三方 JS 文件，如果在全局引入 CDN 资源可能会加载冗余文件，此时最好使用动态加载方式。
+动态加载 JS 脚本指仅在某些特殊页面
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2021-10-18
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fa fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/%E5%89%8D%E7%AB%AF-%E5%AE%9E%E6%88%98%E9%A1%B9%E7%9B%AE/" class="post-category" target="_blank">
+                                    前端 实战项目
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/Javascript/" target="_blank">
+                            <span class="chip bg-color">Javascript</span>
+                        </a>
+                        
                         <a href="/tags/React/" target="_blank">
                             <span class="chip bg-color">React</span>
+                        </a>
+                        
+                        <a href="/tags/Vue/" target="_blank">
+                            <span class="chip bg-color">Vue</span>
+                        </a>
+                        
+                        <a href="/tags/CSS/" target="_blank">
+                            <span class="chip bg-color">CSS</span>
+                        </a>
+                        
+                        <a href="/tags/%E5%89%8D%E7%AB%AF/" target="_blank">
+                            <span class="chip bg-color">前端</span>
+                        </a>
+                        
+                        <a href="/tags/Node/" target="_blank">
+                            <span class="chip bg-color">Node</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2021/10/18/handbook/qian-duan/shi-zhan-xi-lie/03-you-ya-shi-xian-backtop/" target="_blank">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/11.jpg" class="responsive-img" alt="优雅实现 BackTop">
+                            
+                            <span class="card-title">优雅实现 BackTop</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                            优雅实现 BackTopBackTop 即滚动到页面顶部，是很多网站都会用到的基础功能，实现方法很多，Github 上也有许多优秀的三方库，如 smooth-scroll，但如何优雅实现也是一门学问。
+事件绑定和解绑滚动到页面顶部的按钮一般
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2021-10-18
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fa fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/%E5%89%8D%E7%AB%AF-%E5%AE%9E%E6%88%98%E9%A1%B9%E7%9B%AE/" class="post-category" target="_blank">
+                                    前端 实战项目
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/Javascript/" target="_blank">
+                            <span class="chip bg-color">Javascript</span>
+                        </a>
+                        
+                        <a href="/tags/React/" target="_blank">
+                            <span class="chip bg-color">React</span>
+                        </a>
+                        
+                        <a href="/tags/Vue/" target="_blank">
+                            <span class="chip bg-color">Vue</span>
                         </a>
                         
                         <a href="/tags/CSS/" target="_blank">
@@ -700,755 +1297,6 @@ document.des
                         
                         <a href="/tags/SCSS/" target="_blank">
                             <span class="chip bg-color">SCSS</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2021/10/18/handbook/qian-duan/vue/02-vue-gou-jian-xiang-mu-xie-ru-pei-zhi-wen-jian/" target="_blank">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="Vue 构建项目写入配置文件">
-                            
-                            <span class="card-title">Vue 构建项目写入配置文件</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                            Vue 构建项目写入配置文件获取命令行参数读取 Node 命令行的参数：
-// getArgList.js 获取参数列表
-module.exports = function getArgList() {
-  let argvs
-  cons
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2021-10-18
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/Vue/" class="post-category" target="_blank">
-                                    Vue
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/Javascript/" target="_blank">
-                            <span class="chip bg-color">Javascript</span>
-                        </a>
-                        
-                        <a href="/tags/Vue/" target="_blank">
-                            <span class="chip bg-color">Vue</span>
-                        </a>
-                        
-                        <a href="/tags/SVG/" target="_blank">
-                            <span class="chip bg-color">SVG</span>
-                        </a>
-                        
-                        <a href="/tags/SCSS/" target="_blank">
-                            <span class="chip bg-color">SCSS</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2021/10/18/handbook/qian-duan/vue/06-vue-yin-ru-scss/" target="_blank">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="Vue 引入 SCSS">
-                            
-                            <span class="card-title">Vue 引入 SCSS</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                            Vue 引入 SCSS使用 vue init webpack 生成的 vue 模板项目中引入 scss 步骤：
-
-vue init my-project
-npm install node-sass@4 sass-loader@7 sass-
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2021-10-18
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/Vue/" class="post-category" target="_blank">
-                                    Vue
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/Javascript/" target="_blank">
-                            <span class="chip bg-color">Javascript</span>
-                        </a>
-                        
-                        <a href="/tags/Vue/" target="_blank">
-                            <span class="chip bg-color">Vue</span>
-                        </a>
-                        
-                        <a href="/tags/SVG/" target="_blank">
-                            <span class="chip bg-color">SVG</span>
-                        </a>
-                        
-                        <a href="/tags/SCSS/" target="_blank">
-                            <span class="chip bg-color">SCSS</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2021/10/18/handbook/hou-duan/linux/02-linux-chang-yong-ruan-jian-an-zhuang/" target="_blank">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="Linux 常用软件安装">
-                            
-                            <span class="card-title">Linux 常用软件安装</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                            Linux 常用软件安装htopapt undate
-apt install htop
-
-Oh My Zsh安装# 1.安装zsh包
-# centOS
-yum -y install zsh
-# ununtu
-apt install zsh
-
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2021-10-18
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/Linux/" class="post-category" target="_blank">
-                                    Linux
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/Linux/" target="_blank">
-                            <span class="chip bg-color">Linux</span>
-                        </a>
-                        
-                        <a href="/tags/shell/" target="_blank">
-                            <span class="chip bg-color">shell</span>
-                        </a>
-                        
-                        <a href="/tags/sh/" target="_blank">
-                            <span class="chip bg-color">sh</span>
-                        </a>
-                        
-                        <a href="/tags/bash/" target="_blank">
-                            <span class="chip bg-color">bash</span>
-                        </a>
-                        
-                        <a href="/tags/CentOS/" target="_blank">
-                            <span class="chip bg-color">CentOS</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2021/10/18/handbook/qian-duan/vue/05-dong-tai-ke-xiang-ying-dui-xiang/" target="_blank">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="动态可响应对象">
-                            
-                            <span class="card-title">动态可响应对象</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                            动态可响应对象Vue.observable(object) 让一个对象可响应。Vue 内部会用它来处理 data 函数返回的对象。返回的对象可以直接用于渲染函数和计算属性内，并且会在发生变更时触发相应的更新。也可以作为最小化的跨组件状态存储
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2021-10-18
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/Vue/" class="post-category" target="_blank">
-                                    Vue
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/Javascript/" target="_blank">
-                            <span class="chip bg-color">Javascript</span>
-                        </a>
-                        
-                        <a href="/tags/Vue/" target="_blank">
-                            <span class="chip bg-color">Vue</span>
-                        </a>
-                        
-                        <a href="/tags/SVG/" target="_blank">
-                            <span class="chip bg-color">SVG</span>
-                        </a>
-                        
-                        <a href="/tags/SCSS/" target="_blank">
-                            <span class="chip bg-color">SCSS</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2021/10/18/handbook/hou-duan/linux/01-linux-wen-jian-quan-xian-xi-tong/" target="_blank">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Linux">
-                            
-                            <span class="card-title">Linux</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                            Linux文件系统
-
-
-
-目录
-说明
-
-
-
-bin
-存放二进制可执行文件
-
-
-sbin
-存放二进制可执行文件，只有 root 才能访问
-
-
-boot
-存放用于系统引导时使用的各种文件
-
-
-dev
-用于存放设备文件
-
-
-etc
-存放系统配置文
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2021-10-18
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/Linux/" class="post-category" target="_blank">
-                                    Linux
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/Linux/" target="_blank">
-                            <span class="chip bg-color">Linux</span>
-                        </a>
-                        
-                        <a href="/tags/shell/" target="_blank">
-                            <span class="chip bg-color">shell</span>
-                        </a>
-                        
-                        <a href="/tags/sh/" target="_blank">
-                            <span class="chip bg-color">sh</span>
-                        </a>
-                        
-                        <a href="/tags/bash/" target="_blank">
-                            <span class="chip bg-color">bash</span>
-                        </a>
-                        
-                        <a href="/tags/CentOS/" target="_blank">
-                            <span class="chip bg-color">CentOS</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2021/10/18/handbook/hou-duan/linux/03-centos-fang-huo-qiang/" target="_blank">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/20.jpg" class="responsive-img" alt="CentOS 防火墙">
-                            
-                            <span class="card-title">CentOS 防火墙</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                            CentOS 防火墙
-本文为个人学习摘要笔记。原文地址：Linux 防火墙 Firewall 和 Iptables 的使用
-
-Linux 中有两种防火墙软件，ConterOS7.0 以上使用的是 firewall，ConterOS7.0 以
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2021-10-18
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/Linux/" class="post-category" target="_blank">
-                                    Linux
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/Linux/" target="_blank">
-                            <span class="chip bg-color">Linux</span>
-                        </a>
-                        
-                        <a href="/tags/shell/" target="_blank">
-                            <span class="chip bg-color">shell</span>
-                        </a>
-                        
-                        <a href="/tags/sh/" target="_blank">
-                            <span class="chip bg-color">sh</span>
-                        </a>
-                        
-                        <a href="/tags/bash/" target="_blank">
-                            <span class="chip bg-color">bash</span>
-                        </a>
-                        
-                        <a href="/tags/CentOS/" target="_blank">
-                            <span class="chip bg-color">CentOS</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2021/10/18/handbook/hou-duan/java/01-mian-xiang-dui-xiang-ji-ben-te-zheng-yu-yuan-ze/" target="_blank">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="面向对象基本特征与原则">
-                            
-                            <span class="card-title">面向对象基本特征与原则</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                            面向对象基本特征与原则面向对象有三大基本特征和五大基本原则。
-三大特征封装所谓封装（Encapsulation），也就是把客观事物封装成抽象的类，并且类可以把自己的数据和方法只让可信的类或者对象操作，对不可信的进行信息隐藏。封装是面向对象的
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2021-10-18
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/Java-%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5/" class="post-category" target="_blank">
-                                    Java 基础概念
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/Java/" target="_blank">
-                            <span class="chip bg-color">Java</span>
-                        </a>
-                        
-                        <a href="/tags/synchronized/" target="_blank">
-                            <span class="chip bg-color">synchronized</span>
-                        </a>
-                        
-                        <a href="/tags/volatile/" target="_blank">
-                            <span class="chip bg-color">volatile</span>
-                        </a>
-                        
-                        <a href="/tags/ReentrantLock/" target="_blank">
-                            <span class="chip bg-color">ReentrantLock</span>
-                        </a>
-                        
-                        <a href="/tags/Atom/" target="_blank">
-                            <span class="chip bg-color">Atom</span>
-                        </a>
-                        
-                        <a href="/tags/ForkJoin/" target="_blank">
-                            <span class="chip bg-color">ForkJoin</span>
-                        </a>
-                        
-                        <a href="/tags/ThreadLocal/" target="_blank">
-                            <span class="chip bg-color">ThreadLocal</span>
-                        </a>
-                        
-                        <a href="/tags/ExecutorService/" target="_blank">
-                            <span class="chip bg-color">ExecutorService</span>
-                        </a>
-                        
-                        <a href="/tags/%E5%90%8E%E5%8F%B0/" target="_blank">
-                            <span class="chip bg-color">后台</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2021/10/18/handbook/hou-duan/java/03-java-string/" target="_blank">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="Java String">
-                            
-                            <span class="card-title">Java String</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                            Java String概览String 被声明为 final，因此它不可被继承（Integer 等包装类也不能被继承）。
-在 Java 8 中，String 内部使用 char 数组存储数据。
-public final class Stri
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2021-10-18
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/Java-%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5/" class="post-category" target="_blank">
-                                    Java 基础概念
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/Java/" target="_blank">
-                            <span class="chip bg-color">Java</span>
-                        </a>
-                        
-                        <a href="/tags/synchronized/" target="_blank">
-                            <span class="chip bg-color">synchronized</span>
-                        </a>
-                        
-                        <a href="/tags/volatile/" target="_blank">
-                            <span class="chip bg-color">volatile</span>
-                        </a>
-                        
-                        <a href="/tags/ReentrantLock/" target="_blank">
-                            <span class="chip bg-color">ReentrantLock</span>
-                        </a>
-                        
-                        <a href="/tags/Atom/" target="_blank">
-                            <span class="chip bg-color">Atom</span>
-                        </a>
-                        
-                        <a href="/tags/ForkJoin/" target="_blank">
-                            <span class="chip bg-color">ForkJoin</span>
-                        </a>
-                        
-                        <a href="/tags/ThreadLocal/" target="_blank">
-                            <span class="chip bg-color">ThreadLocal</span>
-                        </a>
-                        
-                        <a href="/tags/ExecutorService/" target="_blank">
-                            <span class="chip bg-color">ExecutorService</span>
-                        </a>
-                        
-                        <a href="/tags/%E5%90%8E%E5%8F%B0/" target="_blank">
-                            <span class="chip bg-color">后台</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2021/10/18/handbook/hou-duan/java/04-java-zhi-you-zhi-chuan-di/" target="_blank">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="Java 只有值传递">
-                            
-                            <span class="card-title">Java 只有值传递</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                            Java 只有值传递
-本文为个人学习摘要笔记。原文地址：为什么说 Java 中只有值传递
-
-Java 中的参数传递是值传递还是引用传递的错误理解：
-
-错误理解一：值传递和引用传递，区分的条件是传递的内容，如果是个值，就是值传递。如果是个引用
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2021-10-18
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/Java-%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5/" class="post-category" target="_blank">
-                                    Java 基础概念
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/Java/" target="_blank">
-                            <span class="chip bg-color">Java</span>
-                        </a>
-                        
-                        <a href="/tags/synchronized/" target="_blank">
-                            <span class="chip bg-color">synchronized</span>
-                        </a>
-                        
-                        <a href="/tags/volatile/" target="_blank">
-                            <span class="chip bg-color">volatile</span>
-                        </a>
-                        
-                        <a href="/tags/ReentrantLock/" target="_blank">
-                            <span class="chip bg-color">ReentrantLock</span>
-                        </a>
-                        
-                        <a href="/tags/Atom/" target="_blank">
-                            <span class="chip bg-color">Atom</span>
-                        </a>
-                        
-                        <a href="/tags/ForkJoin/" target="_blank">
-                            <span class="chip bg-color">ForkJoin</span>
-                        </a>
-                        
-                        <a href="/tags/ThreadLocal/" target="_blank">
-                            <span class="chip bg-color">ThreadLocal</span>
-                        </a>
-                        
-                        <a href="/tags/ExecutorService/" target="_blank">
-                            <span class="chip bg-color">ExecutorService</span>
-                        </a>
-                        
-                        <a href="/tags/%E5%90%8E%E5%8F%B0/" target="_blank">
-                            <span class="chip bg-color">后台</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2021/10/18/handbook/hou-duan/java/02-java-shu-ju-lei-xing/" target="_blank">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="基本类型">
-                            
-                            <span class="card-title">基本类型</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                            Java 数据类型基本类型Java 中有 8 种基本数据类型，分为三大类：
-
-字符型：char
-布尔型：boolean
-数值型：
-整型：byte、short、int、long
-浮点型：float、double
-
-
-
-
-
-
-数据类型
-默认值
-
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2021-10-18
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/Java-%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5/" class="post-category" target="_blank">
-                                    Java 基础概念
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/Java/" target="_blank">
-                            <span class="chip bg-color">Java</span>
-                        </a>
-                        
-                        <a href="/tags/synchronized/" target="_blank">
-                            <span class="chip bg-color">synchronized</span>
-                        </a>
-                        
-                        <a href="/tags/volatile/" target="_blank">
-                            <span class="chip bg-color">volatile</span>
-                        </a>
-                        
-                        <a href="/tags/ReentrantLock/" target="_blank">
-                            <span class="chip bg-color">ReentrantLock</span>
-                        </a>
-                        
-                        <a href="/tags/Atom/" target="_blank">
-                            <span class="chip bg-color">Atom</span>
-                        </a>
-                        
-                        <a href="/tags/ForkJoin/" target="_blank">
-                            <span class="chip bg-color">ForkJoin</span>
-                        </a>
-                        
-                        <a href="/tags/ThreadLocal/" target="_blank">
-                            <span class="chip bg-color">ThreadLocal</span>
-                        </a>
-                        
-                        <a href="/tags/ExecutorService/" target="_blank">
-                            <span class="chip bg-color">ExecutorService</span>
-                        </a>
-                        
-                        <a href="/tags/%E5%90%8E%E5%8F%B0/" target="_blank">
-                            <span class="chip bg-color">后台</span>
                         </a>
                         
                     </div>

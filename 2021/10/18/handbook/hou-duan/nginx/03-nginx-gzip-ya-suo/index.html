@@ -73,9 +73,9 @@ Web 开发中需要的静态文件有：CSS、JS、字体、图片，可以通�
         </script>
     
 
-<meta name="generator" content="Hexo 5.4.0">
+<meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="金点帝国" type="application/atom+xml">
+
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
-<link rel="alternate" href="/atom.xml" title="金点帝国" type="application/atom+xml">
 <link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css">
 <link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
 
@@ -1388,20 +1388,28 @@ location ~ .*\.(js|css)?$ {
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/10/18/handbook/hou-duan/nginx/02-chang-yong-duan-kou/">
+                <a href="/2021/10/18/handbook/hou-duan/netty/02-netty-server/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="常用端口">
+                        <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="Netty 服务器">
                         
-                        <span class="card-title">常用端口</span>
+                        <span class="card-title">Netty 服务器</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            常用端口80 端口是为 HTTP（HyperText Transport Protocol，超文本传输协议) 开放的，主要用于万维网传输信息的协议。
-8080 端口同 80 端口，被用于代理服务，可以实现网页浏览，经常在访问某个网站或使用代
+                            Netty 服务器Netty 是一个提供了易于使用的 API 客户端/服务器框架。特性：
+
+高并发 - NIO（非阻塞 IO）
+传输快 - 零拷贝
+
+Netty 服务器流程：
+
+构建一对主从线程组
+定义服务器启动类
+为服务器设置 Chann
                         
                     </div>
                     <div class="publish-info">
@@ -1412,8 +1420,8 @@ location ~ .*\.(js|css)?$ {
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Nginx/" class="post-category" target="_blank">
-                                    Nginx
+                            <a href="/categories/Netty/" class="post-category" target="_blank">
+                                    Netty
                                 </a>
                             
                             
@@ -1423,36 +1431,24 @@ location ~ .*\.(js|css)?$ {
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/macOS/" target="_blank">
-                        <span class="chip bg-color">macOS</span>
+                    <a href="/tags/BIO/" target="_blank">
+                        <span class="chip bg-color">BIO</span>
                     </a>
                     
-                    <a href="/tags/Nginx/" target="_blank">
-                        <span class="chip bg-color">Nginx</span>
+                    <a href="/tags/NIO/" target="_blank">
+                        <span class="chip bg-color">NIO</span>
                     </a>
                     
-                    <a href="/tags/http/" target="_blank">
-                        <span class="chip bg-color">http</span>
+                    <a href="/tags/AIO/" target="_blank">
+                        <span class="chip bg-color">AIO</span>
                     </a>
                     
-                    <a href="/tags/daemon/" target="_blank">
-                        <span class="chip bg-color">daemon</span>
+                    <a href="/tags/Netty/" target="_blank">
+                        <span class="chip bg-color">Netty</span>
                     </a>
                     
-                    <a href="/tags/pid/" target="_blank">
-                        <span class="chip bg-color">pid</span>
-                    </a>
-                    
-                    <a href="/tags/web/" target="_blank">
-                        <span class="chip bg-color">web</span>
-                    </a>
-                    
-                    <a href="/tags/sever/" target="_blank">
-                        <span class="chip bg-color">sever</span>
-                    </a>
-                    
-                    <a href="/tags/proxy/" target="_blank">
-                        <span class="chip bg-color">proxy</span>
+                    <a href="/tags/Handler/" target="_blank">
+                        <span class="chip bg-color">Handler</span>
                     </a>
                     
                 </div>
@@ -1466,24 +1462,36 @@ location ~ .*\.(js|css)?$ {
                 下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/10/18/handbook/hou-duan/note/01-note/">
+                <a href="/2021/10/18/handbook/hou-duan/netty/04-handler-dui-bi/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="nginx gzip 压缩">
+                        <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="Handler 对比">
                         
-                        <span class="card-title">nginx gzip 压缩</span>
+                        <span class="card-title">Handler 对比</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            杂记Vim
+                            Handler 对比业务常见 handler
 
-整站下载资源wget -c -r -np -k -L -p https://pipbest.com/
 
-Window10 端口占用netstat -ano | findstr &lt;端口号>
-taskkill -PID &l
+类名
+说明
+
+
+
+IdleStateHandler
+空闲检测
+
+
+FixedLengthFrameDecoder
+固定长度的拆包器
+
+
+MessageToMessageCodec
+将编解码操
                         
                     </div>
                     <div class="publish-info">
@@ -1494,8 +1502,8 @@ taskkill -PID &l
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/note/" class="post-category" target="_blank">
-                                    note
+                            <a href="/categories/Netty/" class="post-category" target="_blank">
+                                    Netty
                                 </a>
                             
                             
@@ -1505,36 +1513,24 @@ taskkill -PID &l
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/macOS/" target="_blank">
-                        <span class="chip bg-color">macOS</span>
+                    <a href="/tags/BIO/" target="_blank">
+                        <span class="chip bg-color">BIO</span>
                     </a>
                     
-                    <a href="/tags/Nginx/" target="_blank">
-                        <span class="chip bg-color">Nginx</span>
+                    <a href="/tags/NIO/" target="_blank">
+                        <span class="chip bg-color">NIO</span>
                     </a>
                     
-                    <a href="/tags/http/" target="_blank">
-                        <span class="chip bg-color">http</span>
+                    <a href="/tags/AIO/" target="_blank">
+                        <span class="chip bg-color">AIO</span>
                     </a>
                     
-                    <a href="/tags/daemon/" target="_blank">
-                        <span class="chip bg-color">daemon</span>
+                    <a href="/tags/Netty/" target="_blank">
+                        <span class="chip bg-color">Netty</span>
                     </a>
                     
-                    <a href="/tags/pid/" target="_blank">
-                        <span class="chip bg-color">pid</span>
-                    </a>
-                    
-                    <a href="/tags/web/" target="_blank">
-                        <span class="chip bg-color">web</span>
-                    </a>
-                    
-                    <a href="/tags/sever/" target="_blank">
-                        <span class="chip bg-color">sever</span>
-                    </a>
-                    
-                    <a href="/tags/proxy/" target="_blank">
-                        <span class="chip bg-color">proxy</span>
+                    <a href="/tags/Handler/" target="_blank">
+                        <span class="chip bg-color">Handler</span>
                     </a>
                     
                 </div>

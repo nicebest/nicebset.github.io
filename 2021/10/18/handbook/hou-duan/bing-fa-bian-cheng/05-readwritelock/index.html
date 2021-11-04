@@ -72,9 +72,9 @@ public class Counter {
         </script>
     
 
-<meta name="generator" content="Hexo 5.4.0">
+<meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="金点帝国" type="application/atom+xml">
+
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
-<link rel="alternate" href="/atom.xml" title="金点帝国" type="application/atom+xml">
 <link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css">
 <link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
 
@@ -1325,20 +1325,20 @@ public class Counter {
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/04-reentrantlock/">
+                <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/02-synchronized/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="ReentrantLock">
+                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="synchronized 关键字">
                         
-                        <span class="card-title">ReentrantLock</span>
+                        <span class="card-title">synchronized 关键字</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            ReentrantLock从 Java 5 开始，引入了一个高级的处理并发的 java.util.concurrent 包，它提供了大量更高级的并发功能，能大大简化多线程程序的编写。
-我们知道 synchronized 关键字用于加锁，但这
+                            synchronized 关键字synchronized 关键字采用对代码块/方法体加锁的方式解决 Java 中多线程访问同一个资源时，引起的资源冲突问题。
+一句话总结：synchronized 能够保证同一时刻最多只有一个线程执行某段代码
                         
                     </div>
                     <div class="publish-info">
@@ -1407,20 +1407,20 @@ public class Counter {
                 下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/06-stampedlock/">
+                <a href="/2021/10/18/handbook/hou-duan/bing-fa-bian-cheng/04-reentrantlock/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="StampedLock">
+                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="ReentrantLock">
                         
-                        <span class="card-title">StampedLock</span>
+                        <span class="card-title">ReentrantLock</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            StampedLockReadWriteLock 可以解决多线程同时读，但只有一个线程能写的问题。
-ReadWriteLock 有个潜在的问题：如果有线程正在读，写线程需要等待读线程释放锁后才能获取写锁，即读的过程中不允许写，这是一种悲观的
+                            ReentrantLock从 Java 5 开始，引入了一个高级的处理并发的 java.util.concurrent 包，它提供了大量更高级的并发功能，能大大简化多线程程序的编写。
+我们知道 synchronized 关键字用于加锁，但这
                         
                     </div>
                     <div class="publish-info">
